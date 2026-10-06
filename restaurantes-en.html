@@ -62,7 +62,7 @@ const restaurants = [
 ];
 const $=s=>document.querySelector(s), grid=$("#restaurantGrid");
 const ui={
-  history:"History", details:"Information", address:"Address", specialty:"Speciality / information", phone:"Telephone", location:"Location", source:"Source / website", call:"CALL ↗", map:"VIEW MAP ↗"
+  history:"History", details:"Information", address:"Address", specialty:"Speciality / information", phone:"Telephone", location:"Location", call:"CALL ↗", map:"VIEW MAP ↗"
 };
 function esc(v){return String(v??"").replace(/[&<>\"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
 function renderCards(){
@@ -83,7 +83,6 @@ function renderCards(){
       <a class="button" href="tel:${esc((r.phone||"").replace(/[^\d+]/g,""))}">${ui.call}</a>
       <a class="button" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+" "+(r.address||""))}" target="_blank" rel="noopener">${ui.map}</a>
       ${r.id==='tasca-das-tias'?`<button class="button history-toggle" type="button" data-id="${r.id}" aria-expanded="false">${ui.history}</button>`:""}
-      <a class="restaurant-source" href="${esc(r.source||"#")}" target="_blank" rel="noopener">${ui.source}</a>
     </div>
     ${r.id==='tasca-das-tias'?`<div class="history-modal" id="history-${r.id}" hidden role="dialog" aria-modal="true" aria-labelledby="history-title-${r.id}"><div class="history-dialog"><button class="history-close" type="button" aria-label="${lang==='pt'?'Fechar história':'Close history'}">×</button><span class="eyebrow">${ui.history}</span><h4 id="history-title-${r.id}">${esc(r.historyTitle||ui.history)}</h4><div class="history-copy">${(r.history||[]).map(p=>`<p>${esc(p)}</p>`).join("")}</div></div></div>`:""}
    </div>
