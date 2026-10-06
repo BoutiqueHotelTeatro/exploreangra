@@ -158,3 +158,8 @@ input,select{background:var(--ivory);color:var(--ink)}
 .card,.facts,.event-source-panel,.events-panel,.detail-callout,.home-links .card,.filters input,.filters select,.button,.lang-switch,.tag,.card-art,.card-image,.detail-image,.restaurant-info-grid,.history-dialog{border-radius:14px}
 .card{overflow:hidden}.button{overflow:hidden}.filters input,.filters select{border-radius:12px}.lang-switch{border-radius:10px}.tag{border-radius:999px}.card-art,.card-image,.detail-image{overflow:hidden}
 @media(max-width:560px){.card,.facts,.event-source-panel,.events-panel,.detail-callout,.home-links .card,.card-art,.card-image,.detail-image{border-radius:12px}.button{border-radius:10px}}
+
+/* Event cards: keep the popup action visible and aligned at the bottom of every card. */
+.event-card .card-body{display:flex;flex-direction:column;min-height:300px;}
+.event-card .event-actions{margin-top:auto;padding-top:18px;display:flex;align-items:flex-end;}
+.event-card .event-actions .open-event{display:inline-flex!important;align-items:center;justify-content:center;visibility:visible!important;opacity:1!important;position:relative;z-index:2;margin:0;cursor:pointer;}
