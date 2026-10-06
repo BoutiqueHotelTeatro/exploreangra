@@ -1,0 +1,15 @@
+Boutique Hotel Teatro — minisite bilingue PT-PT / EN
+
+Páginas em português europeu: index.html, atracoes.html, restaurantes.html, eventos.html, trilho.html.
+Páginas em inglês: index-en.html, atracoes-en.html, restaurantes-en.html, eventos-en.html, trilho-en.html.
+
+Use o seletor PT/EN no cabeçalho para alternar entre idiomas. Os nomes próprios dos locais e restaurantes mantêm-se na língua original.
+
+Abra index.html para iniciar em português ou index-en.html para iniciar em inglês.
+
+ATUALIZAÇÃO AUTOMÁTICA DA AGENDA (GitHub Pages)
+- O workflow .github/workflows/update-events.yml verifica as fontes diariamente às 05:23 UTC e publica novamente o site.
+- O script scripts/update_events.py importa eventos estruturados (schema.org/Event) que identifiquem claramente Terceira; a cobertura depende dos dados públicos que cada agenda disponibiliza.
+- A página eventos.html / eventos-en.html mostra a hora da última verificação e o número de eventos importados. Se uma fonte não disponibilizar dados estruturados, a página mantém a lista integrada e avisa que pode estar desatualizada.
+- Para ativar: carregue todo o conteúdo desta pasta para o repositório GitHub; em Settings > Pages escolha Source: GitHub Actions. Em Actions, ative os workflows e execute manualmente “Daily events refresh and GitHub Pages deploy” uma vez para testar.
+- O workflow usa GitHub Actions e faz o deploy via Pages Actions; não é necessário guardar tokens adicionais.
