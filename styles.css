@@ -134,7 +134,7 @@ footer{background:var(--black);color:var(--beige);padding:34px 6%}.footer-inner{
 @media(max-width:560px){.attraction-filters{grid-template-columns:1fr}}
 
 /* Home hub and hotel contact footer */
-.home-links{grid-template-columns:minmax(0,1fr) minmax(0,1.12fr) minmax(0,1fr) minmax(0,1fr);margin:28px 0 12px;align-items:stretch}.home-links .card{display:flex;height:100%;min-width:0}.home-links .card-body{padding:26px;display:flex;flex:1;flex-direction:column;align-items:flex-start;width:100%}.home-links h3{font-size:27px;margin:14px 0}.home-links .card:nth-child(2) h3{font-size:clamp(25px,2.2vw,32px);white-space:nowrap}.home-links p{font-size:13px;line-height:1.8;color:var(--muted);min-height:70px;flex:1;margin-bottom:18px}.home-links .button{font-size:10px;padding:13px 14px;margin-top:auto;align-self:flex-start}footer a{color:#e2c987;text-decoration:none}footer a:hover{text-decoration:underline}.whatsapp-button{background:#d5b66e;color:#111!important}@media(max-width:950px){.home-links{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.home-links{grid-template-columns:1fr}.home-links p{min-height:0}}
+.home-links{grid-template-columns:repeat(4,minmax(0,1fr));margin:28px 0 12px;align-items:stretch}.home-links .card{display:flex;height:100%;min-width:0}.home-links .card-body{padding:26px;display:flex;flex:1;flex-direction:column;align-items:flex-start;width:100%}.home-links h3{font-size:27px;margin:14px 0}.home-links p{font-size:13px;line-height:1.8;color:var(--muted);min-height:70px;flex:1;margin-bottom:18px}.home-links .button{font-size:10px;padding:13px 14px;margin-top:auto;align-self:flex-start}footer a{color:#e2c987;text-decoration:none}footer a:hover{text-decoration:underline}.whatsapp-button{background:#d5b66e;color:#111!important}@media(max-width:950px){.home-links{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.home-links{grid-template-columns:1fr}.home-links p{min-height:0}}
 
 .lang-switch{display:inline-flex;align-items:center;justify-content:center;min-width:42px;min-height:36px;margin-left:12px;padding:7px 10px;border:1px solid #b99a56;border-radius:3px;color:#d5b66e;text-decoration:none;font-size:.78rem;letter-spacing:.12em;font-weight:600}.lang-switch:hover{background:#b99a56;color:#111}
 
@@ -159,7 +159,8 @@ input,select{background:var(--ivory);color:var(--ink)}
 .card{overflow:hidden}.button{overflow:hidden}.filters input,.filters select{border-radius:12px}.lang-switch{border-radius:10px}.tag{border-radius:999px}.card-art,.card-image,.detail-image{overflow:hidden}
 @media(max-width:560px){.card,.facts,.event-source-panel,.events-panel,.detail-callout,.home-links .card,.card-art,.card-image,.detail-image{border-radius:12px}.button{border-radius:10px}}
 
-/* Event cards: keep the popup action visible and aligned at the bottom of every card. */
-.event-card .card-body{display:flex;flex-direction:column;min-height:300px;}
-.event-card .event-actions{margin-top:auto;padding-top:18px;display:flex;align-items:flex-end;}
-.event-card .event-actions .open-event{display:inline-flex!important;align-items:center;justify-content:center;visibility:visible!important;opacity:1!important;position:relative;z-index:2;margin:0;cursor:pointer;}
+/* Event info button — always visible and aligned */
+.event-card{display:flex;flex-direction:column;min-height:100%;}
+.event-card .card-body{display:flex;flex-direction:column;flex:1;min-height:260px;}
+.event-card .event-info-button{display:block !important;visibility:visible !important;opacity:1 !important;width:100%;margin-top:auto !important;text-align:center;position:relative;z-index:3;padding:14px 18px;}
+.event-card .event-info-button:hover{background:var(--gold2);}
