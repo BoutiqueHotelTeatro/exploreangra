@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
 
 :root{--black:#332c26;--brown:#55443a;--gold:#aa9065;--gold2:#cdbb99;--ivory:#f6f0e6;--cream:#eee7dc;--beige:#eee7dc;--paper:#f6f0e6;--ink:#332c26;--muted:#746d61;--line:rgba(168,139,90,.32)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--beige);color:var(--ink);font-family:Arial,Helvetica,sans-serif}a{color:inherit}
@@ -164,3 +166,114 @@ input,select{background:var(--ivory);color:var(--ink)}
 .event-card .card-body{display:flex;flex-direction:column;flex:1;min-height:260px;}
 .event-card .event-info-button{display:block !important;visibility:visible !important;opacity:1 !important;width:100%;margin-top:auto !important;text-align:center;position:relative;z-index:3;padding:14px 18px;}
 .event-card .event-info-button:hover{background:var(--gold2);}
+
+/* Mobile refinement — Boutique Hotel Teatro
+   Keeps the desktop layout intact while making every page easier to read and tap on phones. */
+.brand-name{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-weight:600;letter-spacing:.02em}
+
+@media (max-width: 850px){
+  header{padding:14px 5%;gap:14px;}
+  nav{gap:10px 16px;flex-wrap:wrap;justify-content:flex-end;}
+  nav a{font-size:12px;line-height:1.2;}
+  .lang-switch{margin-left:0;}
+  .intro{gap:16px;}
+  .detail-layout{gap:24px;}
+  .restaurant-info-grid,.restaurant-modal .modal-meta{grid-template-columns:1fr 1fr;}
+}
+
+@media (max-width: 560px){
+  body{overflow-x:hidden;}
+  header{
+    min-height:0;
+    padding:12px 5%;
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:12px;
+  }
+  .brand{
+    width:100%;
+    min-width:0;
+    gap:8px;
+    align-items:center;
+  }
+  .brand img{
+    width:50px;
+    height:52px;
+    max-width:50px;
+    flex:0 0 50px;
+  }
+  .brand-name{
+    font-size:22px;
+    line-height:1;
+    white-space:nowrap;
+  }
+  nav{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;
+    align-items:stretch;
+  }
+  nav a{
+    min-height:34px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:7px 4px;
+    font-size:11px;
+    letter-spacing:.02em;
+  }
+  nav .lang-switch{
+    min-height:34px;
+    padding:7px 8px;
+  }
+  .hero{
+    min-height:390px;
+    padding:48px 7%;
+  }
+  .hero-inner{width:100%;}
+  h1{font-size:clamp(38px,12vw,58px);line-height:1.02;}
+  .hero p{font-size:14px;line-height:1.7;}
+  .button{max-width:100%;min-height:44px;padding:13px 16px;line-height:1.25;}
+  main{padding:40px 5%;}
+  .intro{margin-bottom:24px;}
+  .intro p{font-size:14px;line-height:1.7;}
+  .grid,.home-links{grid-template-columns:1fr;gap:16px;}
+  .card-body{padding:20px;}
+  .home-links .card-body{padding:22px;}
+  .home-links h3{font-size:28px;}
+  .home-links p{font-size:13px;line-height:1.7;}
+  .home-links .button{width:100%;text-align:center;align-self:stretch;}
+  .filters{gap:10px;margin:22px 0;}
+  input,select{min-height:44px;padding:11px 12px;}
+  .card h3{font-size:23px;}
+  .card-art,.card-image{height:170px;}
+  .restaurant-info-grid{grid-template-columns:1fr;}
+  .restaurant-actions{display:grid;grid-template-columns:1fr;gap:8px;width:100%;}
+  .restaurant-actions .button{width:100%;text-align:center;}
+  .restaurant-source{justify-self:center;margin-top:2px;}
+  .restaurant-modal{padding:10px;}
+  .restaurant-modal .modal-panel{width:100%;max-height:92vh;}
+  .restaurant-modal .modal-content{padding:42px 18px 22px;}
+  .restaurant-modal .modal-meta{grid-template-columns:1fr;}
+  .history-dialog{width:100%;padding:34px 20px 22px;}
+  .event-card .card-body{min-height:0;padding:20px;}
+  .event-card .event-info-button{width:100%;}
+  .event-source-panel,.events-panel{padding:24px 18px;}
+  .event-sources{gap:12px;}
+  .event-sources a{font-size:11px;}
+  .detail-hero{padding:38px 6%;}
+  .detail-hero h1{font-size:clamp(36px,11vw,54px);}
+  .detail-layout{grid-template-columns:1fr;gap:22px;}
+  .facts{padding:20px;}
+  .fact{align-items:flex-start;}
+  .detail-copy{font-size:14px;line-height:1.8;}
+  .detail-image{max-height:320px;margin:14px 0;}
+  .footer-inner{gap:24px;}
+  .footer-brand{min-width:0;width:100%;}
+  .footer-brand img{width:min(220px,75vw);}
+  .footer-details{width:100%;}
+  .whatsapp-button{width:100%;justify-content:center;text-align:center;}
+}
