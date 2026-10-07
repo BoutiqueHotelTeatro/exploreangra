@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 
 SOURCES = [
     ("https://eventosterceira.pt/pt/", "Eventos Terceira"),
-    ("https://eventosterceira.pt/pt/special/", "Eventos Terceira"),
     ("https://angradoheroismo.pt/eventos/", "Agenda de Angra"),
     ("https://whatson.azores.gov.pt/agenda/", "Azores What's On"),
     ("https://culturacores.azores.gov.pt/agenda/", "CulturAçores"),
@@ -81,6 +80,9 @@ def main():
             host = urlparse(url).netloc
             for a in soup.select("a[href]"):
                 href = urljoin(url, a.get("href", "")); title = (a.get_text(" ", strip=True) + " " + href).lower()
+                # Do not crawl the Eventos Terceira special section.
+                if urlparse(href).netloc == "eventosterceira.pt" and "/special" in urlparse(href).path.lower():
+                    continue
                 if urlparse(href).netloc == host and any(x in title for x in ("evento", "event", "agenda", "festival", "concerto", "exposi")):
                     if href not in [u for u, _ in detail_urls] and href != url and not href.endswith((".jpg", ".png", ".pdf")):
                         detail_urls.append((href, label))
