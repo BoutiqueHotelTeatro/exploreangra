@@ -277,3 +277,33 @@ input,select{background:var(--ivory);color:var(--ink)}
   .footer-details{width:100%;}
   .whatsapp-button{width:100%;justify-content:center;text-align:center;}
 }
+
+/* Mobile navigation — compact hamburger menu, keeping only menu + language visible */
+.mobile-menu-toggle{display:none;border:1px solid rgba(205,187,153,.55);background:transparent;color:var(--paper);width:42px;height:38px;border-radius:10px;padding:8px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.mobile-menu-toggle span{display:block;width:20px;height:1.5px;background:currentColor;border-radius:2px;transition:transform .2s ease,opacity .2s ease}
+.mobile-nav-menu{display:flex;align-items:center;gap:25px}
+
+@media (max-width:560px){
+  header{position:relative;display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:12px;padding:10px 5%;min-height:68px}
+  .brand{width:auto;min-width:0;gap:7px}
+  .brand img{width:44px;height:44px;max-width:44px;flex:0 0 44px}
+  .brand-name{font-size:20px;line-height:.9;letter-spacing:0;font-weight:600;white-space:nowrap}
+  nav{position:relative;width:auto;display:flex;align-items:center;justify-content:flex-end;gap:8px;margin-left:auto}
+  .mobile-menu-toggle{display:flex}
+  .mobile-nav-menu{display:none;position:absolute;right:0;top:calc(100% + 8px);z-index:5000;width:min(230px,78vw);padding:8px;background:rgba(51,44,38,.98);border:1px solid rgba(170,144,101,.55);border-radius:14px;box-shadow:0 16px 38px rgba(0,0,0,.28);flex-direction:column;align-items:stretch;gap:4px}
+  nav.menu-open .mobile-nav-menu{display:flex}
+  .mobile-nav-menu a{display:flex;align-items:center;justify-content:flex-start;min-height:42px;padding:10px 13px;border-radius:9px;font-size:12px;letter-spacing:.03em}
+  .mobile-nav-menu a:hover{background:rgba(205,187,153,.12)}
+  nav .lang-switch{display:inline-flex;min-width:42px;min-height:38px;margin:0;padding:7px 10px;border-radius:10px;font-size:11px}
+  nav.menu-open .mobile-menu-toggle span:nth-child(1){transform:translateY(5.5px) rotate(45deg)}
+  nav.menu-open .mobile-menu-toggle span:nth-child(2){opacity:0}
+  nav.menu-open .mobile-menu-toggle span:nth-child(3){transform:translateY(-5.5px) rotate(-45deg)}
+
+  /* Tighter mobile typography: less vertical stretch while keeping the editorial serif style. */
+  h1,h2,h3{font-stretch:normal}
+  h1{line-height:.96}
+  h2{line-height:1.02}
+  h3{line-height:1.08}
+  .hero p,.intro p,.card p,.detail-copy{line-height:1.6}
+  .eyebrow{line-height:1.15}
+}

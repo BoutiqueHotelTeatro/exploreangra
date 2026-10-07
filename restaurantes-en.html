@@ -93,4 +93,4 @@ document.querySelectorAll('.history-modal').forEach(box=>{const close=box.queryS
 function filter(){const q=$("#search").value.trim().toLocaleLowerCase("en"),a=$("#area").value;let n=0;document.querySelectorAll(".restaurant-card").forEach(c=>{const ok=c.textContent.toLocaleLowerCase("en").includes(q)&&(!a||c.dataset.area===a);c.hidden=!ok;if(ok)n++});$("#results").textContent=`${n} ${n===1?"restaurant found":"restaurants found"}`}
 $("#search").addEventListener("input",filter);$("#area").addEventListener("change",filter);renderCards();filter();
 </script>
-</body></html>
+<script src="mobile-menu.js"></script></body></html>
