@@ -35,6 +35,51 @@ function languageScore(e,english){
   const hits=a=>a.reduce((n,w)=>n+(words.has(normEventText(w))?1:0),0);
   return english?hits(en)-hits(pt):hits(pt)-hits(en);
 }
+
+const EVENT_MONTHS={
+  janeiro:0,fevereiro:1,marco:2,abril:3,maio:4,junho:5,julho:6,agosto:7,setembro:8,outubro:9,novembro:10,dezembro:11,
+  january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11
+};
+function parseEventDateText(value){
+  const s=String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const rx=/(\d{1,2})\s*(?:[-–—]\s*(\d{1,2})\s*)?([a-z]+)\s+(\d{4})/g;
+  const matches=[...s.matchAll(rx)];
+  if(!matches.length)return null;
+  const first=matches[0], last=matches[matches.length-1];
+  const make=(m,dayOverride)=>{
+    const day=Number(dayOverride||m[1]), month=EVENT_MONTHS[m[3]], year=Number(m[4]);
+    return month===undefined?null:new Date(year,month,day,23,59,59,999);
+  };
+  let start=make(first);
+  let end=make(first,first[2]||first[1]);
+  if(matches.length>1){
+    end=make(last,last[2]||last[1]);
+  } else if(first[2]){
+    end=make(first,first[2]);
+  }
+  return start&&end?{start,end}:null;
+}
+function eventBounds(e){
+  const startRaw=e.startDate||e.start_date||e.start||e.dateStart;
+  const endRaw=e.endDate||e.end_date||e.end||e.dateEnd;
+  const startISO=startRaw?new Date(startRaw):null;
+  const endISO=endRaw?new Date(endRaw):null;
+  if(startISO&&!Number.isNaN(startISO.getTime())){
+    const end=(endISO&&!Number.isNaN(endISO.getTime()))?endISO:startISO;
+    return {start:startISO,end};
+  }
+  if(e.period==='recurring')return null;
+  return parseEventDateText(e.date);
+}
+function isEventCurrent(e){
+  if(e.period==='recurring')return true;
+  const bounds=eventBounds(e);
+  if(!bounds)return true;
+  const now=new Date();
+  return bounds.end.getTime()>=now.getTime();
+}
+function filterPastEvents(list){return list.filter(isEventCurrent)}
+
 function normEventText(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
 function eventTokens(value){return new Set(normEventText(value).split(' ').filter(w=>w.length>2))}
 function eventSimilarity(a,b){const A=eventTokens(a),B=eventTokens(b);if(!A.size||!B.size)return 0;let hit=0;for(const x of A)if(B.has(x))hit++;return hit/Math.min(A.size,B.size)}
@@ -61,7 +106,7 @@ function dedupeFeedEvents(list){
   return out;
 }
 function applyEventDedupe(){const unique=dedupeFeedEvents(events);events.splice(0,events.length,...unique)}
-function render(){applyEventDedupe();grid.innerHTML=events.map(e=>`<article class="card event-card" data-category="${e.category}" data-period="${e.period}"><div class="card-art"><div class="event-art"><span>ILHA TERCEIRA · AÇORES</span><b>${e.category}</b><small>${e.period==='recurring'?'RECORRENTE / SAZONAL':'AGENDA PUBLICADA'}</small></div></div><div class="card-body"><span class="code">${e.date}</span><h3>${e.name}</h3><p>${e.area} · ${e.venue}</p><div class="tags"><span class="tag">${e.category}</span><span class="tag">${e.period==='recurring'?'Data variável':'Data publicada'}</span></div><button class="button event-info-button open-event" data-id="${e.id}">VER INFORMAÇÕES ↗</button></div></article>`).join('');document.querySelectorAll('.open-event').forEach(b=>b.addEventListener('click',()=>openEvent(b.dataset.id)));filter()}
+function render(){applyEventDedupe();events.splice(0,events.length,...filterPastEvents(events));grid.innerHTML=events.map(e=>`<article class="card event-card" data-category="${e.category}" data-period="${e.period}"><div class="card-art"><div class="event-art"><span>ILHA TERCEIRA · AÇORES</span><b>${e.category}</b><small>${e.period==='recurring'?'RECORRENTE / SAZONAL':'AGENDA PUBLICADA'}</small></div></div><div class="card-body"><span class="code">${e.date}</span><h3>${e.name}</h3><p>${e.area} · ${e.venue}</p><div class="tags"><span class="tag">${e.category}</span><span class="tag">${e.period==='recurring'?'Data variável':'Data publicada'}</span></div><button class="button event-info-button open-event" data-id="${e.id}">VER INFORMAÇÕES ↗</button></div></article>`).join('');document.querySelectorAll('.open-event').forEach(b=>b.addEventListener('click',()=>openEvent(b.dataset.id)));filter()}
 function openEvent(id){const e=events.find(x=>x.id===id);if(!e)return;$('#modalTitle').textContent=e.name;$('#modalEyebrow').textContent=e.category+' · '+e.area;$('#modalDescription').textContent=e.description;$('#modalMeta').innerHTML=`<div><strong>Data / período</strong>${e.date}</div><div><strong>Local</strong>${e.venue}</div><div><strong>Localidade</strong>${e.area}</div><div><strong>Fonte</strong>${e.sourceLabel}</div>`;$('#modalSource').href=e.source;$('#modalMap').href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(e.map);modal.classList.add('is-open');document.body.style.overflow='hidden';$('#closeModal').focus()}
 function closeModal(){modal.classList.remove('is-open');document.body.style.overflow=''}$('#closeModal').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 function filter(){const q=$('#search').value.trim().toLocaleLowerCase('pt-PT'),cat=$('#category').value,per=$('#period').value;let n=0;document.querySelectorAll('.event-card').forEach(c=>{const ok=c.textContent.toLocaleLowerCase('pt-PT').includes(q)&&(!cat||c.dataset.category===cat)&&(!per||c.dataset.period===per);c.hidden=!ok;if(ok)n++});$('#results').textContent=`${n} ${n===1?'evento encontrado':'eventos encontrados'}`;$('#empty').hidden=n!==0}$('#search').addEventListener('input',filter);$('#category').addEventListener('change',filter);$('#period').addEventListener('change',filter);render();
@@ -74,41 +119,19 @@ async function refreshEventsFeed(){
     const response=await fetch('data/events-feed.json?ts='+Date.now(),{cache:'no-store'});
     if(!response.ok) throw new Error('feed unavailable');
     const feed=await response.json();
-    const count=Array.isArray(feed.events)?feed.events.length:0;
+    const rawCount=Array.isArray(feed.events)?feed.events.length:0;
     const when=feed.generatedAt?new Date(feed.generatedAt).toLocaleString(english?'en-GB':'pt-PT',{dateStyle:'medium',timeStyle:'short',timeZone:'Atlantic/Azores'}):(english?'unknown':'desconhecida');
-    if(count){
-function normEventText(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
-function eventTokens(value){return new Set(normEventText(value).split(' ').filter(w=>w.length>2))}
-function eventSimilarity(a,b){const A=eventTokens(a),B=eventTokens(b);if(!A.size||!B.size)return 0;let hit=0;for(const x of A)if(B.has(x))hit++;return hit/Math.min(A.size,B.size)}
-function eventDuplicateKey(e){const date=normEventText(e.date);return date}
-function dedupeFeedEvents(list){
-  const out=[];
-  for(const e of list){
-    const date=normEventText(e.date);
-    if(!date || e.period==='recurring'){out.push(e);continue}
-    let duplicate=-1;
-    for(let i=0;i<out.length;i++){
-      const old=out[i];
-      if(normEventText(old.date)!==date) continue;
-      const titleScore=eventSimilarity(old.name,e.name);
-      const placeScore=eventSimilarity((old.area||'')+' '+(old.venue||old.map||''),(e.area||'')+' '+(e.venue||e.map||''));
-      if(titleScore>=0.72 || (titleScore>=0.55 && placeScore>=0.55)){duplicate=i;break}
-    }
-    if(duplicate<0){out.push(e);continue}
-    const old=out[duplicate];
-    const oldInfo=(old.description||'').length+(old.source||'').length+(old.venue||'').length;
-    const newInfo=(e.description||'').length+(e.source||'').length+(e.venue||'').length;
-    if(newInfo>oldInfo)out[duplicate]=e;
-  }
-  return out;
-}
-function applyEventDedupe(){const unique=dedupeFeedEvents(events);events.splice(0,events.length,...unique)}
-      status.textContent=english?`Last source check: ${when}. ${count} structured event(s) imported from public calendars. Confirm details with the organiser.`:`Última verificação das fontes: ${when}. Foram importados ${count} evento(s) estruturados das agendas públicas. Confirma os detalhes com a organização.`;
+    if(rawCount){
+      const canonical=filterPastEvents(dedupeFeedEvents(feed.events.map(e=>({...e,period:e.period||'dated'}))));events.splice(0,events.length,...canonical);render();
+      const visibleCount=events.length;
+      status.textContent=english?`Last source check: ${when}. ${visibleCount} current event(s) shown from the public calendars.`:`Última verificação das fontes: ${when}. Estão a ser mostrados ${visibleCount} evento(s) atuais das agendas públicas.`;
     }else{
-      status.textContent=english?`Last source check: ${when}. No structured event listings could be imported from the sources; the page is showing its built-in listings, which may be out of date.`:`Última verificação das fontes: ${when}. Não foi possível importar eventos estruturados; a página mostra a lista integrada, que poderá não estar atualizada.`;
+      events.splice(0,events.length,...filterPastEvents(events));render();
+      status.textContent=english?`Last source check: ${when}. No structured event listings could be imported; showing the current built-in listings.`:`Última verificação das fontes: ${when}. Não foi possível importar eventos estruturados; a mostrar apenas os eventos integrados ainda atuais.`;
     }
   }catch(err){
-    status.textContent=english?'Automatic event feed unavailable. Built-in listings may be out of date; use the source links below to verify current details.':'Feed automático indisponível. A lista integrada poderá não estar atualizada; usa as ligações abaixo para confirmar a informação.';
+    events.splice(0,events.length,...filterPastEvents(events));render();
+    status.textContent=english?'Automatic event feed unavailable. Past dated events are hidden; current built-in listings are shown.':'Feed automático indisponível. Os eventos com data passada foram ocultados; são mostrados apenas os eventos integrados atuais.';
   }
 }
 refreshEventsFeed();
