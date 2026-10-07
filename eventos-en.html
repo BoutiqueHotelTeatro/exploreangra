@@ -35,38 +35,49 @@ function languageScore(e,english){
   const hits=a=>a.reduce((n,w)=>n+(words.has(normEventText(w))?1:0),0);
   return english?hits(en)-hits(pt):hits(pt)-hits(en);
 }
-function eventDuplicateKey(e){
-  const date=normEventText(e.date);
-  const area=normEventText(e.area);
-  const venue=normEventText(e.venue||e.map);
-  if(!date || (!venue && !area)) return '';
-  return date+'|'+area+'|'+venue;
-}
+function normEventText(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
+function eventTokens(value){return new Set(normEventText(value).split(' ').filter(w=>w.length>2))}
+function eventSimilarity(a,b){const A=eventTokens(a),B=eventTokens(b);if(!A.size||!B.size)return 0;let hit=0;for(const x of A)if(B.has(x))hit++;return hit/Math.min(A.size,B.size)}
+function eventDuplicateKey(e){const date=normEventText(e.date);return date}
 function dedupeFeedEvents(list){
   const out=[];
-  const byKey=new Map();
-  const english=document.documentElement.lang==='en';
   for(const e of list){
-    const key=eventDuplicateKey(e);
-    if(!key || e.period==='recurring'){out.push(e);continue}
-    if(!byKey.has(key)){byKey.set(key,out.length);out.push(e);continue}
-    const i=byKey.get(key),old=out[i];
-    const oldScore=languageScore(old,english),newScore=languageScore(e,english);
-    const oldInfo=(old.description||'').length+(old.source||'').length+(old.name||'').length;
-    const newInfo=(e.description||'').length+(e.source||'').length+(e.name||'').length;
-    if(newScore>oldScore || (newScore===oldScore && newInfo>oldInfo)) out[i]=e;
+    const date=normEventText(e.date);
+    if(!date || e.period==='recurring'){out.push(e);continue}
+    let duplicate=-1;
+    for(let i=0;i<out.length;i++){
+      const old=out[i];
+      if(normEventText(old.date)!==date) continue;
+      const titleScore=eventSimilarity(old.name,e.name);
+      const placeScore=eventSimilarity((old.area||'')+' '+(old.venue||old.map||''),(e.area||'')+' '+(e.venue||e.map||''));
+      if(titleScore>=0.72 || (titleScore>=0.55 && placeScore>=0.55)){duplicate=i;break}
+    }
+    if(duplicate<0){out.push(e);continue}
+    const old=out[duplicate];
+    const oldInfo=(old.description||'').length+(old.source||'').length+(old.venue||'').length;
+    const newInfo=(e.description||'').length+(e.source||'').length+(e.venue||'').length;
+    if(newInfo>oldInfo)out[duplicate]=e;
   }
   return out;
 }
 function applyEventDedupe(){const unique=dedupeFeedEvents(events);events.splice(0,events.length,...unique)}
-function normalizeEventKey(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
-function dedupeEvents(list){const seen=new Map();const out=[];for(const e of list){const title=normalizeEventKey(e.name);const date=normalizeEventKey(e.date);const key=title+'|'+date;if(!title){out.push(e);continue}if(!seen.has(key)){seen.set(key,out.length);out.push(e);continue}const i=seen.get(key),old=out[i];const oldScore=(old.description||'').length+(old.source||'').length+(old.venue||'').length;const newScore=(e.description||'').length+(e.source||'').length+(e.venue||'').length;if(newScore>oldScore)out[i]=e}return out}
-function applyEventDedupe(){const unique=dedupeEvents(events);events.splice(0,events.length,...unique)}
 function render(){applyEventDedupe();grid.innerHTML=events.map(e=>`<article class="card event-card" data-category="${e.category}" data-period="${e.period}"><div class="card-art"><div class="event-art"><span>TERCEIRA ISLAND · AZORES</span><b>${e.category}</b><small>${e.period==='recurring'?'RECURRING / SEASONAL':'PUBLISHED LISTING'}</small></div></div><div class="card-body"><span class="code">${e.date}</span><h3>${e.name}</h3><p>${e.area} · ${e.venue}</p><div class="tags"><span class="tag">${e.category}</span><span class="tag">${e.period==='recurring'?'Variable date':'Published date'}</span></div><button class="button event-info-button open-event" data-id="${e.id}">VIEW DETAILS ↗</button></div></article>`).join('');document.querySelectorAll('.open-event').forEach(b=>b.addEventListener('click',()=>openEvent(b.dataset.id)));filter()}
 function openEvent(id){const e=events.find(x=>x.id===id);if(!e)return;$('#modalTitle').textContent=e.name;$('#modalEyebrow').textContent=e.category+' · '+e.area;$('#modalDescription').textContent=e.description;$('#modalMeta').innerHTML=`<div><strong>Date / period</strong>${e.date}</div><div><strong>Venue</strong>${e.venue}</div><div><strong>Location</strong>${e.area}</div><div><strong>Source</strong>${e.sourceLabel}</div>`;$('#modalSource').href=e.source;$('#modalMap').href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(e.map);modal.classList.add('is-open');document.body.style.overflow='hidden';$('#closeModal').focus()}
 function closeModal(){modal.classList.remove('is-open');document.body.style.overflow=''}$('#closeModal').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 function filter(){const q=$('#search').value.trim().toLocaleLowerCase('en'),cat=$('#category').value,per=$('#period').value;let n=0;document.querySelectorAll('.event-card').forEach(c=>{const ok=c.textContent.toLocaleLowerCase('en').includes(q)&&(!cat||c.dataset.category===cat)&&(!per||c.dataset.period===per);c.hidden=!ok;if(ok)n++});$('#results').textContent=`${n} ${n===1?'event found':'events found'}`;$('#empty').hidden=n!==0}$('#search').addEventListener('input',filter);$('#category').addEventListener('change',filter);$('#period').addEventListener('change',filter);render();
 
+function translateTextToEnglish(text){
+  let t=String(text||'');
+  const replacements=[
+    [/Data a confirmar/gi,'Date to be confirmed'],[/Até /gi,'Until '],[/até /gi,'until '],[/Durante o ano/gi,'Throughout the year'],[/ao longo do ano/gi,'throughout the year'],
+    [/eventos/gi,'events'],[/evento/gi,'event'],[/agenda/gi,'calendar'],[/festas tradicionais/gi,'traditional festivals'],[/festa/gi,'festival'],[/música/gi,'music'],[/cinema e cultura/gi,'cinema and culture'],[/cinema/gi,'cinema'],[/exposições/gi,'exhibitions'],[/exposição/gi,'exhibition'],[/mercados e vida local/gi,'markets and local life'],[/mercado/gi,'market'],[/localidade/gi,'location'],[/local/gi,'local'],[/cultura/gi,'culture'],[/tradição/gi,'tradition'],[/vida local/gi,'local life'],
+    [/Vários locais/gi,'Various locations'],[/Angra do Heroísmo/gi,'Angra do Heroísmo'],[/Ilha Terceira/gi,'Terceira Island'],[/ilha Terceira/gi,'Terceira Island'],[/vários locais/gi,'various locations'],[/datas variam/gi,'dates vary'],[/datas/gi,'dates'],[/horários/gi,'opening hours'],[/horas/gi,'times'],[/confirmar/gi,'confirm'],[/confirma/gi,'confirm'],[/organização/gi,'organiser'],[/organizador/gi,'organiser'],[/local/gi,'location'],[/localização/gi,'location']
+  ];
+  for(const [re,to] of replacements)t=t.replace(re,to);
+  return t;
+}
+function translateCategory(c){return ({'Música':'Music','Festas tradicionais':'Traditional festivals','Cinema e cultura':'Cinema and culture','Mercados e vida local':'Markets and local life','Exposições':'Exhibitions','Music':'Music','Traditional festivals':'Traditional festivals','Cinema and culture':'Cinema and culture','Markets and local life':'Markets and local life','Exhibitions':'Exhibitions'})[c]||translateTextToEnglish(c)}
+function translateEventToEnglish(e){return {...e,name:translateTextToEnglish(e.name),description:translateTextToEnglish(e.description),category:translateCategory(e.category),area:translateTextToEnglish(e.area),venue:translateTextToEnglish(e.venue),date:translateTextToEnglish(e.date),sourceLabel:translateTextToEnglish(e.sourceLabel)};}
 async function refreshEventsFeed(){
   const status=document.querySelector('#feedStatus');
   const english=document.documentElement.lang==='en';
@@ -77,18 +88,32 @@ async function refreshEventsFeed(){
     const count=Array.isArray(feed.events)?feed.events.length:0;
     const when=feed.generatedAt?new Date(feed.generatedAt).toLocaleString(english?'en-GB':'pt-PT',{dateStyle:'medium',timeStyle:'short',timeZone:'Atlantic/Azores'}):(english?'unknown':'desconhecida');
     if(count){
-      const translated=feed.events.map(e=>{
-        const key=(e.name+' '+e.description).toLocaleLowerCase();
-        let cat='Music';
-        if(/festival|festa|tourada|romaria|império|imperio/.test(key))cat='Traditional festivals';
-        else if(/cinema|teatro|theatre|film|cultural/.test(key))cat='Cinema and culture';
-        else if(/mercado|market|feira/.test(key))cat='Markets and local life';
-        else if(/exposição|exposicao|exhibition|museum|museu/.test(key))cat='Exhibitions';
-        if(!english){cat=({'Music':'Música','Traditional festivals':'Festas tradicionais','Cinema and culture':'Cinema e cultura','Markets and local life':'Mercados e vida local','Exhibitions':'Exposições'})[cat];}
-        return {...e,category:cat,period:e.period||'dated',date:e.date|| (english?'Date to be confirmed':'Data a confirmar'),area:e.area||'Terceira',venue:e.venue||e.area||'Terceira',description:e.description||'',source:e.source||'#',sourceLabel:e.sourceLabel||'Event source',map:e.map||e.venue||'Terceira'};
-      });
-      events.splice(0,events.length,...translated);
-      render();
+function normEventText(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
+function eventTokens(value){return new Set(normEventText(value).split(' ').filter(w=>w.length>2))}
+function eventSimilarity(a,b){const A=eventTokens(a),B=eventTokens(b);if(!A.size||!B.size)return 0;let hit=0;for(const x of A)if(B.has(x))hit++;return hit/Math.min(A.size,B.size)}
+function eventDuplicateKey(e){const date=normEventText(e.date);return date}
+function dedupeFeedEvents(list){
+  const out=[];
+  for(const e of list){
+    const date=normEventText(e.date);
+    if(!date || e.period==='recurring'){out.push(e);continue}
+    let duplicate=-1;
+    for(let i=0;i<out.length;i++){
+      const old=out[i];
+      if(normEventText(old.date)!==date) continue;
+      const titleScore=eventSimilarity(old.name,e.name);
+      const placeScore=eventSimilarity((old.area||'')+' '+(old.venue||old.map||''),(e.area||'')+' '+(e.venue||e.map||''));
+      if(titleScore>=0.72 || (titleScore>=0.55 && placeScore>=0.55)){duplicate=i;break}
+    }
+    if(duplicate<0){out.push(e);continue}
+    const old=out[duplicate];
+    const oldInfo=(old.description||'').length+(old.source||'').length+(old.venue||'').length;
+    const newInfo=(e.description||'').length+(e.source||'').length+(e.venue||'').length;
+    if(newInfo>oldInfo)out[duplicate]=e;
+  }
+  return out;
+}
+function applyEventDedupe(){const unique=dedupeFeedEvents(events);events.splice(0,events.length,...unique)}
       status.textContent=english?`Last source check: ${when}. ${count} structured event(s) imported from public calendars. Confirm details with the organiser.`:`Última verificação das fontes: ${when}. Foram importados ${count} evento(s) estruturados das agendas públicas. Confirma os detalhes com a organização.`;
     }else{
       status.textContent=english?`Last source check: ${when}. No structured event listings could be imported from the sources; the page is showing its built-in listings, which may be out of date.`:`Última verificação das fontes: ${when}. Não foi possível importar eventos estruturados; a página mostra a lista integrada, que poderá não estar atualizada.`;
