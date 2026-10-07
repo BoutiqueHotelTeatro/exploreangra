@@ -26,6 +26,39 @@ const events=[
 {id:'agenda-exposicoes',name:'Exhibitions and activities in cultural venues',category:'Exhibitions',period:'recurring',date:'Temporary exhibitions throughout the year',area:'Angra do Heroísmo and Terceira Island',venue:'Cultural centres, libraries and municipal buildings',description:'Temporary exhibitions and cultural initiatives are published throughout the year. Confirm final dates, opening hours and any booking requirements in the municipal calendar.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Angra do Heroísmo, Terceira'}
 ];
 const $=s=>document.querySelector(s),grid=$('#eventGrid'),modal=$('#eventModal');
+function normEventText(v){return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
+function languageScore(e,english){
+  const text=normEventText((e.name||'')+' '+(e.description||''));
+  const en=['the','and','of','concert','exhibition','festival','music','cinema','culture','market','traditional','season','autumn','screening','parish','island','event','activities','live','show','tour'];
+  const pt=['de','da','do','das','dos','e','concerto','exposicao','exposicao','festa','musica','cinema','cultura','mercado','tradicional','outono','sessao','paróquia','ilha','evento','atividades','espetaculo','espectaculo','tourada'];
+  const words=new Set(text.split(' '));
+  const hits=a=>a.reduce((n,w)=>n+(words.has(normEventText(w))?1:0),0);
+  return english?hits(en)-hits(pt):hits(pt)-hits(en);
+}
+function eventDuplicateKey(e){
+  const date=normEventText(e.date);
+  const area=normEventText(e.area);
+  const venue=normEventText(e.venue||e.map);
+  if(!date || (!venue && !area)) return '';
+  return date+'|'+area+'|'+venue;
+}
+function dedupeFeedEvents(list){
+  const out=[];
+  const byKey=new Map();
+  const english=document.documentElement.lang==='en';
+  for(const e of list){
+    const key=eventDuplicateKey(e);
+    if(!key || e.period==='recurring'){out.push(e);continue}
+    if(!byKey.has(key)){byKey.set(key,out.length);out.push(e);continue}
+    const i=byKey.get(key),old=out[i];
+    const oldScore=languageScore(old,english),newScore=languageScore(e,english);
+    const oldInfo=(old.description||'').length+(old.source||'').length+(old.name||'').length;
+    const newInfo=(e.description||'').length+(e.source||'').length+(e.name||'').length;
+    if(newScore>oldScore || (newScore===oldScore && newInfo>oldInfo)) out[i]=e;
+  }
+  return out;
+}
+function applyEventDedupe(){const unique=dedupeFeedEvents(events);events.splice(0,events.length,...unique)}
 function normalizeEventKey(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
 function dedupeEvents(list){const seen=new Map();const out=[];for(const e of list){const title=normalizeEventKey(e.name);const date=normalizeEventKey(e.date);const key=title+'|'+date;if(!title){out.push(e);continue}if(!seen.has(key)){seen.set(key,out.length);out.push(e);continue}const i=seen.get(key),old=out[i];const oldScore=(old.description||'').length+(old.source||'').length+(old.venue||'').length;const newScore=(e.description||'').length+(e.source||'').length+(e.venue||'').length;if(newScore>oldScore)out[i]=e}return out}
 function applyEventDedupe(){const unique=dedupeEvents(events);events.splice(0,events.length,...unique)}
