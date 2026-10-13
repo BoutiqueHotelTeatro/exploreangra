@@ -1,150 +1,148 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#111111"><meta name="description" content="What’s on: events, traditional festivals, music, culture and regular activities on Terceira Island."><title>Events on Terceira | Boutique Hotel Teatro</title><link rel="stylesheet" href="styles.css"></head><body>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#1c1915"><meta name="description" content="What’s on: events, traditional festivals, music, culture and regular activities on Terceira Island."><title>Events on Terceira | Boutique Hotel Teatro</title><link rel="stylesheet" href="styles.css"></head><body>
 <header><a class="brand" href="index-en.html" aria-label="Boutique Hotel Teatro — home"><img src="images/logo.png" alt="Boutique Hotel Teatro"><span class="brand-name">Boutique Hotel Teatro</span></a><nav aria-label="Main navigation"><a href="index-en.html">Home</a><a href="eventos-en.html">Events</a><a href="restaurantes-en.html">Restaurants</a><a href="atracoes-en.html">Places to visit</a><a href="trails.html">Trails</a><a href="index-en.html#contactos">Contact</a><a class="lang-switch" href="eventos.html" aria-label="Portuguese" lang="pt-PT">PT</a></nav></header>
 <section class="hero event-hero" id="inicio"><div class="hero-inner"><span class="eyebrow">Culture · Tradition · Local life</span><h1>Terceira<br>is happening.</h1><p>Discover traditional festivals, music, cinema, exhibitions and activities throughout the year.</p><a class="button" href="#agenda">EXPLORE THE CALENDAR ↗</a></div></section>
-<main id="agenda"><div class="intro"><div><span class="eyebrow">Island calendar</span><h2>There is always something to discover.</h2></div><p>Dated events and recurring activities, with links to official sources to check times, venues and updates before heading out.</p></div>
+<main id="agenda"><div class="intro"><div><span class="eyebrow">Island calendar</span><h2>There is always something to discover.</h2></div><p>All of this month’s events in Angra do Heroísmo and on Terceira Island, in date order, with links to the sources so you can check times, venues and updates before heading out.</p></div>
 <div class="filters event-filters"><input id="search" type="search" placeholder="Search events or locations..." aria-label="Search events"><select id="category" aria-label="Filter by category"><option value="">All categories</option><option>Traditional festivals</option><option>Music</option><option>Cinema and culture</option><option>Markets and local life</option><option>Exhibitions</option></select><select id="period" aria-label="Filter by period"><option value="">All dates</option><option value="dated">Published date</option><option value="recurring">Recurring / seasonal</option></select></div>
-<div class="results" id="results" aria-live="polite"></div><p class="note" id="feedStatus" aria-live="polite">Events are checked daily. The timestamp below indicates the last source check; listings may change.</p><div class="grid" id="eventGrid"></div><p class="empty" id="empty" hidden>No events match these criteria.</p>
-<div class="event-source-panel"><span class="eyebrow">Explore more · external sources</span><h2>Discover more events</h2><p>Use these calendars to find concerts, festivals, weekly activities and monthly events. Links open the original source in a new tab; always confirm dates, times and venues with the organiser.</p><div class="source-links"><a class="button" href="https://eventosterceira.pt/pt/" target="_blank" rel="noopener">SEARCH EVENTOS TERCEIRA ↗</a><a class="button" href="https://byacores.com/terceira/" target="_blank" rel="noopener">AZORES CALENDAR / BYAÇORES ↗</a><a class="button" href="https://angradoheroismo.pt/eventos/" target="_blank" rel="noopener">ANGRA CALENDAR ↗</a><a class="button" href="https://whatson.azores.gov.pt/agenda/" target="_blank" rel="noopener">AZORES WHAT’S ON ↗</a><a class="button" href="https://culturacores.azores.gov.pt/agenda/" target="_blank" rel="noopener">CULTURAÇORES CALENDAR ↗</a><a class="button" href="https://turismo.azores.gov.pt/terceira/" target="_blank" rel="noopener">AZORES TOURISM ↗</a></div><p class="source-note">Note: the former What’s on Azores may redirect to the byAzores calendar. The site attempts a daily import of structured event listings where sources make them available. These links remain the best way to verify the latest details.</p></div>
+<div class="results" id="results" aria-live="polite"></div><p class="note" id="feedStatus" aria-live="polite">Events are checked daily. The timestamp below indicates the last source check; listings may change.</p><div class="event-list" id="eventGrid"></div><p class="empty" id="empty" hidden>No events match these criteria.</p>
+<div class="event-source-panel"><span class="eyebrow">Explore more · external sources</span><h2>Discover more events</h2><p>Use these calendars to find concerts, festivals, weekly activities and monthly events. Links open the original source in a new tab; always confirm dates, times and venues with the organiser.</p><div class="source-links"><a class="button" href="https://www.viralagenda.com/pt/acores/angra-do-heroismo" target="_blank" rel="noopener">VIRAL AGENDA ↗</a><a class="button" href="https://eventosterceira.pt/pt/" target="_blank" rel="noopener">EVENTOS TERCEIRA ↗</a><a class="button" href="https://angradoheroismo.pt/eventos/" target="_blank" rel="noopener">ANGRA CALENDAR ↗</a><a class="button" href="https://byacores.com/terceira/" target="_blank" rel="noopener">AZORES CALENDAR / BYAÇORES ↗</a><a class="button" href="https://whatson.azores.gov.pt/agenda/" target="_blank" rel="noopener">AZORES WHAT’S ON ↗</a><a class="button" href="https://culturacores.azores.gov.pt/agenda/" target="_blank" rel="noopener">CULTURAÇORES CALENDAR ↗</a><a class="button" href="https://turismo.azores.gov.pt/terceira/" target="_blank" rel="noopener">VISIT AZORES ↗</a></div><p class="source-note">Note: the former What’s on Azores may redirect to the byAzores calendar. The site attempts a daily import of structured event listings where sources make them available. These links remain the best way to verify the latest details.</p></div>
 <p class="note">Sources are checked daily; always confirm event details with the organiser. Dated events reflect schedules published by the sources consulted and may change. Recurring activities depend on the season, parish and local programme. No event photos were used unless an authentic match could be verified.</p></main>
 <footer id="contactos"><div class="footer-inner"><img src="images/logo.png" alt="Boutique Hotel Teatro"><div><p>Discover what’s happening on Terceira.</p><p>Cultural and traditional events guide for guests and visitors.</p></div></div></footer>
 <div class="restaurant-modal" id="eventModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-panel"><button class="modal-close" id="closeModal" aria-label="Close dialog">×</button><div class="modal-content"><span class="eyebrow" id="modalEyebrow">Event · Terceira</span><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-meta" id="modalMeta"></div><div class="restaurant-actions"><a class="button" id="modalSource" href="#" target="_blank" rel="noopener">VIEW SOURCE ↗</a><a class="button" id="modalMap" href="#" target="_blank" rel="noopener">VIEW LOCATION ↗</a></div></div></div></div>
-<script>
-const events=[
-{id:'angrajazz',name:'Angrajazz 2026',category:'Music',period:'dated',date:'2–4 October 2026',area:'Angra do Heroísmo',venue:'Centro Cultural e de Congressos de Angra do Heroísmo',description:'A jazz festival edition announced for early October. Check with the organisers for the programme, tickets and performance times.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Centro Cultural e de Congressos de Angra do Heroísmo'},
-{id:'jazzrua',name:'Jazz na Rua 2026',category:'Music',period:'dated',date:'25 September – 4 October 2026',area:'Angra do Heroísmo',venue:'Various city venues',description:'A multi-day jazz programme listed in the municipal calendar. Confirm venues and times in the official calendar.',source:'https://angradoheroismo.pt/eventos/categoria/musica/',sourceLabel:'Municipal music events calendar',map:'Angra do Heroísmo'},
-{id:'angra4patas',name:'Angra 4 Patas 2026',category:'Markets and local life',period:'dated',date:'2–5 October 2026',area:'Terceira Island',venue:'Parque Multissetorial da Terceira Island',description:'An event listed in the municipal calendar for early October. Check the source for activities, admission and times.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Parque Multissetorial da Terceira Island'},
-{id:'cinema',name:'O Cinema da Minha Vida — Valor Sentimental',category:'Cinema and culture',period:'dated',date:'4 October 2026 · 18:00',area:'Angra do Heroísmo',venue:'Recreio dos Artistas',description:'Screening announced in the municipal calendar. Check ticket availability and any changes directly with the source.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Recreio dos Artistas, Angra do Heroísmo'},
-{id:'exposicao-autonomia',name:'Exposição — 50 anos de Autonomia dos Azores',category:'Exhibitions',period:'dated',date:'Until 9 October 2026',area:'Angra do Heroísmo',venue:'Paços do Concelho',description:'Temporary exhibition listed in the municipal calendar. Check visiting hours and access conditions before travelling.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Paços do Concelho, Angra do Heroísmo'},
-{id:'exposicao-casa-sal',name:'Exposição “De reüll, escull” — Laura Cano Calpe',category:'Exhibitions',period:'dated',date:'Until 9 October 2026',area:'Angra do Heroísmo',venue:'Casa do Sal',description:'Temporary exhibition announced in the municipal calendar. Check the source for opening hours and updated information.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Casa do Sal, Angra do Heroísmo'},
-{id:'concerto-outono',name:'Autumn Concert — Classical Music Season',category:'Music',period:'dated',date:'18 October 2026 · 18:00',area:'Angra do Heroísmo',venue:'Centro Cultural e de Congressos de Angra do Heroísmo',description:'Concert included in the municipal music programme. Check the official calendar for the programme and ticket sales.',source:'https://angradoheroismo.pt/eventos/categoria/musica/',sourceLabel:'Municipal music events calendar',map:'Centro Cultural e de Congressos de Angra do Heroísmo'},
-{id:'corda',name:'Touradas à corda — traditional season',category:'Traditional festivals',period:'recurring',date:'Usually from 1 May to 15 October',area:'Various parishes across Terceira',venue:'Locations vary according to each parish festival',description:'A traditional island event associated with parish festivals. There is no single fixed calendar for the whole island: check local announcements for dates, locations and conditions.',source:'https://turismo.azores.gov.pt/terceira/',sourceLabel:'Azores Tourism Portal',map:'Terceira Island, Azores'},
-{id:'festas-tradicionais',name:'Traditional parish festivals',category:'Traditional festivals',period:'recurring',date:'Throughout the year',area:'Various parishes across Terceira',venue:'Impérios, churches and community spaces in the parishes',description:'Local calendar festivals take place on different dates throughout the year. Programming varies by parish; always confirm with the local organisers and municipal calendar.',source:'https://angradoheroismo.pt/eventos/categoria/festas-populares/',sourceLabel:'Municipal popular festivals calendar',map:'Terceira Island, Azores'},
-{id:'mercado-Sunday',name:'Terceira Island farmers’ market',category:'Markets and local life',period:'recurring',date:'Published reference: Sunday morning',area:'Terceira Island',venue:'Terceira Island farmers’ market',description:'Local market identified in a business listing with Sunday morning hours. Confirm whether it is operating and the exact location before visiting, as schedules may change.',source:'https://www.google.com/maps/search/?api=1&query=Mercado+agr%C3%ADcola+da+Ilha+Terceira',sourceLabel:'Market location listing',map:'Terceira Island farmers’ market'},
-{id:'agenda-musica',name:'Concerts and live music',category:'Music',period:'recurring',date:'Throughout the year · dates vary',area:'Angra do Heroísmo and Praia da Vitória',venue:'Teatro Angrense, CCCAH and other venues',description:'The programme includes concerts, classical music seasons and occasional performances. This is not a guaranteed weekly event: check the municipal calendar for announced dates.',source:'https://angradoheroismo.pt/eventos/categoria/musica/',sourceLabel:'Municipal music events calendar',map:'Angra do Heroísmo, Terceira'},
-{id:'agenda-cultura',name:'Cinema, theatre and cultural sessions',category:'Cinema and culture',period:'recurring',date:'Dates vary throughout the year',area:'Angra do Heroísmo',venue:'Recreio dos Artistas, Teatro Angrense and cultural venues',description:'Cinema screenings, theatre and cultural activities are announced throughout the year. Frequency depends on the programme; check upcoming events in the official calendar.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Angra do Heroísmo, Terceira'},
-{id:'agenda-exposicoes',name:'Exhibitions and activities in cultural venues',category:'Exhibitions',period:'recurring',date:'Temporary exhibitions throughout the year',area:'Angra do Heroísmo and Terceira Island',venue:'Cultural centres, libraries and municipal buildings',description:'Temporary exhibitions and cultural initiatives are published throughout the year. Confirm final dates, opening hours and any booking requirements in the municipal calendar.',source:'https://angradoheroismo.pt/eventos/',sourceLabel:'Official Angra municipal events calendar',map:'Angra do Heroísmo, Terceira'}
-];
-const $=s=>document.querySelector(s),grid=$('#eventGrid'),modal=$('#eventModal');
-function normEventText(v){return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
-function languageScore(e,english){
-  const text=normEventText((e.name||'')+' '+(e.description||''));
-  const en=['the','and','of','concert','exhibition','festival','music','cinema','culture','market','traditional','season','autumn','screening','parish','island','event','activities','live','show','tour'];
-  const pt=['de','da','do','das','dos','e','concerto','exposicao','exposicao','festa','musica','cinema','cultura','mercado','tradicional','outono','sessao','paróquia','ilha','evento','atividades','espetaculo','espectaculo','tourada'];
-  const words=new Set(text.split(' '));
-  const hits=a=>a.reduce((n,w)=>n+(words.has(normEventText(w))?1:0),0);
-  return english?hits(en)-hits(pt):hits(pt)-hits(en);
-}
-
-const EVENT_MONTHS={
-  janeiro:0,fevereiro:1,marco:2,abril:3,maio:4,junho:5,julho:6,agosto:7,setembro:8,outubro:9,novembro:10,dezembro:11,
-  january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11
+<script src="events-data.js"></script><script>
+(function(){
+const LANG=document.documentElement.lang==='en'?'en':'pt';
+const LOC=LANG==='en'?'en-GB':'pt-PT';
+const T=LANG==='en'?{
+  allCat:'All categories',allDates:'All dates',today:'Today',week:'Next 7 days',month:'Next 30 days',free:'Free entry',
+  ongoing:'Ongoing',until:'Until',freeTag:'Free entry',allDay:'All day',found:n=>n+(n===1?' event found':' events found'),
+  date:'Date / period',time:'Time',venue:'Venue',area:'Location',entry:'Entry',entryFree:'Free',source:'Source',other:'Other',
+  updated:'List updated on',tail:'Past events are hidden automatically. Always confirm details with the organiser.',event:'Event'
+}:{
+  allCat:'Todas as categorias',allDates:'Todas as datas',today:'Hoje',week:'Próximos 7 dias',month:'Próximos 30 dias',free:'Entrada livre',
+  ongoing:'Em curso',until:'Até',freeTag:'Entrada livre',allDay:'Dia todo',found:n=>n+(n===1?' evento encontrado':' eventos encontrados'),
+  date:'Data / período',time:'Hora',venue:'Local',area:'Localidade',entry:'Entrada',entryFree:'Livre',source:'Fonte',other:'Outros',
+  updated:'Lista atualizada em',tail:'Os eventos passados são ocultados automaticamente. Confirma sempre os detalhes com a organização.',event:'Evento'
 };
-function parseEventDateText(value){
-  const s=String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-  const rx=/(\d{1,2})\s*(?:[-–—]\s*(\d{1,2})\s*)?([a-z]+)\s+(\d{4})/g;
-  const matches=[...s.matchAll(rx)];
-  if(!matches.length)return null;
-  const first=matches[0], last=matches[matches.length-1];
-  const make=(m,dayOverride)=>{
-    const day=Number(dayOverride||m[1]), month=EVENT_MONTHS[m[3]], year=Number(m[4]);
-    return month===undefined?null:new Date(year,month,day,23,59,59,999);
-  };
-  let start=make(first);
-  let end=make(first,first[2]||first[1]);
-  if(matches.length>1){
-    end=make(last,last[2]||last[1]);
-  } else if(first[2]){
-    end=make(first,first[2]);
-  }
-  return start&&end?{start,end}:null;
-}
-function eventBounds(e){
-  const startRaw=e.startDate||e.start_date||e.start||e.dateStart;
-  const endRaw=e.endDate||e.end_date||e.end||e.dateEnd;
-  const startISO=startRaw?new Date(startRaw):null;
-  const endISO=endRaw?new Date(endRaw):null;
-  if(startISO&&!Number.isNaN(startISO.getTime())){
-    const end=(endISO&&!Number.isNaN(endISO.getTime()))?endISO:startISO;
-    return {start:startISO,end};
-  }
-  if(e.period==='recurring')return null;
-  return parseEventDateText(e.date);
-}
-function isEventCurrent(e){
-  if(e.period==='recurring')return true;
-  const bounds=eventBounds(e);
-  if(!bounds)return true;
-  const now=new Date();
-  return bounds.end.getTime()>=now.getTime();
-}
-function filterPastEvents(list){return list.filter(isEventCurrent)}
+const $=s=>document.querySelector(s),listEl=$('#eventGrid'),modal=$('#eventModal');
+const strip=v=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const esc=v=>String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
+const thisYear=new Date().getFullYear();
+const dayStart=d=>{const x=new Date(d);x.setHours(0,0,0,0);return x};
+const sameDay=(a,b)=>dayStart(a).getTime()===dayStart(b).getTime();
+const dayKey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const fmtLong=d=>cap(d.toLocaleDateString(LOC,{weekday:'long',day:'numeric',month:'long'}))+(d.getFullYear()!==thisYear?' '+d.getFullYear():'');
+const fmtShort=d=>d.toLocaleDateString(LOC,{day:'numeric',month:'short'}).replace('.','')+(d.getFullYear()!==thisYear?' '+d.getFullYear():'');
+const fmtFull=d=>d.toLocaleDateString(LOC,{day:'numeric',month:'long',year:'numeric'});
 
-function normEventText(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().replace(/&amp;/g,'and').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ')}
-function eventTokens(value){return new Set(normEventText(value).split(' ').filter(w=>w.length>2))}
-function eventSimilarity(a,b){const A=eventTokens(a),B=eventTokens(b);if(!A.size||!B.size)return 0;let hit=0;for(const x of A)if(B.has(x))hit++;return hit/Math.min(A.size,B.size)}
-function eventDuplicateKey(e){const date=normEventText(e.date);return date}
-function dedupeFeedEvents(list){
-  const out=[];
-  for(const e of list){
-    const date=normEventText(e.date);
-    if(!date || e.period==='recurring'){out.push(e);continue}
-    let duplicate=-1;
-    for(let i=0;i<out.length;i++){
-      const old=out[i];
-      if(normEventText(old.date)!==date) continue;
-      const titleScore=eventSimilarity(old.name,e.name);
-      const placeScore=eventSimilarity((old.area||'')+' '+(old.venue||old.map||''),(e.area||'')+' '+(e.venue||e.map||''));
-      if(titleScore>=0.72 || (titleScore>=0.55 && placeScore>=0.55)){duplicate=i;break}
-    }
-    if(duplicate<0){out.push(e);continue}
-    const old=out[duplicate];
-    const oldInfo=(old.description||'').length+(old.source||'').length+(old.venue||'').length;
-    const newInfo=(e.description||'').length+(e.source||'').length+(e.venue||'').length;
-    if(newInfo>oldInfo)out[duplicate]=e;
-  }
-  return out;
+let events=[];
+function fromCurated(e){
+  const en=LANG==='en';
+  return {id:e.id,key:e.category,cat:en?(e.categoryEn||e.category):e.category,name:en?(e.nameEn||e.name):e.name,
+    desc:en?(e.descriptionEn||e.description):e.description,venue:e.venue,area:e.area,map:e.map||e.venue,free:!!e.free,
+    start:new Date(e.startDate),end:new Date(e.endDate||e.startDate),
+    time:/T00:00:00$/.test(e.startDate)?'':String(e.startDate).slice(11,16),source:e.source,sourceLabel:e.sourceLabel};
 }
-function applyEventDedupe(){const unique=dedupeFeedEvents(events);events.splice(0,events.length,...unique)}
-function render(){applyEventDedupe();events.splice(0,events.length,...filterPastEvents(events));grid.innerHTML=events.map(e=>`<article class="card event-card" data-category="${e.category}" data-period="${e.period}"><div class="card-art"><div class="event-art"><span>TERCEIRA ISLAND · AZORES</span><b>${e.category}</b><small>${e.period==='recurring'?'RECURRING / SEASONAL':'PUBLISHED LISTING'}</small></div></div><div class="card-body"><span class="code">${e.date}</span><h3>${e.name}</h3><p>${e.area} · ${e.venue}</p><div class="tags"><span class="tag">${e.category}</span><span class="tag">${e.period==='recurring'?'Variable date':'Published date'}</span></div><button class="button event-info-button open-event" data-id="${e.id}">VIEW DETAILS ↗</button></div></article>`).join('');document.querySelectorAll('.open-event').forEach(b=>b.addEventListener('click',()=>openEvent(b.dataset.id)));filter()}
-function openEvent(id){const e=events.find(x=>x.id===id);if(!e)return;$('#modalTitle').textContent=e.name;$('#modalEyebrow').textContent=e.category+' · '+e.area;$('#modalDescription').textContent=e.description;$('#modalMeta').innerHTML=`<div><strong>Date / period</strong>${e.date}</div><div><strong>Venue</strong>${e.venue}</div><div><strong>Location</strong>${e.area}</div><div><strong>Source</strong>${e.sourceLabel}</div>`;$('#modalSource').href=e.source;$('#modalMap').href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(e.map);modal.classList.add('is-open');document.body.style.overflow='hidden';$('#closeModal').focus()}
-function closeModal(){modal.classList.remove('is-open');document.body.style.overflow=''}$('#closeModal').addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
-function filter(){const q=$('#search').value.trim().toLocaleLowerCase('en'),cat=$('#category').value,per=$('#period').value;let n=0;document.querySelectorAll('.event-card').forEach(c=>{const ok=c.textContent.toLocaleLowerCase('en').includes(q)&&(!cat||c.dataset.category===cat)&&(!per||c.dataset.period===per);c.hidden=!ok;if(ok)n++});$('#results').textContent=`${n} ${n===1?'event found':'events found'}`;$('#empty').hidden=n!==0}$('#search').addEventListener('input',filter);$('#category').addEventListener('change',filter);$('#period').addEventListener('change',filter);render();
-
-function translateTextToEnglish(text){
-  let t=String(text||'');
-  const replacements=[
-    [/Data a confirmar/gi,'Date to be confirmed'],[/Até /gi,'Until '],[/até /gi,'until '],[/Durante o ano/gi,'Throughout the year'],[/ao longo do ano/gi,'throughout the year'],
-    [/eventos/gi,'events'],[/evento/gi,'event'],[/agenda/gi,'calendar'],[/festas tradicionais/gi,'traditional festivals'],[/festa/gi,'festival'],[/música/gi,'music'],[/cinema e cultura/gi,'cinema and culture'],[/cinema/gi,'cinema'],[/exposições/gi,'exhibitions'],[/exposição/gi,'exhibition'],[/mercados e vida local/gi,'markets and local life'],[/mercado/gi,'market'],[/localidade/gi,'location'],[/local/gi,'local'],[/cultura/gi,'culture'],[/tradição/gi,'tradition'],[/vida local/gi,'local life'],
-    [/Vários locais/gi,'Various locations'],[/Angra do Heroísmo/gi,'Angra do Heroísmo'],[/Ilha Terceira/gi,'Terceira Island'],[/ilha Terceira/gi,'Terceira Island'],[/vários locais/gi,'various locations'],[/datas variam/gi,'dates vary'],[/datas/gi,'dates'],[/horários/gi,'opening hours'],[/horas/gi,'times'],[/confirmar/gi,'confirm'],[/confirma/gi,'confirm'],[/organização/gi,'organiser'],[/organizador/gi,'organiser'],[/local/gi,'location'],[/localização/gi,'location']
-  ];
-  for(const [re,to] of replacements)t=t.replace(re,to);
-  return t;
+function fromFeed(e){
+  const d=String(e.date||'').slice(0,10);
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(d))return null;
+  return {id:'f-'+e.id,key:'Outros',cat:T.other,name:e.name,desc:e.description||'',venue:e.venue||'',area:e.area||'',map:e.map||e.venue||e.name,
+    free:false,start:new Date(d+'T00:00:00'),end:new Date(d+'T23:59:59'),time:'',source:e.source,sourceLabel:e.sourceLabel||''};
 }
-function translateCategory(c){return ({'Música':'Music','Festas tradicionais':'Traditional festivals','Cinema e cultura':'Cinema and culture','Mercados e vida local':'Markets and local life','Exposições':'Exhibitions','Music':'Music','Traditional festivals':'Traditional festivals','Cinema and culture':'Cinema and culture','Markets and local life':'Markets and local life','Exhibitions':'Exhibitions'})[c]||translateTextToEnglish(c)}
-function translateEventToEnglish(e){return {...e,name:translateTextToEnglish(e.name),description:translateTextToEnglish(e.description),category:translateCategory(e.category),area:translateTextToEnglish(e.area),venue:translateTextToEnglish(e.venue),date:translateTextToEnglish(e.date),sourceLabel:translateTextToEnglish(e.sourceLabel)};}
-async function refreshEventsFeed(){
-  const status=document.querySelector('#feedStatus');
-  const english=document.documentElement.lang==='en';
-  try{
-    const response=await fetch('data/events-feed.json?ts='+Date.now(),{cache:'no-store'});
-    if(!response.ok) throw new Error('feed unavailable');
-    const feed=await response.json();
-    const rawCount=Array.isArray(feed.events)?feed.events.length:0;
-    const when=feed.generatedAt?new Date(feed.generatedAt).toLocaleString(english?'en-GB':'pt-PT',{dateStyle:'medium',timeStyle:'short',timeZone:'Atlantic/Azores'}):(english?'unknown':'desconhecida');
-    if(rawCount){
-      const canonical=filterPastEvents(dedupeFeedEvents(feed.events.map(e=>({...e,period:e.period||'dated'}))));const translated=canonical.map(e=>translateEventToEnglish(e));events.splice(0,events.length,...translated);render();
-      const visibleCount=events.length;
-      status.textContent=english?`Last source check: ${when}. ${visibleCount} current event(s) shown from the public calendars.`:`Última verificação das fontes: ${when}. Estão a ser mostrados ${visibleCount} evento(s) atuais das agendas públicas.`;
-    }else{
-      events.splice(0,events.length,...filterPastEvents(events));render();
-      status.textContent=english?`Last source check: ${when}. No structured event listings could be imported; showing the current built-in listings.`:`Última verificação das fontes: ${when}. Não foi possível importar eventos estruturados; a mostrar apenas os eventos integrados ainda atuais.`;
-    }
-  }catch(err){
-    events.splice(0,events.length,...filterPastEvents(events));render();
-    status.textContent=english?'Automatic event feed unavailable. Past dated events are hidden; current built-in listings are shown.':'Feed automático indisponível. Os eventos com data passada foram ocultados; são mostrados apenas os eventos integrados atuais.';
+const tokens=v=>new Set(strip(v).replace(/[^a-z0-9]+/g,' ').split(' ').filter(w=>w.length>2));
+function similar(a,b){const A=tokens(a),B=tokens(b);if(!A.size||!B.size)return false;let n=0;for(const x of A)if(B.has(x))n++;return n/Math.min(A.size,B.size)>=0.6}
+function addFeed(list){
+  for(const raw of list){
+    const f=fromFeed(raw);if(!f)continue;
+    if(events.some(e=>sameDay(e.start,f.start)&&(similar(e.name,f.name)||similar(e.name+' '+e.desc,f.name))))continue;
+    events.push(f);
   }
 }
-refreshEventsFeed();
 
+function rowHtml(e,ongoing){
+  const multi=!sameDay(e.start,e.end);
+  const left=ongoing?`<span class="ev-small">${esc(T.until)}</span><b>${esc(fmtShort(e.end))}</b>`:(e.time?`<b>${esc(e.time)}</b>`:`<span class="ev-small">${esc(T.allDay)}</span>`);
+  const tags=[`<span class="tag">${esc(e.cat)}</span>`];
+  if(multi&&!ongoing)tags.push(`<span class="tag">${esc(fmtShort(e.start))} – ${esc(fmtShort(e.end))}</span>`);
+  if(e.free)tags.push(`<span class="tag tag-free">${esc(T.freeTag)}</span>`);
+  const place=[e.venue,e.area&&e.area!==e.venue?e.area:''].filter(Boolean).join(' · ');
+  return `<article class="card event-row"><div class="event-when">${left}</div><div class="event-main"><h3>${esc(e.name)}</h3><p>${esc(place)}</p><div class="tags">${tags.join('')}</div></div><button class="button event-info-button open-event" data-id="${esc(e.id)}">${LANG==='en'?'VIEW DETAILS':'VER INFORMAÇÕES'} ↗</button></article>`;
+}
+
+function render(){
+  const q=strip($('#search').value.trim()),cat=$('#category').value,when=$('#period').value;
+  const now=new Date(),t0=dayStart(now);
+  let rs=null,re=null;
+  if(when==='today'){rs=t0;re=new Date(t0.getTime()+86400000)}
+  if(when==='week'){rs=t0;re=new Date(t0.getTime()+7*86400000)}
+  const monthEnd=new Date(now.getFullYear(),now.getMonth()+1,0,23,59,59,999);
+  const list=events.filter(e=>e.end>=now&&e.start<=monthEnd).filter(e=>{
+    if(cat&&e.key!==cat)return false;
+    if(when==='free'&&!e.free)return false;
+    if(rs&&!(e.start<re&&e.end>=rs))return false;
+    if(q&&!strip([e.name,e.venue,e.area,e.desc,e.cat].join(' ')).includes(q))return false;
+    return true;
+  });
+  const ongoing=list.filter(e=>e.start<t0).sort((a,b)=>a.end-b.end||a.name.localeCompare(b.name,LOC));
+  const upcoming=list.filter(e=>e.start>=t0).sort((a,b)=>a.start-b.start||a.name.localeCompare(b.name,LOC));
+  let html='';
+  if(ongoing.length)html+=`<h3 class="day-title">${esc(T.ongoing)}</h3>`+ongoing.map(e=>rowHtml(e,true)).join('');
+  let last='';
+  for(const e of upcoming){
+    const k=dayKey(e.start);
+    if(k!==last){last=k;html+=`<h3 class="day-title">${esc(fmtLong(e.start))}${sameDay(e.start,now)?' · '+esc(T.today):''}</h3>`}
+    html+=rowHtml(e,false);
+  }
+  listEl.innerHTML=html;
+  $('#results').textContent=T.found(list.length);
+  $('#empty').hidden=list.length!==0;
+}
+
+function openEvent(id){
+  const e=events.find(x=>x.id===id);if(!e)return;
+  const multi=!sameDay(e.start,e.end);
+  const when=multi?fmtFull(e.start)+' – '+fmtFull(e.end):cap(e.start.toLocaleDateString(LOC,{weekday:'long',day:'numeric',month:'long',year:'numeric'}));
+  $('#modalTitle').textContent=e.name;
+  $('#modalEyebrow').textContent=e.cat+' · '+(e.area||'Terceira');
+  $('#modalDescription').textContent=e.desc;
+  let meta=`<div><strong>${esc(T.date)}</strong>${esc(when)}</div>`;
+  if(e.time)meta+=`<div><strong>${esc(T.time)}</strong>${esc(e.time)}</div>`;
+  meta+=`<div><strong>${esc(T.venue)}</strong>${esc(e.venue)}</div><div><strong>${esc(T.area)}</strong>${esc(e.area)}</div>`;
+  if(e.free)meta+=`<div><strong>${esc(T.entry)}</strong>${esc(T.entryFree)}</div>`;
+  meta+=`<div><strong>${esc(T.source)}</strong>${esc(e.sourceLabel)}</div>`;
+  $('#modalMeta').innerHTML=meta;
+  $('#modalSource').href=e.source;
+  $('#modalMap').href='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(e.map);
+  modal.classList.add('is-open');document.body.style.overflow='hidden';$('#closeModal').focus();
+}
+function closeModal(){modal.classList.remove('is-open');document.body.style.overflow=''}
+
+function setup(){
+  const cats=[...new Map(events.map(e=>[e.key,e.cat])).entries()].sort((a,b)=>a[1].localeCompare(b[1],LOC));
+  $('#category').innerHTML=`<option value="">${esc(T.allCat)}</option>`+cats.map(([k,l])=>`<option value="${esc(k)}">${esc(l)}</option>`).join('');
+  $('#period').innerHTML=`<option value="">${esc(T.allDates)}</option><option value="today">${esc(T.today)}</option><option value="week">${esc(T.week)}</option><option value="free">${esc(T.free)}</option>`;
+}
+
+const monthName=new Date().toLocaleDateString(LOC,{month:'long',year:'numeric'});
+const eb=document.querySelector('.intro .eyebrow');if(eb)eb.textContent='Calendar · '+monthName;
+const data=window.CURATED_EVENTS||{events:[]};
+events=data.events.map(fromCurated);
+setup();render();
+const gen=data.generatedAt?new Date(data.generatedAt):null;
+$('#feedStatus').textContent=(gen?T.updated+' '+fmtFull(gen)+'. ':'')+T.tail;
+
+listEl.addEventListener('click',ev=>{const b=ev.target.closest('.open-event');if(b)openEvent(b.dataset.id)});
+$('#closeModal').addEventListener('click',closeModal);
+modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+['search'].forEach(id=>$('#'+id).addEventListener('input',render));
+['category','period'].forEach(id=>$('#'+id).addEventListener('change',render));
+
+// Optional extra events found by the daily automatic check (added only if not already listed).
+fetch('data/events-feed.json?ts='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(feed=>{
+  if(!feed||!Array.isArray(feed.events)||!feed.events.length)return;
+  addFeed(feed.events);setup();render();
+}).catch(()=>{});
+})();
 </script><script src="mobile-menu.js"></script></body></html>

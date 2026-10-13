@@ -13,3 +13,5 @@ ATUALIZAÇÃO AUTOMÁTICA DA AGENDA (GitHub Pages)
 - A página eventos.html / eventos-en.html mostra a hora da última verificação e o número de eventos importados. Se uma fonte não disponibilizar dados estruturados, a página mantém a lista integrada e avisa que pode estar desatualizada.
 - Para ativar: carregue todo o conteúdo desta pasta para o repositório GitHub; em Settings > Pages escolha Source: GitHub Actions. Em Actions, ative os workflows e execute manualmente “Daily events refresh and GitHub Pages deploy” uma vez para testar.
 - O workflow usa GitHub Actions e faz o deploy via Pages Actions; não é necessário guardar tokens adicionais.
+
+- Lista de eventos: os eventos mostrados em eventos.html / eventos-en.html estão no ficheiro events-data.js (cada evento tem nome, data, hora, local, descrição em PT e EN). Os eventos passados são ocultados automaticamente. Para atualizar a lista, edite esse ficheiro ou peça uma nova atualização; o workflow diário continua a juntar eventos novos que encontre em data/events-feed.json.
