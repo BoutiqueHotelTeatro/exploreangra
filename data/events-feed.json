@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T05:40:44+00:00",
+  "generatedAt": "2026-10-14T05:52:34+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -11,7 +11,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 134
+      "structuredEvents": 132
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -407,20 +407,6 @@
       "image": ""
     },
     {
-      "id": "festival-da-geodiversidade-exposi-o-rochas-dos-a-ores",
-      "name": "Festival da Geodiversidade: Exposição Rochas dos Açores",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-05",
-      "area": "Angra do Heroísmo",
-      "venue": "Museu Vulcanoespeleológico — Associação Os Montanheiros",
-      "description": "Exposição do Açores Geoparque Mundial da UNESCO sobre a origem e as características das rochas do arquipélago.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Museu Vulcanoespeleológico — Associação Os Montanheiros",
-      "image": ""
-    },
-    {
       "id": "vitrine-de-curiosidades-diapas-o-com-caixa-de-francisco-de-lacerda",
       "name": "Vitrine de Curiosidades: Diapasão com Caixa de Francisco de Lacerda",
       "category": "Events",
@@ -475,20 +461,6 @@
       "sourceLabel": "Viral Agenda",
       "map": "Casa do Sal",
       "image": "https://cdn.viralagenda.com/images/events/ext/1862296-8be94b1a64c7ff34a72f5d6ccde9bcc3.jpg"
-    },
-    {
-      "id": "mem-rias-da-autonomia-50-anos-de-regi-o-aut-noma-dos-a-ores",
-      "name": "Memórias da Autonomia: 50 Anos de Região Autónoma dos Açores",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-13",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Testemunho de José Guilherme Reis Leite, moderado por Joel Neto.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
     },
     {
       "id": "apresenta-o-monte-brasil-2026-i-festival-de-literatura-hist-ria-de-angra-do-hero",
@@ -643,6 +615,20 @@
       "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho de Angra do Heroísmo",
       "image": ""
+    },
+    {
+      "id": "cine-atl-ntico-mudar-de-vida-o-desejado-ou-as-montanhas-da-lua",
+      "name": "CINE ATLÂNTICO – MUDAR DE VIDA / O DESEJADO OU AS MONTANHAS DA LUA",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-16",
+      "area": "Angra do Heroísmo",
+      "venue": "Recreio dos Artistas",
+      "description": "Este evento decorrerá no(s) dia(s) 16/10/2026, em Recreio dos Artistas.🎬 𝟭𝟲 𝗢𝗨𝗧. — 𝗗𝗨𝗔𝗦 𝗦𝗘𝗦𝗦𝗢̃𝗘𝗦O primeiro fim de semana do Cine Atlântico 2026 começa com dois filmes de Paulo Rocha, separados por mais de duas décadas e unidos por diferentes formas de olhar para Portugal.𝟭𝟴𝗛𝟯𝟬 · 𝗠𝗨𝗗𝗔𝗥 𝗗𝗘 𝗩𝗜𝗗𝗔1966 · 95 minUm regresso ao Norte, às raízes e às transformações de uma sociedade em mudança.𝟮𝟭𝗛𝟯𝟬 · 𝗢 𝗗𝗘𝗦𝗘𝗝𝗔𝗗𝗢 𝗢𝗨 𝗔𝗦 𝗠𝗢𝗡𝗧𝗔𝗡𝗛𝗔𝗦 𝗗𝗔 𝗟𝗨𝗔1987 · 123 minUma viagem entre a história, o desejo e o imaginário português, num filme que revisita o passado através de uma linguagem profundamente singular.𝗗𝘂𝗮𝘀 𝘀𝗲𝘀𝘀𝗼̃𝗲𝘀. 𝗗𝗼𝗶𝘀 𝗺𝗼𝗺𝗲𝗻𝘁𝗼𝘀 𝗱𝗮 𝗼𝗯𝗿𝗮 𝗱𝗲 𝗣𝗮𝘂𝗹𝗼 𝗥𝗼𝗰𝗵𝗮.Um primeiro encontro com “As Sombras de Portugal”.📍 Recreio dos Artistas · Angra do Heroísmo🎟️ Bilhetes: 3 € · Sócios: 1,50 €🌐 www.cineatlantico.eu16 OUT. · 18H30 + 21H30Fonte: https://angradoheroismo.pt/evento/cine-atlantico-mudar-de-vida-o-desejado-ou-as-monta",
+      "source": "https://www.viralagenda.com/pt/events/1865066/cine-atlantico-mudar-de-vida-o-desejado-ou-as-montanhas-da-lua",
+      "sourceLabel": "Viral Agenda",
+      "map": "Recreio dos Artistas",
+      "image": "https://cdn.viralagenda.com/images/events/ext/1865066-822b43bc4d0f85a62ea9241b50ea7fe3-r.jpg"
     },
     {
       "id": "cine-atl-ntico-change-of-life",
@@ -841,6 +827,20 @@
       "image": ""
     },
     {
+      "id": "cine-atl-ntico-o-rio-do-ouro-a-raiz-do-cora-o",
+      "name": "CINE ATLÂNTICO – O RIO DO OURO / A RAIZ DO CORAÇÃO",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-17",
+      "area": "Angra do Heroísmo",
+      "venue": "Recreio dos Artistas",
+      "description": "Este evento decorrerá no(s) dia(s) 17/10/2026, em Recreio dos Artistas.🎬 𝟭𝟳 𝗢𝗨𝗧. – 𝗗𝗢𝗜𝗦 𝗙𝗜𝗟𝗠𝗘𝗦No segundo dia de “Paulo Rocha: As Sombras de Portugal”, o percurso pela obra de Paulo Rocha continua com dois filmes que revelam diferentes momentos e universos da sua filmografia.𝟭𝟴𝗛𝟯𝟬 · 𝗢 𝗥𝗜𝗢 𝗗𝗢 𝗢𝗨𝗥𝗢1998 · 140 min𝟮𝟭𝗛𝟯𝟬 · 𝗔 𝗥𝗔𝗜𝗭 𝗗𝗢 𝗖𝗢𝗥𝗔𝗖̧𝗔̃𝗢2000 · 125 minDuas obras de uma filmografia marcada pela relação entre memória, território, desejo e identidade, onde Portugal surge através de diferentes tempos, lugares e personagens.📍 Recreio dos Artistas · Angra do Heroísmo🎟️ Bilhetes: 3 € · Sócios: 1,50 €🌐 www.cineatlantico.eu17 OUT. · 18H30 + 21H30Fonte: https://angradoheroismo.pt/evento/cine-atlantico-o-rio-do-ouro-a-raiz-do-coracao/",
+      "source": "https://www.viralagenda.com/pt/events/1865068/cine-atlantico-o-rio-do-ouro-a-raiz-do-coracao",
+      "sourceLabel": "Viral Agenda",
+      "map": "Recreio dos Artistas",
+      "image": "https://cdn.viralagenda.com/images/events/ext/1865068-9a82dde90a0bee51a5f60cae3fab7632-r.jpg"
+    },
+    {
       "id": "cine-atl-ntico-a-raiz-do-cora-o",
       "name": "Cine Atlântico: A Raiz do Coração",
       "category": "Events",
@@ -974,11 +974,11 @@
       "date": "2026-10-17",
       "area": "Angra do Heroísmo",
       "venue": "Casa do Sal",
-      "description": "A AAIP apresenta Trash Circus — Bloowitch, Eva Plaisir, Helkat Bizarre e Batjoy 669 — seguido de GONGA. Entrada a 8 € para sócios da AAIP e 10 € para não-sócios; lugares limitados.",
-      "source": "https://www.instagram.com/aaipazores/p/DeRmQanNDm1/",
-      "sourceLabel": "Eventos Terceira",
+      "description": "Este evento decorrerá no(s) dia(s) 17/10/2026 a 18/10/2026, em Casa do Sal.ESCAMA: de dragão 3#*TRASH CIRCUS* — Lisboa / FaroBLOOWITCH · EVA PLAISIR · HELKAT BIZARRE · BATJOY 669*GONGA* — Ilha TerceiraA AAIP continua a crescer e a martelar a sua relevância no prego cultural insular. Continuamos a arriscar, a experimentar e a trazer à ilha propostas que fogem ao circuito habitual.Desta vez, recebemos o Trash Circus, colectivo de quatro artistas que cruza performance, estética industrial e experimentação cénica numa linguagem visual intensa e pouco convencional.A seguir temos GONGA, prata da casa, nome forte da cena electrónica da ilha, com um set de fazer tremer a Casa e manter a energia até ao fim.Duas propostas distintas, uma noite para sair do habitual e continuar a abrir espaço a outras formas de expressão artística na Terceira.17 de outubro · 22hCasa do Sal — Angra do HeroísmoEntrada",
+      "source": "https://www.viralagenda.com/pt/events/1865069/escama-de-dragao-3",
+      "sourceLabel": "Viral Agenda",
       "map": "Casa do Sal",
-      "image": ""
+      "image": "https://cdn.viralagenda.com/images/events/ext/1865069-6657a87491df50d21ccf60889d65500f-r.jpeg"
     },
     {
       "id": "falk-meutzner-ao-vivo",
@@ -1066,17 +1066,17 @@
     },
     {
       "id": "cine-atl-ntico-vanitas-ou-o-outro-mundo",
-      "name": "Cine Atlântico: Vanitas ou o Outro Mundo",
+      "name": "CINE ATLÂNTICO – VANITAS OU O OUTRO MUNDO",
       "category": "Events",
       "period": "dated",
       "date": "2026-10-18",
       "area": "Angra do Heroísmo",
       "venue": "Recreio dos Artistas",
-      "description": "Sessão da retrospetiva de Paulo Rocha. Bilhetes a 3 €; sócios pagam 1,50 €.",
-      "source": "https://www.instagram.com/cineclubedailhaterceira/p/DeP2X8LiHZa/",
-      "sourceLabel": "Eventos Terceira",
+      "description": "Este evento decorrerá no(s) dia(s) 18/10/2026, em Recreio dos Artistas.🎬 𝟭𝟴 𝗢𝗨𝗧. – 𝗩𝗔𝗡𝗜𝗧𝗔𝗦 𝗢𝗨 𝗢 𝗢𝗨𝗧𝗥𝗢 𝗠𝗨𝗡𝗗𝗢O primeiro ciclo do Cine Atlântico 2026 chega ao fim com Vanitas ou o Outro Mundo, filme de Paulo Rocha de 2004.𝟭𝟴𝗛𝟯𝟬 · 𝗩𝗔𝗡𝗜𝗧𝗔𝗦 𝗢𝗨 𝗢 𝗢𝗨𝗧𝗥𝗢 𝗠𝗨𝗡𝗗𝗢2004 · 105 minEntre a vida e a morte, o real e o imaginário, Vanitas ou o Outro Mundo encerra o percurso por uma filmografia marcada por diferentes formas de interrogar Portugal, a sua memória e os seus fantasmas.Depois de três dias e cinco filmes, “As Sombras de Portugal” chega ao fim.🌑 𝟱 𝗳𝗶𝗹𝗺𝗲𝘀 · 𝟯 𝗱𝗶𝗮𝘀 · 𝟭 𝗽𝗲𝗿𝗰𝘂𝗿𝘀𝗼 𝗽𝗲𝗹𝗮 𝗼𝗯𝗿𝗮 𝗱𝗲 𝗣𝗮𝘂𝗹𝗼 𝗥𝗼𝗰𝗵𝗮📍 Recreio dos Artistas · Angra do Heroísmo🎟️ Bilhetes: 3 € · Sócios: 1,50 €🌐 www.cineatlantico.eu18 OUT. · 18H30Fonte: https://angradoheroismo.pt/evento/cine-atlantico-vanitas-ou-o-outro-mundo/",
+      "source": "https://www.viralagenda.com/pt/events/1865070/cine-atlantico-vanitas-ou-o-outro-mundo",
+      "sourceLabel": "Viral Agenda",
       "map": "Recreio dos Artistas",
-      "image": ""
+      "image": "https://cdn.viralagenda.com/images/events/ext/1865070-42c39d7c0ea406cbce644ae1e4183989-r.jpg"
     },
     {
       "id": "concerto-do-outono-temporada-de-m-sica-cl-ssica",
@@ -1413,6 +1413,20 @@
       "sourceLabel": "Viral Agenda",
       "map": "Centro Cultural e de Congressos de Angra do Heroismo",
       "image": "https://cdn.viralagenda.com/images/events/ext/1858770-4ba8253a2efd11d556d7dab44d143140.jpg"
+    },
+    {
+      "id": "curso-de-desenho-com-s-vila",
+      "name": "Curso de Desenho com Sá Vila",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-24",
+      "area": "Angra do Heroísmo",
+      "venue": "Casa do Sal",
+      "description": "Este evento decorrerá no(s) dia(s) 24/10/2026, em Casa do Sal.Curso de Desenho com Sá VilaDesenhar é uma forma de observar o mundo com mais atenção. Neste curso, orientado por Sá Vila, os participantes serão convidados a desenvolver a prática do desenho de observação direta através do exercício regular, da experimentação e do aperfeiçoamento das suas capacidades de observação e expressão visual. O curso visa estimular a observação, expressão e criatividade ao mesmo tempo que proporciona aos participantes contacto com materiais e exercícios que permitam aprofundar a técnica.Destinado a jovens (a partir dos 15 anos) e adultos, o curso realiza-se quinzenalmente, aos sábados, na Casa do Sal.✦ Início: 24 de outubro✦ Horário: 10h00 às 11h30✦ Local: Casa do Sal✦ Destinatários: Jovens (+15) e adultos✦ Mensalidade: 25€ | 20€ para sócios da Oficina d’AngraInscrições: tinyurl.com/yjkk3bneSá Vila é ",
+      "source": "https://www.viralagenda.com/pt/events/1865071/curso-de-desenho-com-sa-vila",
+      "sourceLabel": "Viral Agenda",
+      "map": "Casa do Sal",
+      "image": "https://cdn.viralagenda.com/images/events/ext/1865071-dde2019e92fac0fda117f658f25c2875-r.jpg"
     },
     {
       "id": "curso-de-desenho-com-s-vila-in-cio",
@@ -2074,17 +2088,17 @@
     },
     {
       "id": "sons-da-macaron-sia-festival-de-m-sica-atl-ntica",
-      "name": "Sons da Macaronésia – Festival de Música Atlântica",
+      "name": "Sons da Macaronésia — Festival de Música Atlântica",
       "category": "Events",
       "period": "dated",
       "date": "2026-11-20",
-      "area": "Angra do Heroismo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Este evento decorrerá no(s) dia(s) 20/11/2026 a 21/11/2026, em Centro Cultural e de Congressos de Angra do Heroísmo.O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, nos dias 20 e 21 de novembro de 2026, o «Sons da Macaronésia – Festival de Música Atlântica», um evento que promove o encontro entre diferentes expressões musicais dos arquipélagos da Macaronésia.Promovido pela Fraterune, o festival reúne artistas dos Açores, Madeira, Canárias e Cabo Verde, proporcionando ao público uma experiência cultural marcada pela diversidade, pela partilha e pela valorização das identidades atlânticas.21h30 – Quarto Crescente e Amigos (Açores)23h30 – Xarabanda (Madeira)21h30 – El Batijero (Canárias)23h30 – Recado pa Terra (Cabo Verde)Ao longo de dois dias, o festival celebra os laços culturais que unem os povos da Macaronésia através da música, reforçando a ligação entre territórios insul",
-      "source": "https://www.viralagenda.com/pt/events/1854229/sons-da-macaronesia-festival-de-musica-atlantica",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1854229-ed30330cc5685beedbf3cfc5054690f2-r.jpg"
+      "area": "Angra do Heroísmo",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Festival de música atlântica que reúne no CCCAH artistas dos Açores, Madeira, Canárias e Cabo Verde. Quarto Crescente e Amigos e Xarabanda atuam a 20 de novembro; El Batijero e Recado pa Terra atuam a 21 de novembro.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "sounds-of-macaronesia-atlantic-music-festival",
@@ -2148,13 +2162,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-11-27",
-      "area": "Angra do Heroismo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Este evento decorrerá no(s) dia(s) 27/11/2026 a 28/11/2026, em Centro Cultural e de Congressos de Angra do Heroísmo.O Município de Angra do Heroísmo acolhe, no Grande Auditório do Centro Cultural e de Congressos de Angra do Heroísmo, nos dias 27 e 28 de novembro de 2026, o «III Azores Comedy Fest». A maior edição do festival apresenta dois dias dedicados ao humor, com destaque para «CommedIA a la Carte: nem sempre usam Inteligência Artificial», Fernando Rocha com o espetáculo «Rocha & Roll» e Teresa Guilherme com «As Vaginas e Eu – Tudo o que ficou por dizer», entre outros artistas convidados.O festival é uma produção da AZORICA, com o apoio da Câmara Municipal de Angra do Heroísmo.Fonte: https://angradoheroismo.pt/evento/festival-iii-azores-comedy-fest/",
-      "source": "https://www.viralagenda.com/pt/events/1801779/festival-iii-azores-comedy-fest",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1801779-f62ef9ab2d71e5273098933f06c9d3a0-r.jpg"
+      "area": "Angra do Heroísmo",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "The third edition of the Azores Comedy Fest returns to the CCCAH Grande Auditório for two nights. Line-up includes CommedIA a la Carte ('nem sempre usam Inteligência Artificial'), Fernando Rocha ('Rocha & Roll'), Teresa Guilherme ('As Vaginas e Eu — Tudo o que ficou por dizer'), João Dantas, Airton, and host Patrício Vieira. Production by AZORICA. Tickets at usual outlets and ticketline.pt.",
+      "source": "https://www.instagram.com/p/DYokj1ujXdM/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "monte-brasil-festival-internacional-de-literatura-e-hist-ria-de-angra-do-hero-sm",
@@ -2204,13 +2218,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-11-28",
-      "area": "Angra do Heroismo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Este evento decorrerá no(s) dia(s) 28/11/2026, em Centro Cultural e de Congressos de Angra do Heroísmo.O CCCAH acolhe, no dia 28 de novembro de 2026, domingo, às 18h00, o Concerto do Advento, integrado na Temporada de Música Clássica 2026. O concerto conta com Olga Lysa, ao piano, Svitlana Poustovhar, no violoncelo, Elena Kharambura, no violino, Ostap Kharambura, na viola, e Taras Poustovgar, no clarinete.Entrada livre.Fonte: https://angradoheroismo.pt/evento/temporada-de-musica-classica-concerto-do-advento/",
-      "source": "https://www.viralagenda.com/pt/events/1846765/temporada-de-musica-classica-concerto-do-advento",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1846765-2398912c2e284f47e2e2788ebea85f72-r.jpg"
+      "area": "Angra do Heroísmo",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Concerto do Advento integrado na Temporada de Música Clássica 2026, com Olga Lysa (piano), Svitlana Poustovhar (violoncelo), Elena Kharambura (violino), Ostap Kharambura (viola) e Taras Poustovgar (clarinete). Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "20th-azores-international-festival-commemorative-conference",
@@ -2302,13 +2316,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-12-05",
-      "area": "Angra do Heroismo",
+      "area": "Canada Nova",
       "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Este evento decorrerá no(s) dia(s) 05/12/2026, em Centro Cultural e de Congressos de Angra do Heroísmo.O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, no dia 5 de dezembro de 2026, sábado, às 21h30, o concerto «Glenn Miller Orchestra – in the Christmas mood». A histórica formação, dirigida por Ray McVay através de um acordo com a Glenn Miller Productions de Nova Iorque, apresenta um espetáculo inspirado no universo musical de Glenn Miller, recriando o som inconfundível das grandes big bands da década de 1940. O repertório inclui alguns dos mais emblemáticos temas da era do swing, como «Moonlight Serenade», numa noite especial de celebração natalícia marcada pela elegância, nostalgia e excelência musical.Fonte: https://angradoheroismo.pt/evento/concerto-glenn-miller-orchestra-in-the-christmas-mood/",
+      "description": "Concerto: Glenn Miller Orchestra – in the Christmas mood @ Centro Cultural e de Congressos de Angra do Heroismo | 05-12-2026",
       "source": "https://www.viralagenda.com/pt/events/1804428/concerto-glenn-miller-orchestra-in-the-christmas-mood",
       "sourceLabel": "Viral Agenda",
       "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1804428-f0d017e996a32f2511fcee7b53240013-r.jpg"
+      "image": "https://cdn.viralagenda.com/images/events/ext/1804428-1cbdca80583c049b44e0f6b7d4260c5a.jpg"
     },
     {
       "id": "glenn-miller-orchestra-in-the-christmas-mood",
@@ -2512,13 +2526,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-12-20",
-      "area": "Angra do Heroísmo",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "Este evento decorrerá no(s) dia(s) 20/12/2026, em Angra do Heroísmo.A Igreja do Colégio acolhe, no dia 20 de dezembro de 2026, domingo, às 20h00, o Concerto de Natal, integrado na Temporada de Música Clássica 2026. O concerto reúne Alla Lanova, soprano; Olga Lysa, órgão; Elena Kharambura, violino; Ostap Kharambura, viola; Orest Grytsyuk, violoncelo; e Oleg Gunko, clarinete, para uma noite dedicada à música clássica em ambiente natalício.Entrada livre.Fonte: https://angradoheroismo.pt/evento/temporada-de-musica-classica-concerto-de-natal/",
-      "source": "https://www.viralagenda.com/pt/events/1846766/temporada-de-musica-classica-concerto-de-natal",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1846766-4452dba7ac5a74afb87b9a05e2c07e66-r.jpg"
+      "area": "Rua do Palácio, 9700 Angra do Heroísmo",
+      "venue": "Igreja do Colégio",
+      "description": "Concerto de Natal integrado na Temporada de Música Clássica 2026, na Igreja do Colégio, com Alla Lanova (soprano), Olga Lysa (órgão), Elena Kharambura (violino), Ostap Kharambura (viola), Orest Grytsyuk (violoncelo) e Oleg Gunko (clarinete). Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Igreja do Colégio",
+      "image": ""
     },
     {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
@@ -2659,20 +2673,6 @@
       "sourceLabel": "Eventos Terceira",
       "map": "Auditório do Ramo Grande",
       "image": ""
-    },
-    {
-      "id": "concerto-angra-convida-alcool-mia-30-anos-de-n-o-sei-se-mere-o",
-      "name": "Concerto: Angra Convida Alcoolémia – 30 anos de «Não Sei Se Mereço»",
-      "category": "Events",
-      "period": "dated",
-      "date": "2027-11-13",
-      "area": "Canada Nova",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Concerto: Angra Convida Alcoolémia – 30 anos de «Não Sei Se Mereço» @ Centro Cultural e de Congressos de Angra do Heroismo | 13-11-2027",
-      "source": "https://www.viralagenda.com/pt/events/1747765/concerto-angra-convida-alcoolemia-30-anos-de-nao-sei-se-mereco",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1747765-3cc9bab53ed852c13f1a7309905d1aeb.png"
     }
   ]
 }
