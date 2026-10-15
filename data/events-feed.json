@@ -1,22 +1,23 @@
 {
-  "generatedAt": "2026-10-14T05:52:34+00:00",
+  "generatedAt": "2026-10-15T05:52:30+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
     {
       "url": "https://www.viralagenda.com/pt/acores/angra-do-heroismo",
-      "ok": true,
-      "structuredEvents": 20
+      "ok": false,
+      "structuredEvents": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.viralagenda.com/pt/acores/angra-do-heroismo"
     },
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 132
+      "structuredEvents": 127
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 3
+      "structuredEvents": 0
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -42,48 +43,6 @@
     }
   ],
   "events": [
-    {
-      "id": "festas-tradicionais-de-angra-do-hero-smo-2026",
-      "name": "Festas Tradicionais de Angra do Heroísmo 2026",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-01-01",
-      "area": "Terceira Island",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "Festas Tradicionais de Angra do Heroísmo 2026 @ Angra do Heroísmo (cidade) | 01-01-2026",
-      "source": "https://www.viralagenda.com/pt/events/1740839/festas-tradicionais-de-angra-do-heroismo-2026",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1740839-5ba5893fca46da4eb72b0dc63b2e51f2.jpg"
-    },
-    {
-      "id": "aventuras-fant-sticas",
-      "name": "Aventuras Fantásticas",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-01-28",
-      "area": "Terceira Island",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "Aventuras Fantásticas @ Angra do Heroísmo (cidade) | 28-01-2026",
-      "source": "https://www.viralagenda.com/pt/events/1740838/aventuras-fantasticas",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1740838-279b6e6e570b3d355f31d379439ba19a.png"
-    },
-    {
-      "id": "marcos-da-autonomia-da-junta-administrativa-ao-i-governo-regional",
-      "name": "Marcos da Autonomia: da Junta Administrativa ao I Governo Regional",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-06-11",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Marcos da Autonomia: da Junta Administrativa ao I Governo Regional @ Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro | 12-06-2026",
-      "source": "https://www.viralagenda.com/pt/events/1808688/marcos-da-autonomia-da-junta-administrativa-ao-i-governo-regional",
-      "sourceLabel": "Viral Agenda",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1808688-eadb0e24dcde5ae5b2b1243cb478b559.jpg"
-    },
     {
       "id": "marcos-da-autonomia-da-junta-administrativa-ao-i-governo-regional",
       "name": "Marcos da Autonomia: da Junta Administrativa ao I Governo Regional",
@@ -267,48 +226,6 @@
       "image": ""
     },
     {
-      "id": "bibliographic-exhibition-books-in-foreign-languages",
-      "name": "Bibliographic Exhibition: Books in Foreign Languages",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-09-16",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Selection from the library's open-access foreign-language collection in the reading and home-loan room, with personalized bookmarks and a digital cultural quiz.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "mostra-bibliogr-fica-livros-em-l-ngua-estrangeira",
-      "name": "Mostra bibliográfica: Livros em Língua Estrangeira",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-09-16",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Seleção da coleção de livre acesso de livros em língua estrangeira na Sala de Leitura e Empréstimo Domiciliário, com marcadores de livros personalizados e um quiz cultural digital.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "o-cinema-da-minha-vida-2-temporada-2026",
-      "name": "O CINEMA DA MINHA VIDA 2.ª temporada 2026",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-09-20",
-      "area": "Terceira Island",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "O CINEMA DA MINHA VIDA 2.ª temporada 2026 @ Angra do Heroísmo (cidade) | 20-09-2026",
-      "source": "https://www.viralagenda.com/pt/events/1842446/o-cinema-da-minha-vida-2-temporada-2026",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1842446-dd4d757f77df1abb1ee5d9cab88751f5.jpg"
-    },
-    {
       "id": "exhibition-jaime-brasil-from-the-island-to-the-world",
       "name": "Exhibition: Jaime Brasil — From the Island to the World",
       "category": "Events",
@@ -380,17 +297,17 @@
     },
     {
       "id": "exposi-o-de-fotografia-angra-da-humanidade-de-lu-s-godinho",
-      "name": "Exposição de fotografia: «Angra da Humanidade», de Luís Godinho",
+      "name": "Exposição de fotografia: Angra da Humanidade, de Luís Godinho",
       "category": "Events",
       "period": "dated",
       "date": "2026-10-01",
-      "area": "Canada Nova",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Exposição de fotografia: «Angra da Humanidade», de Luís Godinho @ Centro Cultural e de Congressos de Angra do Heroismo | 01-10-2026",
-      "source": "https://www.viralagenda.com/pt/events/1857865/exposicao-de-fotografia-angra-da-humanidade-de-luis-godinho",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1857865-0adcf2ac34fec08abad8522625cafd50.jpg"
+      "area": "Angra do Heroísmo",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Exposição fotográfica de Luís Godinho que assinala os 43 anos da inscrição do centro histórico de Angra como Património Mundial da UNESCO.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "photography-exhibition-angra-of-humanity-by-lu-s-godinho",
@@ -456,94 +373,10 @@
       "date": "2026-10-11",
       "area": "Angra do Heroísmo",
       "venue": "Casa do Sal",
-      "description": "Exposição Entre Terra e Consolações @ Casa do Sal | 11-10-2026",
-      "source": "https://www.viralagenda.com/pt/events/1862296/exposicao-entre-terra-e-consolacoes",
-      "sourceLabel": "Viral Agenda",
-      "map": "Casa do Sal",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1862296-8be94b1a64c7ff34a72f5d6ccde9bcc3.jpg"
-    },
-    {
-      "id": "apresenta-o-monte-brasil-2026-i-festival-de-literatura-hist-ria-de-angra-do-hero",
-      "name": "Apresentação: MONTE BRASIL 2026 – I Festival de Literatura & História de Angra do Heroísmo",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-14",
-      "area": "Angra do Heroísmo",
-      "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Este evento decorrerá no(s) dia(s) 14/10/2026, em Paços do Concelho de Angra do Heroísmo.Os Paços do Concelho de Angra do Heroísmo acolhem, no dia 14 de outubro de 2026, quarta-feira, às 11h00, a apresentação pública do MONTE BRASIL 2026 – I Festival de Literatura & História de Angra do Heroísmo.Promovido pelo Monte Brasil Festival, em parceria com a Câmara Municipal de Angra do Heroísmo e o Instituto Histórico da Ilha Terceira, o evento pretende afirmar-se como um espaço de encontro entre a literatura, a história e a identidade cultural açoriana.A sessão dará a conhecer os objetivos, a programação e os principais eixos temáticos daquela que será a primeira edição do Festival de Literatura & História de Angra do Heroísmo, iniciativa dedicada à valorização da memória, do património e da criação literária.Entrada livre.Fonte: https://angradoheroismo.pt/evento/apresentacao-monte-brasil-2026",
-      "source": "https://www.viralagenda.com/pt/events/1862293/apresentacao-monte-brasil-2026-i-festival-de-literatura-historia-de-angra-do-heroismo",
-      "sourceLabel": "Viral Agenda",
-      "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1862293-57a46b3569f68911833e259ea958aff4-r.jpg"
-    },
-    {
-      "id": "apresenta-o-monte-brasil-2026-i-festival-de-literatura-hist-ria",
-      "name": "Apresentação: MONTE BRASIL 2026 — I Festival de Literatura & História",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-14",
-      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
-      "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Apresentação pública do I Festival de Literatura & História MONTE BRASIL, novo espaço de encontro entre literatura, história, património e identidade cultural de Angra. Entrada livre.",
-      "source": "https://www.instagram.com/angradoheroismo/p/DeM2Jz8iWzL/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "confer-ncia-o-valor-dos-a-ores-nas-constitui-es-portuguesas",
-      "name": "Conferência: O valor dos Açores nas Constituições portuguesas",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-14",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Conferência de Arnaldo Ourique sobre o valor dos Açores nas Constituições portuguesas e a história política da região, no auditório da biblioteca.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "lindy-hop-com-arianna-meschia-casa-do-sal",
-      "name": "Lindy Hop com Arianna Meschia — Casa do Sal",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-14",
-      "area": "Angra do Heroísmo",
-      "venue": "Casa do Sal",
-      "description": "Swing-dance course session with Arianna Meschia, from 18:30 to 20:00, explicitly listed in the October bulletin.",
-      "source": "https://eventosterceira.pt/special/",
+      "description": "Exposição de Carina Borges na Casa do Sal, com inauguração a 11 de outubro às 16h00. Visitável das 16h00 às 18h30 durante o período anunciado.",
+      "source": "https://www.instagram.com/oficinadangra/reel/DeSiDe2DadA/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
-      "image": ""
-    },
-    {
-      "id": "palestra-ilha-coiba-um-mundo-parte",
-      "name": "Palestra: Ilha Coiba — um mundo à parte",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-14",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Palestra por João Pedro Barreiros sobre a ilha de Coiba.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "presentation-monte-brasil-2026-first-literature-and-history-festival",
-      "name": "Presentation: MONTE BRASIL 2026 — First Literature and History Festival",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-14",
-      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
-      "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Public presentation of the first MONTE BRASIL Festival of Literature and History, a new meeting point for literature, history, heritage, and Angra's cultural identity. Free entry.",
-      "source": "https://www.instagram.com/angradoheroismo/p/DeM2Jz8iWzL/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Paços do Concelho de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -552,13 +385,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-10-15",
-      "area": "Canada Nova",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Cinema: Verity @ Centro Cultural e de Congressos de Angra do Heroismo | 15-10-2026",
-      "source": "https://www.viralagenda.com/pt/events/1858769/cinema-verity",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1858769-6d5f1daa53fe155d069778653276e256.jpg"
+      "area": "Angra do Heroísmo",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Sessões noturnas de «Verity» no Centro Cultural e de Congressos de Angra do Heroísmo.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "horizonte-comum-grupo-de-leituras-feministas",
@@ -615,20 +448,6 @@
       "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho de Angra do Heroísmo",
       "image": ""
-    },
-    {
-      "id": "cine-atl-ntico-mudar-de-vida-o-desejado-ou-as-montanhas-da-lua",
-      "name": "CINE ATLÂNTICO – MUDAR DE VIDA / O DESEJADO OU AS MONTANHAS DA LUA",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-16",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Este evento decorrerá no(s) dia(s) 16/10/2026, em Recreio dos Artistas.🎬 𝟭𝟲 𝗢𝗨𝗧. — 𝗗𝗨𝗔𝗦 𝗦𝗘𝗦𝗦𝗢̃𝗘𝗦O primeiro fim de semana do Cine Atlântico 2026 começa com dois filmes de Paulo Rocha, separados por mais de duas décadas e unidos por diferentes formas de olhar para Portugal.𝟭𝟴𝗛𝟯𝟬 · 𝗠𝗨𝗗𝗔𝗥 𝗗𝗘 𝗩𝗜𝗗𝗔1966 · 95 minUm regresso ao Norte, às raízes e às transformações de uma sociedade em mudança.𝟮𝟭𝗛𝟯𝟬 · 𝗢 𝗗𝗘𝗦𝗘𝗝𝗔𝗗𝗢 𝗢𝗨 𝗔𝗦 𝗠𝗢𝗡𝗧𝗔𝗡𝗛𝗔𝗦 𝗗𝗔 𝗟𝗨𝗔1987 · 123 minUma viagem entre a história, o desejo e o imaginário português, num filme que revisita o passado através de uma linguagem profundamente singular.𝗗𝘂𝗮𝘀 𝘀𝗲𝘀𝘀𝗼̃𝗲𝘀. 𝗗𝗼𝗶𝘀 𝗺𝗼𝗺𝗲𝗻𝘁𝗼𝘀 𝗱𝗮 𝗼𝗯𝗿𝗮 𝗱𝗲 𝗣𝗮𝘂𝗹𝗼 𝗥𝗼𝗰𝗵𝗮.Um primeiro encontro com “As Sombras de Portugal”.📍 Recreio dos Artistas · Angra do Heroísmo🎟️ Bilhetes: 3 € · Sócios: 1,50 €🌐 www.cineatlantico.eu16 OUT. · 18H30 + 21H30Fonte: https://angradoheroismo.pt/evento/cine-atlantico-mudar-de-vida-o-desejado-ou-as-monta",
-      "source": "https://www.viralagenda.com/pt/events/1865066/cine-atlantico-mudar-de-vida-o-desejado-ou-as-montanhas-da-lua",
-      "sourceLabel": "Viral Agenda",
-      "map": "Recreio dos Artistas",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1865066-822b43bc4d0f85a62ea9241b50ea7fe3-r.jpg"
     },
     {
       "id": "cine-atl-ntico-change-of-life",
@@ -693,12 +512,12 @@
       "period": "dated",
       "date": "2026-10-16",
       "area": "Angra do Heroísmo",
-      "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Este evento decorrerá no(s) dia(s) 16/10/2026, em Paços do Concelho de Angra do Heroísmo.O Teatro Angrense acolhe, no dia 16 de outubro de 2026, sexta-feira, às 21h30, um espetáculo apresentado pela Escola Artística de Dança do Conservatório Nacional.A iniciativa proporciona ao público a oportunidade de assistir ao trabalho desenvolvido por uma das mais reconhecidas instituições de ensino artístico especializado em dança em Portugal, reunindo jovens intérpretes num programa dedicado à criação, à expressão corporal e à valorização da dança enquanto forma de arte.O espetáculo integra-se na programação cultural promovida pelo Município de Angra do Heroísmo, contribuindo para a divulgação da dança e para o acesso da comunidade a propostas artísticas de elevada qualidade.Fonte: https://angradoheroismo.pt/evento/espetaculo-de-danca-escola-artistica-de-danca-do-conservatorio-nacional/",
-      "source": "https://www.viralagenda.com/pt/events/1862578/espetaculo-de-danca-escola-artistica-de-danca-do-conservatorio-nacional",
-      "sourceLabel": "Viral Agenda",
-      "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1862578-46c92586f4a6d439bf8d8a9391f2eed5-r.jpg"
+      "venue": "Teatro Angrense",
+      "description": "Espetáculo da Escola Artística de Dança do Conservatório Nacional.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Teatro Angrense",
+      "image": ""
     },
     {
       "id": "inovar-na-interven-o-pedag-gica-congresso-dia-1",
@@ -720,13 +539,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-10-16",
-      "area": "Angra do Heroísmo",
+      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
       "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Este evento decorrerá no(s) dia(s) 16/10/2026, em Paços do Concelho de Angra do Heroísmo.Os Paços do Concelho de Angra do Heroísmo acolhem, no dia 16 de outubro de 2026, sexta-feira, às 20h00, o lançamento do livro «A Propósito do Bicentenário do Nascimento do Pe. Jerónimo Emiliano de Andrade», editado por Carlos Mesquita Severino.A publicação reúne conteúdos evocativos das comemorações do bicentenário do nascimento do Padre Jerónimo Emiliano de Andrade, destacando o percurso, o pensamento e o legado de uma das mais importantes figuras da história cultural e religiosa açoriana.A sessão constitui uma oportunidade para conhecer esta obra e aprofundar o conhecimento sobre o contributo de Jerónimo Emiliano de Andrade para a sociedade terceirense e açoriana.Entrada livre.Fonte: https://angradoheroismo.pt/evento/lancamento-de-livro-a-proposito-do-bicentenario-do-nascimento-do-pe-jeronimo-emili",
-      "source": "https://www.viralagenda.com/pt/events/1859064/lancamento-de-livro-a-proposito-do-bicentenario-do-nascimento-do-pe-jeronimo-emiliano-de-andrade",
-      "sourceLabel": "Viral Agenda",
+      "description": "Lançamento de livro comemorativo do bicentenário do nascimento do Pe. Jerónimo Emiliano de Andrade.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1859064-46b20ff7eb8aaff476ff5927c4a167a6-r.jpg"
+      "image": ""
     },
     {
       "id": "travessias-carvalhoski-e-sicklebird",
@@ -827,20 +646,6 @@
       "image": ""
     },
     {
-      "id": "cine-atl-ntico-o-rio-do-ouro-a-raiz-do-cora-o",
-      "name": "CINE ATLÂNTICO – O RIO DO OURO / A RAIZ DO CORAÇÃO",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-17",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Este evento decorrerá no(s) dia(s) 17/10/2026, em Recreio dos Artistas.🎬 𝟭𝟳 𝗢𝗨𝗧. – 𝗗𝗢𝗜𝗦 𝗙𝗜𝗟𝗠𝗘𝗦No segundo dia de “Paulo Rocha: As Sombras de Portugal”, o percurso pela obra de Paulo Rocha continua com dois filmes que revelam diferentes momentos e universos da sua filmografia.𝟭𝟴𝗛𝟯𝟬 · 𝗢 𝗥𝗜𝗢 𝗗𝗢 𝗢𝗨𝗥𝗢1998 · 140 min𝟮𝟭𝗛𝟯𝟬 · 𝗔 𝗥𝗔𝗜𝗭 𝗗𝗢 𝗖𝗢𝗥𝗔𝗖̧𝗔̃𝗢2000 · 125 minDuas obras de uma filmografia marcada pela relação entre memória, território, desejo e identidade, onde Portugal surge através de diferentes tempos, lugares e personagens.📍 Recreio dos Artistas · Angra do Heroísmo🎟️ Bilhetes: 3 € · Sócios: 1,50 €🌐 www.cineatlantico.eu17 OUT. · 18H30 + 21H30Fonte: https://angradoheroismo.pt/evento/cine-atlantico-o-rio-do-ouro-a-raiz-do-coracao/",
-      "source": "https://www.viralagenda.com/pt/events/1865068/cine-atlantico-o-rio-do-ouro-a-raiz-do-coracao",
-      "sourceLabel": "Viral Agenda",
-      "map": "Recreio dos Artistas",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1865068-9a82dde90a0bee51a5f60cae3fab7632-r.jpg"
-    },
-    {
       "id": "cine-atl-ntico-a-raiz-do-cora-o",
       "name": "Cine Atlântico: A Raiz do Coração",
       "category": "Events",
@@ -932,11 +737,11 @@
       "date": "2026-10-17",
       "area": "Angra do Heroísmo",
       "venue": "Casa do Sal",
-      "description": "Este evento decorrerá no(s) dia(s) 17/10/2026 a 13/06/2027, em Casa do Sal.🎨 Viajar pela História da Arte através da criatividadeA Oficina d’Angra promove um curso de História da Arte especialmente concebido para crianças dos 6 aos 10 anos, onde aprender e criar andam de mãos dadas.Ao longo das sessões, os participantes irão descobrir alguns dos principais períodos da História da Arte, conhecer artistas e obras marcantes e explorar as características que tornam cada época única.Cada encontro inclui também uma componente prática, permitindo às crianças experimentar diferentes técnicas artísticas e criar os seus próprios trabalhos inspirados nas obras e movimentos abordados.📅 Início: 3 de outubro⏰ 10h00 às 11h30 (Sábados, quinzenal)📍 Casa do Sal 👧👦 Crianças dos 6 aos 10 anos💶 25€/mês | 20€/mês para filhos de sócios👩‍🎨 Formadoras: Cátia Guimarães e Carolina Rocha📝 Inscrições: tinyurl.com/ye",
-      "source": "https://www.viralagenda.com/pt/events/1862297/curso-de-historia-da-arte-para-criancas",
-      "sourceLabel": "Viral Agenda",
+      "description": "Sessão publicada para 17 de outubro do curso quinzenal de História da Arte para crianças dos 6 aos 10 anos, aos sábados das 10h00 às 11h30. Formadoras: Cátia Guimarães e Carolina Rocha. Inscrição necessária; 25 €/mês ou 20 €/mês para filhos de sócios.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1862297-f2acae67c1dba9afc19fb5d5df66aa66-r.jpg"
+      "image": ""
     },
     {
       "id": "dan-as-tradicionais-do-mundo-com-miguel-lopes",
@@ -946,11 +751,11 @@
       "date": "2026-10-17",
       "area": "Angra do Heroísmo",
       "venue": "Casa do Sal",
-      "description": "Este evento decorrerá no(s) dia(s) 17/10/2026, em Casa do Sal.💃🌍 Danças Tradicionais do Mundo regressam à Casa do Sal!A Oficina d’Angra volta a receber Miguel Lopes para mais uma oficina dedicada às danças tradicionais do mundo.Num ambiente descontraído e inclusivo, os participantes serão convidados a explorar danças de diversas origens, descobrindo passos, ritmos e tradições que unem comunidades através do movimento. Não é necessária experiência prévia, apenas curiosidade e vontade de dançar!📅 17 de outubro, sábado🕕 18h00📍 Casa do Sal🎟️ 8€ sócios | 10€ não-sóciosVenha dançar connosco numa viagem à volta do mundo sem sair de Angra.Traga calçado confortável e boa disposição. O resto aprende-se a dançar pelo caminho. 😊💃🌍Fonte: https://angradoheroismo.pt/evento/dancas-tradicionais-do-mundo-com-miguel-lopes/",
-      "source": "https://www.viralagenda.com/pt/events/1862294/dancas-tradicionais-do-mundo-com-miguel-lopes",
-      "sourceLabel": "Viral Agenda",
+      "description": "Oficina inclusiva de danças tradicionais do mundo com Miguel Lopes; não é necessária experiência prévia. Inscrição a 8 € para sócios e 10 € para não-sócios.",
+      "source": "https://www.instagram.com/oficinadangra/p/Dd43KrkCaC0/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1862294-c8b493f7f0ca260d18f02b3b5517b7c0-r.jpg"
+      "image": ""
     },
     {
       "id": "escama-dragon-3",
@@ -974,11 +779,11 @@
       "date": "2026-10-17",
       "area": "Angra do Heroísmo",
       "venue": "Casa do Sal",
-      "description": "Este evento decorrerá no(s) dia(s) 17/10/2026 a 18/10/2026, em Casa do Sal.ESCAMA: de dragão 3#*TRASH CIRCUS* — Lisboa / FaroBLOOWITCH · EVA PLAISIR · HELKAT BIZARRE · BATJOY 669*GONGA* — Ilha TerceiraA AAIP continua a crescer e a martelar a sua relevância no prego cultural insular. Continuamos a arriscar, a experimentar e a trazer à ilha propostas que fogem ao circuito habitual.Desta vez, recebemos o Trash Circus, colectivo de quatro artistas que cruza performance, estética industrial e experimentação cénica numa linguagem visual intensa e pouco convencional.A seguir temos GONGA, prata da casa, nome forte da cena electrónica da ilha, com um set de fazer tremer a Casa e manter a energia até ao fim.Duas propostas distintas, uma noite para sair do habitual e continuar a abrir espaço a outras formas de expressão artística na Terceira.17 de outubro · 22hCasa do Sal — Angra do HeroísmoEntrada",
-      "source": "https://www.viralagenda.com/pt/events/1865069/escama-de-dragao-3",
-      "sourceLabel": "Viral Agenda",
+      "description": "A AAIP apresenta Trash Circus — Bloowitch, Eva Plaisir, Helkat Bizarre e Batjoy 669 — seguido de GONGA. Entrada a 8 € para sócios da AAIP e 10 € para não-sócios; lugares limitados.",
+      "source": "https://www.instagram.com/aaipazores/p/DeRmQanNDm1/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1865069-6657a87491df50d21ccf60889d65500f-r.jpeg"
+      "image": ""
     },
     {
       "id": "falk-meutzner-ao-vivo",
@@ -1066,17 +871,17 @@
     },
     {
       "id": "cine-atl-ntico-vanitas-ou-o-outro-mundo",
-      "name": "CINE ATLÂNTICO – VANITAS OU O OUTRO MUNDO",
+      "name": "Cine Atlântico: Vanitas ou o Outro Mundo",
       "category": "Events",
       "period": "dated",
       "date": "2026-10-18",
       "area": "Angra do Heroísmo",
       "venue": "Recreio dos Artistas",
-      "description": "Este evento decorrerá no(s) dia(s) 18/10/2026, em Recreio dos Artistas.🎬 𝟭𝟴 𝗢𝗨𝗧. – 𝗩𝗔𝗡𝗜𝗧𝗔𝗦 𝗢𝗨 𝗢 𝗢𝗨𝗧𝗥𝗢 𝗠𝗨𝗡𝗗𝗢O primeiro ciclo do Cine Atlântico 2026 chega ao fim com Vanitas ou o Outro Mundo, filme de Paulo Rocha de 2004.𝟭𝟴𝗛𝟯𝟬 · 𝗩𝗔𝗡𝗜𝗧𝗔𝗦 𝗢𝗨 𝗢 𝗢𝗨𝗧𝗥𝗢 𝗠𝗨𝗡𝗗𝗢2004 · 105 minEntre a vida e a morte, o real e o imaginário, Vanitas ou o Outro Mundo encerra o percurso por uma filmografia marcada por diferentes formas de interrogar Portugal, a sua memória e os seus fantasmas.Depois de três dias e cinco filmes, “As Sombras de Portugal” chega ao fim.🌑 𝟱 𝗳𝗶𝗹𝗺𝗲𝘀 · 𝟯 𝗱𝗶𝗮𝘀 · 𝟭 𝗽𝗲𝗿𝗰𝘂𝗿𝘀𝗼 𝗽𝗲𝗹𝗮 𝗼𝗯𝗿𝗮 𝗱𝗲 𝗣𝗮𝘂𝗹𝗼 𝗥𝗼𝗰𝗵𝗮📍 Recreio dos Artistas · Angra do Heroísmo🎟️ Bilhetes: 3 € · Sócios: 1,50 €🌐 www.cineatlantico.eu18 OUT. · 18H30Fonte: https://angradoheroismo.pt/evento/cine-atlantico-vanitas-ou-o-outro-mundo/",
-      "source": "https://www.viralagenda.com/pt/events/1865070/cine-atlantico-vanitas-ou-o-outro-mundo",
-      "sourceLabel": "Viral Agenda",
+      "description": "Sessão da retrospetiva de Paulo Rocha. Bilhetes a 3 €; sócios pagam 1,50 €.",
+      "source": "https://www.instagram.com/cineclubedailhaterceira/p/DeP2X8LiHZa/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Recreio dos Artistas",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1865070-42c39d7c0ea406cbce644ae1e4183989-r.jpg"
+      "image": ""
     },
     {
       "id": "concerto-do-outono-temporada-de-m-sica-cl-ssica",
@@ -1084,13 +889,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-10-18",
-      "area": "Angra do Heroismo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Este evento decorrerá no(s) dia(s) 18/10/2026, em Centro Cultural e de Congressos de Angra do Heroísmo.O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, no dia 18 de outubro de 2026, domingo, às 18h00, o «Concerto do Outono», integrado na Temporada de Música Clássica 2026. O concerto reúne Alla Lanova, soprano; Elena Kharambura, violino; Ostap Kharambura, viola; Orest Grytsyuk, violoncelo; e Grygoriy Grytsyuk, piano, proporcionando uma tarde dedicada à música clássica.Entrada livre.Fonte: https://angradoheroismo.pt/evento/concerto-do-outono-temporada-de-musica-classica/",
-      "source": "https://www.viralagenda.com/pt/events/1846764/concerto-do-outono-temporada-de-musica-classica",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1846764-d5e264a4c9bf0f009d8dbf3be453de92-r.jpg"
+      "area": "Angra do Heroísmo",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Concerto do Outono integrado na Temporada de Música Clássica 2026, com Alla Lanova (soprano), Elena Kharambura (violino), Ostap Kharambura (viola), Orest Grytsyuk (violoncelo) e Grygoriy Grytsyuk (piano). Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "domingos-com-m-sica",
@@ -1196,13 +1001,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-10-20",
-      "area": "Angra do Heroísmo",
+      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
       "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Este evento decorrerá no(s) dia(s) 20/10/2026, em Paços do Concelho de Angra do Heroísmo.Os Paços do Concelho de Angra do Heroísmo acolhem, no dia 20 de outubro de 2026, terça-feira, às 20h00, a conferência «A(s) polícia(s) na construção histórica de um estado de direito», apresentada por Eurico Dias.A iniciativa propõe uma reflexão sobre a evolução histórica das instituições policiais e o seu papel na construção e consolidação do Estado de Direito, abordando a sua relevância nos processos políticos, sociais e institucionais ao longo do tempo.Promovida em parceria com o Instituto Histórico da Ilha Terceira, a conferência constitui uma oportunidade para aprofundar o conhecimento sobre a história das forças policiais e a sua relação com a evolução das sociedades democráticas.Entrada livre.Fonte: https://angradoheroismo.pt/evento/conferencia-as-policias-na-construcao-historica-de-um-estado-",
-      "source": "https://www.viralagenda.com/pt/events/1859065/conferencia-a-s-policia-s-na-construcao-historica-de-um-estado-de-direito",
-      "sourceLabel": "Viral Agenda",
+      "description": "Conferência sobre o papel das instituições policiais na evolução dos regimes democráticos e na consolidação do Estado de Direito. Entrada livre.",
+      "source": "https://www.instagram.com/angradoheroismo/p/DeAFAYvmRjJ/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1859065-c53dc4ca0a630049f6a5000e39f091d7-r.jpg"
+      "image": ""
     },
     {
       "id": "podcast-o-novo-normal",
@@ -1280,13 +1085,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-10-23",
-      "area": "Angra do Heroísmo",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "Este evento decorrerá no(s) dia(s) 23/10/2026, em Angra do Heroísmo.Três amigas descobrem um whisky mágico que as torna jovens outra vez. Entre diversão, romance e loucuras inesperadas, percebem que a juventude nem sempre é como se lembravam. Conseguirão encontrar o segredo da felicidade antes que o elixir se esgote?Iniciativa gratuita, inserida no ciclo de cinema “Cinefreguesias 2026”. Sujeito a alterações.Fonte: https://angradoheroismo.pt/evento/cinema-o-milagre-do-whisky-cinefreguesias-em-sao-bento-2026/",
-      "source": "https://www.viralagenda.com/pt/events/1776535/cinema-o-milagre-do-whisky-cinefreguesias-em-sao-bento-2026",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1776535-9dc02f81ac8edf099227daea2ed4a54e-r.jpg"
+      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
+      "venue": "Angra do Heroísmo",
+      "description": "Três amigas descobrem um whisky mágico que as torna jovens outra vez. Entre diversão, romance e loucuras inesperadas, percebem que a juventude nem sempre é como se lembravam. Conseguirão encontrar o segredo da felicidade antes que o elixir se esgote? Iniciativa gratuita, inserida no ciclo de cinema \"Cinefreguesias 2026\". Sujeito a alterações. Trailer https://www.youtube.com/watch?v=cIc_YFo9C0M",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "cinema-verity-praia-da-vit-ria",
@@ -1406,27 +1211,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-10-24",
-      "area": "Canada Nova",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Cinema: Digger @ Centro Cultural e de Congressos de Angra do Heroismo | 24-10-2026",
-      "source": "https://www.viralagenda.com/pt/events/1858770/cinema-digger",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1858770-4ba8253a2efd11d556d7dab44d143140.jpg"
-    },
-    {
-      "id": "curso-de-desenho-com-s-vila",
-      "name": "Curso de Desenho com Sá Vila",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-24",
       "area": "Angra do Heroísmo",
-      "venue": "Casa do Sal",
-      "description": "Este evento decorrerá no(s) dia(s) 24/10/2026, em Casa do Sal.Curso de Desenho com Sá VilaDesenhar é uma forma de observar o mundo com mais atenção. Neste curso, orientado por Sá Vila, os participantes serão convidados a desenvolver a prática do desenho de observação direta através do exercício regular, da experimentação e do aperfeiçoamento das suas capacidades de observação e expressão visual. O curso visa estimular a observação, expressão e criatividade ao mesmo tempo que proporciona aos participantes contacto com materiais e exercícios que permitam aprofundar a técnica.Destinado a jovens (a partir dos 15 anos) e adultos, o curso realiza-se quinzenalmente, aos sábados, na Casa do Sal.✦ Início: 24 de outubro✦ Horário: 10h00 às 11h30✦ Local: Casa do Sal✦ Destinatários: Jovens (+15) e adultos✦ Mensalidade: 25€ | 20€ para sócios da Oficina d’AngraInscrições: tinyurl.com/yjkk3bneSá Vila é ",
-      "source": "https://www.viralagenda.com/pt/events/1865071/curso-de-desenho-com-sa-vila",
-      "sourceLabel": "Viral Agenda",
-      "map": "Casa do Sal",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1865071-dde2019e92fac0fda117f658f25c2875-r.jpg"
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Sessões noturnas de «Digger» no Centro Cultural e de Congressos de Angra do Heroísmo.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "curso-de-desenho-com-s-vila-in-cio",
@@ -1464,11 +1255,11 @@
       "date": "2026-10-24",
       "area": "Angra do Heroísmo",
       "venue": "Teatro Angrense",
-      "description": "Este evento decorrerá no(s) dia(s) 24/10/2026, em Teatro Angrense.O Teatro Angrense acolhe, no dia 24 de outubro de 2026, sábado, às 21h00, o evento solidário «Crescer com Esperança», promovido pela Associação Nascer e Crescer Feliz, com o apoio da Atlantis e da Remax Azor Estate.A iniciativa pretende sensibilizar a comunidade para a importância da solidariedade e do apoio às famílias, reunindo momentos de reflexão, testemunhos e animação musical.Pedro Silva – ApresentaçãoEduardo Costa – Atlantis / Remax Azor EstateCarla Bártolo – Associação Nascer e Crescer FelizNelson Martins – Testemunho de EsperançaFábio Borges – Orador convidadoSónia Pereira Trio – Grupo MusicalTriplet Band – Grupo MusicalEntrada solidária: fraldas, biberões, champô, gel de banho, toalhitas ou outros produtos de higiene para bebés e mães.Inscrição online através do link disponível nas redes sociais da organização.Fo",
-      "source": "https://www.viralagenda.com/pt/events/1857014/evento-solidario-crescer-com-esperanca",
-      "sourceLabel": "Viral Agenda",
+      "description": "Evento solidário no Teatro Angrense.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Teatro Angrense",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1857014-e596578c7dac3551be3e983b07e9e7be-r.jpg"
+      "image": ""
     },
     {
       "id": "exposi-o-mare-nostrum-da-ilha-terceira-e-suas-cartografias",
@@ -1511,20 +1302,6 @@
       "sourceLabel": "Eventos Terceira",
       "map": "Angra do Heroísmo",
       "image": ""
-    },
-    {
-      "id": "forma-o-growth-mindset-nas-pme-desenvolver-pessoas-e-resultados",
-      "name": "Formação: Growth Mindset nas PME: Desenvolver Pessoas e Resultados",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-24",
-      "area": "Angra do Heroísmo",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "Este evento decorrerá no(s) dia(s) 24/10/2026, em Angra do Heroísmo.Angra do Heroísmo acolhe, no dia 24 de outubro de 2026, a formação “Growth Mindset nas PME: Desenvolver Pessoas e Resultados”, uma iniciativa da Faculdade de Ciências e Tecnologia da Universidade NOVA, em parceria com a Câmara Municipal de Angra do Heroísmo. Dirigida a empresários, gestores, líderes de equipa e profissionais, a formação pretende reforçar a capacidade das equipas para aprender, adaptar-se e responder aos desafios decorrentes da mudança acelerada, da evolução tecnológica, da escassez de talento e da transformação do contexto empresarial.Ao longo de quatro horas, os participantes irão trabalhar temas como Growth Mindset e desenvolvimento das pessoas, liderança e gestão de equipas, adaptação à mudança, Inteligência Artificial e novas tecnologias, bem como feedback e desenvolvimento. A formação privilegia uma",
-      "source": "https://www.viralagenda.com/pt/events/1862295/formacao-growth-mindset-nas-pme-desenvolver-pessoas-e-resultados",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1862295-eac653a75329726a536830911646b646-r.jpg"
     },
     {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
@@ -1715,12 +1492,12 @@
       "period": "dated",
       "date": "2026-10-29",
       "area": "Angra do Heroísmo",
-      "venue": "Angra do Heroísmo (cidade)",
-      "description": "Este evento decorrerá no(s) dia(s) 29/10/2026 a 02/11/2026, em 🎬 Ver trailer",
-      "source": "https://www.viralagenda.com/pt/events/1858771/cinema-sacrificio",
-      "sourceLabel": "Viral Agenda",
-      "map": "Angra do Heroísmo (cidade)",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1858771-289cc90f221b399ef6eddc9882cf8daa-r.jpg"
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Sessões noturnas de «Sacrifício» no Centro Cultural e de Congressos de Angra do Heroísmo.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
     },
     {
       "id": "o-filme-que-me-marcou-para-sempre-jos-ol-vio-mendes-escolhe-ingmar-bergman",
@@ -1749,20 +1526,6 @@
       "sourceLabel": "Eventos Terceira",
       "map": "Lar Doce Livro",
       "image": ""
-    },
-    {
-      "id": "apresenta-o-de-lbum-gratid-o-s-nia-pereira-trio",
-      "name": "Apresentação de álbum: Gratidão – Sónia Pereira Trio",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-30",
-      "area": "Angra do Heroísmo",
-      "venue": "Teatro Angrense",
-      "description": "Este evento decorrerá no(s) dia(s) 30/10/2026, em Teatro Angrense.O Teatro Angrense acolhe, no dia 30 de outubro de 2026, sexta-feira, às 21h30, a apresentação oficial do álbum de estreia «Gratidão», do Sónia Pereira Trio.Subordinado ao tema da gratidão, o espetáculo propõe uma noite de encontro entre a poesia e a música, dando a conhecer ao público este novo trabalho discográfico através de um repertório que reflete o percurso artístico e a identidade musical do grupo.A apresentação constitui uma oportunidade para celebrar a criação artística açoriana e para acompanhar ao vivo a estreia deste projeto musical num dos mais emblemáticos palcos de Angra do Heroísmo.Entrada gratuita, mediante levantamento de bilhete.Os bilhetes poderão ser levantados na quinta-feira (29 de outubro), nas bilheteiras do Teatro Angrense, durante o horário normal de funcionamento. No dia do espetáculo, sexta-fei",
-      "source": "https://www.viralagenda.com/pt/events/1844960/apresentacao-de-album-gratidao-sonia-pereira-trio",
-      "sourceLabel": "Viral Agenda",
-      "map": "Teatro Angrense",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1844960-87e843ea2faaf2cac5e3da7f3b14c07d-r.jpg"
     },
     {
       "id": "apresenta-o-do-lbum-gratid-o-s-nia-pereira-trio",
@@ -2015,20 +1778,6 @@
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
-    },
-    {
-      "id": "concerto-angra-convida-carolina-deslandes-voz-guitarra",
-      "name": "Concerto: Angra Convida Carolina Deslandes – Voz & Guitarra",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-14",
-      "area": "Angra do Heroismo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Este evento decorrerá no(s) dia(s) 14/11/2026, em Centro Cultural e de Congressos de Angra do Heroísmo.Angra Convida Carolina Deslandes – Voz & GuitarraO Centro Cultural e de Congressos de Angra do Heroísmo acolhe, nos dias 13 e 14 de novembro de 2026, sexta-feira e sábado, às 21h30, o espetáculo «Angra Convida Carolina Deslandes – Voz & Guitarra».Devido à elevada procura por parte do público, foi aberta uma sessão extra para o dia 13 de novembro. Em formato intimista, voz e guitarra, Carolina Deslandes apresenta algumas das canções mais marcantes da música portuguesa contemporânea, proporcionando uma experiência única de proximidade com o público.Reconhecida como uma das artistas mais relevantes da atualidade, Carolina Deslandes sobe ao palco do Grande Auditório do Centro Cultural e de Congressos de Angra do Heroísmo para duas noites que prometem emoção e momentos inesquecíveis.Fonte: h",
-      "source": "https://www.viralagenda.com/pt/events/1740837/concerto-angra-convida-carolina-deslandes-voz-guitarra",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1740837-762117dfc4ef1ffad1dac3ffe93dc814-r.png"
     },
     {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
@@ -2311,20 +2060,6 @@
       "image": ""
     },
     {
-      "id": "concerto-glenn-miller-orchestra-in-the-christmas-mood",
-      "name": "Concerto: Glenn Miller Orchestra – in the Christmas mood",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-12-05",
-      "area": "Canada Nova",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "description": "Concerto: Glenn Miller Orchestra – in the Christmas mood @ Centro Cultural e de Congressos de Angra do Heroismo | 05-12-2026",
-      "source": "https://www.viralagenda.com/pt/events/1804428/concerto-glenn-miller-orchestra-in-the-christmas-mood",
-      "sourceLabel": "Viral Agenda",
-      "map": "Centro Cultural e de Congressos de Angra do Heroismo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1804428-1cbdca80583c049b44e0f6b7d4260c5a.jpg"
-    },
-    {
       "id": "glenn-miller-orchestra-in-the-christmas-mood",
       "name": "Glenn Miller Orchestra — In the Christmas Mood",
       "category": "Events",
@@ -2568,13 +2303,13 @@
       "category": "Events",
       "period": "dated",
       "date": "2026-12-27",
-      "area": "Angra do Heroísmo",
+      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
       "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Temporada de Música Clássica: Concerto de Fim de Ano @ Paços do Concelho de Angra do Heroísmo | 27-12-2026",
-      "source": "https://www.viralagenda.com/pt/events/1846767/temporada-de-musica-classica-concerto-de-fim-de-ano",
-      "sourceLabel": "Viral Agenda",
+      "description": "Concerto que encerra a Temporada de Música Clássica 2026, com Grygoriy Grytsyuk (piano), Svitlana Poustovhar (violoncelo) e Taras Poustovgar (clarinete). Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": "https://cdn.viralagenda.com/images/events/ext/1846767-e8b707b998391dcabf677e3ff9b3cb28.jpg"
+      "image": ""
     },
     {
       "id": "concertos-nicos-2027-ana-moura-com-jo-o-barros",
