@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T05:48:45+00:00",
+  "generatedAt": "2026-10-19T05:53:39+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 109
+      "structuredEvents": 103
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -405,104 +405,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "autumn-concert-classical-music-season",
-      "name": "Autumn Concert (Classical Music Season)",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "The Autumn Concert in the 2026 Classical Music Season, with Alla Lanova (soprano), Elena Kharambura (violin), Ostap Kharambura (viola), Orest Grytsyuk (cello), and Grygoriy Grytsyuk (piano). Free entry.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "cine-atl-ntico-vanitas-ou-o-outro-mundo",
-      "name": "Cine Atlântico: Vanitas ou o Outro Mundo",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Sessão da retrospetiva de Paulo Rocha. Bilhetes a 3 €; sócios pagam 1,50 €.",
-      "source": "https://www.instagram.com/cineclubedailhaterceira/p/DeP2X8LiHZa/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Recreio dos Artistas",
-      "image": ""
-    },
-    {
-      "id": "concerto-do-outono-temporada-de-m-sica-cl-ssica",
-      "name": "Concerto do Outono (Temporada de Música Clássica)",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Concerto do Outono integrado na Temporada de Música Clássica 2026, com Alla Lanova (soprano), Elena Kharambura (violino), Ostap Kharambura (viola), Orest Grytsyuk (violoncelo) e Grygoriy Grytsyuk (piano). Entrada livre.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "domingos-com-m-sica",
-      "name": "Domingos com Música",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Igreja de Nossa Senhora da Guia",
-      "description": "Momento musical ao órgão com Gustaaf van Manen, promovido pelo Museu de Angra do Heroísmo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Igreja de Nossa Senhora da Guia",
-      "image": ""
-    },
-    {
-      "id": "nunca-mais-human",
-      "name": "Nunca Mais!! — Human",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Casa do Sal",
-      "description": "Exibição gratuita do filme Human, de Yann Arthus-Bertrand, no projeto Nunca Mais!!.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Casa do Sal",
-      "image": ""
-    },
-    {
-      "id": "oficina-de-desenvolvimento-pessoal-regressar-a-si",
-      "name": "Oficina de Desenvolvimento Pessoal: Regressar a si",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Oficina de 90 minutos com Gabriela Juárez. Inscrição necessária; preço de 5 €.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "world-music-ant-nio-chainho-um-outro-olhar-sobre-a-guitarra-portuguesa",
-      "name": "World Music: António Chainho — um outro olhar sobre a guitarra portuguesa",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Sessão Sons do Planeta com Carlos Borges Ferreira dedicada a António Chainho.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
       "image": ""
     },
     {
