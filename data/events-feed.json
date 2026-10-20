@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T05:53:39+00:00",
+  "generatedAt": "2026-10-20T05:52:46+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 103
+      "structuredEvents": 100
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 1
+      "structuredEvents": 0
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -391,48 +391,6 @@
       "source": "https://www.instagram.com/oficinadangra/reel/DeSiDe2DadA/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
-      "image": ""
-    },
-    {
-      "id": "cinema-verity",
-      "name": "Cinema: Verity",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-15",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Sessões noturnas de «Verity» no Centro Cultural e de Congressos de Angra do Heroísmo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "clube-de-leitura-ldl-acolher-de-claire-keegan",
-      "name": "Clube de Leitura LDL: Acolher, de Claire Keegan",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-19",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Sessão do clube de leitura dedicada a Acolher, de Claire Keegan.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "grande-entrevista-tecnologia-ci-ncia-filosofia-qual-estabelecer-a-finalidade-lti",
-      "name": "Grande Entrevista: Tecnologia, ciência, filosofia — qual estabelecerá a finalidade última da espécie?",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-19",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Conversa entre Cláudio Gomes e Joel Neto sobre tecnologia, ciência e filosofia.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
       "image": ""
     },
     {
