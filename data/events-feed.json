@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:52:46+00:00",
+  "generatedAt": "2026-10-21T05:53:07+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 100
+      "structuredEvents": 98
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 0
+      "structuredEvents": 1
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -394,34 +394,6 @@
       "image": ""
     },
     {
-      "id": "conference-police-institutions-in-the-historical-construction-of-the-rule-of-law",
-      "name": "Conference: Police Institutions in the Historical Construction of the Rule of Law",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-20",
-      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
-      "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Conference on the role of police institutions in the evolution of democratic regimes and the consolidation of the rule of law. Free entry.",
-      "source": "https://www.instagram.com/angradoheroismo/p/DeAFAYvmRjJ/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "confer-ncia-a-s-pol-cia-s-na-constru-o-hist-rica-de-um-estado-de-direito",
-      "name": "Conferência: A(s) polícia(s) na construção histórica de um estado de direito",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-20",
-      "area": "Praça Velha, 9701-857 Angra do Heroísmo",
-      "venue": "Paços do Concelho de Angra do Heroísmo",
-      "description": "Conferência sobre o papel das instituições policiais na evolução dos regimes democráticos e na consolidação do Estado de Direito. Entrada livre.",
-      "source": "https://www.instagram.com/angradoheroismo/p/DeAFAYvmRjJ/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Paços do Concelho de Angra do Heroísmo",
-      "image": ""
-    },
-    {
       "id": "exposi-o-de-fotografia-nocturnos-de-angra",
       "name": "Exposição de fotografia: Nocturnos de Angra",
       "category": "Events",
@@ -447,20 +419,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "podcast-o-novo-normal",
-      "name": "Podcast O Novo Normal",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-20",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Gravação com Pedro Pereira, Francisco Simões, Joel Neto e Luciano Barcelos.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
       "image": ""
     },
     {
