@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T05:53:07+00:00",
+  "generatedAt": "2026-10-22T05:52:55+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 98
+      "structuredEvents": 93
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 1
+      "structuredEvents": 0
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -422,76 +422,6 @@
       "image": ""
     },
     {
-      "id": "an-evening-by-the-atlantic-stories-music-and-community",
-      "name": "An Evening by the Atlantic: Stories, Music, and Community",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Serão em inglês do OKEANO CSA, com histórias, música e comunidade, em parceria com o AIR Centre.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "apresenta-o-do-livro-altar-ao-divino-esp-rito-santo-tradi-o-e-modernidade",
-      "name": "Apresentação do Livro | Altar ao Divino Espírito Santo: tradição e modernidade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Presentation of 'Altar ao Divino Espírito Santo: tradição e modernidade' by Fabiana Ourique — a photographic record of more than 700 Holy Spirit altars across Terceira, São Jorge, Graciosa, Corvo and São Miguel, and in the United States and Canada — in the library auditorium.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "aventuras-fant-sticas",
-      "name": "Aventuras Fantásticas",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Gamebook activity for ages 11–17 built on the 'Aventuras Fantásticas' collection by Ian Livingstone and Steve Jackson, guided by Henrique Bulcão in the library's Children and Youth space. Limited places; register at the Children's and Young Adults Section desk.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "book-presentation-altar-ao-divino-esp-rito-santo-tradi-o-e-modernidade",
-      "name": "Book Presentation | Altar ao Divino Espírito Santo: tradição e modernidade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Presentation of 'Altar ao Divino Espírito Santo: tradição e modernidade' by Fabiana Ourique — a photographic record of more than 700 Holy Spirit altars across Terceira, São Jorge, Graciosa, Corvo and São Miguel, and in the United States and Canada — in the library auditorium.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "fantastic-adventures",
-      "name": "Fantastic Adventures",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Gamebook activity for ages 11–17 built on the 'Aventuras Fantásticas' collection by Ian Livingstone and Steve Jackson, guided by Henrique Bulcão in the library's Children and Youth space. Limited places; register at the Children's and Young Adults Section desk.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
       "id": "haunted-book",
       "name": "Haunted Book",
       "category": "Events",
@@ -506,34 +436,6 @@
       "image": ""
     },
     {
-      "id": "lanterna-m-gica-pensar-com-a-caixa",
-      "name": "Lanterna Mágica | Pensar com a Caixa",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Short-film screening followed by a discussion in the children's and young adults' multimedia space, part of the Lanterna Mágica video-library project run by Cine-Clube da Ilha Terceira with the library and the Municipality of Angra do Heroísmo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "lindy-hop-com-arianna-meschia-casa-do-sal",
-      "name": "Lindy Hop com Arianna Meschia — Casa do Sal",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Casa do Sal",
-      "description": "Swing-dance course session with Arianna Meschia, from 18:30 to 20:00, explicitly listed in the October bulletin.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Casa do Sal",
-      "image": ""
-    },
-    {
       "id": "livro-assombrado",
       "name": "Livro Assombrado",
       "category": "Events",
@@ -543,20 +445,6 @@
       "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
       "description": "Blind-date reading selection in the Adult Reading Room and Home Loan Section: wrapped horror, mystery, thriller and crime fiction titles accompanied only by a few clues, inviting readers to choose without knowing the title, author or cover.",
       "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "magic-lantern-thinking-with-the-box",
-      "name": "Magic Lantern | Thinking with the Box",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-21",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Short-film screening followed by a discussion in the children's and young adults' multimedia space, part of the Lanterna Mágica video-library project run by Cine-Clube da Ilha Terceira with the library and the Municipality of Angra do Heroísmo.",
-      "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
       "image": ""
