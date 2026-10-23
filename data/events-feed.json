@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T05:52:55+00:00",
+  "generatedAt": "2026-10-23T05:54:09+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 93
+      "structuredEvents": 92
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 0
+      "structuredEvents": 2
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -447,20 +447,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "podcast-quem-s-o-segundo-a-b-blia-os-judeus",
-      "name": "Podcast: Quem são, segundo a Bíblia, os Judeus?",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-22",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Conversa com Ruben Couto, padre Júlio Rocha e Joel Neto sobre identidade, religião e eleição bíblica.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
       "image": ""
     },
     {
