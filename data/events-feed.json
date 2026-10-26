@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T05:51:05+00:00",
+  "generatedAt": "2026-10-26T05:56:05+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 149
+      "structuredEvents": 144
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 1
+      "structuredEvents": 2
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -475,76 +475,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Museu de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "cine-atl-ntico-18-buracos-para-o-para-so",
-      "name": "Cine Atlântico: 18 Buracos para o Paraíso",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-25",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Sessão do ciclo O Novo Cinema Português: Feridas Abertas e Novas Linguagens. Bilhetes a 3 €; sócios pagam 1,50 €.",
-      "source": "https://www.instagram.com/cineclubedailhaterceira/p/DdzL4SlCmhR/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Recreio dos Artistas",
-      "image": ""
-    },
-    {
-      "id": "cine-atl-ntico-o-riso-e-a-faca",
-      "name": "Cine Atlântico: O Riso e a Faca",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-25",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Sessão do ciclo O Novo Cinema Português: Feridas Abertas e Novas Linguagens. Bilhetes a 3 €; sócios pagam 1,50 €.",
-      "source": "https://www.instagram.com/cineclubedailhaterceira/p/DezQSWUjUXZ/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Recreio dos Artistas",
-      "image": ""
-    },
-    {
-      "id": "domingos-com-m-sica",
-      "name": "Domingos com Música",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-25",
-      "area": "Angra do Heroísmo",
-      "venue": "Igreja de Nossa Senhora da Guia",
-      "description": "Momento musical ao órgão com Gustaaf van Manen, promovido pelo Museu de Angra do Heroísmo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Igreja de Nossa Senhora da Guia",
-      "image": ""
-    },
-    {
-      "id": "poesia-ao-crep-sculo-emanuel-f-lix",
-      "name": "Poesia ao Crepúsculo: Emanuel Félix",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-25",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Sessão dedicada ao poeta angrense e combatente pela liberdade Emanuel Félix, coordenada por Hugo Tiago.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "world-music-o-melhor-de-2025-segundo-a-wmce-do-20-ao-11-lugar",
-      "name": "World Music: O melhor de 2025 segundo a WMCE — do 20.º ao 11.º lugar",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-25",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Sessão Sons do Planeta com Carlos Borges Ferreira, com happy hour das 22h00 às 00h00.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
       "image": ""
     },
     {
