@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:54:52+00:00",
+  "generatedAt": "2026-10-28T06:00:26+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 142
+      "structuredEvents": 141
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 1
+      "structuredEvents": 2
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -517,34 +517,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Museu de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "eco-conversas-sem-desperd-cio-a-sabedoria-agr-cola-do-reaproveitamento",
-      "name": "Eco-Conversas: Sem desperdício — a sabedoria agrícola do reaproveitamento",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-27",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Conversa com Francisco Maduro Dias e Massimo Gelich, em parceria com a Gê-Questa.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "eco-conversations-zero-waste-the-agricultural-wisdom-of-reuse",
-      "name": "Eco-Conversations: Zero Waste — the agricultural wisdom of reuse",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-27",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Conversation with Francisco Maduro Dias and Massimo Gelich, in partnership with Gê-Questa.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
       "image": ""
     },
     {
