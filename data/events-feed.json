@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T06:02:06+00:00",
+  "generatedAt": "2026-10-30T06:03:13+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 138
+      "structuredEvents": 181
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 1
+      "structuredEvents": 2
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -548,34 +548,6 @@
       "image": ""
     },
     {
-      "id": "o-filme-que-me-marcou-para-sempre-jos-ol-vio-mendes-escolhe-ingmar-bergman",
-      "name": "O Filme que me Marcou para Sempre: José Olívio Mendes escolhe Ingmar Bergman",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-29",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Exibição de um filme de Ingmar Bergman escolhido por José Olívio Mendes, seguida de conversa com Hugo Tiago.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "the-film-that-marked-me-forever-jos-ol-vio-mendes-chooses-ingmar-bergman",
-      "name": "The Film That Marked Me Forever: José Olívio Mendes Chooses Ingmar Bergman",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-29",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Screening of a film by Ingmar Bergman chosen by José Olívio Mendes, followed by a conversation with Hugo Tiago.",
-      "source": "https://www.instagram.com/p/Dd86ztliFpD/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
       "id": "alcatra-da-ilha-terceira-receita-hist-ria-e-classifica-o-igp",
       "name": "Alcatra da Ilha Terceira: receita, história e classificação IGP",
       "category": "Events",
@@ -629,6 +601,34 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Terra Chã",
+      "image": ""
+    },
+    {
+      "id": "delta-project-live-concert",
+      "name": "Delta Project — Live Concert",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Angra do Heroísmo",
+      "venue": "Tasca do Camões",
+      "description": "Live rock concert by Delta Project at Tasca do Camões.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Tasca do Camões",
+      "image": ""
+    },
+    {
+      "id": "delta-project-concerto-ao-vivo",
+      "name": "Delta Project — concerto ao vivo",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Angra do Heroísmo",
+      "venue": "Tasca do Camões",
+      "description": "Concerto de rock ao vivo com Delta Project na Tasca do Camões.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Tasca do Camões",
       "image": ""
     },
     {
@@ -702,6 +702,34 @@
       "image": ""
     },
     {
+      "id": "havanna-karaoke-com-edu-e-rafa-maciel",
+      "name": "Havanna — Karaoke com Edu e Rafa & Maciel",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Jardim do Corte Real, Angra do Heroísmo",
+      "venue": "Havanna Club",
+      "description": "Sexta-feira com karaoke com Edu a partir das 22h00, seguido de Rafa & Maciel às 00h30 de sábado.",
+      "source": "https://www.instagram.com/havannaangra/reel/DfE-Nh2Da21/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Havanna Club",
+      "image": ""
+    },
+    {
+      "id": "havanna-karaoke-with-edu-and-rafa-maciel",
+      "name": "Havanna — Karaoke with Edu and Rafa & Maciel",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Jardim do Corte Real, Angra do Heroísmo",
+      "venue": "Havanna Club",
+      "description": "Friday night with karaoke hosted by Edu from 22:00, followed by Rafa & Maciel at 00:30 on Saturday.",
+      "source": "https://www.instagram.com/havannaangra/reel/DfE-Nh2Da21/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Havanna Club",
+      "image": ""
+    },
+    {
       "id": "outono-vivo-2026",
       "name": "Outono Vivo 2026",
       "category": "Events",
@@ -713,6 +741,188 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia de Juventude e das Artes da Ilha Terceira and Auditório do Ramo Grande",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-altares",
+      "name": "SOS Cagarro — Altares",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Junta de Freguesia dos Altares",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Junta de Freguesia dos Altares",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-angra",
+      "name": "SOS Cagarro — Angra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Pátio da Alfândega",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Pátio da Alfândega",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-porto-martins",
+      "name": "SOS Cagarro — Porto Martins",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Junto à Igreja do Porto Martins",
+      "description": "Brigada de salvamento de cagarros. Concentração às 20:30; saída às 20:45. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Junto à Igreja do Porto Martins",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-praia-da-vit-ria",
+      "name": "SOS Cagarro — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Restaurante Delman",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Restaurante Delman",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-santa-b-rbara",
+      "name": "SOS Cagarro — Santa Bárbara",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Sede dos Escuteiros de Santa Bárbara — Agrupamento 630",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Sede dos Escuteiros de Santa Bárbara — Agrupamento 630",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-s-o-mateus-da-calheta",
+      "name": "SOS Cagarro — São Mateus da Calheta",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Forte Grande de São Mateus da Calheta",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Forte Grande de São Mateus da Calheta",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-altares",
+      "name": "Shearwater Rescue — Altares",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Junta de Freguesia dos Altares",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Junta de Freguesia dos Altares",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-angra",
+      "name": "Shearwater Rescue — Angra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Pátio da Alfândega",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Pátio da Alfândega",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-porto-martins",
+      "name": "Shearwater Rescue — Porto Martins",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Junto à Igreja do Porto Martins",
+      "description": "Volunteer seabird rescue. Meeting at 20:30; departure at 20:45. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Junto à Igreja do Porto Martins",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-praia-da-vit-ria",
+      "name": "Shearwater Rescue — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Restaurante Delman",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Restaurante Delman",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-santa-b-rbara",
+      "name": "Shearwater Rescue — Santa Bárbara",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Sede dos Escuteiros de Santa Bárbara — Agrupamento 630",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Sede dos Escuteiros de Santa Bárbara — Agrupamento 630",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-s-o-mateus-da-calheta",
+      "name": "Shearwater Rescue — São Mateus da Calheta",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Forte Grande de São Mateus da Calheta",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Forte Grande de São Mateus da Calheta",
+      "image": ""
+    },
+    {
+      "id": "xxxiv-festa-da-castanha-da-terra-ch",
+      "name": "XXXIV Festa da Castanha da Terra Chã",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-30",
+      "area": "Terceira Island",
+      "venue": "Freguesia da Terra Chã",
+      "description": "📅 Data: 30 e 31 de outubro de 2026 🕒 Horário: Conforme programa 📍 Local: Terra Chã, Ilha Terceira, Açores Uma festa que celebra as nossas tradições, a nossa cultura e, acima de tudo, o espírito de união e convívio que nos caracteriza. Estão a ser preparados momentos especiais, muita animação, música, sabores tradicionais e, claro, as castanhas quentinhas que não podem faltar! Esta é uma festa de todos e para todos, onde se criam memórias, se reencontram amigos e se mantêm vivas as nossas…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Freguesia da Terra Chã",
       "image": ""
     },
     {
@@ -744,6 +954,20 @@
       "image": ""
     },
     {
+      "id": "atelier-de-halloween-ra-zes-pequenas",
+      "name": "Atelier de Halloween — Raízes Pequenas",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Praia da Vitória",
+      "venue": "Sabores da Horta",
+      "description": "Atelier de Halloween na Festa das Abóboras, com exploração sensorial e caça às abóboras para bebés dos 6 meses aos 3 anos, e caça às abóboras e slime para crianças dos 4 aos 12 anos. Vagas limitadas; inscrição junto da Raízes Pequenas.",
+      "source": "https://www.instagram.com/playgroupraizespequenas/p/DezTTA7Ic3P/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Sabores da Horta",
+      "image": ""
+    },
+    {
       "id": "chestnut-tournament-individual",
       "name": "Chestnut Tournament — Individual",
       "category": "Events",
@@ -751,7 +975,7 @@
       "date": "2026-10-31",
       "area": "Praia da Vitória",
       "venue": "Clube de Golfe da Ilha Terceira",
-      "description": "Individual tournament in the Terceira Island Golf Club's sports calendar.",
+      "description": "Individual 18-hole Stableford tournament. Check-in 08:00–08:30; shotgun start 08:45. Registration closed on 29 October at 14:00. Participation requires a valid WHS handicap; the technical committee may authorize non-competitive entries. Published fees: €20 members, €30 non-members and €10 training players.",
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Clube de Golfe da Ilha Terceira",
@@ -856,6 +1080,48 @@
       "image": ""
     },
     {
+      "id": "halloween-cinema-drive-in",
+      "name": "Halloween Cinema Drive-In",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Cerrado do Bailão – Angra do Heroísmo",
+      "description": "📅 31 de outubro e 1 de novembro de 2026 🕒 31 de outubro – 24h00 | 1 de novembro – 16h00 📍 Cerrado do Bailão – Angra do Heroísmo O Halloween chega ao Cerrado do Bailão com o Halloween Cinema Drive-In, uma iniciativa da Câmara Municipal de Angra do Heroísmo que promete duas sessões de cinema para toda a família, entre o suspense e a fantasia. 🎬 31 de outubro | 24h00 Hokum – O Pesadelo da Bruxa — Uma sessão de terror para assinalar a noite mais assustadora do ano. 🎬 1 de novembro | 16h00 A Magia…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Cerrado do Bailão – Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "halloween-encantado-family-music",
+      "name": "Halloween Encantado — Family Music",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Sabores da Horta",
+      "description": "A family Halloween music activity by Cantinho da Música at Sabores da Horta. Two sessions, at 15:00 and 16:00. Costumes welcome; places are limited. Request information and registration by private message to the organizer.",
+      "source": "https://www.instagram.com/cantinhodamusica.pt/p/DepFpmxIrA0/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Sabores da Horta",
+      "image": ""
+    },
+    {
+      "id": "halloween-encantado-m-sica-em-fam-lia",
+      "name": "Halloween Encantado — música em família",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Sabores da Horta",
+      "description": "Atividade de música em família de Halloween pelo Cantinho da Música na Sabores da Horta. Duas sessões, às 15h00 e às 16h00. Fantasias bem-vindas; vagas limitadas. Informações e inscrições por mensagem privada à organização.",
+      "source": "https://www.instagram.com/cantinhodamusica.pt/p/DepFpmxIrA0/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Sabores da Horta",
+      "image": ""
+    },
+    {
       "id": "halloween-party-bodos-da-serra-da-ribeirinha",
       "name": "Halloween Party — Bodos da Serra da Ribeirinha",
       "category": "Events",
@@ -870,6 +1136,20 @@
       "image": ""
     },
     {
+      "id": "halloween-workshop-ra-zes-pequenas",
+      "name": "Halloween Workshop — Raízes Pequenas",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Praia da Vitória",
+      "venue": "Sabores da Horta",
+      "description": "Halloween workshop during Festa das Abóboras, with sensory pumpkin activities for babies aged 6 months to 3 years and pumpkin hunts and slime activities for children aged 4–12. Limited places; register with Raízes Pequenas.",
+      "source": "https://www.instagram.com/playgroupraizespequenas/p/DezTTA7Ic3P/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Sabores da Horta",
+      "image": ""
+    },
+    {
       "id": "halloween-at-the-texan",
       "name": "Halloween at The Texan",
       "category": "Events",
@@ -877,7 +1157,7 @@
       "date": "2026-10-31",
       "area": "Angra do Heroísmo",
       "venue": "The Texan",
-      "description": "Family-friendly Halloween party at The Texan on 31 October. The organizer invites guests to wear a Halloween costume and reserve a table.",
+      "description": "Family-friendly Halloween party with On The Road live at 20:00 on The Garden Club stage, followed by karaoke from 22:00 until 02:00 the following morning. Costumes encouraged; reserve a table with The Texan.",
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "The Texan",
@@ -891,10 +1171,38 @@
       "date": "2026-10-31",
       "area": "Angra do Heroísmo",
       "venue": "The Texan",
-      "description": "Festa de Halloween para toda a família no The Texan a 31 de outubro. A organização convida a levar um disfarce de Halloween e a reservar uma mesa.",
+      "description": "Festa de Halloween para toda a família, com On The Road ao vivo às 20h00 no palco do The Garden Club, seguida de karaoke das 22h00 às 02h00 da madrugada seguinte. Disfarces bem-vindos; reserva de mesa junto do The Texan.",
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "The Texan",
+      "image": ""
+    },
+    {
+      "id": "havanna-halloween-com-dj-marco-ferreira",
+      "name": "Havanna — Halloween com DJ Marco Ferreira",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Jardim do Corte Real, Angra do Heroísmo",
+      "venue": "Havanna Club",
+      "description": "Noite de Halloween com DJ Marco Ferreira. A organização não publicou a hora de início.",
+      "source": "https://www.instagram.com/havannaangra/reel/DfE-Nh2Da21/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Havanna Club",
+      "image": ""
+    },
+    {
+      "id": "havanna-halloween-with-dj-marco-ferreira",
+      "name": "Havanna — Halloween with DJ Marco Ferreira",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Jardim do Corte Real, Angra do Heroísmo",
+      "venue": "Havanna Club",
+      "description": "Halloween night with DJ Marco Ferreira. The organizer has not published a start time.",
+      "source": "https://www.instagram.com/havannaangra/reel/DfE-Nh2Da21/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Havanna Club",
       "image": ""
     },
     {
@@ -912,6 +1220,20 @@
       "image": ""
     },
     {
+      "id": "musurgia-ensemble-valde-honorandus-est",
+      "name": "Musurgia Ensemble — Valde honorandus est",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Igreja do Recolhimento de São Gonçalo, Angra do Heroísmo",
+      "venue": "Igreja do Recolhimento de São Gonçalo",
+      "description": "Concerto de polifonia sacra com obras de Duarte Lobo, Manuel Cardoso e Palestrina, sob direção de João Francisco Távora. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Igreja do Recolhimento de São Gonçalo",
+      "image": ""
+    },
+    {
       "id": "na-rota-do-yankee-clipper",
       "name": "Na Rota do Yankee Clipper",
       "category": "Events",
@@ -923,6 +1245,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "noite-negra-na-rua-de-s-o-jo-o",
+      "name": "Noite Negra na Rua de São João",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Rua de São João, Angra do Heroísmo",
+      "venue": "Rua de São João",
+      "description": "Festa de Halloween na rua com os DJs Adrix e Cristiano, das 22h30 às 04h00 da madrugada seguinte.",
+      "source": "https://www.instagram.com/livraria_lardocelivro/p/DfFtVXmAeEt/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Rua de São João",
+      "image": ""
+    },
+    {
+      "id": "noite-negra-halloween-on-rua-de-s-o-jo-o",
+      "name": "Noite Negra — Halloween on Rua de São João",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Rua de São João, Angra do Heroísmo",
+      "venue": "Rua de São João",
+      "description": "Halloween street party with DJs Adrix and Cristiano, from 22:30 until 04:00 the following morning.",
+      "source": "https://www.instagram.com/livraria_lardocelivro/p/DfFtVXmAeEt/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Rua de São João",
       "image": ""
     },
     {
@@ -940,6 +1290,20 @@
       "image": ""
     },
     {
+      "id": "pedra-furada-trail-ribeirinha",
+      "name": "Pedra Furada Trail — Ribeirinha",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Ribeirinha, Angra do Heroísmo",
+      "venue": "Museu Etnográfico da Ribeirinha",
+      "description": "Terceira Hikers walk along the Pedra Furada trail in Ribeirinha. Meeting point: Museu Etnográfico da Ribeirinha at 09:00.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu Etnográfico da Ribeirinha",
+      "image": ""
+    },
+    {
       "id": "pumpkin-festival",
       "name": "Pumpkin Festival",
       "category": "Events",
@@ -954,6 +1318,34 @@
       "image": ""
     },
     {
+      "id": "sos-cagarro-angra",
+      "name": "SOS Cagarro — Angra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Pátio da Alfândega",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Pátio da Alfândega",
+      "image": ""
+    },
+    {
+      "id": "sos-cagarro-praia-da-vit-ria",
+      "name": "SOS Cagarro — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Restaurante Delman",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Restaurante Delman",
+      "image": ""
+    },
+    {
       "id": "se-bem-me-lembro-chamava-se-vitorino-nem-sio",
       "name": "Se Bem Me Lembro: chamava-se Vitorino Nemésio",
       "category": "Events",
@@ -965,6 +1357,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-angra",
+      "name": "Shearwater Rescue — Angra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Pátio da Alfândega",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Pátio da Alfândega",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-praia-da-vit-ria",
+      "name": "Shearwater Rescue — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Restaurante Delman",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Restaurante Delman",
       "image": ""
     },
     {
@@ -989,7 +1409,7 @@
       "date": "2026-10-31",
       "area": "Praia da Vitória",
       "venue": "Clube de Golfe da Ilha Terceira",
-      "description": "Torneio individual do calendário desportivo do Clube de Golfe da Ilha Terceira.",
+      "description": "Torneio individual de 18 buracos em Stableford. Check-in das 08h00 às 08h30; saída em shotgun às 08h45. As inscrições encerraram a 29 de outubro, às 14h00. Participação com handicap WHS válido; a comissão técnica pode autorizar inscrições extracompetição. Taxas publicadas: 20 € para sócios, 30 € para não-sócios e 10 € para jogadores da formação.",
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Clube de Golfe da Ilha Terceira",
@@ -1010,6 +1430,76 @@
       "image": ""
     },
     {
+      "id": "trilho-da-pedra-furada-ribeirinha",
+      "name": "Trilho da Pedra Furada — Ribeirinha",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Ribeirinha, Angra do Heroísmo",
+      "venue": "Museu Etnográfico da Ribeirinha",
+      "description": "Caminhada da Terceira Hikers pelo Trilho da Pedra Furada, na Ribeirinha. Ponto de encontro: Museu Etnográfico da Ribeirinha, às 09h00.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu Etnográfico da Ribeirinha",
+      "image": ""
+    },
+    {
+      "id": "trio-elc-concert-and-jam-session",
+      "name": "Trio ELC — Concert and Jam Session",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Angra do Heroísmo",
+      "venue": "Auditório AMIT / Espaço AMIT (Academia Musical da Ilha Terceira)",
+      "description": "Jazz concert by Trio ELC at the AMIT auditorium in Rádio Clube de Angra, followed by a jam session open to musicians in attendance. Free admission.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório AMIT / Espaço AMIT (Academia Musical da Ilha Terceira)",
+      "image": ""
+    },
+    {
+      "id": "trio-elc-concerto-e-jam-session",
+      "name": "Trio ELC — concerto e jam session",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Angra do Heroísmo",
+      "venue": "Auditório AMIT / Espaço AMIT (Academia Musical da Ilha Terceira)",
+      "description": "Concerto de jazz pelo Trio ELC no Auditório AMIT, no Rádio Clube de Angra, seguido de uma jam session aberta aos músicos presentes. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório AMIT / Espaço AMIT (Academia Musical da Ilha Terceira)",
+      "image": ""
+    },
+    {
+      "id": "twins-halloween-carpotxa-and-victor",
+      "name": "Twins Halloween — Carpotxa and Victor",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Twins Club",
+      "description": "Halloween party with Carpotxa and Victor. Check the organizer for the start time and admission details.",
+      "source": "https://www.instagram.com/twinstheclub/reel/De7qWC9M1ve/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Twins Club",
+      "image": ""
+    },
+    {
+      "id": "twins-halloween-carpotxa-e-victor",
+      "name": "Twins Halloween — Carpotxa e Victor",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Twins Club",
+      "description": "Festa de Halloween com Carpotxa e Victor. Consultar a organização para a hora de início e condições de entrada.",
+      "source": "https://www.instagram.com/twinstheclub/reel/De7qWC9M1ve/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Twins Club",
+      "image": ""
+    },
+    {
       "id": "vidas-entrevistas",
       "name": "Vidas entrevistas",
       "category": "Events",
@@ -1024,6 +1514,20 @@
       "image": ""
     },
     {
+      "id": "walk-with-a-doc-praia-da-vit-ria",
+      "name": "Walk With a Doc — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Marginal da Praia da Vitória — frente à GNR",
+      "description": "Sessão Walk With a Doc. Encontro na marginal da Praia da Vitória, em frente à GNR. Em caso de mau tempo, a sessão realiza-se no Pavilhão do Porto Martins. Inscrição junto da organização.",
+      "source": "https://www.instagram.com/cmpraiadavitoria/p/DfEvhFdDFB9/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Marginal da Praia da Vitória — frente à GNR",
+      "image": ""
+    },
+    {
       "id": "workshop-needle-felting-session-1",
       "name": "Workshop: Needle Felting — session 1",
       "category": "Events",
@@ -1035,6 +1539,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "xxxiv-festa-da-castanha-da-terra-ch",
+      "name": "XXXIV Festa da Castanha da Terra Chã",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-10-31",
+      "area": "Terceira Island",
+      "venue": "Freguesia da Terra Chã",
+      "description": "📅 Data: 30 e 31 de outubro de 2026 🕒 Horário: Conforme programa 📍 Local: Terra Chã, Ilha Terceira, Açores Uma festa que celebra as nossas tradições, a nossa cultura e, acima de tudo, o espírito de união e convívio que nos caracteriza. Estão a ser preparados momentos especiais, muita animação, música, sabores tradicionais e, claro, as castanhas quentinhas que não podem faltar! Esta é uma festa de todos e para todos, onde se criam memórias, se reencontram amigos e se mantêm vivas as nossas…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Freguesia da Terra Chã",
       "image": ""
     },
     {
@@ -1119,6 +1637,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/Dews9PGlsn1/",
       "sourceLabel": "Eventos Terceira",
       "map": "Cerrado do Bailão",
+      "image": ""
+    },
+    {
+      "id": "inaugura-o-de-exposi-o-fotogr-fica-lan-amento-de-livro-e-document-rio-o-homem-do",
+      "name": "INAUGURAÇÃO DE EXPOSIÇÃO FOTOGRÁFICA, LANÇAMENTO DE LIVRO E DOCUMENTÁRIO \"O HOMEM DO FOGO\"",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-01",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal / Associação \"Os Montanheiros\"",
+      "description": "📅 1 de novembro 🕒 18:00 📍 Casa do Sal – Angra do Heroísmo A Oficina d’Angra – Associação Cultural e a Associação Os Montanheiros apresentam «O Homem do Fogo», um projeto editorial e cinematográfico de Paulo Henrique Silva, dedicado aos artistas Renato Costa e Silva e Kerstin Thomas. A iniciativa tem início às 18h00, na Casa do Sal, com a inauguração de uma exposição fotográfica e a apresentação do livro. Pelas 19h00, a programação prossegue na sede da Associação Os Montanheiros, com a exibição…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal / Associação \"Os Montanheiros\"",
       "image": ""
     },
     {
@@ -1220,6 +1752,34 @@
       "image": ""
     },
     {
+      "id": "sos-cagarro-angra",
+      "name": "SOS Cagarro — Angra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-01",
+      "area": "Terceira Island",
+      "venue": "Pátio da Alfândega",
+      "description": "Brigada de salvamento de cagarros. Concentração às 21:00; saída às 21:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Pátio da Alfândega",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-angra",
+      "name": "Shearwater Rescue — Angra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-01",
+      "area": "Terceira Island",
+      "venue": "Pátio da Alfândega",
+      "description": "Volunteer seabird rescue. Meeting at 21:00; departure at 21:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Pátio da Alfândega",
+      "image": ""
+    },
+    {
       "id": "sou-uma-multid-o-min-scula",
       "name": "Sou uma multidão minúscula",
       "category": "Events",
@@ -1262,6 +1822,34 @@
       "image": ""
     },
     {
+      "id": "experimenta-cer-mica-forno-de-papel",
+      "name": "Experimenta Cerâmica — Forno de Papel",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-02",
+      "area": "Prainha de Angra, Angra do Heroísmo",
+      "venue": "Prainha de Angra",
+      "description": "Oficina de cerâmica experimental com Renato Costa e Silva e Kerstin Thomas, a partir das 18h00. Construção de um forno de papel e cozedura das peças. Inscrição: 30 €, ou 25 € para sócios. Levar roupa confortável e não inflamável.",
+      "source": "https://www.instagram.com/oficinadangra/p/De-WpmcjNDd/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Prainha de Angra",
+      "image": ""
+    },
+    {
+      "id": "forma-o-startup-angra-intelig-ncia-artificial-a-favor-dos-neg-cios",
+      "name": "Formação Startup Angra: Inteligência Artificial a Favor dos Negócios",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-02",
+      "area": "Terceira Island",
+      "venue": "StartUp Angra",
+      "description": "Formação sobre inteligência artificial a favor dos negócios, das 18h00 às 21h00, de 2 a 6 de novembro.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "StartUp Angra",
+      "image": ""
+    },
+    {
       "id": "mestre-maduro-dias-um-poliedro-de-quantos-lados",
       "name": "Mestre Maduro-Dias; um poliedro de quantos lados?",
       "category": "Events",
@@ -1273,6 +1861,34 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "startup-angra-training-artificial-intelligence-for-business",
+      "name": "Startup Angra Training: Artificial Intelligence for Business",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-02",
+      "area": "Terceira Island",
+      "venue": "StartUp Angra",
+      "description": "Business training on artificial intelligence, 18:00–21:00, from 2 to 6 November.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "StartUp Angra",
+      "image": ""
+    },
+    {
+      "id": "try-ceramics-paper-kiln",
+      "name": "Try Ceramics — Paper Kiln",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-02",
+      "area": "Prainha de Angra, Angra do Heroísmo",
+      "venue": "Prainha de Angra",
+      "description": "Experimental ceramics workshop with Renato Costa e Silva and Kerstin Thomas, starting at 18:00. Participants build a paper kiln and fire their clay pieces. Registration: €30, or €25 for members. Wear comfortable, non-flammable clothing.",
+      "source": "https://www.instagram.com/oficinadangra/p/De-WpmcjNDd/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Prainha de Angra",
       "image": ""
     },
     {
@@ -1315,6 +1931,34 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "4-confer-ncia-internacional-cellagri-portugal",
+      "name": "4.ª Conferência Internacional CellAgri Portugal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-04",
+      "area": "Terceira Island",
+      "venue": "CCCAH (Centro Cultural e de Congressos)",
+      "description": "Conferência científica sobre agricultura celular para investigadores, estudantes, empresas e decisores. Consultar a organização para inscrições e programa.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "CCCAH (Centro Cultural e de Congressos)",
+      "image": ""
+    },
+    {
+      "id": "4th-cellagri-portugal-international-conference",
+      "name": "4th CellAgri Portugal International Conference",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-04",
+      "area": "Terceira Island",
+      "venue": "CCCAH (Centro Cultural e de Congressos)",
+      "description": "Scientific conference on cellular agriculture for researchers, students, industry and policymakers. Consult the organizer for registration and the programme.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "CCCAH (Centro Cultural e de Congressos)",
       "image": ""
     },
     {
@@ -1486,6 +2130,20 @@
       "image": ""
     },
     {
+      "id": "apresenta-o-do-livro-terceira-autom-vel-clube-a-prop-sito-dos-seus-50-anos-1975-",
+      "name": "Apresentação do livro: Terceira Automóvel Clube — A propósito dos seus 50 anos — 1975–2025",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-06",
+      "area": "Terceira Island",
+      "venue": "Centro Interpretativo de Angra do Heroísmo",
+      "description": "Apresentação do livro de Josué Cardoso sobre os cinquenta anos do Terceira Automóvel Clube.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Interpretativo de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "between-silence-and-vision",
       "name": "Between silence and vision",
       "category": "Events",
@@ -1497,6 +2155,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "book-presentation-terceira-autom-vel-clube-fifty-years-1975-2025",
+      "name": "Book Presentation: Terceira Automóvel Clube — Fifty Years, 1975–2025",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-06",
+      "area": "Terceira Island",
+      "venue": "Centro Interpretativo de Angra do Heroísmo",
+      "description": "Presentation of Josué Cardoso’s book on the fifty-year history of Terceira Automóvel Clube.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Interpretativo de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -1556,6 +2228,34 @@
       "image": ""
     },
     {
+      "id": "sos-cagarro-feteira",
+      "name": "SOS Cagarro — Feteira",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-06",
+      "area": "Terceira Island",
+      "venue": "Acesso à zona balnear da Serretinha",
+      "description": "Brigada de salvamento de cagarros. Concentração às 20:00; saída às 20:15. Levar roupa adequada, lanterna e colete refletor.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Acesso à zona balnear da Serretinha",
+      "image": ""
+    },
+    {
+      "id": "shearwater-rescue-feteira",
+      "name": "Shearwater Rescue — Feteira",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-06",
+      "area": "Terceira Island",
+      "venue": "Acesso à zona balnear da Serretinha",
+      "description": "Volunteer seabird rescue. Meeting at 20:00; departure at 20:15. Bring suitable clothing, a torch and a reflective vest.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Acesso à zona balnear da Serretinha",
+      "image": ""
+    },
+    {
       "id": "a-brev-ssima-hist-ria-da-revolu-o-dos-cravos",
       "name": "A Brevíssima História da Revolução dos Cravos",
       "category": "Events",
@@ -1584,8 +2284,8 @@
       "image": ""
     },
     {
-      "id": "atlas-das-criaturas-estranhas",
-      "name": "Atlas das Criaturas Estranhas",
+      "id": "atlas-das-criaturas-m-gicas-de-portugal",
+      "name": "Atlas das Criaturas Mágicas de Portugal",
       "category": "Events",
       "period": "dated",
       "date": "2026-11-07",
@@ -1595,6 +2295,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "concerto-do-est-gio-da-osit",
+      "name": "Concerto do Estágio da OSIT",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Museu de Angra do Heroísmo",
+      "description": "Concerto do Estágio da OSIT na Igreja de Nossa Senhora da Guia, no Museu de Angra do Heroísmo.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "dan-as-tradicionais-do-mundo-pen-nsula-ib-rica",
+      "name": "Danças Tradicionais do Mundo — Península Ibérica",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Casa do Sal / Oficina d’Angra",
+      "description": "Danças tradicionais da Península Ibérica com Miguel Lopes. Inscrição: 8 € para sócios e 10 € para não-sócios.",
+      "source": "https://www.instagram.com/oficinadangra/p/De_99UMFh_a/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal / Oficina d’Angra",
       "image": ""
     },
     {
@@ -1626,6 +2354,20 @@
       "image": ""
     },
     {
+      "id": "osit-residency-concert",
+      "name": "OSIT Residency Concert",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Museu de Angra do Heroísmo",
+      "description": "OSIT concert in the Church of Nossa Senhora da Guia at Museu de Angra do Heroísmo.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "oficina-feltragem-com-agulha-sess-o-2",
       "name": "Oficina: Feltragem com Agulha — sessão 2",
       "category": "Events",
@@ -1637,6 +2379,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "palaeography-circle",
+      "name": "Palaeography Circle",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "description": "An in-person and online palaeography gathering organized by the library. Register with the library in advance.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
       "image": ""
     },
     {
@@ -1668,6 +2424,20 @@
       "image": ""
     },
     {
+      "id": "tert-lia-paleogr-fica",
+      "name": "Tertúlia Paleográfica",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "description": "Sessão presencial e online da Tertúlia Paleográfica organizada pela biblioteca. Inscrição prévia junto da biblioteca.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "image": ""
+    },
+    {
       "id": "tourism-and-literary-walk-vitorino-nem-sio",
       "name": "Tourism and Literary Walk: Vitorino Nemésio",
       "category": "Events",
@@ -1679,6 +2449,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Largo da Luz",
+      "image": ""
+    },
+    {
+      "id": "traditional-dances-of-the-world-iberian-peninsula",
+      "name": "Traditional Dances of the World — Iberian Peninsula",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Casa do Sal / Oficina d’Angra",
+      "description": "Traditional dances of the Iberian Peninsula with Miguel Lopes. Admission: €8 for members and €10 for non-members.",
+      "source": "https://www.instagram.com/oficinadangra/p/De_99UMFh_a/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal / Oficina d’Angra",
       "image": ""
     },
     {
@@ -1819,6 +2603,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "angra-tech-day",
+      "name": "Angra Tech Day",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-10",
+      "area": "Angra do Heroísmo",
+      "venue": "StartUp Angra",
+      "description": "Evento de tecnologia na StartUp Angra, das 09h00 às 18h00. Consulta a organização para conhecer o programa e as condições de participação.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "StartUp Angra",
       "image": ""
     },
     {
@@ -2144,6 +2942,20 @@
       "image": ""
     },
     {
+      "id": "com-dia-de-improviso",
+      "name": "Comédia de Improviso",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "Edifício Cultural de S. Bento",
+      "description": "📅 14 de novembro 🕒 15:00 às 18:00 📍 Edifício Cultural de São Bento (Sala da Academia de Artes) O Edifício Cultural de São Bento recebe um Workshop de Comédia de Improviso, uma atividade dedicada à criatividade, ao humor e à espontaneidade. Inspirado no popular programa Whose Line Is It Anyway?, o workshop convida os participantes a experimentar diferentes jogos de improvisação, explorando técnicas de expressão e interação de forma descontraída e divertida. A iniciativa destina-se tanto a…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Edifício Cultural de S. Bento",
+      "image": ""
+    },
+    {
       "id": "esp-rito-santo-dos-pequeninos",
       "name": "Espírito Santo dos Pequeninos",
       "category": "Events",
@@ -2424,6 +3236,62 @@
       "image": ""
     },
     {
+      "id": "cinema-ocean-with-david-attenborough",
+      "name": "Cinema: Ocean with David Attenborough",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-16",
+      "area": "Auditório do Ramo Grande, Praia da Vitória",
+      "venue": "Auditório do Ramo Grande",
+      "description": "Exibição do documentário promovida pela Revive Our Ocean, National Geographic Pristine Seas, Blue Azores e Save Azores Waves, com apoio municipal. Entrada gratuita com levantamento obrigatório de bilhete na AJAIT, nos dias úteis das 08h30 às 13h00 e das 14h00 às 16h30; no dia do evento a bilheteira abre duas horas antes da sessão.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório do Ramo Grande",
+      "image": ""
+    },
+    {
+      "id": "film-ocean-with-david-attenborough",
+      "name": "Film: Ocean with David Attenborough",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-16",
+      "area": "Auditório do Ramo Grande, Praia da Vitória",
+      "venue": "Auditório do Ramo Grande",
+      "description": "Documentary screening promoted by Revive Our Ocean, National Geographic Pristine Seas, Blue Azores and Save Azores Waves, with municipal support. Admission is free but a ticket is required. Collect tickets at AJAIT on weekdays, 08:30–13:00 and 14:00–16:30; the event-day ticket office opens two hours before the screening.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório do Ramo Grande",
+      "image": ""
+    },
+    {
+      "id": "forma-o-startup-angra-estrat-gia-de-pre-o",
+      "name": "Formação Startup Angra: Estratégia de Preço",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-16",
+      "area": "Terceira Island",
+      "venue": "StartUp Angra",
+      "description": "Formação sobre estratégia de preço, das 18h00 às 21h00, de 16 a 20 de novembro.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "StartUp Angra",
+      "image": ""
+    },
+    {
+      "id": "startup-angra-training-pricing-strategy",
+      "name": "Startup Angra Training: Pricing Strategy",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-16",
+      "area": "Terceira Island",
+      "venue": "StartUp Angra",
+      "description": "Training on pricing strategy, 18:00–21:00, from 16 to 20 November.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "StartUp Angra",
+      "image": ""
+    },
+    {
       "id": "cinema-clayface",
       "name": "Cinema: Clayface",
       "category": "Events",
@@ -2435,6 +3303,76 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "christmas-lights-switch-on",
+      "name": "Christmas Lights Switch-On",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Praça Velha",
+      "description": "Opening of Angra’s Christmas lighting at Praça Velha.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "conference-heritage-education-programme",
+      "name": "Conference: Heritage Education Programme",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Centro Interpretativo de Angra do Heroísmo",
+      "description": "Conference on the Heritage Education Programme, presented by the Instituto Histórico da Ilha Terceira.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Interpretativo de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "confer-ncia-programa-de-educa-o-patrimonial",
+      "name": "Conferência: Programa de Educação Patrimonial",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Centro Interpretativo de Angra do Heroísmo",
+      "description": "Conferência sobre o Programa de Educação Patrimonial, pelo Instituto Histórico da Ilha Terceira.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Interpretativo de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "in-search-of-violante",
+      "name": "In Search of Violante",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Núcleo de História Militar Manuel Coelho Baptista de Lima",
+      "description": "Premiere of the Cães do Mar theatre production on 20 and 21 November, directed by Ana Brum. Consult the organizer for performance times and admission details.",
+      "source": "https://www.instagram.com/ana.bruma/p/DfDA2FNMl8C/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Núcleo de História Militar Manuel Coelho Baptista de Lima",
+      "image": ""
+    },
+    {
+      "id": "inaugura-o-da-ilumina-o-de-natal",
+      "name": "Inauguração da Iluminação de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Praça Velha",
+      "description": "Inauguração da iluminação de Natal de Angra na Praça Velha.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
       "image": ""
     },
     {
@@ -2463,6 +3401,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "procura-de-violante",
+      "name": "À procura de Violante",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Núcleo de História Militar Manuel Coelho Baptista de Lima",
+      "description": "Estreia da produção teatral da Cães do Mar nos dias 20 e 21 de novembro, com direção de Ana Brum. Consultar a organização para os horários e condições de entrada.",
+      "source": "https://www.instagram.com/ana.bruma/p/DfDA2FNMl8C/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Núcleo de História Militar Manuel Coelho Baptista de Lima",
       "image": ""
     },
     {
@@ -2547,6 +3499,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "conversas-ao-ser-o-m-dicos-do-mundo-e-fraterune",
+      "name": "Conversas ao Serão — Médicos do Mundo e FraterUne",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Paços do Concelho (Town Hall)",
+      "description": "Sessão de Conversas ao Serão com Médicos do Mundo e FraterUne.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho (Town Hall)",
+      "image": ""
+    },
+    {
+      "id": "evening-conversations-m-dicos-do-mundo-and-fraterune",
+      "name": "Evening Conversations — Médicos do Mundo and FraterUne",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Paços do Concelho (Town Hall)",
+      "description": "Conversas ao Serão session with Médicos do Mundo and FraterUne.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho (Town Hall)",
       "image": ""
     },
     {
@@ -2676,6 +3656,20 @@
       "image": ""
     },
     {
+      "id": "walk-with-a-doc-praia-da-vit-ria",
+      "name": "Walk With a Doc — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Marginal da Praia da Vitória — frente à GNR",
+      "description": "Sessão Walk With a Doc. Encontro na marginal da Praia da Vitória, em frente à GNR. Em caso de mau tempo, a sessão realiza-se no Pavilhão do Porto Martins. Inscrição junto da organização.",
+      "source": "https://www.instagram.com/cmpraiadavitoria/p/DfEvhFdDFB9/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Marginal da Praia da Vitória — frente à GNR",
+      "image": ""
+    },
+    {
       "id": "20th-azores-international-festival-commemorative-conference",
       "name": "20th Azores International Festival Commemorative Conference",
       "category": "Events",
@@ -2704,6 +3698,20 @@
       "image": ""
     },
     {
+      "id": "book-launch-writing-for-children-course",
+      "name": "Book Launch — Writing for Children Course",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "CCCAH (Centro Cultural e de Congressos)",
+      "description": "Book launch following the Escrever para Crianças writing course.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "CCCAH (Centro Cultural e de Congressos)",
+      "image": ""
+    },
+    {
       "id": "confer-ncia-comemorativa-da-20-edi-o-do-festival-internacional-dos-a-ores",
       "name": "Conferência comemorativa da 20.ª edição do Festival Internacional dos Açores",
       "category": "Events",
@@ -2729,6 +3737,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Teatro Alpendre",
+      "image": ""
+    },
+    {
+      "id": "lan-amento-de-livros-curso-escrever-para-crian-as",
+      "name": "Lançamento de livros — Curso Escrever para Crianças",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "CCCAH (Centro Cultural e de Congressos)",
+      "description": "Lançamento de livros na sequência do curso Escrever para Crianças.",
+      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "CCCAH (Centro Cultural e de Congressos)",
       "image": ""
     },
     {
@@ -3068,6 +4090,20 @@
       "image": ""
     },
     {
+      "id": "walk-with-a-doc-praia-da-vit-ria",
+      "name": "Walk With a Doc — Praia da Vitória",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-26",
+      "area": "Terceira Island",
+      "venue": "Marginal da Praia da Vitória — frente à GNR",
+      "description": "Sessão Walk With a Doc. Encontro na marginal da Praia da Vitória, em frente à GNR. Em caso de mau tempo, a sessão realiza-se no Pavilhão do Porto Martins. Inscrição junto da organização.",
+      "source": "https://www.instagram.com/cmpraiadavitoria/p/DfEvhFdDFB9/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Marginal da Praia da Vitória — frente à GNR",
+      "image": ""
+    },
+    {
       "id": "classical-music-season-end-of-year-concert",
       "name": "Classical Music Season: End-of-Year Concert",
       "category": "Events",
@@ -3079,6 +4115,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "concerto-de-fim-de-ano-temporada-de-m-sica-cl-ssica",
+      "name": "Concerto de Fim de Ano — Temporada de Música Clássica",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-27",
+      "area": "Terceira Island",
+      "venue": "Paços do Conselho de Angra do Heroísmo",
+      "description": "📅 27 de dezembro de 2026 🕒 20h00 📍Paços do Conselho de Angra do Heroísmo Os Paços do Concelho acolhem, no dia 27 de dezembro de 2026, domingo, às 20h00, o Concerto de Fim de Ano, que encerra a Temporada de Música Clássica 2026. A iniciativa conta com Grygoriy Grytsyuk, ao piano, Svitlana Poustovhar, ao violoncelo, e Taras Poustovgar, no clarinete, num momento de música clássica que assinala o encerramento da temporada. 💚 Entrada gratuita ℹ️ Mais informações:",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Conselho de Angra do Heroísmo",
       "image": ""
     },
     {
