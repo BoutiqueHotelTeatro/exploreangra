@@ -311,3 +311,25 @@ footer{border-top:1px solid rgba(201,164,92,.32)}
 .hero .button,.detail-hero .button{border-color:#c9a45c;color:#c9a45c}
 .hero .button:hover,.detail-hero .button:hover{background:#c9a45c;color:#0b0a08}
 .closed-note{display:inline-block;border:1px solid var(--ink);border-radius:12px;padding:8px 12px;font-size:14.5px!important;font-weight:500;color:var(--ink)!important;background:var(--tint)}
+
+/* Grouped long-running events */
+.day-title .multi-count{display:inline-block;margin-left:10px;padding:2px 12px;border:1px solid var(--gold);border-radius:999px;font:500 15px var(--sans);color:var(--gold-dark);vertical-align:middle}
+.multi-block{display:grid;gap:12px}
+.multi-group{background:var(--paper);border:1px solid var(--gold);border-radius:var(--r-card);overflow:hidden}
+.multi-group summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 26px;cursor:pointer;list-style:none;font:500 24px/1.2 var(--serif);color:var(--ink)}
+.multi-group summary::-webkit-details-marker{display:none}
+.multi-group summary em{font:500 14px var(--sans);font-style:normal;padding:3px 12px;border:1px solid var(--line);border-radius:999px;color:var(--gold-dark);margin-left:auto}
+.multi-group summary::after{content:"+";font:300 28px/1 var(--sans);color:var(--gold-dark);margin-left:6px}
+.multi-group[open] summary::after{content:"–"}
+.multi-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:18px;align-items:center;padding:14px 26px;border-top:1px solid var(--line)}
+.multi-main b{display:block;font:500 18px/1.35 var(--sans);color:var(--ink)}
+.multi-main span{display:block;font-size:14.5px;color:var(--muted)}
+.multi-when{font-size:14px;font-weight:500;letter-spacing:.02em;color:var(--gold-dark);text-align:right;white-space:nowrap}
+.multi-info{padding:8px 16px;border:1px solid var(--ink);border-radius:999px;background:transparent;font:500 12px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink);cursor:pointer}
+.multi-info:hover{background:var(--ink);color:var(--paper)}
+@media(max-width:700px){
+  .multi-row{grid-template-columns:1fr auto;gap:6px 12px;padding:14px 20px}
+  .multi-when{grid-column:1;text-align:left;white-space:normal}
+  .multi-info{grid-column:2;grid-row:1 / span 2}
+  .multi-group summary{padding:16px 20px;font-size:21px}
+}

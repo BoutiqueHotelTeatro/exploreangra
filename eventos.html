@@ -2,7 +2,7 @@
 <html lang="pt-PT"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#1c1915"><meta name="description" content="Agenda de eventos, festas tradicionais, música, cultura e atividades regulares na ilha Terceira."><title>Eventos na Terceira | Boutique Hotel Teatro</title><link rel="stylesheet" href="styles.css"></head><body>
 <header><a class="brand" href="index.html" aria-label="Boutique Hotel Teatro — início"><img src="images/logo.png" alt="Boutique Hotel Teatro"><span class="brand-name">Boutique Hotel Teatro</span></a><nav aria-label="Navegação principal"><a href="index.html">Início</a><a href="eventos.html">Eventos</a><a href="restaurantes.html">Restaurantes</a><a href="atracoes.html">O que visitar</a><a href="trilhos.html">Trilhos</a><a href="index.html#contactos">Contactos</a><a class="lang-switch" href="eventos-en.html" aria-label="English" lang="en">EN</a></nav></header>
 <section class="hero event-hero" id="inicio"><div class="hero-inner"><span class="eyebrow">Cultura · Tradição · Vida local</span><h1>A Terceira<br>acontece.</h1><p>Descobre festas tradicionais, música, cinema, exposições e atividades que dão ritmo à ilha ao longo do ano.</p><a class="button" href="#agenda">EXPLORAR A AGENDA ↗</a></div></section>
-<main id="agenda"><div class="intro"><div><span class="eyebrow">Agenda da ilha</span><h2>Há sempre algo para descobrir.</h2></div><p>Todos os eventos do mês em Angra do Heroísmo e na ilha Terceira, por ordem de data, com ligações às fontes para confirmares horários, locais e alterações antes de sair.</p></div>
+<main id="agenda"><div class="intro"><div><span class="eyebrow">Agenda da ilha</span><h2>Há sempre algo para descobrir.</h2></div><p>Os eventos dos próximos 7 dias em Angra do Heroísmo e na ilha Terceira, por ordem de data, com ligações às fontes para confirmares horários, locais e alterações antes de sair.</p></div>
 <div class="filters event-filters"><input id="search" type="search" placeholder="Pesquisar evento ou localidade..." aria-label="Pesquisar eventos"><select id="category" aria-label="Filtrar por categoria"><option value="">Todas as categorias</option><option>Festas tradicionais</option><option>Música</option><option>Cinema e cultura</option><option>Mercados e vida local</option><option>Exposições</option></select><select id="period" aria-label="Filtrar por período"><option value="">Todas as datas</option><option value="dated">Com data publicada</option><option value="recurring">Recorrente / sazonal</option></select></div>
 <div class="results" id="results" aria-live="polite"></div><p class="note" id="feedStatus" aria-live="polite">As fontes são verificadas diariamente. A data abaixo indica a última verificação; a programação pode mudar.</p><div class="event-list" id="eventGrid"></div><p class="empty" id="empty" hidden>Não foram encontrados eventos com estes critérios.</p>
 <div class="event-source-panel"><span class="eyebrow">Pesquisa alargada · fontes externas</span><h2>Descobre ainda mais eventos</h2><p>Usa estas agendas para procurar concertos, festas, atividades semanais e eventos mensais. A pesquisa abre a fonte original num novo separador; confirma sempre data, horário e local com o organizador.</p><div class="source-links"><a class="button" href="https://www.viralagenda.com/pt/acores/angra-do-heroismo" target="_blank" rel="noopener">VIRAL AGENDA ↗</a><a class="button" href="https://eventosterceira.pt/pt/" target="_blank" rel="noopener">EVENTOS TERCEIRA ↗</a><a class="button" href="https://angradoheroismo.pt/eventos/" target="_blank" rel="noopener">AGENDA DE ANGRA ↗</a><a class="button" href="https://byacores.com/terceira/" target="_blank" rel="noopener">AGENDA AÇORES / BYAÇORES ↗</a><a class="button" href="https://whatson.azores.gov.pt/agenda/" target="_blank" rel="noopener">AZORES WHAT’S ON ↗</a><a class="button" href="https://culturacores.azores.gov.pt/agenda/" target="_blank" rel="noopener">AGENDA CULTURAÇORES ↗</a><a class="button" href="https://turismo.azores.gov.pt/terceira/" target="_blank" rel="noopener">TURISMO DOS AÇORES ↗</a></div><p class="source-note">Nota: a antiga Agenda Açores pode redirecionar para a agenda byAçores. O site tenta importar diariamente os eventos estruturados disponibilizados pelas fontes. Estas ligações continuam a ser a melhor forma de confirmar os detalhes mais recentes.</p></div>
@@ -19,8 +19,8 @@ const T=LANG==='en'?{
   date:'Date / period',time:'Time',venue:'Venue',area:'Location',entry:'Entry',entryFree:'Free',source:'Source',other:'Other',
   updated:'List updated on',tail:'Past events are hidden automatically. Always confirm details with the organiser.',event:'Event'
 }:{
-  allCat:'Todas as categorias',allDates:'Todas as datas',today:'Hoje',week:'Próximos 7 dias',month:'Próximos 30 dias',free:'Entrada livre',
-  ongoing:'Em curso',until:'Até',freeTag:'Entrada livre',allDay:'Dia todo',found:n=>n+(n===1?' evento encontrado':' eventos encontrados'),
+  allCat:'Todas as categorias',allDates:'Próximos 7 dias',today:'Hoje',week:'Próximos 7 dias',month:'Próximos 30 dias',free:'Entrada livre',
+  ongoing:'Em curso',multi:'Em curso e vários dias',until:'Até',freeTag:'Entrada livre',allDay:'Dia todo',found:n=>n+(n===1?' evento encontrado':' eventos encontrados'),
   date:'Data / período',time:'Hora',venue:'Local',area:'Localidade',entry:'Entrada',entryFree:'Livre',source:'Fonte',other:'Outros',
   updated:'Lista atualizada em',tail:'Os eventos passados são ocultados automaticamente. Confirma sempre os detalhes com a organização.',event:'Evento'
 };
@@ -70,28 +70,50 @@ function rowHtml(e,ongoing){
   return `<article class="card event-row"><div class="event-when">${left}</div><div class="event-main"><h3>${esc(e.name)}</h3><p>${esc(place)}</p><div class="tags">${tags.join('')}</div></div><button class="button event-info-button open-event" data-id="${esc(e.id)}">${LANG==='en'?'VIEW DETAILS':'VER INFORMAÇÕES'} ↗</button></article>`;
 }
 
+function multiWhen(e,t0){
+  let w=e.start<t0?T.until.toLowerCase()+' '+fmtShort(e.end):fmtShort(e.start)+' – '+fmtShort(e.end);
+  if(e.start>=t0&&e.time)w+=' · '+e.time;
+  if(e.free)w+=' · '+T.freeTag;
+  return w;
+}
+function multiRow(e,t0){
+  const place=[e.venue,e.area&&e.area!==e.venue?e.area:''].filter(Boolean).join(' · ');
+  return `<div class="multi-row"><div class="multi-main"><b>${esc(e.name)}</b><span>${esc(place)}</span></div><div class="multi-when">${esc(multiWhen(e,t0))}</div><button class="multi-info open-event" data-id="${esc(e.id)}">${LANG==='en'?'Details':'Info'}</button></div>`;
+}
+
 function render(){
   const q=strip($('#search').value.trim()),cat=$('#category').value,when=$('#period').value;
-  const now=new Date(),t0=dayStart(now);
+  const now=new Date(),t0=dayStart(now),DAY=86400000;
   let rs=null,re=null;
-  if(when==='today'){rs=t0;re=new Date(t0.getTime()+86400000)}
-  if(when==='week'){rs=t0;re=new Date(t0.getTime()+7*86400000)}
-  const monthEnd=new Date(now.getFullYear(),now.getMonth()+1,0,23,59,59,999);
-  const list=events.filter(e=>e.end>=now&&e.start<=monthEnd).filter(e=>{
+  if(when==='today'){rs=t0;re=new Date(t0.getTime()+DAY)}
+  const winEnd=new Date(t0.getFullYear(),t0.getMonth(),t0.getDate()+7,23,59,59,999);
+  const list=events.filter(e=>e.end>=now&&e.start<=winEnd).filter(e=>{
     if(cat&&e.key!==cat)return false;
     if(when==='free'&&!e.free)return false;
     if(rs&&!(e.start<re&&e.end>=rs))return false;
     if(q&&!strip([e.name,e.venue,e.area,e.desc,e.cat].join(' ')).includes(q))return false;
     return true;
   });
-  const ongoing=list.filter(e=>e.start<t0).sort((a,b)=>a.end-b.end||a.name.localeCompare(b.name,LOC));
-  const upcoming=list.filter(e=>e.start>=t0).sort((a,b)=>a.start-b.start||a.name.localeCompare(b.name,LOC));
+  // Long-running items (3+ days: exhibitions, festivals, film runs, courses) are grouped; one-day items stay individual.
+  const isLong=e=>(dayStart(e.end)-dayStart(e.start))>=2*DAY;
+  const longs=list.filter(isLong),shorts=list.filter(e=>!isLong(e));
+  const dOf=e=>e.start<t0?t0:e.start;
+  shorts.sort((a,b)=>(dayKey(dOf(a))+' '+(a.time||'99:99')).localeCompare(dayKey(dOf(b))+' '+(b.time||'99:99'))||a.name.localeCompare(b.name,LOC));
   let html='';
-  if(ongoing.length)html+=`<h3 class="day-title">${esc(T.ongoing)}</h3>`+ongoing.map(e=>rowHtml(e,true)).join('');
+  if(longs.length){
+    const groups=new Map();
+    longs.sort((a,b)=>a.end-b.end||a.name.localeCompare(b.name,LOC)).forEach(e=>{
+      if(!groups.has(e.key))groups.set(e.key,{label:e.cat,items:[]});
+      groups.get(e.key).items.push(e);
+    });
+    const open=(q||cat||when)?' open':'';
+    html+=`<h3 class="day-title">${esc(T.multi)} <span class="multi-count">${longs.length}</span></h3><div class="multi-block">`+
+      [...groups.values()].sort((a,b)=>b.items.length-a.items.length).map(g=>`<details class="multi-group"${open}><summary><span>${esc(g.label)}</span><em>${g.items.length}</em></summary>${g.items.map(e=>multiRow(e,t0)).join('')}</details>`).join('')+`</div>`;
+  }
   let last='';
-  for(const e of upcoming){
-    const k=dayKey(e.start);
-    if(k!==last){last=k;html+=`<h3 class="day-title">${esc(fmtLong(e.start))}${sameDay(e.start,now)?' · '+esc(T.today):''}</h3>`}
+  for(const e of shorts){
+    const d=dOf(e),k=dayKey(d);
+    if(k!==last){last=k;html+=`<h3 class="day-title">${esc(fmtLong(d))}${sameDay(d,now)?' · '+esc(T.today):''}</h3>`}
     html+=rowHtml(e,false);
   }
   listEl.innerHTML=html;
@@ -121,11 +143,12 @@ function closeModal(){modal.classList.remove('is-open');document.body.style.over
 function setup(){
   const cats=[...new Map(events.map(e=>[e.key,e.cat])).entries()].sort((a,b)=>a[1].localeCompare(b[1],LOC));
   $('#category').innerHTML=`<option value="">${esc(T.allCat)}</option>`+cats.map(([k,l])=>`<option value="${esc(k)}">${esc(l)}</option>`).join('');
-  $('#period').innerHTML=`<option value="">${esc(T.allDates)}</option><option value="today">${esc(T.today)}</option><option value="week">${esc(T.week)}</option><option value="free">${esc(T.free)}</option>`;
+  $('#period').innerHTML=`<option value="">${esc(T.allDates)}</option><option value="today">${esc(T.today)}</option><option value="free">${esc(T.free)}</option>`;
 }
 
-const monthName=new Date().toLocaleDateString(LOC,{month:'long',year:'numeric'});
-const eb=document.querySelector('.intro .eyebrow');if(eb)eb.textContent='Agenda de '+monthName;
+const _a=new Date(),_b=new Date(_a.getFullYear(),_a.getMonth(),_a.getDate()+7);
+const rangeLabel=(LANG==='en'?'Next 7 days · ':'Próximos 7 dias · ')+_a.toLocaleDateString(LOC,{day:'numeric',month:'short'}).replace('.','')+' – '+_b.toLocaleDateString(LOC,{day:'numeric',month:'short'}).replace('.','');
+const eb=document.querySelector('.intro .eyebrow');if(eb)eb.textContent=rangeLabel;
 const data=window.CURATED_EVENTS||{events:[]};
 events=data.events.map(fromCurated);
 setup();render();
