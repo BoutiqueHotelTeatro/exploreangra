@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:02:02+00:00",
+  "generatedAt": "2026-11-01T20:40:07+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -17,7 +17,7 @@
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 2
+      "structuredEvents": 3
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
