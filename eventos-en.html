@@ -42,13 +42,15 @@ function fromCurated(e){
   return {id:e.id,key:e.category,cat:en?(e.categoryEn||e.category):e.category,name:en?(e.nameEn||e.name):e.name,
     desc:en?(e.descriptionEn||e.description):e.description,venue:e.venue,area:e.area,map:e.map||e.venue,free:!!e.free,
     start:new Date(e.startDate),end:new Date(e.endDate||e.startDate),
-    time:/T00:00:00$/.test(e.startDate)?'':String(e.startDate).slice(11,16),source:e.source,sourceLabel:e.sourceLabel};
+    time:e.timeText||(/T00:00:00$/.test(e.startDate)?'':String(e.startDate).slice(11,16)),source:e.source,sourceLabel:e.sourceLabel};
 }
 function fromFeed(e){
-  const d=String(e.date||'').slice(0,10);
-  if(!/^\d{4}-\d{2}-\d{2}$/.test(d))return null;
+  // Automatic-check events are used only when they carry a real date AND time; otherwise they are ignored (no more "all-day" duplicates).
+  const m=String(e.date||e.startDate||'').match(/^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})/);
+  if(!m||(m[2]==='00'&&m[3]==='00'))return null;
+  const d=m[1],hhmm=m[2]+':'+m[3];
   return {id:'f-'+e.id,key:'Outros',cat:T.other,name:e.name,desc:e.description||'',venue:e.venue||'',area:e.area||'',map:e.map||e.venue||e.name,
-    free:false,start:new Date(d+'T00:00:00'),end:new Date(d+'T23:59:59'),time:'',source:e.source,sourceLabel:e.sourceLabel||''};
+    free:false,start:new Date(d+'T'+hhmm+':00'),end:new Date(d+'T23:59:59'),time:hhmm,source:e.source,sourceLabel:e.sourceLabel||''};
 }
 const tokens=v=>new Set(strip(v).replace(/[^a-z0-9]+/g,' ').split(' ').filter(w=>w.length>2));
 function similar(a,b){const A=tokens(a),B=tokens(b);if(!A.size||!B.size)return false;let n=0;for(const x of A)if(B.has(x))n++;return n/Math.min(A.size,B.size)>=0.6}
@@ -62,7 +64,7 @@ function addFeed(list){
 
 function rowHtml(e,ongoing){
   const multi=!sameDay(e.start,e.end);
-  const left=ongoing?`<span class="ev-small">${esc(T.until)}</span><b>${esc(fmtShort(e.end))}</b>`:(e.time?`<b>${esc(e.time)}</b>`:`<span class="ev-small">${esc(T.allDay)}</span>`);
+  const left=ongoing?`<span class="ev-small">${esc(T.until)}</span><b>${esc(fmtShort(e.end))}</b>`:(e.time?`<b>${esc(e.time)}</b>`:`<span class="ev-small">–</span>`);
   const tags=[`<span class="tag">${esc(e.cat)}</span>`];
   if(multi&&!ongoing)tags.push(`<span class="tag">${esc(fmtShort(e.start))} – ${esc(fmtShort(e.end))}</span>`);
   if(e.free)tags.push(`<span class="tag tag-free">${esc(T.freeTag)}</span>`);
