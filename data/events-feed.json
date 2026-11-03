@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:22:12+00:00",
+  "generatedAt": "2026-11-03T06:13:45+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 124
+      "structuredEvents": 128
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 3
+      "structuredEvents": 2
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -352,34 +352,6 @@
       "image": ""
     },
     {
-      "id": "cinema-sacrifice",
-      "name": "Cinema: Sacrifice",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-29",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Evening screenings of Sacrifício at the municipal cultural and congress centre.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "cinema-sacrif-cio",
-      "name": "Cinema: Sacrifício",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-10-29",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Sessões noturnas de «Sacrifício» no Centro Cultural e de Congressos de Angra do Heroísmo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
       "id": "outono-vivo-2026",
       "name": "Outono Vivo 2026",
       "category": "Events",
@@ -391,34 +363,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia de Juventude e das Artes da Ilha Terceira and Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "a-oriano-portugu-s-e-retornado",
-      "name": "Açoriano, Português e Retornado",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-02",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de José Macedo Bernardo, apresentado por Álamo Meneses.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "experimenta-cer-mica-forno-de-papel",
-      "name": "Experimenta Cerâmica — Forno de Papel",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-02",
-      "area": "Prainha de Angra, Angra do Heroísmo",
-      "venue": "Prainha de Angra",
-      "description": "Oficina de cerâmica experimental com Renato Costa e Silva e Kerstin Thomas, a partir das 18h00. Construção de um forno de papel e cozedura das peças. Inscrição: 30 €, ou 25 € para sócios. Levar roupa confortável e não inflamável.",
-      "source": "https://www.instagram.com/oficinadangra/p/De-WpmcjNDd/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Prainha de Angra",
       "image": ""
     },
     {
@@ -436,20 +380,6 @@
       "image": ""
     },
     {
-      "id": "mestre-maduro-dias-um-poliedro-de-quantos-lados",
-      "name": "Mestre Maduro-Dias; um poliedro de quantos lados?",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-02",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Book coordinated by Francisco Maduro-Dias, with Carlos Reis, Diana Gonçalves dos Santos and Miguel Maduro-Dias.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
       "id": "startup-angra-training-artificial-intelligence-for-business",
       "name": "Startup Angra Training: Artificial Intelligence for Business",
       "category": "Events",
@@ -461,20 +391,6 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "StartUp Angra",
-      "image": ""
-    },
-    {
-      "id": "try-ceramics-paper-kiln",
-      "name": "Try Ceramics — Paper Kiln",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-02",
-      "area": "Prainha de Angra, Angra do Heroísmo",
-      "venue": "Prainha de Angra",
-      "description": "Experimental ceramics workshop with Renato Costa e Silva and Kerstin Thomas, starting at 18:00. Participants build a paper kiln and fire their clay pieces. Registration: €30, or €25 for members. Wear comfortable, non-flammable clothing.",
-      "source": "https://www.instagram.com/oficinadangra/p/De-WpmcjNDd/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Prainha de Angra",
       "image": ""
     },
     {
@@ -716,6 +632,20 @@
       "image": ""
     },
     {
+      "id": "o-veredito-social",
+      "name": "O VEREDITO SOCIAL",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-05",
+      "area": "Terceira Island",
+      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "description": "Duas décadas após a fundação do Facebook, a plataforma tornou-se um gigante que influencia a vida das pessoas e os governos de todo o mundo. No centro da história está uma pergunta que marca o nosso tempo: o que acontece quando a atenção humana se torna o bem mais valioso da sociedade? \"O Veredito Social\" acompanha a relação de confiança entre Frances Haugen, antiga engenheira do Facebook, e Jeff Horwitz, jornalista do Wall Street Journal, que se unem para revelar os segredos mais bem guardados…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "image": ""
+    },
+    {
       "id": "apresenta-o-do-livro-terceira-autom-vel-clube-a-prop-sito-dos-seus-50-anos-1975-",
       "name": "Apresentação do livro: Terceira Automóvel Clube — A propósito dos seus 50 anos — 1975–2025",
       "category": "Events",
@@ -923,6 +853,20 @@
       "source": "https://www.instagram.com/oficinadangra/p/De_99UMFh_a/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal / Oficina d’Angra",
+      "image": ""
+    },
+    {
+      "id": "enquanto-houver-quem-cante",
+      "name": "ENQUANTO HOUVER QUEM CANTE",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-07",
+      "area": "Angra do Heroísmo",
+      "venue": "Teatro Angrense",
+      "description": "",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Teatro Angrense",
       "image": ""
     },
     {
@@ -1276,6 +1220,20 @@
       "image": ""
     },
     {
+      "id": "dia-de-s-o-martinho",
+      "name": "Dia de São Martinho",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-11",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "A Praça Velha, em Angra do Heroísmo, acolhe, no dia 11 de novembro de 2026, quarta-feira, entre as 12h00 e as 17h00, a celebração do «Dia de São Martinho». O programa inclui os concertos de Fábio Ourique, às 12h30, e da banda Bahia Groove, às 15h00, proporcionando uma tarde de animação musical em pleno centro histórico da cidade. A iniciativa conta ainda com barraquinhas de comes e bebes e espaços dedicados ao artesanato, promovendo o convívio e a dinamização do espaço público. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
+      "image": ""
+    },
+    {
       "id": "music-a-ores-26-cantando-admont-seis-vozes",
       "name": "Music Açores’26 | Cantando Admont — Seis Vozes",
       "category": "Events",
@@ -1374,6 +1332,20 @@
       "image": ""
     },
     {
+      "id": "street-fighter",
+      "name": "STREET FIGHTER",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-12",
+      "area": "Terceira Island",
+      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "description": "A narrativa decorre em 1993, onde Ryu, interpretado por Andrew Koji, e Ken Masters, a cargo de Noah Centineo, voltam a cruzar destinos ao serem recrutados pela enigmática Chun-Li, interpretada por Callina Liang. Juntos, enfrentam o torneio \"World Warrior\", uma competição feroz que esconde uma conspiração letal e arrisca colocá-los frente a frente tanto como adversários quanto diante dos seus próprios fantasmas.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "image": ""
+    },
+    {
       "id": "visita-r-gia",
       "name": "Visita Régia",
       "category": "Events",
@@ -1430,6 +1402,20 @@
       "image": ""
     },
     {
+      "id": "hugo-sousa-aqui-entre-n-s",
+      "name": "HUGO SOUSA - AQUI ENTRE NÓS",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-13",
+      "area": "Terceira Island",
+      "venue": "Ilha Terceira",
+      "description": "“Aqui Entre Nós” é um espetáculo de stand-up onde Hugo Sousa abre as portas da sua vida sem filtros. Entre histórias de família, episódios caricatos do dia a dia e momentos inspirados nas suas próprias experiências, Hugo transforma situações comuns em gargalhadas inesperadas. Com humor próximo, espontâneo e cheio de identificação, “Aqui Entre Nós” leva o público numa viagem por vários temas que fazem parte da vida de todos nós — relações, memórias, manias, diferenças geracionais e aquelas…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Ilha Terceira",
+      "image": ""
+    },
+    {
       "id": "mesa-redonda-a-inatividade-individual-ou-o-sintoma-de-uma-comunidade-por-constru",
       "name": "Mesa redonda: A inatividade é individual ou é o sintoma de uma comunidade por construir?",
       "category": "Events",
@@ -1483,6 +1469,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
+      "image": ""
+    },
+    {
+      "id": "a-ilha-esquecida",
+      "name": "A ILHA ESQUECIDA",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "description": "Jo e Raissa encontram-se presas no mundo fantástico da ilha esquecida de Nakali. Descobrem que a única forma de regressarem a casa poderá custar-lhes uma vida inteira de memórias e emoções.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
       "image": ""
     },
     {
@@ -1990,6 +1990,20 @@
       "image": ""
     },
     {
+      "id": "sons-da-macaron-sia-2026",
+      "name": "SONS DA MACARONÉSIA 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Ilha Terceira",
+      "description": "O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, nos dias 20 e 21 de novembro de 2026, o «Sons da Macaronésia – Festival de Música Atlântica», um evento que promove o encontro entre diferentes expressões musicais dos arquipélagos da Macaronésia. Promovido pela Fraterune, o festival reúne artistas dos Açores, Madeira, Canárias e Cabo Verde, proporcionando ao público uma experiência cultural marcada pela diversidade, pela partilha e pela valorização das identidades atlânticas.…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Ilha Terceira",
+      "image": ""
+    },
+    {
       "id": "sons-da-macaron-sia-festival-de-m-sica-atl-ntica",
       "name": "Sons da Macaronésia — Festival de Música Atlântica",
       "category": "Events",
@@ -2057,6 +2071,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "floresta-m-gica",
+      "name": "FLORESTA MÁGICA",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-22",
+      "area": "Terceira Island",
+      "venue": "Auditório Ramo Grande - Açores",
+      "description": "",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório Ramo Grande - Açores",
       "image": ""
     },
     {
