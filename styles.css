@@ -333,3 +333,9 @@ footer{border-top:1px solid rgba(201,164,92,.32)}
   .multi-info{grid-column:2;grid-row:1 / span 2}
   .multi-group summary{padding:16px 20px;font-size:21px}
 }
+
+/* Restaurants: single-column info list */
+.restaurant-info-list{grid-template-columns:1fr}
+.restaurant-info-list>div{border-left:0!important;border-bottom:1px solid var(--line)!important}
+.restaurant-info-list>div:last-child{border-bottom:0!important}
+.restaurant-info-list span{display:block}

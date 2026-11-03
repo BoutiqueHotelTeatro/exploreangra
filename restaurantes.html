@@ -23,7 +23,7 @@
 <p>Uma seleção de restaurantes em diferentes zonas da ilha. Cada restaurante apresenta aqui, no mesmo riquadro, os principais contactos, especialidades e informações úteis.</p></div>
 <div class="filters">
 <input id="search" type="search" placeholder="Pesquisar restaurante ou localidade..." aria-label="Pesquisar restaurantes">
-<select id="area" aria-label="Filtrar por localidade"><option value="">Todas as localidades</option><option value="Angra do Heroísmo">Angra do Heroísmo</option><option value="Praia da Vitória">Praia da Vitória</option><option value="São Mateus da Calheta">São Mateus da Calheta</option><option value="Serreta">Serreta</option><option value="Altares">Altares</option><option value="São João">São João</option><option value="Grota do Medo, Angra do Heroísmo">Grota do Medo</option><option value="Porto Judeu">Porto Judeu</option><option value="Porto Martins">Porto Martins</option><option value="Altares">Altares</option></select>
+<select id="area" aria-label="Filtrar por localidade"><option value="">Todas as localidades</option><option value="Angra do Heroísmo">Angra do Heroísmo</option><option value="São Mateus da Calheta">São Mateus da Calheta</option><option value="Porto Judeu">Porto Judeu</option><option value="Serreta">Serreta</option><option value="Porto Martins">Porto Martins</option><option value="Altares">Altares</option><option value="Praia da Vitória">Praia da Vitória</option></select>
 </div>
 <div class="results" id="results" aria-live="polite"></div>
 <div class="grid" id="restaurantGrid"></div>
@@ -34,54 +34,177 @@
 <script>
 const lang = document.documentElement.lang.toLowerCase().startsWith('pt') ? 'pt' : 'en';
 const restaurants = [
- {id:"tasca-das-tias",name:"Tasca das Tias",area:"Angra do Heroísmo",address:"Rua de São João 117, Angra do Heroísmo",phone:"+351 295 628 062",specialty:"Cozinha regional: alcatra, carne assada das Tias e atum à açoriana",hours:"12:00–00:00 diariamente; quarta-feira 12:00–23:30",distance:"150 m · cerca de 2 min a pé",description:"Uma casa com história, nascida do sonho de criar uma verdadeira experiência gastronómica açoriana, onde as tradições culinárias da ilha se encontram com o carinho de quem prepara cada prato com amor.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Tasca+das+Tias",sourceLabel:"Abrir localização no Google Maps",tag:"EST. 2014 · CASA COM HISTÓRIA",tags:["Cozinha açoriana","Alcatra","Angra do Heroísmo"],historyTitle:"A história da Tasca das Tias",history:["Há 10 anos, começava a nossa jornada com o sonho de oferecer a todos os que nos visitam uma verdadeira experiência gastronómica açoriana. O Manjerico, que nasceu como uma tasca para as Sanjoaninas, em Angra do Heroísmo, deu lugar à Tasca das Tias, um lugar que pretende ser acolhedor, onde as tradições culinárias da nossa ilha se encontram com o carinho de quem prepara cada prato com amor.","Ao longo dos anos, tivemos o prazer de ver o nosso pequeno restaurante crescer, mas nunca perdemos a nossa essência: a de ser uma casa com história onde todos se sentem em família.","Cada prato que servimos é uma homenagem às receitas familiares que marcaram gerações e que continuam a ser passadas de tia para sobrinha, de mãe para filha. As paredes são marcadas pela visão de um fotógrafo terceirense de homens e mulheres locais, tios e tias conhecidos de quem andava pelas ruas da nossa cidade. Entre essas memórias estão figuras como um guarda do Jardim de Angra e Leoncio, descrito como um filósofo da vida.","O nosso mobiliário foi pensado e concretizado com todo o detalhe necessário por um carpinteiro terceirense, utilizando madeiras da nossa terra. O antigo palco para as nossas noites de fado imortalizou-se com o xaile na parede.","Aqui, tudo tem um pouco de história. Obrigado por fazer parte dela!"]},
- {id:"martelo",name:"Quinta do Martelo",area:"São Mateus da Calheta",address:"Canada do Martelo, São Mateus da Calheta, 9700-576 Terceira",phone:"+351 962 812 796",specialty:"Cozinha tradicional açoriana; alcatra",description:"Restaurante tradicional associado à gastronomia e aos costumes rurais açorianos.",photo:"https://restaurante.quintadomartelo.net/images/page-1_img09.jpg",photoAlt:"Prato tradicional publicado no site da Quinta do Martelo",source:"https://restaurante.quintadomartelo.net/index_en.html",sourceLabel:"Site do restaurante",tag:"COZINHA TRADICIONAL",tags:["Gastronomia açoriana","Alcatra"]},
-
-
-
- {id:"pescador",name:"Restaurante O Pescador",area:"Praia da Vitória",address:"Rua Conselheiro José Cardoso 11, 9760-411 Praia da Vitória",phone:"+351 295 513 495",specialty:"Restaurante; detalhes de menu a confirmar diretamente",description:"Restaurante na Praia da Vitória. Contacta o estabelecimento para confirmar o menu e o horário atuais.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Restaurante+O+Pescador+Praia+da+Vit%C3%B3ria",sourceLabel:"Localização e ficha do estabelecimento",tag:"PRAIA DA VITÓRIA",tags:["Restaurante","Centro"]},
- {id:"taberna-teatro",name:"Taberna do Teatro",area:"Angra do Heroísmo",address:"Rua da Esperança 10, 9700-073 Angra do Heroísmo",phone:"+351 295 215 272",specialty:"Cozinha de restaurante; confirmar especialidades com o estabelecimento",description:"Restaurante na Rua da Esperança, em Angra do Heroísmo. Contactos e localização obtidos numa ficha de negócio; confirma os detalhes antes da visita.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Taberna+do+Teatro+Angra+do+Hero%C3%ADsmo",sourceLabel:"Localização e ficha do estabelecimento",tag:"ANGRA DO HEROÍSMO",tags:["Centro histórico","Restaurante"]},
- {id:"larica",name:"Restaurante Larica",area:"Praia da Vitória",address:"Rua Mestre do Campo 10, 9760-440 Praia da Vitória",phone:"+351 926 058 016",specialty:"Restaurante; especialidades não confirmadas nesta ficha",description:"Estabelecimento localizado na Praia da Vitória. Confirma diretamente a oferta e os horários antes de te deslocares.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Restaurante+Larica+Praia+da+Vit%C3%B3ria",sourceLabel:"Localização e ficha do estabelecimento",tag:"PRAIA DA VITÓRIA",tags:["Restaurante","Praia da Vitória"]},
- {id:"alguidar",name:"Senhor Alguidar Restaurante",area:"Praia da Vitória",address:"Avenida Paço do Milhafre 14, 9760-423 Praia da Vitória",phone:"+351 962 506 209",specialty:"Restaurante; confirmar menu diretamente",description:"Restaurante na Praia da Vitória. A especialidade e a carta atual devem ser confirmadas com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Senhor+Alguidar+Restaurante+Praia+da+Vit%C3%B3ria",sourceLabel:"Localização e ficha do estabelecimento",tag:"PRAIA DA VITÓRIA",tags:["Restaurante","Cozinha local"]},
-
-
- {id:"barrica",name:"A Barrica",area:"Angra do Heroísmo",address:"Rua de São João 28, 9700-171 Angra do Heroísmo",phone:"+351 295 218 049",specialty:"Restaurante; confirmar especialidades diretamente",description:"Restaurante listado no Portal do Turismo dos Açores, na zona da Sé, em Angra do Heroísmo.",photo:"",photoAlt:"",source:"https://turismo.azores.gov.pt/azores/terceira/",sourceLabel:"Portal do Turismo dos Açores",tag:"ANGRA DO HEROÍSMO",tags:["Zona da Sé","Restaurante"]},
- {id:"fumeiro",name:"Fumeiro de São João",area:"São João",address:"Rua de São João 82, 9700-172 Angra do Heroísmo",phone:"+351 925 925 979",specialty:"Restaurante; confirmar carta atual",description:"Estabelecimento identificado na Rua de São João, em Angra do Heroísmo. Confirma menu, reservas e horários diretamente.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Fumeiro+de+S%C3%A3o+Jo%C3%A3o+Terceira",sourceLabel:"Localização e ficha do estabelecimento",tag:"SÃO JOÃO",tags:["Restaurante","Angra"]},
- {id:"sabores-atlantico",name:"Marisqueira Sabores do Atlântico",area:"Praia da Vitória",address:"Estrada do Aeroporto n.º 12, Santa Luzia, 9760-451 Praia da Vitória",phone:"+351 295 700 594",specialty:"Marisqueira; confirmar oferta atual",description:"Marisqueira na zona de Santa Luzia, Praia da Vitória. Confirma diretamente a disponibilidade de pratos e os horários.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Marisqueira+Sabores+do+Atl%C3%A2ntico+Praia+da+Vit%C3%B3ria",sourceLabel:"Localização e ficha do estabelecimento",tag:"SABORES DO ATLÂNTICO",tags:["Marisqueira","Praia da Vitória"]},
-
- {id:"verde-maca",name:"Verde Maçã",area:"Angra do Heroísmo",address:"Rua Direita 113, Angra do Heroísmo",phone:"+351 295 218 294",specialty:"Bife flamejado",hours:"Ter–Qui 12:00–15:00 e 18:30–22:00; Sex–Sáb 12:00–15:00 e 18:30–23:00; Dom 12:00–15:00. Encerrado à segunda-feira.",distance:"180 m · cerca de 5 min a pé",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 180 m · cerca de 5 min a pé. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Verde+Maçã",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"ANGRA DO HEROÍSMO",tags:["Bife flamejado", "Angra do Heroísmo"]},
- {id:"taberna-roberto-pdf",name:"Taberna do Roberto",area:"Grota do Medo, Angra do Heroísmo",address:"Grota do Medo, Angra do Heroísmo",phone:"+351 966 431 126",specialty:"Forno de lenha",hours:"Ter–Sáb 12:00–16:30 e 18:30–00:00. Encerrado domingo e segunda-feira.",distance:"4,5 km · cerca de 9 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 4,5 km · cerca de 9 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Taberna+do+Roberto",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"GROTA DO MEDO, ANGRA DO HEROÍSMO",tags:["Forno de lenha", "Grota do Medo, Angra do Heroísmo"]},
- {id:"cachalote-pdf",name:"O Cachalote",area:"Angra do Heroísmo",address:"Rua do Rego 14, Angra do Heroísmo",phone:"+351 914 237 459",specialty:"Bife na pedra",hours:"Seg–Sáb 18:30–22:00. Encerrado ao domingo.",distance:"1,6 km · cerca de 6 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 1,6 km · cerca de 6 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=O+Cachalote",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"ANGRA DO HEROÍSMO",tags:["Bife na pedra", "Angra do Heroísmo"]},
- {id:"beira-mar-pdf",name:"Beira Mar — São Mateus",area:"São Mateus da Calheta",address:"Canada do Porto 46, São Mateus da Calheta",phone:"+351 295 642 392",specialty:"Peixe e marisco (especialidade)",hours:"Ter–Dom 12:00–15:00 e 18:30–22:00. Encerrado à segunda-feira.",distance:"1,1 km · cerca de 5 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 1,1 km · cerca de 5 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Beira+Mar+—+São+Mateus",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"SÃO MATEUS DA CALHETA",tags:["Peixe e marisco (especialidade)", "São Mateus da Calheta"]},
- {id:"boca-negra",name:"Boca Negra",area:"Porto Judeu",address:"Largo Santo António, Porto Judeu",phone:"+351 295 905 182",specialty:"Alcatra de peixe",hours:"Qui–Ter 12:30–15:00 e 19:00–22:00. Encerrado à quarta-feira.",distance:"10,4 km · cerca de 17 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 10,4 km · cerca de 17 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Boca+Negra",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"PORTO JUDEU",tags:["Alcatra de peixe", "Porto Judeu"]},
- {id:"ti-choa-pdf",name:"Ti Choa",area:"Serreta",address:"Grota do Margaride, Serreta",phone:"+351 295 906 673",specialty:"Restaurante tradicional; prato de degustação",hours:"Seg–Sáb 12:00–16:00 (apenas almoços). Encerrado ao domingo.",distance:"19,5 km · cerca de 31 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 19,5 km · cerca de 31 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Ti+Choa",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"SERRETA",tags:["Restaurante tradicional", "Serreta"]},
- {id:"buzius",name:"Búzius",area:"Porto Martins",address:"Piscina do Porto / Marina de Porto Martins, Porto Martins",phone:"+351 295 515 555",specialty:"Bife de atum",hours:"Qua–Dom 12:00–14:30 e 18:00–21:30. Encerrado segunda e terça-feira.",distance:"19 km · cerca de 27 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 19 km · cerca de 27 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Búzius",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"PORTO MARTINS",tags:["Bife de atum", "Porto Martins"]},
- {id:"caneta-pdf",name:"Caneta",area:"Altares",address:"Rua As Pressas 136, Altares",phone:"+351 295 989 162",specialty:"Comida tradicional",hours:"Ter–Qui 12:00–15:00; Sáb–Dom 12:00–16:00. Encerrado à segunda-feira.",distance:"18 km · cerca de 23 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 18 km · cerca de 23 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Caneta",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"ALTARES",tags:["Comida tradicional", "Altares"]},
- {id:"ginsu",name:"Ginsu",area:"Praia da Vitória",address:"Rua da Estrela 14, Praia da Vitória",phone:"+351 963 528 817",specialty:"Sushi",hours:"Seg–Qui 12:00–15:00 e 19:00–22:00; Sex 12:00–15:00 e 19:00–02:00; Sáb 12:00–15:00 e 19:00–00:00. Encerrado ao domingo.",distance:"25 km · cerca de 25 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 25 km · cerca de 25 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Ginsu",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"PRAIA DA VITÓRIA",tags:["Sushi", "Praia da Vitória"]},
- {id:"rocha",name:"Restaurante Rocha",area:"Porto Judeu",address:"Caminho da Esperança 134, Porto Judeu, 9700-368 Angra do Heroísmo",phone:"+351 295 905 185",specialty:"Telhas de lulas, peixe, mista, alcatra de peixe; hambúrgueres no snack-bar. Terraço recomendado.",hours:"O PDF indica terça–quinta 20:30–23:00, mas também indica encerramento à quarta-feira. Confirmar diretamente antes da visita.",distance:"12 km · cerca de 15 min de carro",description:"Informações fornecidas no guia de restaurantes do Boutique Hotel Teatro. Distância indicada no documento: 12 km · cerca de 15 min de carro. Horário a confirmar diretamente com o estabelecimento.",photo:"",photoAlt:"",source:"https://www.google.com/maps/search/?api=1&query=Restaurante+Rocha",sourceLabel:"Abrir localização no Google Maps · dados do PDF",tag:"PORTO JUDEU",tags:["Telhas de lulas, peixe, mista, alcatra de peixe", "Porto Judeu"]},
+ {
+  "id": "tasca-das-tias",
+  "name": "Tasca das Tias",
+  "area": "Angra do Heroísmo",
+  "tag": "ANGRA DO HEROÍSMO",
+  "cuisine": "Cozinha regional / Comida típica (Alcatra, Rosbife das Tias e Atum dos Açores)",
+  "distance": "150 m · 2 min a pé",
+  "address": "Rua de São João 117, Angra do Heroísmo",
+  "hours": "Das 12h00-0h00 todos os dias, exceto quarta-feira das 12h00-23h30",
+  "closed": "",
+  "phone": "295 628 062",
+  "tel": "+351295628062",
+  "historyTitle": "A história da Tasca das Tias",
+  "history": [
+   "Há 10 anos, começava a nossa jornada com o sonho de oferecer a todos os que nos visitam uma verdadeira experiência gastronómica açoriana. O Manjerico, que nasceu como uma tasca para as Sanjoaninas, em Angra do Heroísmo, deu lugar à Tasca das Tias, um lugar que pretende ser acolhedor, onde as tradições culinárias da nossa ilha se encontram com o carinho de quem prepara cada prato com amor.",
+   "Ao longo dos anos, tivemos o prazer de ver o nosso pequeno restaurante crescer, mas nunca perdemos a nossa essência: a de ser uma casa com história onde todos se sentem em família.",
+   "Cada prato que servimos é uma homenagem às receitas familiares que marcaram gerações e que continuam a ser passadas de tia para sobrinha, de mãe para filha. As paredes são marcadas pela visão de um fotógrafo terceirense de homens e mulheres locais, tios e tias conhecidos de quem andava pelas ruas da nossa cidade. Entre essas memórias estão figuras como um guarda do Jardim de Angra e Leoncio, descrito como um filósofo da vida.",
+   "O nosso mobiliário foi pensado e concretizado com todo o detalhe necessário por um carpinteiro terceirense, utilizando madeiras da nossa terra. O antigo palco para as nossas noites de fado imortalizou-se com o xaile na parede.",
+   "Aqui, tudo tem um pouco de história. Obrigado por fazer parte dela!"
+  ]
+ },
+ {
+  "id": "verde-maca",
+  "name": "Verde Maçã",
+  "area": "Angra do Heroísmo",
+  "tag": "ANGRA DO HEROÍSMO",
+  "cuisine": "Bife flamejado",
+  "distance": "180 m · 5 min a pé",
+  "address": "Rua Direita 113, Angra do Heroísmo",
+  "hours": "Terça a Quinta: 12h00-15h00 / 18h30-22h00; Sexta e Sábado: 12h00-15h00 / 18h30-23h00; Domingo: 12h00-15h00",
+  "closed": "Segunda-feira",
+  "phone": "295 218 294",
+  "tel": "+351295218294"
+ },
+ {
+  "id": "taberna-do-roberto",
+  "name": "Taberna do Roberto",
+  "area": "Angra do Heroísmo",
+  "tag": "ANGRA DO HEROÍSMO",
+  "cuisine": "Forno de lenha",
+  "distance": "4,5 km · 9 min de viatura",
+  "address": "Grota do Medo, Angra do Heroísmo",
+  "hours": "Terça a Sábado: 12h00-16h30 / 18h30-0h00",
+  "closed": "Domingo e Segunda-feira",
+  "phone": "966 431 126",
+  "tel": "+351966431126"
+ },
+ {
+  "id": "o-cachalote",
+  "name": "O Cachalote",
+  "area": "Angra do Heroísmo",
+  "tag": "ANGRA DO HEROÍSMO",
+  "cuisine": "Bife na pedra",
+  "distance": "1,6 km · 6 min de viatura",
+  "address": "Rua do Rego 14, Angra do Heroísmo",
+  "hours": "Segunda a Sábado: 18h30-22h00",
+  "closed": "Domingo",
+  "phone": "914 237 459",
+  "tel": "+351914237459"
+ },
+ {
+  "id": "beira-mar",
+  "name": "Beira Mar – São Mateus",
+  "area": "São Mateus da Calheta",
+  "tag": "SÃO MATEUS DA CALHETA",
+  "cuisine": "Peixe e Marisco (especialidade)",
+  "distance": "1,1 km · 5 min de viatura",
+  "address": "Canada do Porto 46, São Mateus da Calheta",
+  "hours": "Terça a Domingo: 12h00-15h00 / 18h30-22h00",
+  "closed": "Segunda-feira",
+  "phone": "295 642 392",
+  "tel": "+351295642392"
+ },
+ {
+  "id": "boca-negra",
+  "name": "Boca Negra",
+  "area": "Porto Judeu",
+  "tag": "PORTO JUDEU",
+  "cuisine": "Alcatra de Peixe",
+  "distance": "10,4 km · 17 min de viatura",
+  "address": "Largo Santo António, Porto Judeu",
+  "hours": "Quinta a Terça: 12h30-15h00 / 19h00-22h00",
+  "closed": "Quarta-feira",
+  "phone": "295 905 182",
+  "tel": "+351295905182"
+ },
+ {
+  "id": "ti-choa",
+  "name": "Ti Choa",
+  "area": "Serreta",
+  "tag": "SERRETA",
+  "cuisine": "Restaurante tradicional · Prato de degustação",
+  "distance": "19,5 km · 31 min de viatura",
+  "address": "Grota do Margaride, Serreta",
+  "hours": "Segunda a Sábado: 12h00-16h00 (apenas abre para almoços)",
+  "closed": "Domingo",
+  "phone": "295 906 673",
+  "tel": "+351295906673"
+ },
+ {
+  "id": "buzius",
+  "name": "Búzius",
+  "area": "Porto Martins",
+  "tag": "PORTO MARTINS",
+  "cuisine": "Bife de atum",
+  "distance": "19 km · 27 min de viatura",
+  "address": "Piscina do Porto, Porto Martins",
+  "hours": "Quarta a Domingo: 12h00-14h30 / 18h00-21h30",
+  "closed": "Segunda-feira e Terça-feira",
+  "phone": "295 515 555",
+  "tel": "+351295515555"
+ },
+ {
+  "id": "caneta",
+  "name": "Caneta",
+  "area": "Altares",
+  "tag": "ALTARES",
+  "cuisine": "Comida tradicional",
+  "distance": "18 km · 23 min de viatura",
+  "address": "Rua As Pressas 136, Altares",
+  "hours": "Terça, Quarta e Quinta: 12h00-15h00; Sábado e Domingo: 12h00-16h00",
+  "closed": "Segunda-feira",
+  "phone": "295 989 162",
+  "tel": "+351295989162"
+ },
+ {
+  "id": "ginsu",
+  "name": "Ginsu",
+  "area": "Praia da Vitória",
+  "tag": "PRAIA DA VITÓRIA",
+  "cuisine": "Sushi",
+  "distance": "25 km · 25 min de viatura",
+  "address": "Rua da Estrela 14, Praia da Vitória",
+  "hours": "Segunda a Quinta: 12h00-15h00 / 19h00-22h00; Sexta: 12h00-15h00 / 19h00-02h00; Sábado: 12h00-15h00 / 19h00-00h00",
+  "closed": "Domingo",
+  "phone": "963 528 817",
+  "tel": "+351963528817"
+ },
+ {
+  "id": "rocha",
+  "name": "Restaurante Rocha",
+  "area": "Porto Judeu",
+  "tag": "PORTO JUDEU",
+  "cuisine": "Telhas de Lulas / Peixe / Mista / Alcatra de Peixe; hambúrgueres no snack-bar; recomendação: esplanada do restaurante",
+  "distance": "12 km · 15 min de viatura",
+  "address": "Caminho da Esperança n.º 134, Porto Judeu, 9700-368 Angra do Heroísmo",
+  "hours": "",
+  "closed": "Quarta-feira",
+  "phone": "295 905 185",
+  "tel": "+351295905185"
+ }
 ];
 const $=s=>document.querySelector(s), grid=$("#restaurantGrid");
-const ui={
-  history:"História", details:"Informações", address:"Morada", specialty:"Especialidade / informação", phone:"Telefone", location:"Localidade", call:"LIGAR ↗", map:"VER MAPA ↗"
-};
+const ui={"history": "História", "cuisine": "Culinária", "distance": "Distância", "address": "Morada", "hours": "Horário de funcionamento", "closed": "Dia de encerramento", "phone": "Contacto", "call": "LIGAR ↗", "map": "VER MAPA ↗"};
 function esc(v){return String(v??"").replace(/[&<>\"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
 function renderCards(){
  grid.innerHTML=restaurants.map(r=>`<article class="card restaurant-card" data-name="${esc(r.name)}" data-area="${esc(r.area)}">
    <div class="card-body">
-    <span class="code">${esc(r.tag||"RESTAURANTE · TERCEIRA")}</span>
+    <span class="code">${esc(r.tag)}</span>
     <h3>${esc(r.name)}</h3>
-    <p class="restaurant-area">${esc(r.area)} · Terceira</p>
-    <div class="tags">${(r.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
-    <p class="restaurant-description">${esc(r.description||"")}</p>
-    <div class="restaurant-info-grid">
-      <div><strong>${ui.address}</strong><span>${esc(r.address||"—")}</span></div>
-      <div><strong>${ui.specialty}</strong><span>${esc(r.specialty||"—")}</span></div>
-      <div><strong>${ui.phone}</strong><span>${esc(r.phone||"—")}</span></div>
-      <div><strong>${ui.location}</strong><span>${esc(r.area||"—")}</span></div>
+    <div class="restaurant-info-grid restaurant-info-list">
+      <div><strong>${ui.cuisine}</strong><span>${esc(r.cuisine)}</span></div>
+      <div><strong>${ui.distance}</strong><span>${esc(r.distance)}</span></div>
+      <div><strong>${ui.address}</strong><span>${esc(r.address)}</span></div>
+      ${r.hours?`<div><strong>${ui.hours}</strong><span>${esc(r.hours)}</span></div>`:""}
+      ${r.closed?`<div><strong>${ui.closed}</strong><span>${esc(r.closed)}</span></div>`:""}
+      <div><strong>${ui.phone}</strong><span>${esc(r.phone)}</span></div>
     </div>
     <div class="restaurant-actions">
-      <a class="button" href="tel:${esc((r.phone||"").replace(/[^\d+]/g,""))}">${ui.call}</a>
-      <a class="button" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+" "+(r.address||""))}" target="_blank" rel="noopener">${ui.map}</a>
+      <a class="button" href="tel:${esc(r.tel)}">${ui.call}</a>
+      <a class="button" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+" "+r.address)}" target="_blank" rel="noopener">${ui.map}</a>
       ${r.id==='tasca-das-tias'?`<button class="button history-toggle" type="button" data-id="${r.id}" aria-expanded="false">${ui.history}</button>`:""}
     </div>
     ${r.id==='tasca-das-tias'?`<div class="history-modal" id="history-${r.id}" hidden role="dialog" aria-modal="true" aria-labelledby="history-title-${r.id}"><div class="history-dialog"><button class="history-close" type="button" aria-label="${lang==='pt'?'Fechar história':'Close history'}">×</button><span class="eyebrow">${ui.history}</span><h4 id="history-title-${r.id}">${esc(r.historyTitle||ui.history)}</h4><div class="history-copy">${(r.history||[]).map(p=>`<p>${esc(p)}</p>`).join("")}</div></div></div>`:""}
