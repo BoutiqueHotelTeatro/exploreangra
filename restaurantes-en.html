@@ -6,7 +6,31 @@
 <meta name="description" content="Discover restaurants on Terceira Island with Boutique Hotel Teatro.">
 <title>Restaurants on Terceira | Boutique Hotel Teatro</title>
 <link rel="stylesheet" href="styles.css">
-</head>
+<style>
+/* Restaurant cards — self-contained (works even with an older styles.css) */
+#restaurantGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:stretch}
+@media(max-width:820px){#restaurantGrid{grid-template-columns:1fr}}
+.restaurant-card .card-body{padding:30px 32px 28px}
+.restaurant-card .code{display:block;font:600 12.5px/1.4 var(--sans,'Jost',sans-serif);letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark,#573f14)}
+.restaurant-card h3{font:500 34px/1.1 var(--serif,'Cormorant Garamond',serif);margin:10px 0 8px}
+.r-cuisine{font:italic 400 21px/1.4 var(--serif,'Cormorant Garamond',serif);color:var(--ink,#1b1710);margin:0 0 20px}
+.r-rows{margin:0;border-top:1px solid var(--gold,#8a6c32)}
+.r-row{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--line,#a8996f)}
+.r-row dt{margin:0;font:600 11px/1.7 var(--sans,'Jost',sans-serif);letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dark,#573f14)}
+.r-row dd{margin:0;font-size:16px;line-height:1.55;color:var(--ink,#1b1710);min-width:0;overflow-wrap:anywhere}
+.r-hrs+.r-hrs{margin-top:8px}
+.r-hrs b{display:block;font-weight:500}
+.r-hrs span{display:block;color:var(--muted,#443c2f)}
+.r-pill{display:inline-block;padding:2px 14px;border:1px solid var(--ink,#1b1710);border-radius:999px;font-size:14.5px;font-weight:500}
+.r-phone{font-weight:500;letter-spacing:.02em}
+.r-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:22px}
+.r-actions .button{margin-top:0;line-height:1.2;font-family:var(--sans,'Jost',sans-serif);font-size:12.5px;padding:14px 24px}
+@media(max-width:560px){
+  .restaurant-card .card-body{padding:26px 22px 24px}
+  .r-row{grid-template-columns:1fr;gap:2px;padding:12px 0}
+  .r-actions .button{flex:1 1 auto;text-align:center}
+}
+</style></head>
 <body>
 <header>
 <a class="brand" href="index-en.html" aria-label="Boutique Hotel Teatro — home"><img src="images/logo.png" alt="Boutique Hotel Teatro"><span class="brand-name">Boutique Hotel Teatro</span></a>
@@ -42,7 +66,10 @@ const restaurants = [
   "cuisine": "Regional cuisine / Traditional food (Alcatra, Aunties’ Roast Beef and Azorean Tuna)",
   "distance": "150 m · 2 min on foot",
   "address": "Rua de São João 117, Angra do Heroísmo",
-  "hours": "12:00–00:00 every day, except Wednesday 12:00–23:30",
+  "hours": [
+   "Every day, except Wednesday: 12:00–00:00",
+   "Wednesday: 12:00–23:30"
+  ],
   "closed": "",
   "phone": "295 628 062",
   "tel": "+351295628062",
@@ -63,7 +90,11 @@ const restaurants = [
   "cuisine": "Flambéed steak",
   "distance": "180 m · 5 min on foot",
   "address": "Rua Direita 113, Angra do Heroísmo",
-  "hours": "Tuesday to Thursday: 12:00–15:00 / 18:30–22:00; Friday and Saturday: 12:00–15:00 / 18:30–23:00; Sunday: 12:00–15:00",
+  "hours": [
+   "Tuesday to Thursday: 12:00–15:00 / 18:30–22:00",
+   "Friday and Saturday: 12:00–15:00 / 18:30–23:00",
+   "Sunday: 12:00–15:00"
+  ],
   "closed": "Monday",
   "phone": "295 218 294",
   "tel": "+351295218294"
@@ -76,7 +107,9 @@ const restaurants = [
   "cuisine": "Wood-fired oven",
   "distance": "4.5 km · 9 min by car",
   "address": "Grota do Medo, Angra do Heroísmo",
-  "hours": "Tuesday to Saturday: 12:00–16:30 / 18:30–00:00",
+  "hours": [
+   "Tuesday to Saturday: 12:00–16:30 / 18:30–00:00"
+  ],
   "closed": "Sunday and Monday",
   "phone": "966 431 126",
   "tel": "+351966431126"
@@ -89,7 +122,9 @@ const restaurants = [
   "cuisine": "Steak on a hot stone",
   "distance": "1.6 km · 6 min by car",
   "address": "Rua do Rego 14, Angra do Heroísmo",
-  "hours": "Monday to Saturday: 18:30–22:00",
+  "hours": [
+   "Monday to Saturday: 18:30–22:00"
+  ],
   "closed": "Sunday",
   "phone": "914 237 459",
   "tel": "+351914237459"
@@ -102,7 +137,9 @@ const restaurants = [
   "cuisine": "Fish and Seafood (speciality)",
   "distance": "1.1 km · 5 min by car",
   "address": "Canada do Porto 46, São Mateus da Calheta",
-  "hours": "Tuesday to Sunday: 12:00–15:00 / 18:30–22:00",
+  "hours": [
+   "Tuesday to Sunday: 12:00–15:00 / 18:30–22:00"
+  ],
   "closed": "Monday",
   "phone": "295 642 392",
   "tel": "+351295642392"
@@ -115,7 +152,9 @@ const restaurants = [
   "cuisine": "Fish Alcatra",
   "distance": "10.4 km · 17 min by car",
   "address": "Largo Santo António, Porto Judeu",
-  "hours": "Thursday to Tuesday: 12:30–15:00 / 19:00–22:00",
+  "hours": [
+   "Thursday to Tuesday: 12:30–15:00 / 19:00–22:00"
+  ],
   "closed": "Wednesday",
   "phone": "295 905 182",
   "tel": "+351295905182"
@@ -128,7 +167,9 @@ const restaurants = [
   "cuisine": "Traditional restaurant · Tasting dish",
   "distance": "19.5 km · 31 min by car",
   "address": "Grota do Margaride, Serreta",
-  "hours": "Monday to Saturday: 12:00–16:00 (open for lunch only)",
+  "hours": [
+   "Monday to Saturday: 12:00–16:00 (open for lunch only)"
+  ],
   "closed": "Sunday",
   "phone": "295 906 673",
   "tel": "+351295906673"
@@ -141,7 +182,9 @@ const restaurants = [
   "cuisine": "Tuna steak",
   "distance": "19 km · 27 min by car",
   "address": "Piscina do Porto, Porto Martins",
-  "hours": "Wednesday to Sunday: 12:00–14:30 / 18:00–21:30",
+  "hours": [
+   "Wednesday to Sunday: 12:00–14:30 / 18:00–21:30"
+  ],
   "closed": "Monday and Tuesday",
   "phone": "295 515 555",
   "tel": "+351295515555"
@@ -154,7 +197,10 @@ const restaurants = [
   "cuisine": "Traditional food",
   "distance": "18 km · 23 min by car",
   "address": "Rua As Pressas 136, Altares",
-  "hours": "Tuesday, Wednesday and Thursday: 12:00–15:00; Saturday and Sunday: 12:00–16:00",
+  "hours": [
+   "Tuesday, Wednesday and Thursday: 12:00–15:00",
+   "Saturday and Sunday: 12:00–16:00"
+  ],
   "closed": "Monday",
   "phone": "295 989 162",
   "tel": "+351295989162"
@@ -167,7 +213,11 @@ const restaurants = [
   "cuisine": "Sushi",
   "distance": "25 km · 25 min by car",
   "address": "Rua da Estrela 14, Praia da Vitória",
-  "hours": "Monday to Thursday: 12:00–15:00 / 19:00–22:00; Friday: 12:00–15:00 / 19:00–02:00; Saturday: 12:00–15:00 / 19:00–00:00",
+  "hours": [
+   "Monday to Thursday: 12:00–15:00 / 19:00–22:00",
+   "Friday: 12:00–15:00 / 19:00–02:00",
+   "Saturday: 12:00–15:00 / 19:00–00:00"
+  ],
   "closed": "Sunday",
   "phone": "963 528 817",
   "tel": "+351963528817"
@@ -180,7 +230,7 @@ const restaurants = [
   "cuisine": "Squid / Fish / Mixed tiles / Fish Alcatra; burgers at the snack bar; recommended: the restaurant’s terrace",
   "distance": "12 km · 15 min by car",
   "address": "Caminho da Esperança n.º 134, Porto Judeu, 9700-368 Angra do Heroísmo",
-  "hours": "",
+  "hours": [],
   "closed": "Wednesday",
   "phone": "295 905 185",
   "tel": "+351295905185"
@@ -190,19 +240,21 @@ const $=s=>document.querySelector(s), grid=$("#restaurantGrid");
 const ui={"history": "History", "cuisine": "Cuisine", "distance": "Distance", "address": "Address", "hours": "Opening hours", "closed": "Closed on", "phone": "Contact", "call": "CALL ↗", "map": "VIEW MAP ↗"};
 function esc(v){return String(v??"").replace(/[&<>\"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));}
 function renderCards(){
- grid.innerHTML=restaurants.map(r=>`<article class="card restaurant-card" data-name="${esc(r.name)}" data-area="${esc(r.area)}">
+ const hoursHtml=h=>(h||[]).map(l=>{const i=l.indexOf(': ');return i>0?`<div class="r-hrs"><b>${esc(l.slice(0,i))}</b><span>${esc(l.slice(i+2))}</span></div>`:`<div class="r-hrs"><span>${esc(l)}</span></div>`}).join("");
+const row=(label,html)=>html?`<div class="r-row"><dt>${label}</dt><dd>${html}</dd></div>`:"";
+grid.innerHTML=restaurants.map(r=>`<article class="card restaurant-card" data-name="${esc(r.name)}" data-area="${esc(r.area)}">
    <div class="card-body">
     <span class="code">${esc(r.tag)}</span>
     <h3>${esc(r.name)}</h3>
-    <div class="restaurant-info-grid restaurant-info-list">
-      <div><strong>${ui.cuisine}</strong><span>${esc(r.cuisine)}</span></div>
-      <div><strong>${ui.distance}</strong><span>${esc(r.distance)}</span></div>
-      <div><strong>${ui.address}</strong><span>${esc(r.address)}</span></div>
-      ${r.hours?`<div><strong>${ui.hours}</strong><span>${esc(r.hours)}</span></div>`:""}
-      ${r.closed?`<div><strong>${ui.closed}</strong><span>${esc(r.closed)}</span></div>`:""}
-      <div><strong>${ui.phone}</strong><span>${esc(r.phone)}</span></div>
-    </div>
-    <div class="restaurant-actions">
+    <p class="r-cuisine">${esc(r.cuisine)}</p>
+    <dl class="r-rows">
+      ${row(ui.distance,esc(r.distance))}
+      ${row(ui.address,esc(r.address))}
+      ${row(ui.hours,hoursHtml(r.hours))}
+      ${row(ui.closed,r.closed?`<span class="r-pill">${esc(r.closed)}</span>`:"")}
+      ${row(ui.phone,`<span class="r-phone">${esc(r.phone)}</span>`)}
+    </dl>
+    <div class="r-actions">
       <a class="button" href="tel:${esc(r.tel)}">${ui.call}</a>
       <a class="button" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name+" "+r.address)}" target="_blank" rel="noopener">${ui.map}</a>
       ${r.id==='tasca-das-tias'?`<button class="button history-toggle" type="button" data-id="${r.id}" aria-expanded="false">${ui.history}</button>`:""}
