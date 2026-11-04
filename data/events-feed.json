@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T07:00:01+00:00",
+  "generatedAt": "2026-11-04T06:18:09+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,12 +12,12 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 128
+      "structuredEvents": 127
     },
     {
       "url": "https://eventosterceira.pt/pt/",
       "ok": true,
-      "structuredEvents": 2
+      "structuredEvents": 3
     },
     {
       "url": "https://angradoheroismo.pt/eventos/",
@@ -391,48 +391,6 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "StartUp Angra",
-      "image": ""
-    },
-    {
-      "id": "as-aves-terrestres-dos-a-ores",
-      "name": "As aves terrestres dos Açores",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-03",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Sofia Goulart e Rúben Coelho, apresentado por Hélder Xavier.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "noite-de-poesia-poetas-da-ilha-com-joel-moura",
-      "name": "Noite de poesia — Poetas da Ilha com Joel Moura",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-03",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Noite de poesia com os Poetas da Ilha, acompanhados por Joel Moura.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "poetry-night-poets-of-the-island-with-joel-moura",
-      "name": "Poetry Night — Poets of the Island with Joel Moura",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-03",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Poetry night with Poetas da Ilha accompanied by Joel Moura.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
       "image": ""
     },
     {
@@ -1903,6 +1861,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "StartUp Angra",
+      "image": ""
+    },
+    {
+      "id": "clayface",
+      "name": "CLAYFACE",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-19",
+      "area": "Terceira Island",
+      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "description": "Um conto de terror de Hollywood centrado num ator de filmes de série B que se injeta com uma substância e descobre que é capaz de moldar rosto e corpo, tornando-se numa verdadeira peça de argila ambulante.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
       "image": ""
     },
     {
