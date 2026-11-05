@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T06:18:09+00:00",
+  "generatedAt": "2026-11-05T13:19:09+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 127
+      "structuredEvents": 123
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -419,90 +419,6 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "CCCAH (Centro Cultural e de Congressos)",
-      "image": ""
-    },
-    {
-      "id": "apresenta-o-do-livro-altar-ao-divino-esp-rito-santo-tradi-o-e-modernidade",
-      "name": "Apresentação do livro Altar ao Divino Espírito Santo: tradição e modernidade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Apresentação do livro de Fabiana Ourique por Arnaldo Ourique, no auditório da Biblioteca.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "book-presentation-altar-ao-divino-esp-rito-santo-tradi-o-e-modernidade",
-      "name": "Book Presentation: Altar ao Divino Espírito Santo: tradição e modernidade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Presentation of Fabiana Ourique's book by Arnaldo Ourique in the library auditorium.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "conversa-ilha-terceira-ma-nica",
-      "name": "Conversa: Ilha Terceira Maçónica",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Conversa com os leitores em torno do livro de José Luís Neto, com João Maria Mendes, Carlos Bessa, Marta Cruz e Jorge Paulus Bruno.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "conversation-ilha-terceira-ma-nica",
-      "name": "Conversation: Ilha Terceira Maçónica",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Reader conversation around José Luís Neto's book with João Maria Mendes, Carlos Bessa, Marta Cruz and Jorge Paulus Bruno.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "islands-of-dreams-and-longing-ao-compasso-das-brumas",
-      "name": "Islands of Dreams and Longing / Ao compasso das brumas",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Dois livros de Aníbal Pires, apresentados por Diniz Borges.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "sob-as-luas-de-lamo",
-      "name": "Sob as Luas de Álamo",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Auditório do Ramo Grande, Praia da Vitória",
-      "venue": "Auditório do Ramo Grande",
-      "description": "Performance by BeOMNI Expression, Joana Moreira and Miguel Maduro-Dias.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
       "image": ""
     },
     {
