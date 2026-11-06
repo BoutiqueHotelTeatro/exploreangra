@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T13:19:09+00:00",
+  "generatedAt": "2026-11-06T13:02:35+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 123
+      "structuredEvents": 120
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -447,76 +447,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "dialogues-against-the-tide-new-language-new-world",
-      "name": "Dialogues Against the Tide: New Language, New World",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Conversation on Javier Cercas's O louco de Deus no fim do mundo with José Júlio Rocha, Carlos Correia, Carmo Rodeia and Joel Neto.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "di-logos-contra-a-mar-nova-linguagem-novo-mundo",
-      "name": "Diálogos contra a maré: Nova linguagem, novo mundo",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Conversa sobre O louco de Deus no fim do mundo, de Javier Cercas, com José Júlio Rocha, Carlos Correia, Carmo Rodeia e Joel Neto.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "ilhas-desconhecidas-centenary-facsimile-edition",
-      "name": "Ilhas Desconhecidas — centenary facsimile edition",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Presentation of the centenary facsimile edition of Raúl Brandão's Ilhas Desconhecidas with José Júlio Rocha and Diniz Borges.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "ilhas-desconhecidas-edi-o-fac-simile-do-centen-rio",
-      "name": "Ilhas Desconhecidas — edição fac-simile do centenário",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Apresentação da edição fac-similada do centenário de Ilhas Desconhecidas, de Raul Brandão, com José Júlio Rocha e Diniz Borges.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "o-veredito-social",
-      "name": "O VEREDITO SOCIAL",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Terceira Island",
-      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
-      "description": "Duas décadas após a fundação do Facebook, a plataforma tornou-se um gigante que influencia a vida das pessoas e os governos de todo o mundo. No centro da história está uma pergunta que marca o nosso tempo: o que acontece quando a atenção humana se torna o bem mais valioso da sociedade? \"O Veredito Social\" acompanha a relação de confiança entre Frances Haugen, antiga engenheira do Facebook, e Jeff Horwitz, jornalista do Wall Street Journal, que se unem para revelar os segredos mais bem guardados…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
       "image": ""
     },
     {
