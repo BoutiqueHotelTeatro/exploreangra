@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T13:02:35+00:00",
+  "generatedAt": "2026-11-07T11:49:05+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 120
+      "structuredEvents": 113
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -67,34 +67,6 @@
       "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
       "description": "Documentary exhibition tracing milestones in Azorean autonomy from the Administrative Board to the first Regional Government.",
       "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "creation-beyond-the-canvas",
-      "name": "Creation… Beyond the Canvas",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-08-04",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Drawing and painting exhibition in the library's Espaço Criativo, bringing together work by final-year students from Escola Básica e Secundária Tomás de Borba. Coordinated by teacher Vitória Cascais and architect Magda Gonçalves, the exhibition presents the students' artistic development, talent, creativity and dedication.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "cria-o-para-al-m-da-tela",
-      "name": "Criação… para além da tela",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-08-04",
-      "area": "Angra do Heroísmo",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "Exposição de desenho e pintura no Espaço Criativo da Biblioteca, reunindo trabalhos dos alunos finalistas do 12.º ano da Escola Básica e Secundária Tomás de Borba. Coordenada pela professora Vitória Cascais e pela arquiteta Magda Gonçalves, a mostra valoriza o percurso artístico, o talento, a criatividade e a dedicação dos estudantes.",
-      "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
       "image": ""
@@ -366,62 +338,6 @@
       "image": ""
     },
     {
-      "id": "forma-o-startup-angra-intelig-ncia-artificial-a-favor-dos-neg-cios",
-      "name": "Formação Startup Angra: Inteligência Artificial a Favor dos Negócios",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-02",
-      "area": "Terceira Island",
-      "venue": "StartUp Angra",
-      "description": "Formação sobre inteligência artificial a favor dos negócios, das 18h00 às 21h00, de 2 a 6 de novembro.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "StartUp Angra",
-      "image": ""
-    },
-    {
-      "id": "startup-angra-training-artificial-intelligence-for-business",
-      "name": "Startup Angra Training: Artificial Intelligence for Business",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-02",
-      "area": "Terceira Island",
-      "venue": "StartUp Angra",
-      "description": "Business training on artificial intelligence, 18:00–21:00, from 2 to 6 November.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "StartUp Angra",
-      "image": ""
-    },
-    {
-      "id": "4-confer-ncia-internacional-cellagri-portugal",
-      "name": "4.ª Conferência Internacional CellAgri Portugal",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Terceira Island",
-      "venue": "CCCAH (Centro Cultural e de Congressos)",
-      "description": "Conferência científica sobre agricultura celular para investigadores, estudantes, empresas e decisores. Consultar a organização para inscrições e programa.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "CCCAH (Centro Cultural e de Congressos)",
-      "image": ""
-    },
-    {
-      "id": "4th-cellagri-portugal-international-conference",
-      "name": "4th CellAgri Portugal International Conference",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-04",
-      "area": "Terceira Island",
-      "venue": "CCCAH (Centro Cultural e de Congressos)",
-      "description": "Scientific conference on cellular agriculture for researchers, students, industry and policymakers. Consult the organizer for registration and the programme.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "CCCAH (Centro Cultural e de Congressos)",
-      "image": ""
-    },
-    {
       "id": "cinema-o-veredito-social",
       "name": "Cinema: O Veredito Social",
       "category": "Events",
@@ -450,76 +366,6 @@
       "image": ""
     },
     {
-      "id": "apresenta-o-do-livro-terceira-autom-vel-clube-a-prop-sito-dos-seus-50-anos-1975-",
-      "name": "Apresentação do livro: Terceira Automóvel Clube — A propósito dos seus 50 anos — 1975–2025",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Terceira Island",
-      "venue": "Centro Interpretativo de Angra do Heroísmo",
-      "description": "Apresentação do livro de Josué Cardoso sobre os cinquenta anos do Terceira Automóvel Clube.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Interpretativo de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "between-silence-and-vision",
-      "name": "Between silence and vision",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Assunção Melo, apresentado por Diniz Borges.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "book-presentation-terceira-autom-vel-clube-fifty-years-1975-2025",
-      "name": "Book Presentation: Terceira Automóvel Clube — Fifty Years, 1975–2025",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Terceira Island",
-      "venue": "Centro Interpretativo de Angra do Heroísmo",
-      "description": "Presentation of Josué Cardoso’s book on the fifty-year history of Terceira Automóvel Clube.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Interpretativo de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "diaspora-night-cartographies-of-saudade",
-      "name": "Diaspora Night: Cartographies of Saudade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Conversation on writing at a distance and inhabiting memory with Onésimo Teotónio de Almeida and Diniz Borges, moderated by José Andrade.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "noite-da-di-spora-cartografias-da-saudade",
-      "name": "Noite da Diáspora: Cartografias da Saudade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Conversa sobre escrever à distância e habitar a memória com Onésimo Teotónio de Almeida e Diniz Borges, moderada por José Andrade.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
       "id": "presence-and-visual-narrative",
       "name": "Presence and Visual Narrative",
       "category": "Events",
@@ -545,34 +391,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Instituto Açoriano de Cultura",
-      "image": ""
-    },
-    {
-      "id": "sos-cagarro-feteira",
-      "name": "SOS Cagarro — Feteira",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Terceira Island",
-      "venue": "Acesso à zona balnear da Serretinha",
-      "description": "Brigada de salvamento de cagarros. Concentração às 20:00; saída às 20:15. Levar roupa adequada, lanterna e colete refletor.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Acesso à zona balnear da Serretinha",
-      "image": ""
-    },
-    {
-      "id": "shearwater-rescue-feteira",
-      "name": "Shearwater Rescue — Feteira",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Terceira Island",
-      "venue": "Acesso à zona balnear da Serretinha",
-      "description": "Volunteer seabird rescue. Meeting at 20:00; departure at 20:15. Bring suitable clothing, a torch and a reflective vest.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Acesso à zona balnear da Serretinha",
       "image": ""
     },
     {
