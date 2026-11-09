@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:00:10+00:00",
+  "generatedAt": "2026-11-09T14:03:28+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 100
+      "structuredEvents": 93
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -335,132 +335,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "presence-and-visual-narrative",
-      "name": "Presence and Visual Narrative",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Angra do Heroísmo",
-      "venue": "Instituto Açoriano de Cultura",
-      "description": "Seventeen-hour workshop on documentary photography and visual storytelling. Maximum 15 participants; €175; no prior experience required.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Instituto Açoriano de Cultura",
-      "image": ""
-    },
-    {
-      "id": "presen-a-e-narrativa-visual",
-      "name": "Presença e Narrativa Visual",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-06",
-      "area": "Angra do Heroísmo",
-      "venue": "Instituto Açoriano de Cultura",
-      "description": "Workshop de dezassete horas sobre fotografia documental e narrativa visual. Máximo de 15 participantes; 175 €; não é necessária experiência prévia.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Instituto Açoriano de Cultura",
-      "image": ""
-    },
-    {
-      "id": "a-grande-rutura",
-      "name": "A Grande Rutura",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Miguel Monjardino, apresentado por Miguel Araújo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "a-l-gica-das-ideias-a-orianidade-e-autonomia",
-      "name": "A Lógica das Ideias / Açorianidade e Autonomia",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livros de Eduardo Ferraz da Rosa, apresentados por Andreia Fernandes, Jaime Silveira e Paulo Linhares Dias.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "benjamim",
-      "name": "Benjamim",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Pedro Chagas Freitas, apresentado por Flávia Bessa.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "guardians-of-zululand",
-      "name": "Guardians of Zululand",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Exibição da curta-metragem documental de 26 minutos Guardians of Zululand.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "o-cinema-da-minha-vida-o-estrangeiro",
-      "name": "O Cinema da Minha Vida: O Estrangeiro",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Exibição de «O Estrangeiro», de François Ozon. Entrada livre para menores de 18 anos; sócios 1,50 €; não sócios 3 €.",
-      "source": "https://www.instagram.com/cineclubedailhaterceira/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Recreio dos Artistas",
-      "image": ""
-    },
-    {
-      "id": "os-presentes-de-dinis",
-      "name": "Os Presentes de Dinis",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Joana Duque.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "the-cinema-of-my-life-the-stranger",
-      "name": "The Cinema of My Life: The Stranger",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-08",
-      "area": "Angra do Heroísmo",
-      "venue": "Recreio dos Artistas",
-      "description": "Screening of O Estrangeiro, directed by François Ozon. Free for attendees under 18; members €1.50; non-members €3.",
-      "source": "https://www.instagram.com/cineclubedailhaterceira/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Recreio dos Artistas",
       "image": ""
     },
     {
