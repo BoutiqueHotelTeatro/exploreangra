@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T14:03:28+00:00",
+  "generatedAt": "2026-11-10T13:36:52+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 93
+      "structuredEvents": 90
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -307,62 +307,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia de Juventude e das Artes da Ilha Terceira and Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "cinema-o-veredito-social",
-      "name": "Cinema: O Veredito Social",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Sessões de cinema de 5 a 9 de novembro, às 21h00. Duração: 1h52.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "cinema-the-social-verdict-o-veredito-social",
-      "name": "Cinema: The Social Verdict (O Veredito Social)",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-05",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Nightly cinema screenings from 5 to 9 November. Running time: 1h52.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "o-faial-volta-da-mesa",
-      "name": "O Faial à volta da mesa",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-09",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Carla Devesa Rodrigues sobre receitas registadas em cadernos de 1899 a 1930, apresentado por Cláudia Cardoso.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "temas-da-hist-ria-a-oriana-vol-ii",
-      "name": "Temas da História Açoriana, vol. II",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-09",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Carlos Enes, apresentado por António Maio.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
       "image": ""
     },
     {
