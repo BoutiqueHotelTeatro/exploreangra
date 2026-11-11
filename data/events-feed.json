@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T13:36:52+00:00",
+  "generatedAt": "2026-11-11T12:49:39+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 90
+      "structuredEvents": 87
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -307,62 +307,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia de Juventude e das Artes da Ilha Terceira and Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "angra-tech-day",
-      "name": "Angra Tech Day",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-10",
-      "area": "Angra do Heroísmo",
-      "venue": "StartUp Angra",
-      "description": "Evento de tecnologia na StartUp Angra, das 09h00 às 18h00. Consulta a organização para conhecer o programa e as condições de participação.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "StartUp Angra",
-      "image": ""
-    },
-    {
-      "id": "caminhos-da-autonomia",
-      "name": "Caminhos da Autonomia",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-10",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Alzira Silva, apresentado por Carlos Enes.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "mesa-redonda-democracia-diplomacia-e-informa-o",
-      "name": "Mesa redonda: Democracia, Diplomacia e Informação",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-10",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Mesa redonda sobre como navegar num mundo em mudança, com Maria João Avillez e João Vale de Almeida, moderada por David Lopes.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "round-table-democracy-diplomacy-and-information",
-      "name": "Round Table: Democracy, Diplomacy and Information",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-10",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Round table on navigating a changing world with Maria João Avillez and João Vale de Almeida, moderated by David Lopes.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
       "image": ""
     },
     {
