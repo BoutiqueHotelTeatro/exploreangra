@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T12:49:39+00:00",
+  "generatedAt": "2026-11-12T13:51:39+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 87
+      "structuredEvents": 82
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -307,90 +307,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia de Juventude e das Artes da Ilha Terceira and Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "cors-rio-das-ilhas-mem-ria-e-identidade-insular",
-      "name": "Corsário das Ilhas: memória e identidade insular",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-11",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Palestra de Urbano Bettencourt a assinalar os 70 anos de Corsário das Ilhas, de Vitorino Nemésio.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "dia-de-s-o-martinho",
-      "name": "Dia de São Martinho",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-11",
-      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
-      "venue": "Praça Velha",
-      "description": "A Praça Velha, em Angra do Heroísmo, acolhe, no dia 11 de novembro de 2026, quarta-feira, entre as 12h00 e as 17h00, a celebração do «Dia de São Martinho». O programa inclui os concertos de Fábio Ourique, às 12h30, e da banda Bahia Groove, às 15h00, proporcionando uma tarde de animação musical em pleno centro histórico da cidade. A iniciativa conta ainda com barraquinhas de comes e bebes e espaços dedicados ao artesanato, promovendo o convívio e a dinamização do espaço público. Entrada livre.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Praça Velha",
-      "image": ""
-    },
-    {
-      "id": "music-a-ores-26-cantando-admont-seis-vozes",
-      "name": "Music Açores’26 | Cantando Admont — Seis Vozes",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-11",
-      "area": "Angra do Heroísmo",
-      "venue": "Igreja do Colégio",
-      "description": "Concerto a seis vozes no programa do Music Açores’26.",
-      "source": "https://www.instagram.com/angradoheroismo/p/DeynGMKAl3N/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Igreja do Colégio",
-      "image": ""
-    },
-    {
-      "id": "onde-a-terra-se-faz-mem-ria",
-      "name": "Onde a Terra se Faz Memória",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-11",
-      "area": "Auditório do Ramo Grande, Praia da Vitória",
-      "venue": "Auditório do Ramo Grande",
-      "description": "Concerto da Sociedade Musical União das Fontinhas no programa do Outono Vivo.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "sob-as-muralhas-da-pax-julia",
-      "name": "Sob as muralhas da Pax Julia",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-11",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de João Pelica, apresentado por Ricardo Mourão.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "where-the-land-becomes-memory",
-      "name": "Where the Land Becomes Memory",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-11",
-      "area": "Auditório do Ramo Grande, Praia da Vitória",
-      "venue": "Auditório do Ramo Grande",
-      "description": "Concert by Sociedade Musical União das Fontinhas in the Outono Vivo programme.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
       "image": ""
     },
     {
