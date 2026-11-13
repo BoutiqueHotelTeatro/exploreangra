@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:51:39+00:00",
+  "generatedAt": "2026-11-13T13:14:26+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 82
+      "structuredEvents": 79
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -321,62 +321,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "index-collectiones-dicion-rio-de-colecionismo",
-      "name": "Index Collectiones — Dicionário de Colecionismo",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-12",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Apresentação realizada com o Instituto Histórico da Ilha Terceira, com Adelaide Duarte, Anísio Franco e Carolina Neves.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "index-collectiones-dictionary-of-collecting",
-      "name": "Index Collectiones — Dictionary of Collecting",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-12",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Presentation produced with Instituto Histórico da Ilha Terceira, with Adelaide Duarte, Anísio Franco and Carolina Neves.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "street-fighter",
-      "name": "STREET FIGHTER",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-12",
-      "area": "Terceira Island",
-      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
-      "description": "A narrativa decorre em 1993, onde Ryu, interpretado por Andrew Koji, e Ken Masters, a cargo de Noah Centineo, voltam a cruzar destinos ao serem recrutados pela enigmática Chun-Li, interpretada por Callina Liang. Juntos, enfrentam o torneio \"World Warrior\", uma competição feroz que esconde uma conspiração letal e arrisca colocá-los frente a frente tanto como adversários quanto diante dos seus próprios fantasmas.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
-      "image": ""
-    },
-    {
-      "id": "visita-r-gia",
-      "name": "Visita Régia",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-12",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Publication from Instituto Histórico da Ilha Terceira coordinated by Álamo Meneses and João Maria Mendes.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
       "image": ""
     },
     {
