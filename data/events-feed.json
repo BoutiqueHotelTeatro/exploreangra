@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T13:14:26+00:00",
+  "generatedAt": "2026-11-14T12:19:08+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 79
+      "structuredEvents": 88
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -324,6 +324,48 @@
       "image": ""
     },
     {
+      "id": "azores-ocean-surfski",
+      "name": "Azores Ocean Surfski",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-13",
+      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
+      "venue": "Angra do Heroísmo",
+      "description": "A 6.ª edição do Azores Ocean Surfski realiza-se nos dias 13 e 14 de novembro de 2026, prometendo dois dias dedicados à competição, ao convívio e à paixão pela canoagem de mar, com provas destinadas a diferentes escalões. Um dos grandes momentos do evento será a emblemática prova noturna na Baía de Angra do Heroísmo, que proporcionará uma experiência única aos participantes. Esta edição contará com a presença de atletas convidados de reconhecido prestígio, nomeadamente Fernando Pimenta, uma das…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "cabo-verde-no-cinema-ambiental",
+      "name": "CABO VERDE NO CINEMA AMBIENTAL",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-13",
+      "area": "Terceira Island",
+      "venue": "Recreio dos Artistas",
+      "description": "Mostra de Filmes «Cabo Verde no Cinema Ambiental», nos dias 13, 14 e 15 de novembro, na sala de cinema da Sociedade Filarmónica de Instrução e Recreio dos Artistas. Entrada livre. Numa parceria com a Associação do Cinema e Audiovisual de Cabo Verde (ACAVCV), no dia 13 de novembro, pelas 21 horas, serão exibidos os três filmes premiados na primeira edição do FIAC (Festival Internacional de Ação Climática), realizada em Cabo Verde em 2024 (1º classificado – Oásis Submerso (25’), de Madalena Boto,…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Recreio dos Artistas",
+      "image": ""
+    },
+    {
+      "id": "cape-verde-in-environmental-cinema",
+      "name": "CAPE VERDE IN ENVIRONMENTAL CINEMA",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-13",
+      "area": "Terceira Island",
+      "venue": "Recreio dos Artistas",
+      "description": "Film showcase «Cabo Verde no Cinema Ambiental» (Cape Verde in Environmental Cinema), on 13, 14 and 15 November, in the cinema hall of the Sociedade Filarmónica de Instrução e Recreio dos Artistas. Free admission. In partnership with the Cape Verde Cinema and Audiovisual Association (ACAVCV), on 13 November at 9 pm the three award-winning films from the first edition of FIAC (International Climate Action Festival), held in Cape Verde in 2024, will be screened (1st place – Oásis Submerso (25’), by Madalena Boto,…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Recreio dos Artistas",
+      "image": ""
+    },
+    {
       "id": "concert-angra-convida-carolina-deslandes-voice-guitar",
       "name": "Concert: Angra Convida Carolina Deslandes — Voice & Guitar",
       "category": "Events",
@@ -349,62 +391,6 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DdoeeiTo3Iz/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "filha-da-louca",
-      "name": "Filha da Louca",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-13",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Livro de Maria Francisca Gama, apresentado por Eduarda Mendes.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "hugo-sousa-aqui-entre-n-s",
-      "name": "HUGO SOUSA - AQUI ENTRE NÓS",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-13",
-      "area": "Terceira Island",
-      "venue": "Ilha Terceira",
-      "description": "“Aqui Entre Nós” é um espetáculo de stand-up onde Hugo Sousa abre as portas da sua vida sem filtros. Entre histórias de família, episódios caricatos do dia a dia e momentos inspirados nas suas próprias experiências, Hugo transforma situações comuns em gargalhadas inesperadas. Com humor próximo, espontâneo e cheio de identificação, “Aqui Entre Nós” leva o público numa viagem por vários temas que fazem parte da vida de todos nós — relações, memórias, manias, diferenças geracionais e aquelas…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Ilha Terceira",
-      "image": ""
-    },
-    {
-      "id": "mesa-redonda-a-inatividade-individual-ou-o-sintoma-de-uma-comunidade-por-constru",
-      "name": "Mesa redonda: A inatividade é individual ou é o sintoma de uma comunidade por construir?",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-13",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "No bar da academia. Mesa redonda sobre jovens que não trabalham nem estudam nem seguem formação, a voz das famílias e o território.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "image": ""
-    },
-    {
-      "id": "round-table-is-inactivity-individual-or-a-symptom-of-a-community-yet-to-be-built",
-      "name": "Round Table: Is inactivity individual or a symptom of a community yet to be built?",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-13",
-      "area": "Academia de Juventude e das Artes da Ilha Terceira, Praia da Vitória",
-      "venue": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
-      "description": "At the academy bar. Round table on young people not in employment, education or training, family voice and territory.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Academia da Juventude e das Artes da Ilha Terceira (AJAIT)",
       "image": ""
     },
     {
@@ -520,6 +506,20 @@
       "image": ""
     },
     {
+      "id": "concert-angra-convida-carolina-deslandes-voz-guitarra",
+      "name": "Concert: Angra Convida Carolina Deslandes – Voz & Guitarra",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Angra Convida Carolina Deslandes – Voz & Guitarra The Cultural and Congress Centre of Angra do Heroísmo hosts, on Friday and Saturday, 13 and 14 November 2026, at 21:30, the show «Angra Convida Carolina Deslandes – Voz & Guitarra». Due to high demand from the public, an extra session was opened for 13 November. In an intimate format, voice and guitar, Carolina Deslandes presents some of the most striking songs of contemporary Portuguese music,…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "concerto-angra-convida-carolina-deslandes-voz-guitarra",
       "name": "Concerto: Angra Convida Carolina Deslandes – Voz & Guitarra",
       "category": "Events",
@@ -576,6 +576,20 @@
       "image": ""
     },
     {
+      "id": "hora-do-conto",
+      "name": "Hora do Conto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "description": "A Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro promove a “Hora do Conto” destinada a crianças a partir dos 3 anos de idade e às suas famílias, com o intuito de promover bons hábitos de leitura e estabelecer uma boa relação com o texto. Contar histórias é um contributo valioso para a imaginação dos mais pequenos. Criar hábitos de escuta com recurso a variedade de estímulos (o livro ilustrado, a leitura em voz alta, a narração oral de contos, as lengalengas, trava-línguas e…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
       "name": "Hora do Conto — Ana Couto e Paulo Freitas",
       "category": "Events",
@@ -601,6 +615,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Sede do Agrupamento 23 — Praia da Vitória",
+      "image": ""
+    },
+    {
+      "id": "improvised-comedy",
+      "name": "Improvised Comedy",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "Edifício Cultural de S. Bento",
+      "description": "📅 14 November 🕒 15:00 to 18:00 📍 São Bento Cultural Building (Sala da Academia de Artes) The São Bento Cultural Building hosts an Improvised Comedy Workshop, an activity dedicated to creativity, humour and spontaneity. Inspired by the popular programme Whose Line Is It Anyway?, the workshop invites participants to try out different improvisation games, exploring techniques of expression and interaction in a relaxed and fun way. The initiative is aimed at both…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Edifício Cultural de S. Bento",
       "image": ""
     },
     {
@@ -643,6 +671,34 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "story-time",
+      "name": "Story Time",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "description": "The Luís da Silva Ribeiro Public Library and Regional Archive presents “Hora do Conto” (Story Time) for children aged 3 and over and their families, to encourage good reading habits and a good relationship with the text. Telling stories is a valuable contribution to young children's imagination. Building listening habits with a variety of stimuli (the picture book, reading aloud, oral storytelling, nursery rhymes, tongue twisters and…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "image": ""
+    },
+    {
+      "id": "the-forgotten-island",
+      "name": "THE FORGOTTEN ISLAND",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-14",
+      "area": "Terceira Island",
+      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
+      "description": "Jo and Raissa find themselves trapped in the fantastic world of the forgotten island of Nakali. They discover that the only way to return home may cost them a lifetime of memories and emotions.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
       "image": ""
     },
     {
@@ -870,6 +926,62 @@
       "image": ""
     },
     {
+      "id": "attila-szaniszl-2026-cultural-season",
+      "name": "Attila Szaniszló | 2026 Cultural Season",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-18",
+      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
+      "venue": "Angra do Heroísmo",
+      "description": "The Regional Secretariat for Education, Culture and Sport, through the Regional Directorate for Culture, presents on 18 November, as part of the 2026 cultural season, a piano recital by the Hungarian pianist Attila Szaniszló, winner of the 2025 edition of the H.R.H. Princess Lalla Meryem of Morocco International Piano Competition. The piano recital takes place on 18 November at 9:30 pm at the Palácio dos Capitães-Generais in Angra do Heroísmo, on Terceira island. Born in 2005, in…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "attila-szaniszl-temporada-cultural-2026",
+      "name": "Attila Szaniszló | Temporada Cultural 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-18",
+      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
+      "venue": "Angra do Heroísmo",
+      "description": "A Secretaria Regional da Educação, Cultura e Desporto, através da Direção Regional da Cultura, promove, no dia 18 de novembro no âmbito da temporada cultural 2026, um recital de piano do pianista húngaro Attila Szaniszló, vencedor da edição de 2025 do Concurso Internacional de Piano S.A.R. a Princesa Lalla Meryem de Marrocos. O recital de piano realiza-se no dia 18 de novembro, às 21h30, às 21h30, no Palácio dos Capitães-Generais, em Angra do Heroísmo, na ilha Terceira. Nascido em 2005, em…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "jogaa-mega-dayone-gta-vi-launch",
+      "name": "JogaAí MEGA DayOne - GTA VI Launch",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-18",
+      "area": "Terceira Island",
+      "venue": "Academia Musical da Ilha Terceira (AMIT)",
+      "description": "BE AMONG THE FIRST TO PLAY GTA VI! \"But how?\" you ask. JogaAí and the AMIT Auditorium join forces to present the sixth DayOne event, this time dedicated to the launch of one of the most anticipated video games ever: GRAND THEFT AUTO VI! From the 18th to Sunday the 22nd, get ready for a unique experience. - A show dedicated to the GTA VI universe. - Giant screen. - Cinema sound. - Gaming and lots of fun and, of course, some surprises we cannot reveal yet! Five days to…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Academia Musical da Ilha Terceira (AMIT)",
+      "image": ""
+    },
+    {
+      "id": "jogaa-mega-dayone-lan-amento-de-gta-vi",
+      "name": "JogaAí MEGA DayOne - Lançamento de GTA VI",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-18",
+      "area": "Terceira Island",
+      "venue": "Academia Musical da Ilha Terceira (AMIT)",
+      "description": "SÊ DOS PRIMEIROS A JOGAR GTA VI! \"Mas como?\" — perguntas tu. O JogaAí e o Auditório AMIT juntam-se para apresentar o sexto evento DayOne, desta vez dedicado ao lançamento de um dos videojogos mais aguardados de sempre: GRAND THEFT AUTO VI! De dia 18 a domingo, dia 22, prepara-te para viver uma experiência única. - Um espetáculo dedicado ao universo GTA VI. - Ecrã gigante. - Som de cinema. - Gaming e muita diversão e, claro, algumas surpresas que ainda não podemos revelar! Cinco dias para…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Academia Musical da Ilha Terceira (AMIT)",
+      "image": ""
+    },
+    {
       "id": "clayface",
       "name": "CLAYFACE",
       "category": "Events",
@@ -898,6 +1010,34 @@
       "image": ""
     },
     {
+      "id": "never-again-gaza-the-compass-of-the-world-the-archetype-of-contemporary-conflict",
+      "name": "Never Again!! | Gaza, the compass of the world: the archetype of contemporary conflicts",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-19",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "NEVER AGAIN!! Disarm hatred, build justice. On 19 November at 6:30 pm, Casa do Sal hosts another session of the \"Nunca Mais!!\" (Never Again!!) series, this time dedicated to the theme \"Gaza, the compass of the world: the archetype of contemporary conflicts\". Through words, reflection and sharing, the session offers a look at Gaza as a symbol of the tensions, dilemmas and challenges that mark our time. A gathering where prose and poetry meet to think about war, violence, the…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "nunca-mais-gaza-a-b-ssola-do-mundo-o-arqu-tipo-dos-conflitos-contempor-neos",
+      "name": "Nunca Mais!! | Gaza, a bússola do mundo: o arquétipo dos conflitos contemporâneos",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-19",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "NUNCA MAIS!! Desarmar o ódio, construir a justiça. No próximo dia 19 de novembro, às 18h30, a Casa do Sal acolhe mais uma sessão do ciclo \"Nunca Mais!!\", desta vez dedicada ao tema \"Gaza, a bússola do mundo: o arquétipo dos conflitos contemporâneos\". Através da palavra, da reflexão e da partilha, a sessão propõe um olhar sobre Gaza enquanto símbolo das tensões, dilemas e desafios que marcam o nosso tempo. Um encontro em que a prosa e a poesia se cruzam para pensar a guerra, a violência, a…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "christmas-lights-switch-on",
       "name": "Christmas Lights Switch-On",
       "category": "Events",
@@ -909,6 +1049,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "christmas-in-angra-2026-programme",
+      "name": "Christmas in Angra 2026 Programme",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
+      "venue": "Angra do Heroísmo",
+      "description": "The Christmas Programme offers a varied schedule for all ages, with concerts, cinema, street entertainment, children's activities, exhibitions, workshops and moments of religious celebration. Over several weeks, the city takes on a festive atmosphere with the Christmas Village and various cultural initiatives, encouraging the togetherness and spirit of sharing typical of this season. Programme subject to change. CHRISTMAS PROGRAMME 2026 20 November 2026 to 10 January 2027 20 NOV. FRIDAY…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
       "image": ""
     },
     {
@@ -968,6 +1122,20 @@
       "image": ""
     },
     {
+      "id": "programa-do-natal-em-angra-2026",
+      "name": "Programa do Natal em Angra 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
+      "venue": "Angra do Heroísmo",
+      "description": "O Programa de Natal oferece uma agenda diversificada para todas as idades, com concertos, cinema, animação de rua, atividades infantis, exposições, oficinas e momentos de celebração religiosa. Ao longo de várias semanas, a cidade ganha uma atmosfera festiva com a Aldeia de Natal e várias iniciativas culturais, promovendo o convívio e o espírito de partilha típico desta época. Programa sujeito a alterações. PROGRAMA DE NATAL 2026 20 de novembro de 2026 a 10 de janeiro de 2027 20 NOV. SEXTA…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "sons-da-macaron-sia-2026",
       "name": "SONS DA MACARONÉSIA 2026",
       "category": "Events",
@@ -1024,6 +1192,48 @@
       "image": ""
     },
     {
+      "id": "dance-without-borders-dj-set-with-marta-san-lisbon",
+      "name": "Dance Without Borders | DJ set with Marta San (Lisbon)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-21",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🌍🎶 DANCE WITHOUT BORDERS Casa do Sal welcomes Marta San (Lisbon) for a night of global rhythms, psychedelia, new wave, rock, electronic music and many other sonic surprises. Known for her eclectic sets and musical journeys with no map and no borders, Marta San leads us onto a dance floor where anything can happen and the only rule is to keep dancing. 📅 21 November 2026 🕙 10 pm 📍 Casa do Sal 🎟 Members: €1.50 | Non-members: €3.00 A night to discover new sounds,…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "dan-a-sem-fronteiras-dj-set-com-marta-san-lisboa",
+      "name": "Dança Sem Fronteiras | DJ set com Marta San (Lisboa)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-21",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🌍🎶 DANÇA SEM FRONTEIRAS A Casa do Sal recebe Marta San (Lisboa) para uma noite de ritmos globais, psicadelismo, new wave, rock, eletrónica e muitas outras surpresas sonoras. Conhecida pelos seus sets ecléticos e pelas viagens musicais sem mapa nem fronteiras, Marta San conduz-nos numa pista de dança onde tudo pode acontecer e onde a única regra é continuar a dançar. 📅 21 de novembro de 2026 🕙 22h00 📍 Casa do Sal 🎟 Sócios: 1,50 € | Não sócios: 3,00 € Uma noite para descobrir novos sons,…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "escama-de-cobra-4",
+      "name": "ESCAMA: de cobra 4#",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-21",
+      "area": "Angra Do Heroísmo Portugal",
+      "venue": "Recreio dos Artistas",
+      "description": "**ESCAMA: de cobra 4#** The snake sheds its skin, but never loses its venom! On **21 November**, we return to Recreio dos Artistas with three musical acts stepping outside the usual circuit. **PARPAR — Lisbon**   Free jazz meets noise rock. Saxophone, drums and raw sonic energy. **ANDREIA DO Ó — DJ SET**   After 10 years with the Wild do Ó project, she returns to the decks solo, bringing her international experience to a new chapter. **MUNAY — DJ SET**   A journey through different geographies and sounds. 21 November · 10 PM   Recreio dos Artistas · Angra do Heroísmo Tickets: €6 AAIP members  €8 daily membership **Outside the circuit. Within the island.**",
+      "source": "https://www.instagram.com/p/DfcotKCt-ce/?vrfl=Mjc5czk0dXF0N2ty",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Recreio dos Artistas",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
       "name": "Hora do Conto — Ana Couto e Paulo Freitas",
       "category": "Events",
@@ -1052,6 +1262,20 @@
       "image": ""
     },
     {
+      "id": "a-thousand-santa-clauses-exhibition",
+      "name": "A Thousand Santa Clauses - Exhibition",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-22",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🎅✨ Mil Pais Natais (A Thousand Santa Clauses) at Casa do Sal From 22 November to 4 December, Casa do Sal hosts Mil Pais Natais, an exhibition bringing together the collection of Ana Pereira, built over several years and made up of dozens of representations of this figure so central to the Christmas imagination. Among pieces in clay, wood, glass, fabric, metal and many other materials, the show reveals the diversity of forms and interpretations that Santa Claus has inspired in different contexts, traditions and expressions…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "floresta-m-gica",
       "name": "FLORESTA MÁGICA",
       "category": "Events",
@@ -1063,6 +1287,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Auditório Ramo Grande - Açores",
+      "image": ""
+    },
+    {
+      "id": "magic-forest",
+      "name": "MAGIC FOREST",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-22",
+      "area": "Terceira Island",
+      "venue": "Auditório Ramo Grande - Açores",
+      "description": "",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório Ramo Grande - Açores",
+      "image": ""
+    },
+    {
+      "id": "mil-pais-natais-exposi-o",
+      "name": "Mil Pais Natais - Exposição",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-22",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🎅✨ Mil Pais Natais na Casa do Sal De 22 de novembro a 4 de dezembro, a Casa do Sal recebe Mil Pais Natais, uma exposição que reúne a coleção de Ana Pereira, construída ao longo de vários anos e composta por dezenas de representações desta figura tão marcante do imaginário natalício. Entre peças em barro, madeira, vidro, tecido, metal e muitos outros materiais, a mostra revela a diversidade de formas e interpretações que o Pai Natal inspirou em diferentes contextos, tradições e expressões…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
       "image": ""
     },
     {
@@ -1136,6 +1388,20 @@
       "image": ""
     },
     {
+      "id": "curtas-vila-do-conde-comes-to-casa-do-sal",
+      "name": "Curtas Vila do Conde comes to Casa do Sal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🎬 Curtas Vila do Conde comes to Casa do Sal On 27 and 28 November, Oficina d'Angra hosts at Casa do Sal two special sessions of Curtas Vila do Conde – International Film Festival, one of the most important film festivals in the country. ✨ Best of Curtas (adults) 📅 27 November | 9 pm 🎈 Curtinhas (children) 📅 28 November | 2:30 pm From the best of contemporary short film to cinema made for families and younger audiences, these will be two moments to discover the creative universe of…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "evening-conversations-m-dicos-do-mundo-and-fraterune",
       "name": "Evening Conversations — Médicos do Mundo and FraterUne",
       "category": "Events",
@@ -1147,6 +1413,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho (Town Hall)",
+      "image": ""
+    },
+    {
+      "id": "fado-atl-ntico-festival",
+      "name": "Fado Atlântico Festival",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Igreja do Regimento de Guarnição N.º1",
+      "description": "The Church of the Garrison Regiment No. 1, in Monte Brasil, hosts, on Friday, 27 November 2026, at 21:30, another edition of the Fado Atlântico Festival. The concert stars Cláudia Picado, and also features the invited fado singers Fábio Ourique, Lisele Silva, Nélia Martins, Américo Roque, André Gonçalves, Tiago Azevedo, Vera Brasil, Guida Lima and Susana Lemos. The performers will be accompanied by musicians Evandro Meneses, Paulo Cunha and Pedro Morais,…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Igreja do Regimento de Guarnição N.º1",
       "image": ""
     },
     {
@@ -1206,6 +1486,20 @@
       "image": ""
     },
     {
+      "id": "o-curtas-vila-do-conde-chega-casa-do-sal",
+      "name": "O Curtas Vila do Conde chega à Casa do Sal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🎬 O Curtas Vila do Conde chega à Casa do Sal Nos dias 27 e 28 de novembro, a Oficina d'Angra recebe na Casa do Sal duas sessões especiais do Curtas Vila do Conde – Festival Internacional de Cinema, um dos mais importantes festivais de cinema do país. ✨ Best of Curtas (adultos) 📅 27 novembro | 21h00 🎈 Curtinhas (crianças) 📅 28 novembro | 14h30 Do melhor da curta-metragem contemporânea ao cinema pensado para famílias e público mais jovem, serão dois momentos para descobrir o universo criativo de…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "classical-music-season-advent-concert",
       "name": "Classical Music Season: Advent Concert",
       "category": "Events",
@@ -1231,6 +1525,34 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "open-session-of-the-art-history-course-for-children",
+      "name": "Open session of the Art History Course for Children",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🎨✈️ A journey through Art History begins at Casa do Sal! What if children could get to know cave paintings, travel to the Renaissance, discover the Impressionists and explore contemporary art, all through creativity and artistic experimentation? The Art History Course for Children, led by Cátia Guimarães and Carolina Rocha, invites participants aged 6 to 10 to discover artists, works and movements that marked different eras, always with a…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "sess-o-aberta-do-curso-de-hist-ria-da-arte-para-crian-as",
+      "name": "Sessão aberta do Curso de História da Arte para Crianças",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "🎨✈️ Uma viagem pela História da Arte começa na Casa do Sal! E se as crianças pudessem conhecer as pinturas rupestres, viajar até ao Renascimento, descobrir os impressionistas e explorar a arte contemporânea, tudo através da criatividade e da experimentação artística? O Curso de História da Arte para Crianças, orientado por Cátia Guimarães e Carolina Rocha, convida participantes dos 6 aos 10 anos a descobrir artistas, obras e movimentos que marcaram diferentes épocas, sempre com uma componente…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
       "image": ""
     },
     {
@@ -1385,6 +1707,34 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "CCCAH (Centro Cultural e de Congressos)",
+      "image": ""
+    },
+    {
+      "id": "lan-amento-dos-livros-da-cole-o-purpurina-2026",
+      "name": "Lançamento dos livros da coleção Purpurina 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "As dez autoras participantes na formação Escrever para Crianças, 3ª edição 2026, irão lançar o seu primeiro livro integrado na coleção Purpurina, no próximo dia 29 de novembro. Esta é uma data que celebra não só o surgimento de mais escritoras de livros para a infância, como também o enriquecimento da Literatura Açoriana para Crianças. É momento para participar e comemorar em sociedade.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "launch-of-the-2026-purpurina-collection-books",
+      "name": "Launch of the 2026 Purpurina collection books",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "The ten authors taking part in the Escrever para Crianças (Writing for Children) course, 3rd edition 2026, will launch their first book in the Purpurina collection on 29 November. This date celebrates not only the emergence of more writers of books for children but also the enrichment of Azorean Literature for Children. It is a moment to take part and celebrate together.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -1752,20 +2102,6 @@
       "image": ""
     },
     {
-      "id": "concerto-de-fim-de-ano-temporada-de-m-sica-cl-ssica",
-      "name": "Concerto de Fim de Ano — Temporada de Música Clássica",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-12-27",
-      "area": "Terceira Island",
-      "venue": "Paços do Conselho de Angra do Heroísmo",
-      "description": "📅 27 de dezembro de 2026 🕒 20h00 📍Paços do Conselho de Angra do Heroísmo Os Paços do Concelho acolhem, no dia 27 de dezembro de 2026, domingo, às 20h00, o Concerto de Fim de Ano, que encerra a Temporada de Música Clássica 2026. A iniciativa conta com Grygoriy Grytsyuk, ao piano, Svitlana Poustovhar, ao violoncelo, e Taras Poustovgar, no clarinete, num momento de música clássica que assinala o encerramento da temporada. 💚 Entrada gratuita ℹ️ Mais informações:",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Paços do Conselho de Angra do Heroísmo",
-      "image": ""
-    },
-    {
       "id": "temporada-de-m-sica-cl-ssica-concerto-de-fim-de-ano",
       "name": "Temporada de Música Clássica: Concerto de Fim de Ano",
       "category": "Events",
@@ -1815,8 +2151,8 @@
       "date": "2027-01-29",
       "area": "Terceira Island",
       "venue": "Parque Multissetorial da Ilha Terceira",
-      "description": "O Azores GameFest, um dos maiores eventos de Gaming e Esports dos Açores regressa à Ilha Terceira, no Pavilhão Multiusos do Parque Multissetorial, entre os dias 29 e 31 de janeiro e promete novas áreas, torneios, convidados, workshops e painéis com muitas novidades e conteúdos dedicados aos fãs do gaming mas também para toda a família.",
-      "source": "https://eventosterceira.pt/pt/special/",
+      "description": "The Azores GameFest, one of the largest Gaming and Esports events in the Azores, returns to Terceira Island, at the Multi-Use Pavilion of the Parque Multissetorial, between 29 and 31 January, and promises new areas, tournaments, guests, workshops and panels with many novelties and content dedicated to gaming fans but also for the whole family.",
+      "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Parque Multissetorial da Ilha Terceira",
       "image": ""
