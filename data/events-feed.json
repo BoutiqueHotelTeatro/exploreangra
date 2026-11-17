@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T13:48:15+00:00",
+  "generatedAt": "2026-11-17T14:40:25+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 106
+      "structuredEvents": 124
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -324,20 +324,6 @@
       "image": ""
     },
     {
-      "id": "cinema-street-fighter",
-      "name": "Cinema: Street Fighter",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-12",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Nightly cinema screenings from 12 to 16 November. Running time: 1h59.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
       "id": "diversas-s-o-as-cores-das-hist-rias",
       "name": "Diversas são as Cores das Histórias",
       "category": "Events",
@@ -349,34 +335,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Carmina Galeria de Arte Contemporânea Dimas Simas Lopes",
-      "image": ""
-    },
-    {
-      "id": "cinema-ocean-with-david-attenborough",
-      "name": "Cinema: Ocean with David Attenborough",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-16",
-      "area": "Auditório do Ramo Grande, Praia da Vitória",
-      "venue": "Auditório do Ramo Grande",
-      "description": "Exibição do documentário promovida pela Revive Our Ocean, National Geographic Pristine Seas, Blue Azores e Save Azores Waves, com apoio municipal. Entrada gratuita com levantamento obrigatório de bilhete na AJAIT, nos dias úteis das 08h30 às 13h00 e das 14h00 às 16h30; no dia do evento a bilheteira abre duas horas antes da sessão.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "film-ocean-with-david-attenborough",
-      "name": "Film: Ocean with David Attenborough",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-16",
-      "area": "Auditório do Ramo Grande, Praia da Vitória",
-      "venue": "Auditório do Ramo Grande",
-      "description": "Documentary screening promoted by Revive Our Ocean, National Geographic Pristine Seas, Blue Azores and Save Azores Waves, with municipal support. Admission is free but a ticket is required. Collect tickets at AJAIT on weekdays, 08:30–13:00 and 14:00–16:30; the event-day ticket office opens two hours before the screening.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
       "image": ""
     },
     {
@@ -1206,6 +1164,20 @@
       "image": ""
     },
     {
+      "id": "recolha-de-res-duos",
+      "name": "Recolha de Resíduos",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-22",
+      "area": "Terceira Island",
+      "venue": "Baía da Salga – São Sebastião, Angra do Heroísmo",
+      "description": "📅 22 de novembro 🕒 09h00 📍 Baía da Salga – São Sebastião, Angra do Heroísmo Ação de recolha de resíduos na orla costeira de São Sebastião, com ponto de encontro na Baía da Salga. Uma iniciativa que apela à participação da comunidade na preservação do litoral e na proteção dos ecossistemas marinhos, contribuindo para um ambiente mais limpo e sustentável. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Baía da Salga – São Sebastião, Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "sundays-with-music-november-2026",
       "name": "Sundays with Music — November 2026",
       "category": "Events",
@@ -1231,6 +1203,20 @@
       "source": "https://www.instagram.com/cineclubedailhaterceira/",
       "sourceLabel": "Eventos Terceira",
       "map": "Recreio dos Artistas",
+      "image": ""
+    },
+    {
+      "id": "waste-collection",
+      "name": "Waste Collection",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-22",
+      "area": "Terceira Island",
+      "venue": "Baía da Salga – São Sebastião, Angra do Heroísmo",
+      "description": "📅 November 22 🕒 09:00 📍 Baía da Salga – São Sebastião, Angra do Heroísmo Waste collection event along the São Sebastião coastline, with the meeting point at Baía da Salga. An initiative that calls on the community to take part in preserving the coastline and protecting marine ecosystems, contributing to a cleaner and more sustainable environment. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Baía da Salga – São Sebastião, Angra do Heroísmo",
       "image": ""
     },
     {
@@ -1598,6 +1584,20 @@
       "image": ""
     },
     {
+      "id": "a-fraternidade-laica",
+      "name": "A Fraternidade Laica",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Museu de Angra do Heroísmo",
+      "description": "📅 28 de novembro de 2026 🕒 16h30 📍 Museu de Angra do Heroísmo — Auditório do Edifício de São Francisco 🎟️ Entrada livre O Museu de Angra do Heroísmo recebe a conferência «A Fraternidade Laica», apresentada por Paulo Mendes Pinto, numa iniciativa promovida pelo Grémio do Atlântico. A sessão propõe uma reflexão sobre o conceito de fraternidade e a sua evolução ao longo da história, desde os mitos e tradições da Antiguidade até ao pensamento contemporâneo. Partindo de diferentes perspetivas…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "cada-workshops-plant-fibres-i",
       "name": "CADA Workshops: Plant Fibres I",
       "category": "Events",
@@ -1710,6 +1710,48 @@
       "image": ""
     },
     {
+      "id": "festival-de-peixe-festa-de-santo-ant-nio-da-vila-de-s-o-mateus",
+      "name": "Festival de Peixe | Festa de Santo António da Vila de São Mateus",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo da Terra Chã",
+      "description": "📅 28 de novembro 🕒 19h30 📍Casa do Povo da Terra Chã Evento gastronómico dedicado à degustação de várias variedades de peixe, com animação musical de Francisco Ourique e DJ Carlos Fernandes (“Party People”). Entradas: 16 peixes | Crianças até aos 12 anos: 10 peixes. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo da Terra Chã",
+      "image": ""
+    },
+    {
+      "id": "festival-de-sopas",
+      "name": "Festival de Sopas",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo da Vila de São Sebastião",
+      "description": "📅 28 de novembro 🕒 19h00 📍Casa do Povo da Vila de São Sebastião A Comissão das Festas de Sant’Ana 2027 organiza um Festival de Sopas, com diferentes variedades para partilhar num serão de convívio. Entrada: 5€ para adultos e 3€ para crianças até aos 6 anos. Sujeito a reserva. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo da Vila de São Sebastião",
+      "image": ""
+    },
+    {
+      "id": "fish-festival-feast-of-santo-ant-nio-of-vila-de-s-o-mateus",
+      "name": "Fish Festival | Feast of Santo António of Vila de São Mateus",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo da Terra Chã",
+      "description": "📅 November 28 🕒 7:30 p.m. 📍Casa do Povo da Terra Chã Gastronomic event dedicated to tasting several varieties of fish, with musical entertainment by Francisco Ourique and DJ Carlos Fernandes (“Party People”). Admission: 16 fish | Children up to 12 years old: 10 fish. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo da Terra Chã",
+      "image": ""
+    },
+    {
       "id": "grande-debate-ma-onaria-e-opus-dei-s-o-opostas-o-que-as-distingue",
       "name": "Grande debate «Maçonaria e Opus Dei — são opostas? O que as distingue?»",
       "category": "Events",
@@ -1766,6 +1808,20 @@
       "image": ""
     },
     {
+      "id": "natural-christmas-wreaths-workshop",
+      "name": "Natural Christmas Wreaths Workshop",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Centro Multiusos da Ribeira Seca",
+      "description": "📅 28 November 🕒 15:00 📍 Centro Multiusos da Ribeira Seca Take part in the Natural Christmas Wreaths Workshop, led by Pedro Airoso, and discover how to create Christmas decorations from natural materials. An opportunity to unleash your creativity, learn new techniques and take home a unique wreath, made by you, to give your Christmas decorations a special touch. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Multiusos da Ribeira Seca",
+      "image": ""
+    },
+    {
       "id": "oficinas-cada-fibras-vegetais-i",
       "name": "Oficinas CADA: Fibras Vegetais I",
       "category": "Events",
@@ -1819,6 +1875,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "soup-festival",
+      "name": "Soup Festival",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo da Vila de São Sebastião",
+      "description": "📅 28 November 🕒 19h00 📍Casa do Povo da Vila de São Sebastião The Comissão das Festas de Sant’Ana 2027 is organizing a Soup Festival, with different varieties to share during an evening of socializing. Admission: 5€ for adults and 3€ for children up to 6 years old. Subject to reservation. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo da Vila de São Sebastião",
       "image": ""
     },
     {
@@ -1934,6 +2004,48 @@
       "image": ""
     },
     {
+      "id": "workshop-de-grinaldas-naturais-de-natal",
+      "name": "Workshop de Grinaldas Naturais de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Centro Multiusos da Ribeira Seca",
+      "description": "📅 28 de novembro 🕒 15h00 📍 Centro Multiusos da Ribeira Seca Participe no Workshop de Grinaldas Naturais de Natal, orientado por Pedro Airoso, e descubra como criar decorações natalícias a partir de materiais naturais. Uma oportunidade para dar asas à criatividade, aprender novas técnicas e levar para casa uma grinalda única, feita por si, para dar um toque especial à sua decoração de Natal. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Multiusos da Ribeira Seca",
+      "image": ""
+    },
+    {
+      "id": "workshop-entradas-para-a-mesa-de-natal",
+      "name": "Workshop | Entradas para a Mesa de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Mercado de Natal do Porto Judeu",
+      "description": "📅 28 de novembro 🕒 17h00 📍 Mercado de Natal do Porto Judeu Workshop de Entradas para a Mesa de Natal, orientado por Fábio Costa, dedicado à preparação de sugestões criativas e saborosas para enriquecer a mesa da consoada. Uma oportunidade para aprender novas ideias e descobrir inspirações para surpreender a família e os amigos nesta época festiva. Participação limitada a 30 pessoas, mediante inscrição prévia. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Mercado de Natal do Porto Judeu",
+      "image": ""
+    },
+    {
+      "id": "workshop-starters-for-the-christmas-table",
+      "name": "Workshop | Starters for the Christmas Table",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Mercado de Natal do Porto Judeu",
+      "description": "📅 November 28 🕒 5:00 p.m. 📍 Porto Judeu Christmas Market Workshop on Starters for the Christmas Table, led by Fábio Costa, dedicated to preparing creative and tasty suggestions to enrich the Christmas Eve dinner table. An opportunity to learn new ideas and discover inspiration to surprise family and friends this festive season. Participation limited to 30 people, with advance registration. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Mercado de Natal do Porto Judeu",
+      "image": ""
+    },
+    {
       "id": "20th-azores-international-festival-commemorative-conference",
       "name": "20th Azores International Festival Commemorative Conference",
       "category": "Events",
@@ -1976,6 +2088,20 @@
       "image": ""
     },
     {
+      "id": "christmas-market",
+      "name": "Christmas Market",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Centro Social do Juncal",
+      "description": "📅 November 28 and 29 📍Centro Social do Juncal Santa Cruz Parish Council organizes the 1st Christmas Market, featuring a fair of artisanal products, a children's area, workshops, musical entertainment and other activities, promoting community togetherness and the Christmas spirit. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Social do Juncal",
+      "image": ""
+    },
+    {
       "id": "confer-ncia-comemorativa-da-20-edi-o-do-festival-internacional-dos-a-ores",
       "name": "Conferência comemorativa da 20.ª edição do Festival Internacional dos Açores",
       "category": "Events",
@@ -1987,6 +2113,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "image": ""
+    },
+    {
+      "id": "domingos-com-m-sica-novembro-2026",
+      "name": "Domingos com Música — Novembro 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Coro Alto da Igreja de Nossa Senhora da Guia",
+      "description": "📅 1, 8, 15, 22 e 29 de novembro de 2026 🕒 11h00 📍 Museu de Angra do Heroísmo — Igreja de Nossa Senhora da Guia 🎟️ Entrada livre O Museu de Angra do Heroísmo dá continuidade à iniciativa «Domingos com Música», com um conjunto de concertos dedicados à música barroca, interpretados pelo organista residente Gustaaf Robert van Manen. Os concertos realizam-se no Coro Alto da Igreja de Nossa Senhora da Guia, tendo como protagonista o órgão histórico construído em 1788 por António Xavier Machado e…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Coro Alto da Igreja de Nossa Senhora da Guia",
       "image": ""
     },
     {
@@ -2046,6 +2186,34 @@
       "image": ""
     },
     {
+      "id": "meditation-workshop",
+      "name": "Meditation Workshop",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Mercado de Natal do Porto Judeu",
+      "description": "📅 November 29 🕒 1:00 pm 📍 Christmas Market in Porto Judeu Meditation Workshop, led by Tânia Leal, with two 30-minute sessions dedicated to relaxation, tranquility and well-being. An opportunity to take a break from the hustle and bustle of everyday life, find balance and enjoy a moment of serenity. Each session has a limit of 10 participants. It is recommended to bring an exercise mat, towel or blanket. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Mercado de Natal do Porto Judeu",
+      "image": ""
+    },
+    {
+      "id": "mercado-de-natal",
+      "name": "Mercado de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Centro Social do Juncal",
+      "description": "📅 28 e 29 de novembro 📍Centro Social do Juncal A Junta de Freguesia de Santa Cruz organiza o 1.º Mercado de Natal, com feira de produtos artesanais, espaço infantil, workshops, animação musical e outras atividades, promovendo o convívio e o espírito natalício na comunidade. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Social do Juncal",
+      "image": ""
+    },
+    {
       "id": "monte-brasil-short-story-contest-for-parents-and-children",
       "name": "Monte Brasil — Short Story Contest for Parents and Children",
       "category": "Events",
@@ -2088,6 +2256,20 @@
       "image": ""
     },
     {
+      "id": "sundays-with-music-november-2026",
+      "name": "Sundays with Music — November 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Coro Alto da Igreja de Nossa Senhora da Guia",
+      "description": "📅 November 1, 8, 15, 22 and 29, 2026 🕒 11:00 a.m. 📍 Museu de Angra do Heroísmo — Igreja de Nossa Senhora da Guia 🎟️ Free admission Museu de Angra do Heroísmo continues the “Sundays with Music” initiative, with a series of concerts dedicated to Baroque music, performed by resident organist Gustaaf Robert van Manen. The concerts take place in the Upper Choir of Igreja de Nossa Senhora da Guia, featuring the historic organ built in 1788 by António Xavier Machado and…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Coro Alto da Igreja de Nossa Senhora da Guia",
+      "image": ""
+    },
+    {
       "id": "the-cinema-of-my-life-smoke-sauna-sisterhood",
       "name": "The Cinema of My Life: Smoke Sauna Sisterhood",
       "category": "Events",
@@ -2099,6 +2281,48 @@
       "source": "https://www.instagram.com/cineclubedailhaterceira/",
       "sourceLabel": "Eventos Terceira",
       "map": "Recreio dos Artistas",
+      "image": ""
+    },
+    {
+      "id": "workshop-christmas-wreaths",
+      "name": "Workshop - Christmas Wreaths",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Mercado de Natal do Porto Judeu",
+      "description": "📅 November 29 🕒 2:30 pm 📍 Porto Judeu Christmas Market Christmas Wreaths Workshop, led by Marylou Lawrence and Janell Moules, dedicated to creating Christmas decorations. An opportunity to let your creativity soar, learn new techniques and prepare a unique piece to decorate your home this festive season. Participation limited to 20 people, with prior registration. Participants should bring the materials needed to make the Christmas wreath. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Mercado de Natal do Porto Judeu",
+      "image": ""
+    },
+    {
+      "id": "workshop-coroas-de-natal",
+      "name": "Workshop - Coroas de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Mercado de Natal do Porto Judeu",
+      "description": "📅 29 de novembro 🕒 14h30 📍 Mercado de Natal do Porto Judeu Workshop de Coroas de Natal, orientado por Marylou Lawrence e Janell Moules, dedicado à criação de decorações natalícias. Uma oportunidade para dar asas à criatividade, aprender novas técnicas e preparar uma peça única para decorar a casa nesta época festiva. Participação limitada a 20 pessoas, mediante inscrição prévia. Os participantes deverão trazer os materiais necessários para a confeção da coroa de Natal. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Mercado de Natal do Porto Judeu",
+      "image": ""
+    },
+    {
+      "id": "workshop-de-medita-o",
+      "name": "Workshop de Meditação",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-29",
+      "area": "Terceira Island",
+      "venue": "Mercado de Natal do Porto Judeu",
+      "description": "📅 29 de novembro 🕒 13h00 📍 Mercado de Natal do Porto Judeu Workshop de Meditação, orientado por Tânia Leal, com duas sessões de 30 minutos dedicadas ao relaxamento, à tranquilidade e ao bem-estar. Uma oportunidade para fazer uma pausa na azáfama do dia a dia, encontrar o equilíbrio e desfrutar de um momento de serenidade. Cada sessão tem um limite de 10 participantes. Recomenda-se trazer tapete de ginástica, toalha ou manta. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Mercado de Natal do Porto Judeu",
       "image": ""
     },
     {
@@ -2127,6 +2351,34 @@
       "source": "https://www.instagram.com/livraria_lardocelivro/",
       "sourceLabel": "Eventos Terceira",
       "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "centenary-concert-of-casa-de-sa-de-de-s-o-rafael",
+      "name": "Centenary Concert of Casa de Saúde de São Rafael",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-30",
+      "area": "Terceira Island",
+      "venue": "Coro Alto da Igreja de Nossa Senhora da Guia",
+      "description": "📅 November 30, 2026 🕒 9:00 p.m. 📍 Museu de Angra do Heroísmo — Upper Choir of the Church of Nossa Senhora da Guia 🎟️ Free admission Museu de Angra do Heroísmo hosts the Centenary Concert of Casa de Saúde de São Rafael, an initiative promoted by Instituto São João de Deus to mark the 100th anniversary of the canonical founding of the community of the Irmãos de São João de Deus, which took place on November 30, 1926. This celebration evokes a century of presence and dedication to mental health care on the island…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Coro Alto da Igreja de Nossa Senhora da Guia",
+      "image": ""
+    },
+    {
+      "id": "concerto-do-centen-rio-da-casa-de-sa-de-de-s-o-rafael",
+      "name": "Concerto do Centenário da Casa de Saúde de São Rafael",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-30",
+      "area": "Terceira Island",
+      "venue": "Coro Alto da Igreja de Nossa Senhora da Guia",
+      "description": "📅 30 de novembro de 2026 🕒 21h00 📍 Museu de Angra do Heroísmo — Coro Alto da Igreja de Nossa Senhora da Guia 🎟️ Entrada livre O Museu de Angra do Heroísmo acolhe o Concerto do Centenário da Casa de Saúde de São Rafael, uma iniciativa promovida pelo Instituto São João de Deus para assinalar os 100 anos da fundação canónica da comunidade dos Irmãos de São João de Deus, ocorrida a 30 de novembro de 1926. Esta celebração evoca um século de presença e dedicação ao cuidado da saúde mental na ilha…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Coro Alto da Igreja de Nossa Senhora da Guia",
       "image": ""
     },
     {
@@ -2186,6 +2438,48 @@
       "image": ""
     },
     {
+      "id": "azor-brass-festival-2026",
+      "name": "Azor Brass Festival 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-04",
+      "area": "Terceira Island",
+      "venue": "Angra do Heroísmo",
+      "description": "📅 4, 5 and 6 December 2026 🕒 Times as per programme to be announced 📍 Angra do Heroísmo — Terceira Island The city of Angra do Heroísmo hosts the first edition of the Azor Brass Festival — International Festival of Brass Bands of the Azores, an event dedicated to street music, celebration and culture. For three days, regional, national and international brass bands will gather on Terceira Island, providing moments of musical entertainment and celebration. The festival aims to promote brass band music…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "azor-brass-festival-2026",
+      "name": "Azor Brass Festival 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Angra do Heroísmo",
+      "description": "📅 4, 5 e 6 de dezembro de 2026 🕒 Horários conforme programa a divulgar 📍 Angra do Heroísmo — Ilha Terceira A cidade de Angra do Heroísmo recebe a primeira edição do Azor Brass Festival — Festival Internacional de Charangas dos Açores, um evento dedicado à música de rua, à festa e à cultura. Durante três dias, charangas regionais, nacionais e internacionais vão reunir-se na ilha Terceira, proporcionando momentos de animação musical e celebração. O festival pretende valorizar a música de charanga…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "christmas-market-of-the-village-of-s-o-sebasti-o",
+      "name": "Christmas Market of the Village of São Sebastião",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo de São Sebastião",
+      "description": "📅 December 5 and 6 📍 Casa do Povo de São Sebastião The Village of São Sebastião welcomes another edition of its Christmas Market, with two days dedicated to the magic and spirit of the season. The programme includes a Christmas sweets competition, ballroom dancing, musical entertainment, inflatables, face painting, a Christmas cookie workshop, story time and the much-anticipated visit from Father Christmas, with an opportunity for photos. An event for the whole family, inviting everyone to celebrate Christmas in an atmosphere of…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo de São Sebastião",
+      "image": ""
+    },
+    {
       "id": "glenn-miller-orchestra-in-the-christmas-mood",
       "name": "Glenn Miller Orchestra — In the Christmas Mood",
       "category": "Events",
@@ -2197,6 +2491,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "CCCAH (Centro Cultural e de Congressos)",
+      "image": ""
+    },
+    {
+      "id": "hora-do-conto",
+      "name": "Hora do Conto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "description": "📅 31 de outubro; 7, 14, 21 e 28 de novembro; 5, 12, 19 e 26 de dezembro 🕒 De acordo com a programação 📍 Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha, Terceira (Google Maps) A iniciativa Hora do Conto convida crianças e famílias a embarcar em viagens pelo mundo da imaginação através da leitura e narração de histórias. Com sessões dinamizadas por Ana Couto e Paulo Freitas, a atividade promove o gosto pela leitura e proporciona momentos de descoberta, aprendizagem e partilha.…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
       "image": ""
     },
     {
@@ -2214,6 +2522,20 @@
       "image": ""
     },
     {
+      "id": "mercado-de-natal-da-vila-de-s-o-sebasti-o",
+      "name": "Mercado de Natal da Vila de São Sebastião",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo de São Sebastião",
+      "description": "📅 5 e 6 de dezembro 📍 Casa do Povo de São Sebastião A Vila de São Sebastião recebe mais uma edição do seu Mercado de Natal, com dois dias dedicados à magia e ao espírito da época. O programa inclui concurso de doces de Natal, danças de salão, animação musical, insufláveis, pinturas faciais, workshop de bolachas natalícias, hora do conto e a tão aguardada visita do Pai Natal, com oportunidade para fotografias. Uma iniciativa para toda a família, que convida a celebrar o Natal num ambiente de…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo de São Sebastião",
+      "image": ""
+    },
+    {
       "id": "story-hour-ana-couto-and-paulo-freitas",
       "name": "Story Hour — Ana Couto and Paulo Freitas",
       "category": "Events",
@@ -2225,6 +2547,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "story-time",
+      "name": "Story Time",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "description": "📅 October 31; November 7, 14, 21 and 28; December 5, 12, 19 and 26 🕒 According to the programme 📍 Centro Cultural e de Congressos de Angra do Heroísmo and Praça Velha, Terceira (Google Maps) The Story Time initiative invites children and families to embark on journeys through the world of imagination through reading and storytelling. With sessions led by Ana Couto and Paulo Freitas, the activity encourages a love of reading and offers moments of discovery, learning and sharing…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
       "image": ""
     },
     {
@@ -2256,6 +2592,34 @@
       "image": ""
     },
     {
+      "id": "azor-brass-festival-2026",
+      "name": "Azor Brass Festival 2026",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Terceira Island",
+      "venue": "Angra do Heroísmo",
+      "description": "📅 4, 5 e 6 de dezembro de 2026 🕒 Horários conforme programa a divulgar 📍 Angra do Heroísmo — Ilha Terceira A cidade de Angra do Heroísmo recebe a primeira edição do Azor Brass Festival — Festival Internacional de Charangas dos Açores, um evento dedicado à música de rua, à festa e à cultura. Durante três dias, charangas regionais, nacionais e internacionais vão reunir-se na ilha Terceira, proporcionando momentos de animação musical e celebração. O festival pretende valorizar a música de charanga…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "christmas-market-of-the-village-of-s-o-sebasti-o",
+      "name": "Christmas Market of the Village of São Sebastião",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo de São Sebastião",
+      "description": "📅 December 5 and 6 📍 Casa do Povo de São Sebastião The Village of São Sebastião welcomes another edition of its Christmas Market, with two days dedicated to the magic and spirit of the season. The programme includes a Christmas sweets competition, ballroom dancing, musical entertainment, inflatables, face painting, a Christmas cookie workshop, storytime and the much-anticipated visit from Santa Claus, with an opportunity to take photos. An event for the whole family, inviting everyone to celebrate Christmas in an atmosphere of…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo de São Sebastião",
+      "image": ""
+    },
+    {
       "id": "glenn-miller-orchestra-in-the-christmas-mood",
       "name": "Glenn Miller Orchestra — In the Christmas Mood",
       "category": "Events",
@@ -2267,6 +2631,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "CCCAH (Centro Cultural e de Congressos)",
+      "image": ""
+    },
+    {
+      "id": "mercado-de-natal-da-vila-de-s-o-sebasti-o",
+      "name": "Mercado de Natal da Vila de São Sebastião",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Terceira Island",
+      "venue": "Casa do Povo de São Sebastião",
+      "description": "📅 5 e 6 de dezembro 📍 Casa do Povo de São Sebastião A Vila de São Sebastião recebe mais uma edição do seu Mercado de Natal, com dois dias dedicados à magia e ao espírito da época. O programa inclui concurso de doces de Natal, danças de salão, animação musical, insufláveis, pinturas faciais, workshop de bolachas natalícias, hora do conto e a tão aguardada visita do Pai Natal, com oportunidade para fotografias. Uma iniciativa para toda a família, que convida a celebrar o Natal num ambiente de…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Povo de São Sebastião",
       "image": ""
     },
     {
@@ -2340,6 +2718,20 @@
       "image": ""
     },
     {
+      "id": "cada-workshops-plant-fibres-i",
+      "name": "CADA Workshops: Plant Fibres I",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-12",
+      "area": "Terceira Island",
+      "venue": "Museu de Angra do Heroísmo",
+      "description": "📅 12 December 2026 🕒 Time to be confirmed 📍 Museu de Angra do Heroísmo — Educational Service Museu de Angra do Heroísmo hosts the second session of the “Plant Fibres” workshop, led by Rita Branco, as part of the CADA Workshops. Continuing the work begun on 28 November, participants continue exploring the craft techniques for using plant fibres, namely corn leaves and banana fibres, to create a nativity scene. The activity values the…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "cerim-nia-comemorativa-dos-50-anos-do-poder-local",
       "name": "Cerimónia comemorativa dos 50 anos do Poder Local",
       "category": "Events",
@@ -2368,6 +2760,20 @@
       "image": ""
     },
     {
+      "id": "hora-do-conto",
+      "name": "Hora do Conto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-12",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "description": "📅 31 de outubro; 7, 14, 21 e 28 de novembro; 5, 12, 19 e 26 de dezembro 🕒 De acordo com a programação 📍 Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha, Terceira (Google Maps) A iniciativa Hora do Conto convida crianças e famílias a embarcar em viagens pelo mundo da imaginação através da leitura e narração de histórias. Com sessões dinamizadas por Ana Couto e Paulo Freitas, a atividade promove o gosto pela leitura e proporciona momentos de descoberta, aprendizagem e partilha.…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
       "name": "Hora do Conto — Ana Couto e Paulo Freitas",
       "category": "Events",
@@ -2382,6 +2788,20 @@
       "image": ""
     },
     {
+      "id": "oficinas-cada-fibras-vegetais-i",
+      "name": "Oficinas CADA: Fibras Vegetais I",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-12",
+      "area": "Terceira Island",
+      "venue": "Museu de Angra do Heroísmo",
+      "description": "📅 12 de dezembro de 2026 🕒 Horário a confirmar 📍 Museu de Angra do Heroísmo — Serviço Educativo O Museu de Angra do Heroísmo recebe a segunda sessão da oficina «Fibras Vegetais», orientada por Rita Branco, no âmbito das Oficinas CADA. Dando continuidade ao trabalho iniciado a 28 de novembro, os participantes prosseguem a exploração das técnicas artesanais de utilização de fibras vegetais, nomeadamente folhas de milho e fibras de bananeira, na criação de um presépio. A atividade valoriza os…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "story-hour-ana-couto-and-paulo-freitas",
       "name": "Story Hour — Ana Couto and Paulo Freitas",
       "category": "Events",
@@ -2393,6 +2813,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "story-time",
+      "name": "Story Time",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-12",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "description": "📅 October 31; November 7, 14, 21 and 28; December 5, 12, 19 and 26 🕒 According to the schedule 📍 Centro Cultural e de Congressos de Angra do Heroísmo and Praça Velha, Terceira (Google Maps) The Story Time initiative invites children and families to embark on journeys through the world of imagination through reading and storytelling. With sessions led by Ana Couto and Paulo Freitas, the activity promotes a love of reading and provides moments of discovery, learning and sharing…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
       "image": ""
     },
     {
@@ -2452,6 +2886,20 @@
       "image": ""
     },
     {
+      "id": "hora-do-conto",
+      "name": "Hora do Conto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-19",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "description": "📅 31 de outubro; 7, 14, 21 e 28 de novembro; 5, 12, 19 e 26 de dezembro 🕒 De acordo com a programação 📍 Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha, Terceira (Google Maps) A iniciativa Hora do Conto convida crianças e famílias a embarcar em viagens pelo mundo da imaginação através da leitura e narração de histórias. Com sessões dinamizadas por Ana Couto e Paulo Freitas, a atividade promove o gosto pela leitura e proporciona momentos de descoberta, aprendizagem e partilha.…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
       "name": "Hora do Conto — Ana Couto e Paulo Freitas",
       "category": "Events",
@@ -2477,6 +2925,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "story-time",
+      "name": "Story Time",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-19",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "description": "📅 October 31; November 7, 14, 21 and 28; December 5, 12, 19 and 26 🕒 According to the schedule 📍 Centro Cultural e de Congressos de Angra do Heroísmo and Praça Velha, Terceira (Google Maps) The Story Time initiative invites children and families to embark on journeys through the world of imagination through reading and storytelling. With sessions led by Ana Couto and Paulo Freitas, the activity promotes a love of reading and offers moments of discovery, learning and sharing…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
       "image": ""
     },
     {
