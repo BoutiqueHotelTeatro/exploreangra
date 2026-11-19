@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:18:07+00:00",
+  "generatedAt": "2026-11-19T14:31:57+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 134
+      "structuredEvents": 137
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -366,76 +366,6 @@
       "image": ""
     },
     {
-      "id": "apresenta-o-do-livro-o-semeador-de-palavras",
-      "name": "Apresentação do livro: O Semeador de Palavras",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Apresentação de O Semeador de Palavras, livro de entrevistas a José Afonso coordenado por Guadalupe Portelinha, José Rodrigues e Ana Ribeiro, com José Luís Neto e António Neves. Entrada livre.",
-      "source": "https://www.instagram.com/p/Df2T1iaExke/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "attila-szaniszl",
-      "name": "Attila Szaniszló",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Terceira Island",
-      "venue": "Palácio dos Capitães-Generais,",
-      "description": "📅 November 18 🕒 9:30 pm 📍Palácio dos Capitães-Generais The Hungarian pianist Attila Szaniszló, distinguished in several international competitions, performs in the Azores with two concerts as part of the 2026 Cultural Season. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Palácio dos Capitães-Generais,",
-      "image": ""
-    },
-    {
-      "id": "attila-szaniszl-2026-cultural-season",
-      "name": "Attila Szaniszló | 2026 Cultural Season",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
-      "venue": "Angra do Heroísmo",
-      "description": "The Regional Secretariat for Education, Culture and Sport, through the Regional Directorate for Culture, presents on 18 November, as part of the 2026 cultural season, a piano recital by the Hungarian pianist Attila Szaniszló, winner of the 2025 edition of the H.R.H. Princess Lalla Meryem of Morocco International Piano Competition. The piano recital takes place on 18 November at 9:30 pm at the Palácio dos Capitães-Generais in Angra do Heroísmo, on Terceira island. Born in 2005, in…",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "attila-szaniszl-temporada-cultural-2026",
-      "name": "Attila Szaniszló | Temporada Cultural 2026",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Concelho de Angra do Heroísmo, Angra do Heroísmo",
-      "venue": "Angra do Heroísmo",
-      "description": "A Secretaria Regional da Educação, Cultura e Desporto, através da Direção Regional da Cultura, promove, no dia 18 de novembro no âmbito da temporada cultural 2026, um recital de piano do pianista húngaro Attila Szaniszló, vencedor da edição de 2025 do Concurso Internacional de Piano S.A.R. a Princesa Lalla Meryem de Marrocos. O recital de piano realiza-se no dia 18 de novembro, às 21h30, às 21h30, no Palácio dos Capitães-Generais, em Angra do Heroísmo, na ilha Terceira. Nascido em 2005, em…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "book-presentation-o-semeador-de-palavras",
-      "name": "Book Presentation: O Semeador de Palavras",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Angra do Heroísmo",
-      "venue": "Lar Doce Livro",
-      "description": "Presentation of O Semeador de Palavras, a collection of interviews with José Afonso edited by Guadalupe Portelinha, José Rodrigues and Ana Ribeiro, with José Luís Neto and António Neves. Free admission.",
-      "source": "https://www.instagram.com/p/Df2T1iaExke/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
       "id": "jogaa-mega-dayone-gta-vi-launch",
       "name": "JogaAí MEGA DayOne - GTA VI Launch",
       "category": "Events",
@@ -461,34 +391,6 @@
       "source": "https://www.instagram.com/p/DfzLeajNkfH/",
       "sourceLabel": "Eventos Terceira",
       "map": "Academia Musical da Ilha Terceira (AMIT)",
-      "image": ""
-    },
-    {
-      "id": "technical-workshop-life-ip-azores-natura",
-      "name": "Technical Workshop | LIFE IP AZORES NATURA",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Terceira Island",
-      "venue": "Centro Interpretativo de Angra do Heroísmo",
-      "description": "📅 November 17 and 18 📍 Centro Interpretativo de Angra do Heroísmo The LIFE IP AZORES NATURA project is holding its 1st Technical Workshop, dedicated to sharing knowledge and best practices in the management of terrestrial ecosystems and nature conservation. The event aims to encourage debate, collaboration between entities and reflection on the challenges and results achieved in preserving the biodiversity of the Azores. Consult the program for more information. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Interpretativo de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "workshop-t-cnico-life-ip-azores-natura",
-      "name": "Workshop Técnico | LIFE IP AZORES NATURA",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-18",
-      "area": "Terceira Island",
-      "venue": "Centro Interpretativo de Angra do Heroísmo",
-      "description": "📅 17 e 18 de novembro 📍 Centro Interpretativo de Angra do Heroísmo O projeto LIFE IP AZORES NATURA promove o seu 1.º Workshop Técnico, dedicado à partilha de conhecimentos e boas práticas na gestão dos ecossistemas terrestres e conservação da natureza. O encontro pretende fomentar o debate, a colaboração entre entidades e a reflexão sobre os desafios e resultados alcançados na preservação da biodiversidade dos Açores. Consulte o programa para mais informações. Mais informações.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Interpretativo de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -576,6 +478,20 @@
       "image": ""
     },
     {
+      "id": "apresenta-o-do-livro-a-macaron-sia-trocada-por-mi-dos",
+      "name": "Apresentação do Livro - A Macaronésia Trocada por Miúdos",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Lar Doce Livro",
+      "description": "📅 20 de novembro 🕒 18h00 📍 Lar Doce Livro Apresentação do livro ''A Macaronésia Trocada por Miúdos'', de Susana Gramilho, integrada no Festival Sons da Macaronésia e realizada em parceria com a FraterUne. Entrada livre. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Lar Doce Livro",
+      "image": ""
+    },
+    {
       "id": "blue-november",
       "name": "Blue November",
       "category": "Events",
@@ -587,6 +503,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Miradouro da Cruz do Canário",
+      "image": ""
+    },
+    {
+      "id": "book-presentation-a-macaron-sia-trocada-por-mi-dos",
+      "name": "Book Presentation - A Macaronésia Trocada por Miúdos",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Lar Doce Livro",
+      "description": "📅 November 20 🕒 6:00 pm 📍 Lar Doce Livro Presentation of the book ''A Macaronésia Trocada por Miúdos'', by Susana Gramilho, part of the Festival Sons da Macaronésia and held in partnership with FraterUne. Free admission. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Lar Doce Livro",
       "image": ""
     },
     {
@@ -769,6 +699,34 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "workshop-cesto-de-natal",
+      "name": "Workshop - Cesto de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Junta de Freguesia da Terra Chã",
+      "description": "📅 20 de novembro 🕒 19h00–22h00 📍 Junta de Freguesia da Terra Chã Workshop de costura dedicado à confeção de um cestinho de Natal, ideal para oferecer ou decorar a mesa. Cada participante deverá trazer a sua máquina de costura. Participação: 20€, mediante inscrição prévia. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Junta de Freguesia da Terra Chã",
+      "image": ""
+    },
+    {
+      "id": "workshop-christmas-basket",
+      "name": "Workshop - Christmas Basket",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Junta de Freguesia da Terra Chã",
+      "description": "📅 20 November 🕒 19h00–22h00 📍 Junta de Freguesia da Terra Chã Sewing workshop dedicated to making a little Christmas basket, ideal as a gift or for decorating the table. Each participant should bring their sewing machine. Participation: €20, with prior registration. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Junta de Freguesia da Terra Chã",
       "image": ""
     },
     {
@@ -1049,6 +1007,34 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "watercolor-workshop-for-beginners",
+      "name": "Watercolor Workshop for Beginners",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-21",
+      "area": "Terceira Island",
+      "venue": "Lar Doce Livro",
+      "description": "📅 November 21 🕒 6:00 pm 📍 Lar Doce Livro Lar Doce Livro welcomes Sá Vila for another edition of the beginner watercolor workshop, aimed at adults and curious people who want to explore this artistic technique. Participation requires prior registration and your own materials (watercolors). More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Lar Doce Livro",
+      "image": ""
+    },
+    {
+      "id": "workshop-de-inicia-o-aguarela",
+      "name": "Workshop de Iniciação à Aguarela",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-21",
+      "area": "Terceira Island",
+      "venue": "Lar Doce Livro",
+      "description": "📅 21 de novembro 🕒 18h00 📍 Lar Doce Livro A Lar Doce Livro recebe Sá Vila para mais uma edição do workshop de iniciação à aguarela, dirigido a adultos e curiosos que queiram explorar esta técnica artística. A participação requer inscrição prévia e material próprio (aguarelas). Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Lar Doce Livro",
       "image": ""
     },
     {
@@ -1374,6 +1360,34 @@
       "image": ""
     },
     {
+      "id": "wednesgays-mulheres-e-vulnerabilidade-diferentes-realidades-direitos-iguais",
+      "name": "WednesGays - Mulheres e Vulnerabilidade: Diferentes Realidades, Direitos Iguais",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-25",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "💜 Diferentes realidades. Direitos iguais. No dia 25 de novembro, a Oficina d’Angra dará início ao WednesGAYS, um novo ciclo de encontros, dedicado à diversidade, à cidadania e aos direitos humanos, combinando debate, reflexão, música e convívio num ambiente acolhedor e informal. A sessão de estreia, integrada nos 16 Dias de Ativismo pelo Fim da Violência contra as Mulheres, colocará em diálogo diferentes experiências e perspetivas sobre vulnerabilidade, discriminação, inclusão e igualdade. 🏳️‍🌈…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "wednesgays-women-and-vulnerability-different-realities-equal-rights",
+      "name": "WednesGays - Women and Vulnerability: Different Realities, Equal Rights",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-25",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "💜 Different realities. Equal rights. On November 25, Oficina d’Angra will launch WednesGAYS, a new series of gatherings dedicated to diversity, citizenship and human rights, combining discussion, reflection, music and socializing in a welcoming, informal setting. The opening session, part of the 16 Days of Activism for the Elimination of Violence against Women, will bring together different experiences and perspectives on vulnerability, discrimination, inclusion and equality. 🏳️‍🌈…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "cinema-italian-style-romance-romance-italiana",
       "name": "Cinema: Italian-Style Romance (Romance à Italiana)",
       "category": "Events",
@@ -1651,6 +1665,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "christmas-arrangements-workshop",
+      "name": "Christmas Arrangements Workshop",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Centro Social do Juncal",
+      "description": "📅 November 28 🕒 1:30 p.m. 📍 Centro Social do Juncal The Junta de Freguesia de Santa Cruz is hosting the ''Christmas Arrangements'' workshop, led by Amélia Pereira, as part of the Christmas Market. An activity that invites participants to learn how to make Christmas arrangements to decorate their home or give as a gift. The arrangements made will be available for purchase at €10 each. Free participation, upon registration (limited to 10 participants). More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Social do Juncal",
       "image": ""
     },
     {
@@ -2057,6 +2085,20 @@
       "source": "https://www.instagram.com/cmpraiadavitoria/p/DfEvhFdDFB9/",
       "sourceLabel": "Eventos Terceira",
       "map": "Marginal da Praia da Vitória — frente à GNR",
+      "image": ""
+    },
+    {
+      "id": "workshop-de-arranjos-de-natal",
+      "name": "Workshop de Arranjos de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "Centro Social do Juncal",
+      "description": "📅 28 de novembro 🕒 13h30 📍 Centro Social do Juncal A Junta de Freguesia de Santa Cruz promove o workshop ''Arranjos de Natal'', orientado por Amélia Pereira, integrado no Mercado de Natal. Uma atividade que convida os participantes a aprender e criar arranjos natalícios para decorar a casa ou oferecer. Os trabalhos realizados estarão disponíveis para aquisição por 10€ cada. Participação gratuita, mediante inscrição (limitada a 10 participantes). Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Social do Juncal",
       "image": ""
     },
     {
@@ -2508,6 +2550,20 @@
       "image": ""
     },
     {
+      "id": "azul-verde-basalto",
+      "name": "Azul Verde Basalto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-03",
+      "area": "Terceira Island",
+      "venue": "Auditório António Dacosta — Escola Básica e Secundária Tomás de Borba",
+      "description": "📅 December 3, 2026 🕒 18:00 📍 António Dacosta Auditorium — Escola Básica e Secundária Tomás de Borba «Azul Verde Basalto» is an inclusive theatrical performance, part of Projeto Aproxima-te, which celebrates human diversity and promotes theatre as a tool for personal development and social inclusion. Through poetry, humour and emotion, the performance explores universal themes such as courage, longing, affection and desire, bringing together people with and without disabilities on stage. With creation,…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório António Dacosta — Escola Básica e Secundária Tomás de Borba",
+      "image": ""
+    },
+    {
       "id": "azor-brass-festival-2026",
       "name": "Azor Brass Festival 2026",
       "category": "Events",
@@ -2533,6 +2589,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "burning-man",
+      "name": "Burning Man",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "📅 5 de dezembro 🕒 21h30 📍 Casa do Sal A Oficina d’Angra recebe o fotógrafo e realizador documental Timothy Lima para partilhar a sua experiência no Burning Man 2026, através de fotografias e histórias captadas no deserto de Black Rock, no Nevada. Uma viagem visual pela arte, criatividade e espírito comunitário deste festival. Entrada livre. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
       "image": ""
     },
     {
