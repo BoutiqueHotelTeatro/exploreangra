@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:31:57+00:00",
+  "generatedAt": "2026-11-20T14:09:51+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 137
+      "structuredEvents": 135
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -394,34 +394,6 @@
       "image": ""
     },
     {
-      "id": "a-cultura-do-lado-do-estado",
-      "name": "A Cultura do Lado do Estado",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-19",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro – Angra do Heroísmo",
-      "description": "📅 19 November 🕒 18h15 📍 Lar Doce Livro – Angra do Heroísmo Debate ''A Cultura do Lado do Estado'', dedicated to the management of public institutions in the Azores. The panel will feature Jorge A. Paulus Bruno, Director of the Museu de Angra do Heroísmo, Alexandre Pascoal, Director of Arquipélago – Centro de Artes Contemporâneas, and Carlos Cruz. The conversation will be moderated by Joel Neto and invites reflection and debate on cultural management in the Region. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro – Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "clayface",
-      "name": "CLAYFACE",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-19",
-      "area": "Terceira Island",
-      "venue": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
-      "description": "Um conto de terror de Hollywood centrado num ator de filmes de série B que se injeta com uma substância e descobre que é capaz de moldar rosto e corpo, tornando-se numa verdadeira peça de argila ambulante.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "C.C.C. Angra Do Heroísmo - Pequeno Auditório",
-      "image": ""
-    },
-    {
       "id": "cinema-clayface",
       "name": "Cinema: Clayface",
       "category": "Events",
@@ -436,34 +408,6 @@
       "image": ""
     },
     {
-      "id": "never-again-gaza-the-compass-of-the-world-the-archetype-of-contemporary-conflict",
-      "name": "Never Again!! | Gaza, the compass of the world: the archetype of contemporary conflicts",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-19",
-      "area": "Terceira Island",
-      "venue": "Casa do Sal",
-      "description": "NEVER AGAIN!! Disarm hatred, build justice. On 19 November at 6:30 pm, Casa do Sal hosts another session of the \"Nunca Mais!!\" (Never Again!!) series, this time dedicated to the theme \"Gaza, the compass of the world: the archetype of contemporary conflicts\". Through words, reflection and sharing, the session offers a look at Gaza as a symbol of the tensions, dilemmas and challenges that mark our time. A gathering where prose and poetry meet to think about war, violence, the…",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Casa do Sal",
-      "image": ""
-    },
-    {
-      "id": "nunca-mais-gaza-a-b-ssola-do-mundo-o-arqu-tipo-dos-conflitos-contempor-neos",
-      "name": "Nunca Mais!! | Gaza, a bússola do mundo: o arquétipo dos conflitos contemporâneos",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-19",
-      "area": "Terceira Island",
-      "venue": "Casa do Sal",
-      "description": "NUNCA MAIS!! Desarmar o ódio, construir a justiça. No próximo dia 19 de novembro, às 18h30, a Casa do Sal acolhe mais uma sessão do ciclo \"Nunca Mais!!\", desta vez dedicada ao tema \"Gaza, a bússola do mundo: o arquétipo dos conflitos contemporâneos\". Através da palavra, da reflexão e da partilha, a sessão propõe um olhar sobre Gaza enquanto símbolo das tensões, dilemas e desafios que marcam o nosso tempo. Um encontro em que a prosa e a poesia se cruzam para pensar a guerra, a violência, a…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Casa do Sal",
-      "image": ""
-    },
-    {
       "id": "heirs-of-ces-ria-maya-andrade",
       "name": "\"Heirs of Cesária\" — Maya Andrade",
       "category": "Events",
@@ -475,6 +419,20 @@
       "source": "https://www.instagram.com/livraria_lardocelivro/",
       "sourceLabel": "Eventos Terceira",
       "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "3rd-edition-of-the-concert-celebration-of-saint-cecilia-s-day",
+      "name": "3rd Edition of the Concert - Celebration of Saint Cecilia's Day",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Auditório do Ramo Grande",
+      "description": "November 20 | 18:30 to 20:00",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório do Ramo Grande",
       "image": ""
     },
     {
@@ -601,6 +559,20 @@
       "source": "https://www.instagram.com/livraria_lardocelivro/",
       "sourceLabel": "Eventos Terceira",
       "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "iii-edi-o-do-concerto-celebra-o-do-dia-de-santa-cec-lia",
+      "name": "III Edição do Concerto - Celebração do Dia de Santa Cecília",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-20",
+      "area": "Terceira Island",
+      "venue": "Auditório do Ramo Grande",
+      "description": "20 de novembro | 18h30 às 20:00",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Auditório do Ramo Grande",
       "image": ""
     },
     {
