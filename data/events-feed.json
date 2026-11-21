@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T14:09:51+00:00",
+  "generatedAt": "2026-11-21T13:35:05+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 135
+      "structuredEvents": 125
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -338,34 +338,6 @@
       "image": ""
     },
     {
-      "id": "forma-o-startup-angra-estrat-gia-de-pre-o",
-      "name": "Formação Startup Angra: Estratégia de Preço",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-16",
-      "area": "Terceira Island",
-      "venue": "StartUp Angra",
-      "description": "Formação sobre estratégia de preço, das 18h00 às 21h00, de 16 a 20 de novembro.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "StartUp Angra",
-      "image": ""
-    },
-    {
-      "id": "startup-angra-training-pricing-strategy",
-      "name": "Startup Angra Training: Pricing Strategy",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-16",
-      "area": "Terceira Island",
-      "venue": "StartUp Angra",
-      "description": "Training on pricing strategy, 18:00–21:00, from 16 to 20 November.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "StartUp Angra",
-      "image": ""
-    },
-    {
       "id": "jogaa-mega-dayone-gta-vi-launch",
       "name": "JogaAí MEGA DayOne - GTA VI Launch",
       "category": "Events",
@@ -408,104 +380,6 @@
       "image": ""
     },
     {
-      "id": "heirs-of-ces-ria-maya-andrade",
-      "name": "\"Heirs of Cesária\" — Maya Andrade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "description": "Concert/reading \"Herdeiras de Cesária\" with Maya Andrade at 21:30 at Lar Doce Livro. Free admission (per programme).",
-      "source": "https://www.instagram.com/livraria_lardocelivro/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "3rd-edition-of-the-concert-celebration-of-saint-cecilia-s-day",
-      "name": "3rd Edition of the Concert - Celebration of Saint Cecilia's Day",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Auditório do Ramo Grande",
-      "description": "November 20 | 18:30 to 20:00",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
-      "image": ""
-    },
-    {
-      "id": "apresenta-o-do-livro-a-macaron-sia-trocada-por-mi-dos",
-      "name": "Apresentação do Livro - A Macaronésia Trocada por Miúdos",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro",
-      "description": "📅 20 de novembro 🕒 18h00 📍 Lar Doce Livro Apresentação do livro ''A Macaronésia Trocada por Miúdos'', de Susana Gramilho, integrada no Festival Sons da Macaronésia e realizada em parceria com a FraterUne. Entrada livre. Mais informações.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "blue-november",
-      "name": "Blue November",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Miradouro da Cruz do Canário",
-      "description": "📅 20 November 🕒 18h45 📍 Miradouro da Cruz do Canário An awareness-raising initiative dedicated to prostate cancer prevention, as part of the awareness month for this disease. The initiative will feature nurse Denise Guilherme, from the Oncology Service of HSEIT, promoting the sharing of information and the importance of prevention and early diagnosis. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Miradouro da Cruz do Canário",
-      "image": ""
-    },
-    {
-      "id": "book-presentation-a-macaron-sia-trocada-por-mi-dos",
-      "name": "Book Presentation - A Macaronésia Trocada por Miúdos",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro",
-      "description": "📅 November 20 🕒 6:00 pm 📍 Lar Doce Livro Presentation of the book ''A Macaronésia Trocada por Miúdos'', by Susana Gramilho, part of the Festival Sons da Macaronésia and held in partnership with FraterUne. Free admission. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro",
-      "image": ""
-    },
-    {
-      "id": "book-talk-macaronesia-written-by-women-by-susana-gaud-ncio",
-      "name": "Book Talk: \"Macaronesia Written by Women\" by Susana Gaudêncio",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "description": "Book presentation and talk at Lar Doce Livro in partnership with Festival Sete Sóis Sete Luas / Macaronésia / Teatro da Ilha. Free admission (per programme). OCR note [?]: alternate vision read gave 19:00 book presentation on Azorean Freemasonry by Patrícia Ferreira-Sousa.",
-      "source": "https://www.instagram.com/livraria_lardocelivro/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "christmas-lights-switch-on",
-      "name": "Christmas Lights Switch-On",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Praça Velha",
-      "description": "Opening of Angra’s Christmas lighting at Praça Velha.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Praça Velha",
-      "image": ""
-    },
-    {
       "id": "christmas-in-angra-2026-programme",
       "name": "Christmas in Angra 2026 Programme",
       "category": "Events",
@@ -517,62 +391,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "conference-heritage-education-programme",
-      "name": "Conference: Heritage Education Programme",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Centro Interpretativo de Angra do Heroísmo",
-      "description": "Conference on the Heritage Education Programme, presented by the Instituto Histórico da Ilha Terceira.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Interpretativo de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "confer-ncia-programa-de-educa-o-patrimonial",
-      "name": "Conferência: Programa de Educação Patrimonial",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Centro Interpretativo de Angra do Heroísmo",
-      "description": "Conferência sobre o Programa de Educação Patrimonial, pelo Instituto Histórico da Ilha Terceira.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Interpretativo de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "encontro-apresenta-o-a-macaron-sia-escrita-por-mulheres-de-susana-gaud-ncio",
-      "name": "Encontro-apresentação «A Macaronésia Escrita Por Mulheres», de Susana Gaudêncio",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "description": "Encontro-apresentação na Lar Doce Livro em parceria com o Festival Sete Sóis Sete Luas / Macaronésia / Teatro da Ilha. Entrada livre (segundo o programa). Nota OCR [?]: leitura alternativa indica 19h00 apresentação sobre Maçonaria Açoriana por Patrícia Ferreira-Sousa.",
-      "source": "https://www.instagram.com/livraria_lardocelivro/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "iii-edi-o-do-concerto-celebra-o-do-dia-de-santa-cec-lia",
-      "name": "III Edição do Concerto - Celebração do Dia de Santa Cecília",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Auditório do Ramo Grande",
-      "description": "20 de novembro | 18h30 às 20:00",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Auditório do Ramo Grande",
       "image": ""
     },
     {
@@ -590,34 +408,6 @@
       "image": ""
     },
     {
-      "id": "inaugura-o-da-ilumina-o-de-natal",
-      "name": "Inauguração da Iluminação de Natal",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Praça Velha",
-      "description": "Inauguração da iluminação de Natal de Angra na Praça Velha.",
-      "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Praça Velha",
-      "image": ""
-    },
-    {
-      "id": "novembro-azul",
-      "name": "Novembro Azul",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Miradouro da Cruz do Canário",
-      "description": "📅 20 de novembro 🕒 18h45 📍 Miradouro da Cruz do Canário Ação de sensibilização dedicada à prevenção do cancro da próstata, integrada no mês de consciencialização para esta doença. A iniciativa contará com a participação da enfermeira Denise Guilherme, do Serviço de Oncologia do HSEIT, promovendo a partilha de informação e a importância da prevenção e do diagnóstico precoce. Mais informações.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Miradouro da Cruz do Canário",
-      "image": ""
-    },
-    {
       "id": "programa-do-natal-em-angra-2026",
       "name": "Programa do Natal em Angra 2026",
       "category": "Events",
@@ -629,20 +419,6 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "sons-da-macaron-sia-2026",
-      "name": "SONS DA MACARONÉSIA 2026",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Ilha Terceira",
-      "description": "O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, nos dias 20 e 21 de novembro de 2026, o «Sons da Macaronésia – Festival de Música Atlântica», um evento que promove o encontro entre diferentes expressões musicais dos arquipélagos da Macaronésia. Promovido pela Fraterune, o festival reúne artistas dos Açores, Madeira, Canárias e Cabo Verde, proporcionando ao público uma experiência cultural marcada pela diversidade, pela partilha e pela valorização das identidades atlânticas.…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Ilha Terceira",
       "image": ""
     },
     {
@@ -671,48 +447,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "workshop-cesto-de-natal",
-      "name": "Workshop - Cesto de Natal",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Junta de Freguesia da Terra Chã",
-      "description": "📅 20 de novembro 🕒 19h00–22h00 📍 Junta de Freguesia da Terra Chã Workshop de costura dedicado à confeção de um cestinho de Natal, ideal para oferecer ou decorar a mesa. Cada participante deverá trazer a sua máquina de costura. Participação: 20€, mediante inscrição prévia. Mais informações.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Junta de Freguesia da Terra Chã",
-      "image": ""
-    },
-    {
-      "id": "workshop-christmas-basket",
-      "name": "Workshop - Christmas Basket",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Junta de Freguesia da Terra Chã",
-      "description": "📅 20 November 🕒 19h00–22h00 📍 Junta de Freguesia da Terra Chã Sewing workshop dedicated to making a little Christmas basket, ideal as a gift or for decorating the table. Each participant should bring their sewing machine. Participation: €20, with prior registration. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Junta de Freguesia da Terra Chã",
-      "image": ""
-    },
-    {
-      "id": "herdeiras-de-ces-ria-maya-andrade",
-      "name": "«Herdeiras de Cesária» — Maya Andrade",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-20",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "description": "Concerto/leitura «Herdeiras de Cesária» com Maya Andrade às 21h30 na Lar Doce Livro. Entrada livre (segundo o programa).",
-      "source": "https://www.instagram.com/livraria_lardocelivro/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
       "image": ""
     },
     {
