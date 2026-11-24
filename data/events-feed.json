@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:11:41+00:00",
+  "generatedAt": "2026-11-24T15:59:35+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 107
+      "structuredEvents": 120
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -69,34 +69,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "museu-afora-modelo-de-avi-o-tap-lockheed-super-constellation",
-      "name": "Museu Afora: Modelo de Avião TAP Lockheed Super Constellation",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-08-04",
-      "area": "Aeroporto das Lajes, Praia da Vitória",
-      "venue": "Aerogare Civil das Lajes",
-      "description": "O Museu de Angra do Heroísmo apresenta na Aerogare Civil das Lajes um modelo metálico de um TAP Lockheed Super Constellation da sua coleção aeronáutica, doado por António Couto.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Aerogare Civil das Lajes",
-      "image": ""
-    },
-    {
-      "id": "museum-outside-tap-lockheed-super-constellation-model",
-      "name": "Museum Outside: TAP Lockheed Super Constellation Model",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-08-04",
-      "area": "Aeroporto das Lajes, Praia da Vitória",
-      "venue": "Aerogare Civil das Lajes",
-      "description": "The Museu de Angra do Heroísmo presents a metal TAP Lockheed Super Constellation model from its aeronautical collection, donated by António Couto, at the Lajes civilian terminal.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Aerogare Civil das Lajes",
       "image": ""
     },
     {
@@ -310,20 +282,6 @@
       "image": ""
     },
     {
-      "id": "cinema-clayface",
-      "name": "Cinema: Clayface",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-19",
-      "area": "Angra do Heroísmo",
-      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "description": "Sessões de cinema de 19 a 23 de novembro, às 21h00.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
-      "image": ""
-    },
-    {
       "id": "christmas-in-angra-2026-programme",
       "name": "Christmas in Angra 2026 Programme",
       "category": "Events",
@@ -380,34 +338,6 @@
       "image": ""
     },
     {
-      "id": "30-minutes-with-music",
-      "name": "30 minutes with music",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-23",
-      "area": "Terceira Island",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "BPARLSR invites the whole community to the event \"30 minutes with music\", on November 23, at 6:00 pm. The programme features young musicians Madalena Bettencourt, Laura Andrade and Afonso Alves, accompanied by teachers Antonella Barletta and Miguel Moutinho. The initiative aims to promote local talent and highlight the role of music as a source of inspiration, knowledge and well-being. We look forward to seeing you there!",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
-      "id": "30-minutos-com-m-sica",
-      "name": "30 minutos com música",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-23",
-      "area": "Terceira Island",
-      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "description": "A BPARLSR convida toda a comunidade para o evento \"30 minutos com música\", no dia 23 de novembro, pelas 18h00. O programa conta com a participação dos jovens músicos Madalena Bettencourt, Laura Andrade e Afonso Alves, acompanhados pelos professores Antonella Barletta e Miguel Moutinho. A iniciativa visa promover o talento local e destacar o papel da música como fonte de inspiração, conhecimento e bem-estar. Contamos com a vossa presença!",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
-      "image": ""
-    },
-    {
       "id": "eco-talks-world-science-day",
       "name": "Eco-Talks — World Science Day",
       "category": "Events",
@@ -450,6 +380,20 @@
       "image": ""
     },
     {
+      "id": "dia-internacional-elimina-o-da-viol-ncia-contra-as-mulheres",
+      "name": "Dia Internacional - Eliminação da Violência Contra as Mulheres",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-25",
+      "area": "Terceira Island",
+      "venue": "Jardins dos Corte-Real",
+      "description": "📅 25 de novembro 🕒 20h00 📍 Jardins dos Corte-Real No âmbito do Dia Internacional para a Eliminação da Violência contra as Mulheres, realiza-se uma aula aberta e gratuita de defesa pessoal, orientada por instrutores do CPKM Açores. A iniciativa pretende assinalar a data e promover a sensibilização para a importância da segurança e da defesa pessoal. Participação gratuita. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Jardins dos Corte-Real",
+      "image": ""
+    },
+    {
       "id": "film-screening-and-discussion-selected-by-rog-rio-sousa",
       "name": "Film Screening and Discussion — Selected by Rogério Sousa",
       "category": "Events",
@@ -461,6 +405,34 @@
       "source": "https://www.instagram.com/livraria_lardocelivro/",
       "sourceLabel": "Eventos Terceira",
       "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "international-day-elimination-of-violence-against-women",
+      "name": "International Day - Elimination of Violence Against Women",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-25",
+      "area": "Terceira Island",
+      "venue": "Jardins dos Corte-Real",
+      "description": "📅 November 25 🕒 20h00 📍 Jardins dos Corte-Real As part of the International Day for the Elimination of Violence Against Women, a free open self-defense class will be held, led by instructors from CPKM Açores. The initiative aims to mark the date and raise awareness of the importance of safety and self-defense. Free participation. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Jardins dos Corte-Real",
+      "image": ""
+    },
+    {
+      "id": "todos-somos-uma-can-o",
+      "name": "Todos Somos Uma Canção",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-25",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "📅 November 25 🕒 10:00 am and 2:30 pm 📍 Centro Cultural e de Congressos de Angra do Heroísmo Extragenária returns to Terceira Island with the show “Todos Somos uma Canção”, in a special Christmas edition that brings together music and life stories in a moment of sharing and emotion. Free admission, subject to registration with the Municipality of Angra do Heroísmo. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -534,6 +506,20 @@
       "image": ""
     },
     {
+      "id": "clube-de-leitura",
+      "name": "Clube de Leitura",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-26",
+      "area": "Terceira Island",
+      "venue": "Casa-Museu Vitorino Nemésio",
+      "description": "📅 26 de novembro 🕒 19h00 📍 Casa-Museu Vitorino Nemésio A Casa-Museu Vitorino Nemésio promove mais uma sessão do Clube de Leitura, desta vez dedicada à obra de Leonard Cohen, convidando os participantes a descobrir e partilhar diferentes perspetivas sobre a sua escrita e percurso literário. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa-Museu Vitorino Nemésio",
+      "image": ""
+    },
+    {
       "id": "exhibition-by-s-vila-on-view-until-21-december",
       "name": "Exhibition by Sá-Vila (on view until 21 December)",
       "category": "Events",
@@ -573,6 +559,20 @@
       "source": "https://www.instagram.com/thetexanbar/",
       "sourceLabel": "Eventos Terceira",
       "map": "The Texan, Rua Carreira dos Cavalos 37, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "reading-club",
+      "name": "Reading Club",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-26",
+      "area": "Terceira Island",
+      "venue": "Casa-Museu Vitorino Nemésio",
+      "description": "📅 November 26 🕒 7:00 pm 📍 Casa-Museu Vitorino Nemésio Casa-Museu Vitorino Nemésio is holding another session of the Reading Club, this time dedicated to the work of Leonard Cohen, inviting participants to discover and share different perspectives on his writing and literary career. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa-Museu Vitorino Nemésio",
       "image": ""
     },
     {
@@ -646,6 +646,20 @@
       "image": ""
     },
     {
+      "id": "conversas-ao-ser-o-assist-ncia-m-dica-internacional-fraterune-a-fraternidade-que",
+      "name": "Conversas ao Serão: Assistência Médica Internacional – FraterUne – A Fraternidade que nos Une",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Salão Nobre da Câmara Municipal de Angra do Heroísmo",
+      "description": "📅 27 de novembro 🕒 20h00 📍 Salão Nobre da Câmara Municipal de Angra do Heroísmo Mais uma edição das “Conversas ao Serão”, desta vez com Fernando Nobre, presidente da Assistência Médica Internacional (AMI), que apresenta a conversa “FraterUne – A Fraternidade que nos Une”. Entrada livre. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Salão Nobre da Câmara Municipal de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "evening-conversations-m-dicos-do-mundo-and-fraterune",
       "name": "Evening Conversations — Médicos do Mundo and FraterUne",
       "category": "Events",
@@ -657,6 +671,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/De17Bm-AIPj/",
       "sourceLabel": "Eventos Terceira",
       "map": "Paços do Concelho (Town Hall)",
+      "image": ""
+    },
+    {
+      "id": "evening-conversations-assist-ncia-m-dica-internacional-fraterune-a-fraternidade-",
+      "name": "Evening Conversations: Assistência Médica Internacional – FraterUne – A Fraternidade que nos Une",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Salão Nobre da Câmara Municipal de Angra do Heroísmo",
+      "description": "📅 27 November 🕒 8:00 pm 📍 Salão Nobre da Câmara Municipal de Angra do Heroísmo Another edition of “Evening Conversations”, this time with Fernando Nobre, president of Assistência Médica Internacional (AMI), who presents the conversation “FraterUne – A Fraternidade que nos Une”. Free admission. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Salão Nobre da Câmara Municipal de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -783,6 +811,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Museu de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "caminhada-solid-ria-novembro-azul",
+      "name": "Caminhada Solidária – Novembro Azul",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "GNR - Posto Territorial da Praia da Vitória",
+      "description": "📅 28 de novembro 🕒 10h30 📍 Concentração em frente à GNR - Posto Territorial da Praia da Vitória A Junta de Freguesia de Santa Cruz promove a segunda edição da Caminhada Solidária – Novembro Azul, em parceria com a Unidade de Saúde da Ilha Terceira e o Núcleo Regional dos Açores da Liga Portuguesa Contra o Cancro. A iniciativa pretende sensibilizar para a prevenção do cancro da próstata e a importância dos cuidados com a saúde masculina. A participação é aberta a todos. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "GNR - Posto Territorial da Praia da Vitória",
       "image": ""
     },
     {
@@ -1091,6 +1133,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "solidarity-walk-blue-november",
+      "name": "Solidarity Walk – Blue November",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Terceira Island",
+      "venue": "GNR - Posto Territorial da Praia da Vitória",
+      "description": "📅 November 28 🕒 10:30 a.m. 📍 Gathering in front of the GNR - Praia da Vitória Territorial Post A Junta de Freguesia de Santa Cruz is holding the second edition of the Solidarity Walk – Blue November, in partnership with the Unidade de Saúde da Ilha Terceira and the Núcleo Regional dos Açores da Liga Portuguesa Contra o Cancro. The initiative aims to raise awareness about prostate cancer prevention and the importance of men's health care. Participation is open to everyone. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "GNR - Posto Territorial da Praia da Vitória",
       "image": ""
     },
     {
@@ -1640,6 +1696,34 @@
       "image": ""
     },
     {
+      "id": "concert-ecos-de-bel-m",
+      "name": "Concert: Ecos de Belém",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-01",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "The Centro Cultural e de Congressos de Angra do Heroísmo hosts, on December 1, 2026, Tuesday, at 6:30 p.m., the concert «Ecos de Belém – Uma Viagem Musical pela Magia do Natal». The performance features the flute class of professor Rodrigo Lima, Luana Rocha as guest, and Fernando Martinho as accompanying pianist, offering a musical moment dedicated to celebrating the Christmas season. Free admission.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "concerto-ecos-de-bel-m",
+      "name": "Concerto: Ecos de Belém",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-01",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, no dia 1 de dezembro de 2026, terça-feira, às 18h30, o concerto «Ecos de Belém – Uma Viagem Musical pela Magia do Natal». O espetáculo conta com a participação da classe de flauta do professor Rodrigo Lima, de Luana Rocha como convidada e de Fernando Martinho como pianista acompanhador, proporcionando um momento musical dedicado à celebração da quadra natalícia. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "home-alone-in-concert-filarm-nica-rainha-santa-isabel-das-doze-ribeiras",
       "name": "Home Alone in Concert — Filarmónica Rainha Santa Isabel das Doze Ribeiras",
       "category": "Events",
@@ -1710,6 +1794,20 @@
       "image": ""
     },
     {
+      "id": "o-25-de-abril-do-poder-local",
+      "name": "O 25 de Abril do Poder Local",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-02",
+      "area": "Terceira Island",
+      "venue": "Átrio Superior do Edifício dos Paços do Concelho",
+      "description": "📅 2 a 15 de dezembro 📍 Átrio Superior do Edifício dos Paços do Concelho Exposição “O 25 de Abril do Poder Local”, de Carlos Enes, integrada nas comemorações dos 50 anos das primeiras eleições autárquicas, realizadas a 12 de dezembro de 1976. Entrada livre. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Átrio Superior do Edifício dos Paços do Concelho",
+      "image": ""
+    },
+    {
       "id": "azul-verde-basalto",
       "name": "Azul Verde Basalto",
       "category": "Events",
@@ -1721,6 +1819,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Auditório António Dacosta — Escola Básica e Secundária Tomás de Borba",
+      "image": ""
+    },
+    {
+      "id": "cinema-ebenezer-um-conto-de-natal",
+      "name": "Cinema: Ebenezer — Um Conto de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-03",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Em novembro, Johnny Depp dá vida a Ebenezer Scrooge numa nova abordagem de «Um Conto de Natal». Conhecemos o nome desta personagem, mas pouco sabemos da sua verdadeira história. Realizado por Ti West, «Ebenezer: Um Conto de Natal» conta ainda com Rupert Grint, Andrea Riseborough, Sam Claflin, Daisy Ridley, Arthur Conti, Ellie Bamber, Henry Lloyd-Hughes, Charlie Murphy, Tramell Tillman e Ian McKellen. Em exibição: 3, 5, 6 e 7 de dezembro de 2026, às 21h00, no Centro Cultural e de Congressos de…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -1822,6 +1934,20 @@
       "image": ""
     },
     {
+      "id": "g-questa-second-hand-clothing-market",
+      "name": "Gé-Questa Second-Hand Clothing Market",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "📅 December 5 and 12 🕒 10:30 a.m. 📍 Casa do Sal Gé-Questa is holding another edition of the Second-Hand Clothing Market, which on this occasion also includes a private collection of books. An opportunity to discover clothing, accessories and books, giving used items a new lease of life and encouraging reuse and sustainable consumption. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto",
       "name": "Hora do Conto",
       "category": "Events",
@@ -1861,6 +1987,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Povo de São Sebastião",
+      "image": ""
+    },
+    {
+      "id": "mercado-de-roupa-em-segunda-m-o-da-g-questa",
+      "name": "Mercado de Roupa em Segunda Mão da Gé-Questa",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "📅 5 e 12 de dezembro 🕒 10h30 📍 Casa do Sal A Gé-Questa promove mais uma edição do Mercado de Roupa em Segunda Mão, que nesta ocasião inclui também uma coleção particular de livros. Uma oportunidade para descobrir roupa, acessórios e livros, dando uma nova vida a artigos usados e incentivando práticas de reutilização e consumo sustentável. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
       "image": ""
     },
     {
@@ -1948,6 +2088,20 @@
       "image": ""
     },
     {
+      "id": "corrida-do-patrim-nio-2026-angra-do-hero-smo",
+      "name": "Corrida do Património 2026 – Angra do Heroísmo",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "A Praça Velha acolhe, no dia 6 de dezembro de 2026, domingo, às 10h00, a Corrida do Património 2026 – Angra do Heroísmo. Esta iniciativa da Associação de Atletismo da Ilha Terceira, em parceria com a Câmara Municipal de Angra do Heroísmo, convida os participantes a percorrer a cidade a correr, desfrutando da riqueza patrimonial, da beleza urbana e dos cenários únicos de Angra do Heroísmo, cidade classificada como Património Mundial pela UNESCO. Inscrições via: fpacompeticoes.pt",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
+      "image": ""
+    },
+    {
       "id": "glenn-miller-orchestra-in-the-christmas-mood",
       "name": "Glenn Miller Orchestra — In the Christmas Mood",
       "category": "Events",
@@ -1959,6 +2113,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "CCCAH (Centro Cultural e de Congressos)",
+      "image": ""
+    },
+    {
+      "id": "heritage-run-2026-angra-do-hero-smo",
+      "name": "Heritage Run 2026 – Angra do Heroísmo",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "Praça Velha hosts the Heritage Run 2026 – Angra do Heroísmo on Sunday, December 6, 2026, at 10:00 a.m. This initiative by Associação de Atletismo da Ilha Terceira, in partnership with Câmara Municipal de Angra do Heroísmo, invites participants to run through the city, enjoying Angra do Heroísmo’s rich heritage, urban beauty and unique scenery. The city is classified as a UNESCO World Heritage Site. Registrations via: fpacompeticoes.pt",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
       "image": ""
     },
     {
@@ -2074,6 +2242,20 @@
       "image": ""
     },
     {
+      "id": "the-hunger-games-amanhecer-na-ceifa",
+      "name": "The Hunger Games - Amanhecer na Ceifa",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-10",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Ao amanhecer do quinquagésimo dia dos Jogos da Fome, o medo apodera-se dos distritos de Panem. Este ano, em homenagem ao Segundo Quarter Quell, o dobro dos tributos será retirado das suas casas. De regresso ao Distrito 12, Haymitch Abernathy tenta não pensar muito nas suas hipóteses. Tudo o que quer é passar o dia junto da rapariga que ama. Quando o seu nome é chamado, sente que todos os seus sonhos foram destruídos. Arrancado à família e ao seu amor, é transportado para a Capital com os outros…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "cada-workshops-plant-fibres-i",
       "name": "CADA Workshops: Plant Fibres I",
       "category": "Events",
@@ -2116,6 +2298,20 @@
       "image": ""
     },
     {
+      "id": "g-questa-second-hand-clothing-market",
+      "name": "Gé-Questa Second-Hand Clothing Market",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-12",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "📅 December 5 and 12 🕒 10:30am 📍 Casa do Sal Gé-Questa is holding another edition of the Second-Hand Clothing Market, which on this occasion also includes a private collection of books. An opportunity to discover clothing, accessories and books, giving used items a new lease of life and encouraging reuse and sustainable consumption practices. More information.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto",
       "name": "Hora do Conto",
       "category": "Events",
@@ -2141,6 +2337,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "mercado-de-roupa-em-segunda-m-o-da-g-questa",
+      "name": "Mercado de Roupa em Segunda Mão da Gé-Questa",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-12",
+      "area": "Terceira Island",
+      "venue": "Casa do Sal",
+      "description": "📅 5 e 12 de dezembro 🕒 10h30 📍 Casa do Sal A Gé-Questa promove mais uma edição do Mercado de Roupa em Segunda Mão, que nesta ocasião inclui também uma coleção particular de livros. Uma oportunidade para descobrir roupa, acessórios e livros, dando uma nova vida a artigos usados e incentivando práticas de reutilização e consumo sustentável. Mais informações.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Casa do Sal",
       "image": ""
     },
     {
@@ -2225,6 +2435,20 @@
       "source": "https://www.instagram.com/cineclubedailhaterceira/",
       "sourceLabel": "Eventos Terceira",
       "map": "Recreio dos Artistas",
+      "image": ""
+    },
+    {
+      "id": "cinema-os-novos-sogros-do-pior",
+      "name": "Cinema: Os Novos Sogros do Pior",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-17",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "O Centro Cultural e de Congressos de Angra do Heroísmo exibe, de 17 a 21 de dezembro de 2026, às 21h00, o filme «Os Novos Sogros do Pior». Ben Stiller e Robert De Niro regressam para protagonizar um novo capítulo da famosa saga de comédia «Um Sogro do Pior», desta vez acompanhados por Ariana Grande. Uma nova aventura que promete muitas gargalhadas e situações inesperadas. Trailer https://www.youtube.com/watch?v=YpaWFI2xuN8 Género, dimensão, duração e idade mínima Filme do género comédia, com…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -2340,6 +2564,20 @@
       "image": ""
     },
     {
+      "id": "christmas-concert-fadoalado-e-as-vozes-da-fonte",
+      "name": "Christmas Concert: FADOalado e as Vozes da Fonte",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-20",
+      "area": "Terceira Island",
+      "venue": "Teatro Angrense",
+      "description": "Teatro Angrense hosts, on December 20, 2026, Sunday, at 19h00, the Christmas Concert «FADOalado e as Vozes da Fonte». The show brings together FADOalado and as Vozes da Fonte in a celebration of Portuguese music, in a musical gathering marking the Christmas season and inviting the audience to enjoy an evening of music and emotion. Ticket purchase Start of sales Tickets on sale from November 27, 2026. Sales locations Online: on Ticketline – online box office. Municipal Council: from…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Teatro Angrense",
+      "image": ""
+    },
+    {
       "id": "classical-music-season-christmas-concert",
       "name": "Classical Music Season: Christmas Concert",
       "category": "Events",
@@ -2354,6 +2592,20 @@
       "image": ""
     },
     {
+      "id": "concerto-de-natal-fadoalado-e-as-vozes-da-fonte",
+      "name": "Concerto de Natal: FADOalado e as Vozes da Fonte",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-20",
+      "area": "Terceira Island",
+      "venue": "Teatro Angrense",
+      "description": "O Teatro Angrense acolhe, no dia 20 de dezembro de 2026, domingo, às 19h00, o Concerto de Natal «FADOalado e as Vozes da Fonte». O espetáculo reúne o FADOalado e as Vozes da Fonte numa celebração da música portuguesa, num encontro musical que assinala a quadra natalícia e convida o público a viver uma noite de música e emoção. Aquisição de bilhetes Início da venda Bilhetes à venda a partir de 27 de novembro de 2026. Locais de venda Online: na Ticketline – bilheteira online. Câmara Municipal: de…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Teatro Angrense",
+      "image": ""
+    },
+    {
       "id": "temporada-de-m-sica-cl-ssica-concerto-de-natal",
       "name": "Temporada de Música Clássica: Concerto de Natal",
       "category": "Events",
@@ -2365,6 +2617,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Igreja do Colégio",
+      "image": ""
+    },
+    {
+      "id": "2026-s-o-silvestre-race-angra-do-hero-smo",
+      "name": "2026 São Silvestre Race – Angra do Heroísmo",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-26",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "Praça Velha hosts, on Saturday, December 26, 2026, at 7:00 p.m., the 2026 São Silvestre Race – Angra do Heroísmo. Organised by Associação de Atletismo da Ilha Terceira, in partnership with Câmara Municipal de Angra do Heroísmo, this sporting initiative invites athletes and running enthusiasts to take part in another edition of an event that promotes sport and provides an active way to mark the end of the year. Registrations via: fpacompeticoes.pt",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "corrida-de-s-o-silvestre-2026-angra-do-hero-smo",
+      "name": "Corrida de São Silvestre 2026 – Angra do Heroísmo",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-26",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "A Praça Velha acolhe, no dia 26 de dezembro de 2026, sábado, às 19h00, a Corrida de São Silvestre 2026 – Angra do Heroísmo. Organizada pela Associação de Atletismo da Ilha Terceira, em parceria com a Câmara Municipal de Angra do Heroísmo, esta iniciativa desportiva convida atletas e entusiastas da corrida a participar em mais uma edição de uma prova que promove a prática desportiva e proporciona uma forma ativa de assinalar o final do ano. Inscrições via: fpacompeticoes.pt",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
       "image": ""
     },
     {
@@ -2673,6 +2953,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Parque Multissetorial da Ilha Terceira",
+      "image": ""
+    },
+    {
+      "id": "concert-rita-guerra-voice-piano-angracomvida",
+      "name": "Concert: Rita Guerra – Voice & Piano (angracomvida)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2027-01-30",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "The Centro Cultural e de Congressos de Angra do Heroísmo welcomes, on Saturday, January 30, 2027, at 9:30 p.m., the concert «Rita Guerra – Voice & Piano». In an intimate format, the singer performs accompanied by piano, giving the audience an opportunity to appreciate her voice and interpretation in a show that spans a career of more than 30 years dedicated to music. Born in Lisbon, Rita Guerra revealed a strong passion for music from an early age, having studied piano before beginning…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "concerto-rita-guerra-voz-piano-angracomvida",
+      "name": "Concerto: Rita Guerra – Voz & Piano (angracomvida)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2027-01-30",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "O Centro Cultural e de Congressos de Angra do Heroísmo acolhe, no dia 30 de janeiro de 2027, sábado, às 21h30, o concerto «Rita Guerra – Voz & Piano». Num formato intimista, a cantora apresenta-se acompanhada ao piano, proporcionando ao público uma oportunidade de apreciar a sua voz e interpretação, num espetáculo que percorre uma carreira com mais de 30 anos dedicada à música. Nascida em Lisboa, Rita Guerra revelou desde cedo uma forte paixão pela música, tendo estudado piano antes de iniciar…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
