@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T15:59:35+00:00",
+  "generatedAt": "2026-11-25T15:47:45+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 120
+      "structuredEvents": 129
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -338,34 +338,6 @@
       "image": ""
     },
     {
-      "id": "eco-talks-world-science-day",
-      "name": "Eco-Talks — World Science Day",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-24",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "description": "Eco-talks session marking World Science Day at Lar Doce Livro at 18:15 with Laura Alves and Maximino Guedes. Free admission (per programme). OCR note [?]: subtitle and partner name garbled in flyer read.",
-      "source": "https://www.instagram.com/livraria_lardocelivro/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "eco-conversas-dia-mundial-da-ci-ncia",
-      "name": "Eco-conversas — Dia Mundial da Ciência",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-24",
-      "area": "Terceira Island",
-      "venue": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "description": "Sessão Eco-conversas assinalando o Dia Mundial da Ciência na Lar Doce Livro às 18h15, com Laura Alves e Maximino Guedes. Entrada livre (segundo o programa). Nota OCR [?]: subtítulo e parceiro incertos na leitura do cartaz.",
-      "source": "https://www.instagram.com/livraria_lardocelivro/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "image": ""
-    },
-    {
       "id": "ciclo-de-cinema-e-tert-lia-escolha-de-rog-rio-sousa",
       "name": "Ciclo de cinema e tertúlia — escolha de Rogério Sousa",
       "category": "Events",
@@ -685,6 +657,34 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Salão Nobre da Câmara Municipal de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "exhibition-olhares-sobre-o-monte-brasil",
+      "name": "Exhibition | Olhares sobre o Monte Brasil",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "description": "BPARLSR is organizing, from November 27 to December 31, the exhibition “𝗢𝗹𝗵𝗮𝗿𝗲𝘀 𝘀𝗼𝗯𝗿𝗲 𝗼 𝗠𝗼𝗻𝘁𝗲 𝗕𝗿𝗮𝘀𝗶𝗹”, which will be open to the public at Espaço Mundo. Through a selection of documents, photographic records and articles published in magazines and newspapers, as well as monographs, the Monte Brasil area is highlighted in its various aspects: geological and volcanological, historical and military, ecological and environmental, tourism, leisure and literary. For more information, see the link:…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "image": ""
+    },
+    {
+      "id": "exposi-o-olhares-sobre-o-monte-brasil",
+      "name": "Exposição | Olhares sobre o Monte Brasil",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-27",
+      "area": "Terceira Island",
+      "venue": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
+      "description": "A BPARLSR organiza, de 27 de novembro a 31 de dezembro, a exposição “𝗢𝗹𝗵𝗮𝗿𝗲𝘀 𝘀𝗼𝗯𝗿𝗲 𝗼 𝗠𝗼𝗻𝘁𝗲 𝗕𝗿𝗮𝘀𝗶𝗹”, que ficará patente ao público no Espaço Mundo. Através de uma seleção de documentos, registos fotográficos e artigos publicados em revistas e jornais, bem como de monografias, destaca-se a área do Monte Brasil nas suas diversas vertentes: geológica e vulcanológica, histórica e militar, ecológica e ambiental, turística, de lazer e literária. Para mais informações consulte o link:…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro",
       "image": ""
     },
     {
@@ -1038,6 +1038,20 @@
       "image": ""
     },
     {
+      "id": "hora-do-conto-natal-em-angra-2026",
+      "name": "Hora do Conto (Natal em Angra 2026)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "A Praça Velha acolhe, nos dias 28 de novembro e 5, 12, 19 e 26 de dezembro de 2026, sábados, às 11h00, a iniciativa «Hora do Conto», com Ana Couto e Paulo Freitas. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto-ana-couto-e-paulo-freitas",
       "name": "Hora do Conto — Ana Couto e Paulo Freitas",
       "category": "Events",
@@ -1189,6 +1203,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "storytime-christmas-in-angra-2026",
+      "name": "Storytime (Christmas in Angra 2026)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-28",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "Praça Velha hosts the “Storytime” event on November 28 and December 5, 12, 19 and 26, 2026, Saturdays, at 11:00, with Ana Couto and Paulo Freitas. Free admission.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
       "image": ""
     },
     {
@@ -1850,6 +1878,62 @@
       "image": ""
     },
     {
+      "id": "azorbrass-festival-2026-1-festival-internacional-de-charangas-dos-a-ores",
+      "name": "Azorbrass Festival 2026 – 1.º Festival Internacional de Charangas dos Açores",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-04",
+      "area": "Terceira Island",
+      "venue": "Praça Velha, Angra do Heroísmo",
+      "description": "📅 Data: 4, 5 e 6 de dezembro 🕒 Hora: A anunciar 📍 Local: Praça Velha, Angra do Heroísmo Azorbrass Festival 2026 – 1.º Festival Internacional de Charangas dos Açores A Azorbrass Charanga e a Associação Recreativa e Cultural Azorbrass (ARCAB) apresentam o Azorbrass Festival 2026, o 1.º Festival Internacional de Charangas dos Açores, que durante três dias levará música, animação e muita energia à Praça Velha, em Angra do Heroísmo, integrado na programação do Mercado de Natal. O festival reunirá…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "azorbrass-festival-2026-1st-international-brass-band-festival-of-the-azores",
+      "name": "Azorbrass Festival 2026 – 1st International Brass Band Festival of the Azores",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-04",
+      "area": "Terceira Island",
+      "venue": "Praça Velha, Angra do Heroísmo",
+      "description": "📅 Date: December 4, 5 and 6 🕒 Time: To be announced 📍 Location: Praça Velha, Angra do Heroísmo Azorbrass Festival 2026 – 1st International Brass Band Festival of the Azores Azorbrass Charanga and the Azorbrass Recreational and Cultural Association (ARCAB) present Azorbrass Festival 2026, the 1st International Brass Band Festival of the Azores, which over three days will bring music, entertainment and lots of energy to Praça Velha, in Angra do Heroísmo, as part of the Christmas Market programme. The festival will bring together…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "book-launch-a-arca-de-no-mia",
+      "name": "Book launch: A Arca de Noémia",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-04",
+      "area": "Terceira Island",
+      "venue": "Centro Interpretativo de Angra do Heroísmo",
+      "description": "Centro Interpretativo de Angra do Heroísmo will host the launch of the book «A Arca de Noémia», by Álvaro Laborinho Lúcio, presented by Adélia Carvalho, on Friday, 4 December 2026, at 5:15 p.m. A jurist, university professor, writer and prominent figure in Portuguese public life, Álvaro Laborinho Lúcio has pursued a path marked by reflection on justice, society and the human condition, alongside a recognised literary career. The presentation of this…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Interpretativo de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "lan-amento-de-livro-a-arca-de-no-mia",
+      "name": "Lançamento de livro: A Arca de Noémia",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-04",
+      "area": "Terceira Island",
+      "venue": "Centro Interpretativo de Angra do Heroísmo",
+      "description": "O Centro Interpretativo de Angra do Heroísmo acolhe, no dia 4 de dezembro de 2026, sexta-feira, às 17h15, o lançamento do livro «A Arca de Noémia», da autoria de Álvaro Laborinho Lúcio, com apresentação de Adélia Carvalho. Jurista, professor universitário, escritor e figura de relevo na vida pública portuguesa, Álvaro Laborinho Lúcio desenvolveu um percurso marcado pela reflexão sobre a justiça, a sociedade e a condição humana, a par de uma reconhecida atividade literária. A apresentação desta…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Interpretativo de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "azor-brass-festival-2026",
       "name": "Azor Brass Festival 2026",
       "category": "Events",
@@ -1861,6 +1945,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "azorbrass-festival-2026-1-festival-internacional-de-charangas-dos-a-ores",
+      "name": "Azorbrass Festival 2026 – 1.º Festival Internacional de Charangas dos Açores",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Praça Velha, Angra do Heroísmo",
+      "description": "📅 Data: 4, 5 e 6 de dezembro 🕒 Hora: A anunciar 📍 Local: Praça Velha, Angra do Heroísmo Azorbrass Festival 2026 – 1.º Festival Internacional de Charangas dos Açores A Azorbrass Charanga e a Associação Recreativa e Cultural Azorbrass (ARCAB) apresentam o Azorbrass Festival 2026, o 1.º Festival Internacional de Charangas dos Açores, que durante três dias levará música, animação e muita energia à Praça Velha, em Angra do Heroísmo, integrado na programação do Mercado de Natal. O festival reunirá…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "azorbrass-festival-2026-1st-international-brass-band-festival-of-the-azores",
+      "name": "Azorbrass Festival 2026 – 1st International Brass Band Festival of the Azores",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-05",
+      "area": "Terceira Island",
+      "venue": "Praça Velha, Angra do Heroísmo",
+      "description": "📅 Date: December 4, 5 and 6 🕒 Time: To be announced 📍 Location: Praça Velha, Angra do Heroísmo Azorbrass Festival 2026 – 1st International Brass Band Festival of the Azores Azorbrass Charanga and Associação Recreativa e Cultural Azorbrass (ARCAB) present Azorbrass Festival 2026, the 1st International Brass Band Festival of the Azores, which over three days will bring music, entertainment and plenty of energy to Praça Velha, in Angra do Heroísmo, as part of the Christmas Market programme. The festival will bring together…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha, Angra do Heroísmo",
       "image": ""
     },
     {
@@ -2071,6 +2183,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "azorbrass-festival-2026-1-festival-internacional-de-charangas-dos-a-ores",
+      "name": "Azorbrass Festival 2026 – 1.º Festival Internacional de Charangas dos Açores",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Terceira Island",
+      "venue": "Praça Velha, Angra do Heroísmo",
+      "description": "📅 Data: 4, 5 e 6 de dezembro 🕒 Hora: A anunciar 📍 Local: Praça Velha, Angra do Heroísmo Azorbrass Festival 2026 – 1.º Festival Internacional de Charangas dos Açores A Azorbrass Charanga e a Associação Recreativa e Cultural Azorbrass (ARCAB) apresentam o Azorbrass Festival 2026, o 1.º Festival Internacional de Charangas dos Açores, que durante três dias levará música, animação e muita energia à Praça Velha, em Angra do Heroísmo, integrado na programação do Mercado de Natal. O festival reunirá…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha, Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "azorbrass-festival-2026-1st-international-festival-of-brass-bands-of-the-azores",
+      "name": "Azorbrass Festival 2026 – 1st International Festival of Brass Bands of the Azores",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-06",
+      "area": "Terceira Island",
+      "venue": "Praça Velha, Angra do Heroísmo",
+      "description": "📅 Date: December 4, 5 and 6 🕒 Time: To be announced 📍 Location: Praça Velha, Angra do Heroísmo Azorbrass Festival 2026 – 1st International Festival of Brass Bands of the Azores Azorbrass Charanga and the Azorbrass Recreational and Cultural Association (ARCAB) present Azorbrass Festival 2026, the 1st International Festival of Brass Bands of the Azores, which for three days will bring music, entertainment and lots of energy to Praça Velha, in Angra do Heroísmo, as part of the Christmas Market programme. The festival will bring together…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha, Angra do Heroísmo",
       "image": ""
     },
     {
@@ -2438,6 +2578,34 @@
       "image": ""
     },
     {
+      "id": "apresenta-o-de-livro-do-aria-conventual-da-ilha-terceira",
+      "name": "Apresentação de livro: Doçaria Conventual da Ilha Terceira",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-14",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "Os Paços do Concelho acolhem, no dia 14 de dezembro de 2026, segunda-feira, às 20h00, a apresentação do livro «Doçaria Conventual da Ilha Terceira», de Helena Juliano. Uma publicação dedicada à doçaria conventual da ilha, que será apresentada ao público numa ocasião de encontro em torno dos sabores e das tradições doceiras da Terceira. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "book-presentation-do-aria-conventual-da-ilha-terceira",
+      "name": "Book presentation: Doçaria Conventual da Ilha Terceira",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-14",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "The Town Hall will host, on Monday, December 14, 2026, at 8:00 p.m., the presentation of the book «Doçaria Conventual da Ilha Terceira», by Helena Juliano. A publication dedicated to the convent confectionery of the island, which will be presented to the public at a gathering centered around the flavors and confectionery traditions of Terceira. Free admission.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "cinema-os-novos-sogros-do-pior",
       "name": "Cinema: Os Novos Sogros do Pior",
       "category": "Events",
@@ -2463,6 +2631,20 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Clube de Golfe da Ilha Terceira",
+      "image": ""
+    },
+    {
+      "id": "cinema-hexe-o-reino-da-magia-vp",
+      "name": "Cinema: Hexe – O Reino da Magia (VP)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-19",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Na nova saga mágica dos Walt Disney Animation Studios, Billie, uma adolescente impulsiva e pouco convencional, descobre possuir poderes mágicos que, uma vez libertados, a lançam numa viagem repleta de desafios, levando-a para lá dos limites da sua vida suburbana até Hexe, um vasto reino oculto de bruxas. Obrigada a unir forças com Alice, a sua cautelosa mãe, as duas acabam por desvendar mistérios familiares que poderão mudar para sempre o mundo das bruxas. Em exibição: 19 e 20 de dezembro de…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -2494,6 +2676,20 @@
       "image": ""
     },
     {
+      "id": "film-hexe-o-reino-da-magia-vp",
+      "name": "Film: Hexe – O Reino da Magia (VP)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-19",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "In the new magical saga from Walt Disney Animation Studios, Billie, an impulsive and unconventional teenager, discovers she has magical powers which, once unleashed, send her on a journey full of challenges, taking her beyond the limits of her suburban life to Hexe, a vast hidden realm of witches. Forced to join forces with Alice, her cautious mother, the two end up uncovering family mysteries that could change the world of witches forever. Showing: December 19 and 20…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "hora-do-conto",
       "name": "Hora do Conto",
       "category": "Events",
@@ -2519,6 +2715,20 @@
       "source": "https://www.instagram.com/angradoheroismo/p/DeSVk0_x9Cg/",
       "sourceLabel": "Eventos Terceira",
       "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "os-descendentes",
+      "name": "Os Descendentes",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-19",
+      "area": "no Auditório do Ramo Grande",
+      "venue": "- Nas duas horas que antecedem o espetáculo",
+      "description": "O grupo musical alentejano “Os Descendentes” marca presença na Praia da Vitória, com um espetáculo no dia 19 de dezembro, pelas 20h30, no Auditório do Ramo Grande. - Academia de Juventude de e das Artes da Ilha Terceira, de segunda a sexta-feira, das 08h30 às 16h30, com interrupção para almoço (13h – 14h);",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "- Nas duas horas que antecedem o espetáculo",
       "image": ""
     },
     {
@@ -2729,6 +2939,20 @@
       "source": "https://www.instagram.com/cmpraiadavitoria/p/DfEvhFdDFB9/",
       "sourceLabel": "Eventos Terceira",
       "map": "Marginal da Praia da Vitória — frente à GNR",
+      "image": ""
+    },
+    {
+      "id": "https-www-youtube-com-watch-v-wdn0qtuq-lq",
+      "name": "https://www.youtube.com/watch?v=WdN0qTUQ_lQ",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-26",
+      "area": "Terceira Island",
+      "venue": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "description": "Pouco antes do golpe chileno de 1973, os agentes da CIA Chris (John Malkovich) e Lee (Sam Rockwell) são enviados de Santiago para a Ilha de Páscoa, por indicação do seu chefe, MJ (Steve Buscemi). Entre as icónicas estátuas da ilha, os dois parceiros de longa data confrontam-se com um passado obscuro e conspirações do presente. Entretanto, o vínculo inesperado de Chris com duas estudantes rebeldes (Mariana di Girolamo e Ailín Salas) ameaça transformar a estadia neste paraíso remoto numa…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
       "image": ""
     },
     {
