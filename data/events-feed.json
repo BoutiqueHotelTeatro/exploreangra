@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T15:28:15+00:00",
+  "generatedAt": "2026-11-27T15:18:59+00:00",
   "timezone": "UTC",
   "scope": "Terceira, Azores",
   "sourcesChecked": [
@@ -12,7 +12,7 @@
     {
       "url": "https://eventosterceira.pt/pt/special/",
       "ok": true,
-      "structuredEvents": 129
+      "structuredEvents": 128
     },
     {
       "url": "https://eventosterceira.pt/pt/",
@@ -366,20 +366,6 @@
       "image": ""
     },
     {
-      "id": "clube-de-leitura",
-      "name": "Clube de Leitura",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-26",
-      "area": "Terceira Island",
-      "venue": "Casa-Museu Vitorino Nemésio",
-      "description": "📅 26 de novembro 🕒 19h00 📍 Casa-Museu Vitorino Nemésio A Casa-Museu Vitorino Nemésio promove mais uma sessão do Clube de Leitura, desta vez dedicada à obra de Leonard Cohen, convidando os participantes a descobrir e partilhar diferentes perspetivas sobre a sua escrita e percurso literário. Mais informações.",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Casa-Museu Vitorino Nemésio",
-      "image": ""
-    },
-    {
       "id": "exhibition-by-s-vila-on-view-until-21-december",
       "name": "Exhibition by Sá-Vila (on view until 21 December)",
       "category": "Events",
@@ -405,76 +391,6 @@
       "source": "https://www.instagram.com/livraria_lardocelivro/",
       "sourceLabel": "Eventos Terceira",
       "map": "Lar Doce Livro, Rua de São João, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "jantar-de-a-o-de-gra-as-thanksgiving",
-      "name": "Jantar de Ação de Graças (Thanksgiving)",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-26",
-      "area": "Terceira Island",
-      "venue": "The Texan, Rua Carreira dos Cavalos 37, Angra do Heroísmo",
-      "description": "Jantar tradicional de Ação de Graças com peru, acompanhamentos e tarte caseira no dia 26 de novembro de 2026 no The Texan. Reservas em tableamigo.com/thanksgiving.",
-      "source": "https://www.instagram.com/thetexanbar/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "The Texan, Rua Carreira dos Cavalos 37, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "reading-club",
-      "name": "Reading Club",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-26",
-      "area": "Terceira Island",
-      "venue": "Casa-Museu Vitorino Nemésio",
-      "description": "📅 November 26 🕒 7:00 pm 📍 Casa-Museu Vitorino Nemésio Casa-Museu Vitorino Nemésio is holding another session of the Reading Club, this time dedicated to the work of Leonard Cohen, inviting participants to discover and share different perspectives on his writing and literary career. More information.",
-      "source": "https://eventosterceira.pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Casa-Museu Vitorino Nemésio",
-      "image": ""
-    },
-    {
-      "id": "thanksgiving-dinner",
-      "name": "Thanksgiving Dinner",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-26",
-      "area": "Terceira Island",
-      "venue": "The Texan, Rua Carreira dos Cavalos 37, Angra do Heroísmo",
-      "description": "Traditional Thanksgiving dinner with turkey, sides and homemade pie on 26 November 2026 at The Texan. Reservations via tableamigo.com/thanksgiving.",
-      "source": "https://www.instagram.com/thetexanbar/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "The Texan, Rua Carreira dos Cavalos 37, Angra do Heroísmo",
-      "image": ""
-    },
-    {
-      "id": "thanksgiving-jantar-especial-com-3hp-acoustic-rock",
-      "name": "Thanksgiving — jantar especial com 3HP Acoustic Rock",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-26",
-      "area": "The Garden Club, Angra do Heroísmo",
-      "venue": "The Garden Club",
-      "description": "O The Garden Club celebra o Thanksgiving na quinta-feira, 26 de novembro de 2026, com jantar especial e música ao vivo com os 3HP Acoustic Rock. 26,50 € por pessoa; reservas via TableAmigo.",
-      "source": "https://www.instagram.com/thegardenclub.angra/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "The Garden Club",
-      "image": ""
-    },
-    {
-      "id": "thanksgiving-special-dinner-with-3hp-acoustic-rock",
-      "name": "Thanksgiving — special dinner with 3HP Acoustic Rock",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-26",
-      "area": "The Garden Club, Angra do Heroísmo",
-      "venue": "The Garden Club",
-      "description": "The Garden Club celebrates Thanksgiving on Thursday, 26 November 2026, with a special dinner and live music by 3HP Acoustic Rock. 26.50 € per person; reservations via TableAmigo.",
-      "source": "https://www.instagram.com/thegardenclub.angra/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "The Garden Club",
       "image": ""
     },
     {
@@ -1192,20 +1108,6 @@
       "image": ""
     },
     {
-      "id": "walk-with-a-doc",
-      "name": "Walk With a Doc",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-11-28",
-      "area": "Terceira Island",
-      "venue": "Ponto de encontro: em frente à GNR |Praia da Vitória",
-      "description": "📅 31 de outubro, 28 de novembro e 26 de dezembro 🕒 10:30 📍 Ponto de encontro: em frente à GNR, Praia da Vitória, Terceira (Google Maps) O Walk With a Doc promove caminhadas mensais com acompanhamento médico, incentivando a atividade física e a adoção de hábitos de vida mais saudáveis num ambiente descontraído e de convívio. O percurso realiza-se pela Marginal da Praia da Vitória, proporcionando também momentos de partilha de experiências e esclarecimento de questões relacionadas com a saúde. Em…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Ponto de encontro: em frente à GNR |Praia da Vitória",
-      "image": ""
-    },
-    {
       "id": "walk-with-a-doc-praia-da-vit-ria",
       "name": "Walk With a Doc — Praia da Vitória",
       "category": "Events",
@@ -1651,6 +1553,34 @@
       "source": "https://www.instagram.com/cmpraiadavitoria/",
       "sourceLabel": "Eventos Terceira",
       "map": "Auditório do Ramo Grande",
+      "image": ""
+    },
+    {
+      "id": "exhibition-anjos-de-natal",
+      "name": "Exhibition: Anjos de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-30",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "The Chapel of N.ª Sr.ª da Saúde, in Praça Velha, hosts the exhibition “Anjos de Natal” from November 30 to December 30, 2026, between 5:00 p.m. and 10:00 p.m. The exhibition brings together handicrafts created by the Community Centers of the municipality of Angra do Heroísmo, showcasing the creativity, talent and dedication of their participants in an atmosphere marked by the spirit and traditions of Christmas. The opening takes place on November 30 at 5:00 p.m. Free admission.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
+      "image": ""
+    },
+    {
+      "id": "exposi-o-anjos-de-natal",
+      "name": "Exposição: Anjos de Natal",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-11-30",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Praça Velha",
+      "description": "A Ermida de N.ª Sr.ª da Saúde, na Praça Velha, acolhe, de 30 de novembro a 30 de dezembro de 2026, entre as 17h00 e as 22h00, a exposição «Anjos de Natal». A mostra reúne trabalhos manuais desenvolvidos pelos Centros de Convívio do concelho de Angra do Heroísmo, dando a conhecer a criatividade, o talento e a dedicação dos seus participantes, num ambiente marcado pelo espírito e pela tradição natalícia. A inauguração realiza-se no dia 30 de novembro, às 17h00. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Praça Velha",
       "image": ""
     },
     {
@@ -2312,6 +2242,20 @@
       "image": ""
     },
     {
+      "id": "commemorative-session-43rd-anniversary-of-the-inscription-of-the-central-zone-of",
+      "name": "Commemorative session: 43rd anniversary of the inscription of the Central Zone of Angra do Heroísmo on the UNESCO World Heritage List (1983-2026)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-07",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "The City Hall will host, on Monday, December 7, 2026, at 8:00 p.m., the commemorative session marking the 43rd anniversary of the inscription of the Central Zone of Angra do Heroísmo on the UNESCO World Heritage List. The event marks this important international distinction, promoting reflection on the safeguarding and management of World Heritage through two presentations dedicated to the contemporary challenges of preservation and the experience of managing a heritage site in the…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "experimenta-cer-mica-inicia-o",
       "name": "EXPERIMENTA CERÂMICA - Iniciação",
       "category": "Events",
@@ -2323,6 +2267,20 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Casa do Sal",
+      "image": ""
+    },
+    {
+      "id": "sess-o-comemorativa-43-anivers-rio-da-inscri-o-da-zona-central-de-angra-do-hero-",
+      "name": "Sessão comemorativa: 43.º aniversário da Inscrição da Zona Central de Angra do Heroísmo na Lista do Património Mundial da UNESCO (1983-2026)",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-07",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "Os Paços do Concelho acolhem, no dia 7 de dezembro de 2026, segunda-feira, às 20h00, a sessão comemorativa do 43.º aniversário da Inscrição da Zona Central de Angra do Heroísmo na Lista do Património Mundial da UNESCO. A iniciativa assinala esta importante distinção internacional, promovendo a reflexão sobre a salvaguarda e a gestão do Património Mundial, através de duas intervenções dedicadas aos desafios contemporâneos da preservação e à experiência de gestão de um sítio patrimonial na…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -2379,6 +2337,34 @@
       "source": "https://eventosterceira.pt/pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "celebration-50-years-of-the-first-local-elections",
+      "name": "Celebration: 50 Years of the First Local Elections",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-11",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "The Town Hall will host, on Friday, 11 December 2026, at 19:00, the celebration of 50 years of the first local elections, marked by the opening of an exhibition and a conference. The exhibition, on display in the Upper Atrium of the Town Hall, will be inaugurated by Carlos Enes. In the Main Hall, the conference will be moderated by Andreia Cardoso da Costa and will include the participation of Raquel Freitas, President of the Parish Council of São Pedro Fins, of the…",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "comemora-o-50-anos-das-primeiras-elei-es-aut-rquicas",
+      "name": "Comemoração: 50 Anos das Primeiras Eleições Autárquicas",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-11",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "Os Paços do Concelho acolhem, no dia 11 de dezembro de 2026, sexta-feira, às 19h00, a comemoração dos 50 anos das primeiras eleições autárquicas, assinalada com a abertura de uma exposição e a realização de uma conferência. A exposição, patente no Átrio Superior dos Paços do Concelho, será inaugurada por Carlos Enes. No Salão Nobre, a conferência será moderada por Andreia Cardoso da Costa e contará com a participação de Raquel Freitas, Presidente da Junta de Freguesia de São Pedro Fins, do…",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
       "image": ""
     },
     {
@@ -2802,6 +2788,34 @@
       "image": ""
     },
     {
+      "id": "exhibition-as-miranas-de-natal-magia-e-encanto",
+      "name": "Exhibition: As Miranas de Natal – Magia e Encanto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-20",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "Paços do Concelho will host the opening of the exhibition «As Miranas de Natal – Magia e Encanto», by Ana Maria Costa, on Sunday, December 20, 2026, at 7:00 p.m. The exhibition brings together cloth dolls made by the artist, showcasing a collection of handcrafted creations that evoke the magic and enchantment of the Christmas season. The exhibition will be open to the public until January 31, 2027. Free admission.",
+      "source": "https://eventosterceira.pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
+      "id": "exposi-o-as-miranas-de-natal-magia-e-encanto",
+      "name": "Exposição: As Miranas de Natal – Magia e Encanto",
+      "category": "Events",
+      "period": "dated",
+      "date": "2026-12-20",
+      "area": "Praça Velha, Angra do Heroísmo, 9701-857",
+      "venue": "Paços do Concelho de Angra do Heroísmo",
+      "description": "Os Paços do Concelho acolhem, no dia 20 de dezembro de 2026, domingo, às 19h00, a inauguração da exposição «As Miranas de Natal – Magia e Encanto», da autoria de Ana Maria Costa. A mostra reúne bonecas de pano feitas pela artista, dando a conhecer um conjunto de criações artesanais que evocam a magia e o encanto da época natalícia. A exposição estará patente ao público até 31 de janeiro de 2027. Entrada livre.",
+      "source": "https://eventosterceira.pt/pt/special/",
+      "sourceLabel": "Eventos Terceira",
+      "map": "Paços do Concelho de Angra do Heroísmo",
+      "image": ""
+    },
+    {
       "id": "temporada-de-m-sica-cl-ssica-concerto-de-natal",
       "name": "Temporada de Música Clássica: Concerto de Natal",
       "category": "Events",
@@ -2897,20 +2911,6 @@
       "source": "https://eventosterceira.pt/special/",
       "sourceLabel": "Eventos Terceira",
       "map": "Centro Cultural e de Congressos de Angra do Heroísmo e Praça Velha",
-      "image": ""
-    },
-    {
-      "id": "walk-with-a-doc",
-      "name": "Walk With a Doc",
-      "category": "Events",
-      "period": "dated",
-      "date": "2026-12-26",
-      "area": "Terceira Island",
-      "venue": "Ponto de encontro: em frente à GNR |Praia da Vitória",
-      "description": "📅 31 de outubro, 28 de novembro e 26 de dezembro 🕒 10:30 📍 Ponto de encontro: em frente à GNR, Praia da Vitória, Terceira (Google Maps) O Walk With a Doc promove caminhadas mensais com acompanhamento médico, incentivando a atividade física e a adoção de hábitos de vida mais saudáveis num ambiente descontraído e de convívio. O percurso realiza-se pela Marginal da Praia da Vitória, proporcionando também momentos de partilha de experiências e esclarecimento de questões relacionadas com a saúde. Em…",
-      "source": "https://eventosterceira.pt/pt/special/",
-      "sourceLabel": "Eventos Terceira",
-      "map": "Ponto de encontro: em frente à GNR |Praia da Vitória",
       "image": ""
     },
     {
